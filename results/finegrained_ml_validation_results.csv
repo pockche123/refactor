@@ -1,0 +1,3 @@
+target_file,ml_prediction,confidence,refactoring_applied,before_maven_compiles,before_test_compiles,before_tests_run,before_tests_passed,after_maven_compiles,after_test_compiles,after_tests_run,after_tests_passed,compilation_preservation,test_preservation,overall_preservation,status
+WritableByteChannelMock.java,Extract Class,0.8,False,True,True,0,0,False,False,0,0,0.0,0.0,0.0,FAILED
+CreateTopicsRequestWithPolicyTest.java,Extract Method,0.9,True,True,True,0,0,True,True,0,0,1.0,1.0,1.0,SUCCESS

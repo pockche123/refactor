@@ -37,7 +37,8 @@ def main():
         "intellij-community": "https://github.com/JetBrains/intellij-community.git",
         "spring-boot": "https://github.com/spring-projects/spring-boot.git", 
         "hibernate-orm": "https://github.com/hibernate/hibernate-orm.git",
-        "mockito": "https://github.com/mockito/mockito.git"
+        "mockito": "https://github.com/mockito/mockito.git",
+        "elasticsearch": "https://github.com/elastic/elasticsearch.git"
     }
     
     # Allow command line selection or default to intellij

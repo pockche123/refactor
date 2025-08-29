@@ -105,7 +105,63 @@ Replace Variable With Attribute       0.00      0.00      0.00         1
                    weighted avg       0.01      0.08      0.01       125
 ```
 
-## Domain Shift Analysis
+### 3. Generalization Test 2: Spring Boot Framework
+**Dataset**: 858 instances, 34 refactoring types  
+**Domain**: Web framework (vs library maintenance)
+
+**Overall Metrics:**
+- **Accuracy**: 0.7%
+- **Precision**: 0.0%
+- **Recall**: 0.7%
+- **F1-Score**: 0.0%
+- **Baseline**: 29.1% (most frequent class)
+- **Performance drop**: -81.1 percentage points
+
+**Detailed Classification Report:**
+```
+                                  precision    recall  f1-score   support
+
+        Add Attribute Annotation       0.00      0.00      0.00         5
+          Add Attribute Modifier       0.00      0.00      0.00         2
+            Add Class Annotation       0.00      0.00      0.00         2
+           Add Method Annotation       0.00      0.00      0.00        48
+             Add Method Modifier       0.00      0.00      0.00         1
+                   Add Parameter       0.00      0.00      0.00        17
+        Add Parameter Annotation       0.00      0.00      0.00        23
+Change Attribute Access Modifier       0.00      0.00      0.00         2
+           Change Attribute Type       0.00      0.00      0.00        44
+    Change Class Access Modifier       0.00      0.00      0.00         1
+   Change Method Access Modifier       0.01      1.00      0.01         6
+           Change Parameter Type       0.00      0.00      0.00       139
+              Change Return Type       0.00      0.00      0.00        53
+            Change Variable Type       0.00      0.00      0.00        68
+         Extract And Move Method       0.00      0.00      0.00         3
+                   Extract Class       0.00      0.00      0.00         1
+                  Extract Method       0.00      0.00      0.00        14
+                Extract Variable       0.00      0.00      0.00        75
+                   Inline Method       0.00      0.00      0.00         3
+                 Inline Variable       0.00      0.00      0.00         2
+               Merge Conditional       0.00      0.00      0.00         1
+         Modify Class Annotation       0.00      0.00      0.00        24
+        Modify Method Annotation       0.00      0.00      0.00         1
+          Move And Inline Method       0.00      0.00      0.00         2
+                  Move Attribute       0.00      0.00      0.00         1
+                      Move Class       0.00      0.00      0.00       250
+              Move Source Folder       0.00      0.00      0.00         1
+        Remove Method Annotation       0.00      0.00      0.00        21
+                Remove Parameter       0.00      0.00      0.00         7
+     Remove Parameter Annotation       0.00      0.00      0.00         6
+                   Rename Method       0.00      0.00      0.00        11
+                Rename Parameter       0.00      0.00      0.00         8
+                 Rename Variable       0.00      0.00      0.00        13
+      Replace Pipeline With Loop       0.00      0.00      0.00         3
+
+                        accuracy                           0.01       858
+                       macro avg       0.00      0.03      0.00       858
+                    weighted avg       0.00      0.01      0.00       858
+```
+
+## Cross-Domain Analysis
 
 ### Training Data Distribution (Commons/Gson)
 

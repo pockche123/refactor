@@ -1,0 +1,99 @@
+actual,predicted,correct
+Rename Method,Change Method Access Modifier,False
+Rename Method,Change Method Access Modifier,False
+Rename Method,Change Method Access Modifier,False
+Remove Variable Modifier,Change Method Access Modifier,False
+Add Method Annotation,Change Method Access Modifier,False
+Add Method Annotation,Change Method Access Modifier,False
+Add Method Annotation,Change Method Access Modifier,False
+Change Variable Type,Change Method Access Modifier,False
+Rename Variable,Change Method Access Modifier,False
+Rename Variable,Change Method Access Modifier,False
+Change Return Type,Change Method Access Modifier,False
+Rename Method,Change Method Access Modifier,False
+Rename Method,Change Method Access Modifier,False
+Extract Variable,Change Method Access Modifier,False
+Move Class,Change Method Access Modifier,False
+Move Class,Change Method Access Modifier,False
+Move Class,Change Method Access Modifier,False
+Change Class Access Modifier,Change Method Access Modifier,False
+Change Return Type,Change Method Access Modifier,False
+Change Attribute Type,Change Method Access Modifier,False
+Change Parameter Type,Change Method Access Modifier,False
+Change Class Access Modifier,Change Method Access Modifier,False
+Remove Parameter,Change Method Access Modifier,False
+Remove Parameter,Change Method Access Modifier,False
+Change Class Access Modifier,Change Method Access Modifier,False
+Add Class Modifier,Change Method Access Modifier,False
+Rename Method,Change Method Access Modifier,False
+Rename Method,Change Method Access Modifier,False
+Rename Method,Change Method Access Modifier,False
+Rename Parameter,Change Method Access Modifier,False
+Remove Parameter,Change Method Access Modifier,False
+Rename Parameter,Change Method Access Modifier,False
+Remove Parameter,Change Method Access Modifier,False
+Change Return Type,Change Method Access Modifier,False
+Change Class Access Modifier,Change Method Access Modifier,False
+Add Class Modifier,Change Method Access Modifier,False
+Rename Method,Change Method Access Modifier,False
+Extract Method,Change Method Access Modifier,False
+Extract Method,Change Method Access Modifier,False
+Rename Variable,Change Method Access Modifier,False
+Remove Parameter,Change Method Access Modifier,False
+Remove Parameter,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Parameter Type,Change Method Access Modifier,False
+Remove Method Annotation,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Return Type,Change Method Access Modifier,False
+Add Parameter,Change Method Access Modifier,False
+Remove Parameter,Change Method Access Modifier,False
+Remove Parameter,Change Method Access Modifier,False
+Remove Parameter,Change Method Access Modifier,False
+Add Method Annotation,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Remove Method Modifier,Change Method Access Modifier,False
+Replace Variable With Attribute,Change Method Access Modifier,False
+Rename Attribute,Change Method Access Modifier,False
+Change Parameter Type,Change Method Access Modifier,False
+Rename Parameter,Change Method Access Modifier,False
+Change Parameter Type,Change Method Access Modifier,False
+Rename Parameter,Change Method Access Modifier,False
+Rename Parameter,Change Method Access Modifier,False
+Change Parameter Type,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Rename Method,Change Method Access Modifier,False
+Remove Parameter,Change Method Access Modifier,False
+Remove Parameter,Change Method Access Modifier,False
+Remove Parameter,Change Method Access Modifier,False
+Rename Method,Change Method Access Modifier,False
+Change Attribute Type,Change Method Access Modifier,False
+Change Attribute Access Modifier,Change Method Access Modifier,False
+Change Attribute Type,Change Method Access Modifier,False
+Change Parameter Type,Change Method Access Modifier,False
+Change Parameter Type,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Return Type,Change Method Access Modifier,False
+Rename Method,Change Method Access Modifier,False
+Rename Parameter,Change Method Access Modifier,False
+Remove Parameter,Change Method Access Modifier,False
+Rename Method,Change Method Access Modifier,False
+Rename Parameter,Change Method Access Modifier,False
+Remove Parameter,Change Method Access Modifier,False
+Rename Method,Change Method Access Modifier,False
+Change Return Type,Change Method Access Modifier,False
+Rename Parameter,Change Method Access Modifier,False
+Change Parameter Type,Change Method Access Modifier,False
+Move And Inline Method,Change Method Access Modifier,False
+Rename Method,Change Method Access Modifier,False
+Rename Parameter,Change Method Access Modifier,False
+Remove Parameter,Change Method Access Modifier,False
+Rename Method,Change Method Access Modifier,False
+Change Return Type,Change Method Access Modifier,False
+Rename Parameter,Change Method Access Modifier,False
+Change Parameter Type,Change Method Access Modifier,False
+Remove Thrown Exception Type,Change Method Access Modifier,False
+Extract Variable,Change Method Access Modifier,False
+Move Source Folder,Change Method Access Modifier,False
+Rename Method,Change Method Access Modifier,False
+Move Source Folder,Change Method Access Modifier,False

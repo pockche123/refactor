@@ -161,6 +161,90 @@ Change Attribute Access Modifier       0.00      0.00      0.00         2
                     weighted avg       0.00      0.01      0.00       858
 ```
 
+### 4. Generalization Test 3: Mockito Testing Framework
+**Dataset**: 98 instances, 25 refactoring types  
+**Domain**: Testing framework (vs library maintenance)
+
+**Overall Metrics:**
+- **Accuracy**: 5.1%
+- **Precision**: 0.3%
+- **Recall**: 5.1%
+- **F1-Score**: 0.5%
+- **Baseline**: 17.3% (most frequent class)
+- **Performance drop**: -76.7 percentage points
+
+**Detailed Classification Report:**
+```
+                                  precision    recall  f1-score   support
+
+              Add Class Modifier       0.00      0.00      0.00         2
+           Add Method Annotation       0.00      0.00      0.00         4
+                   Add Parameter       0.00      0.00      0.00         1
+Change Attribute Access Modifier       0.00      0.00      0.00         1
+           Change Attribute Type       0.00      0.00      0.00         3
+    Change Class Access Modifier       0.00      0.00      0.00         4
+   Change Method Access Modifier       0.05      1.00      0.10         5
+           Change Parameter Type       0.00      0.00      0.00         9
+              Change Return Type       0.00      0.00      0.00         7
+            Change Variable Type       0.00      0.00      0.00         1
+                  Extract Method       0.00      0.00      0.00         2
+                Extract Variable       0.00      0.00      0.00         2
+          Move And Inline Method       0.00      0.00      0.00         1
+                      Move Class       0.00      0.00      0.00         3
+              Move Source Folder       0.00      0.00      0.00         2
+        Remove Method Annotation       0.00      0.00      0.00         1
+          Remove Method Modifier       0.00      0.00      0.00         1
+                Remove Parameter       0.00      0.00      0.00        15
+    Remove Thrown Exception Type       0.00      0.00      0.00         1
+        Remove Variable Modifier       0.00      0.00      0.00         1
+                Rename Attribute       0.00      0.00      0.00         1
+                   Rename Method       0.00      0.00      0.00        17
+                Rename Parameter       0.00      0.00      0.00        10
+                 Rename Variable       0.00      0.00      0.00         3
+ Replace Variable With Attribute       0.00      0.00      0.00         1
+
+                        accuracy                           0.05        98
+                       macro avg       0.00      0.04      0.00        98
+                    weighted avg       0.00      0.05      0.00        98
+```
+
+### 5. Generalization Test 4: Elasticsearch Search Engine
+**Dataset**: 7,266 instances, 86 refactoring types  
+**Domain**: Distributed search engine (vs library maintenance)
+
+**Overall Metrics:**
+- **Accuracy**: 2.1%
+- **Precision**: 0.0%
+- **Recall**: 2.1%
+- **F1-Score**: 0.1%
+- **Baseline**: 22.4% (most frequent class)
+- **Performance drop**: -79.7 percentage points
+
+**Detailed Classification Report (Top 15 Types):**
+```
+                                  precision    recall  f1-score   support
+
+                   Add Parameter       0.00      0.00      0.00       513
+Change Attribute Access Modifier       0.00      0.00      0.00        68
+           Change Attribute Type       0.00      0.00      0.00       108
+   Change Method Access Modifier       0.02      1.00      0.05       150
+           Change Parameter Type       0.00      0.00      0.00       320
+              Change Return Type       0.00      0.00      0.00       178
+            Change Variable Type       0.00      0.00      0.00       350
+                  Extract Method       0.00      0.00      0.00       412
+                Extract Variable       0.00      0.00      0.00       734
+                     Move Method       0.00      0.00      0.00       119
+                Remove Parameter       0.00      0.00      0.00       210
+                Rename Attribute       0.00      0.00      0.00        87
+                   Rename Method       0.00      0.00      0.00       226
+                Rename Parameter       0.00      0.00      0.00      1018
+                 Rename Variable       0.00      0.00      0.00      1624
+
+                        accuracy                           0.02      6117
+                       macro avg       0.00      0.07      0.00      6117
+                    weighted avg       0.00      0.02      0.00      6117
+```
+
 ## Cross-Domain Analysis
 
 ### Training Data Distribution (Commons/Gson)

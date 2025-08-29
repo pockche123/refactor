@@ -1,0 +1,126 @@
+actual,predicted,correct
+Extract Method,Change Method Access Modifier,False
+Replace Attribute With Variable,Change Method Access Modifier,False
+Rename Attribute,Change Method Access Modifier,False
+Change Attribute Type,Change Method Access Modifier,False
+Remove Attribute Modifier,Change Method Access Modifier,False
+Add Attribute Annotation,Change Method Access Modifier,False
+Add Attribute Annotation,Change Method Access Modifier,False
+Add Attribute Annotation,Change Method Access Modifier,False
+Add Attribute Annotation,Change Method Access Modifier,False
+Add Attribute Annotation,Change Method Access Modifier,False
+Add Attribute Annotation,Change Method Access Modifier,False
+Add Attribute Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Rename Parameter,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Method Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Attribute Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Remove Parameter Modifier,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Rename Variable,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Extract Method,Change Method Access Modifier,False
+Extract Method,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Move Class,Change Method Access Modifier,False
+Modify Class Annotation,Change Method Access Modifier,False
+Add Class Annotation,Change Method Access Modifier,False
+Change Variable Type,Change Method Access Modifier,False
+Change Variable Type,Change Method Access Modifier,False
+Modify Method Annotation,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Variable Type,Change Method Access Modifier,False
+Change Variable Type,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Variable Type,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Variable Type,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Variable Type,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Inline Variable,Change Method Access Modifier,False
+Change Variable Type,Change Method Access Modifier,False
+Add Class Annotation,Change Method Access Modifier,False
+Extract Variable,Change Method Access Modifier,False
+Add Method Annotation,Change Method Access Modifier,False
+Add Class Annotation,Change Method Access Modifier,False
+Add Class Annotation,Change Method Access Modifier,False
+Replace Anonymous With Class,Change Method Access Modifier,False
+Rename Method,Change Method Access Modifier,False
+Change Variable Type,Change Method Access Modifier,False
+Rename Variable,Change Method Access Modifier,False
+Rename Variable,Change Method Access Modifier,False
+Rename Variable,Change Method Access Modifier,False
+Rename Parameter,Change Method Access Modifier,False
+Rename Variable,Change Method Access Modifier,False
+Add Method Annotation,Change Method Access Modifier,False
+Rename Method,Change Method Access Modifier,False
+Rename Method,Change Method Access Modifier,False
+Extract Method,Change Method Access Modifier,False
+Extract Method,Change Method Access Modifier,False
+Replace Variable With Attribute,Change Method Access Modifier,False
+Extract Variable,Change Method Access Modifier,False
+Change Variable Type,Change Method Access Modifier,False
+Rename Variable,Change Method Access Modifier,False
+Move Code,Change Method Access Modifier,False
+Extract Variable,Change Method Access Modifier,False
+Change Thrown Exception Type,Change Method Access Modifier,False
+Add Method Annotation,Change Method Access Modifier,False
+Add Method Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Method Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Method Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Remove Parameter Modifier,Change Method Access Modifier,False
+Add Attribute Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Parameter Annotation,Change Method Access Modifier,False
+Add Method Annotation,Change Method Access Modifier,False
+Extract Method,Change Method Access Modifier,False
+Extract Method,Change Method Access Modifier,False

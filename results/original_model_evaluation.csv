@@ -1,0 +1,490 @@
+actual,predicted,correct
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Class Access Modifier,Change Method Access Modifier,False
+Change Attribute Access Modifier,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Replace Anonymous With Lambda,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Attribute Access Modifier,Inline Variable,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Extract Method,Remove Variable Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Add Parameter,Add Method Annotation,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Class Access Modifier,Change Method Access Modifier,False
+Replace Anonymous With Lambda,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Replace Anonymous With Lambda,Change Method Access Modifier,False
+Remove Variable Modifier,Remove Variable Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Remove Variable Modifier,Remove Variable Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Add Method Annotation,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Attribute Access Modifier,Inline Variable,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Remove Parameter Modifier,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Replace Anonymous With Lambda,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Remove Variable Modifier,Remove Variable Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Class Access Modifier,Change Method Access Modifier,False
+Modify Attribute Annotation,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Remove Variable Modifier,Remove Variable Modifier,True
+Replace Anonymous With Lambda,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Replace Anonymous With Lambda,Remove Variable Modifier,False
+Change Return Type,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Remove Parameter Modifier,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Extract Method,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Remove Method Annotation,Remove Method Annotation,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Remove Variable Modifier,Remove Variable Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Remove Variable Modifier,Remove Variable Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Remove Parameter,Extract Variable,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Remove Variable Modifier,Remove Variable Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Remove Variable Modifier,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Replace Anonymous With Lambda,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Replace Anonymous With Lambda,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Variable Type,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Attribute Access Modifier,Inline Variable,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Attribute Access Modifier,Inline Variable,False
+Replace Anonymous With Lambda,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Remove Parameter,Extract Variable,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Replace Anonymous With Lambda,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Add Class Annotation,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Add Parameter Modifier,Change Method Access Modifier,False
+Replace Anonymous With Lambda,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Parameter Type,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Rename Variable,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Replace Anonymous With Lambda,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Rename Class,Remove Variable Modifier,False
+Add Method Annotation,Add Method Annotation,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Add Class Annotation,Change Method Access Modifier,False
+Replace Anonymous With Lambda,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Class Access Modifier,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Class Access Modifier,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Remove Variable Modifier,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Class Access Modifier,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Remove Variable Modifier,Remove Variable Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Add Parameter Modifier,Remove Variable Modifier,False
+Add Attribute Annotation,Inline Variable,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Inline Variable,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Remove Variable Modifier,Remove Variable Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Attribute Access Modifier,Inline Variable,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Inline Variable,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Attribute Access Modifier,Inline Variable,False
+Change Class Access Modifier,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Modify Method Annotation,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Replace Anonymous With Lambda,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Remove Class Modifier,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Replace Anonymous With Class,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Rename Class,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Remove Parameter Modifier,Change Method Access Modifier,False
+Change Class Access Modifier,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Rename Parameter,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Rename Class,Change Method Access Modifier,False
+Inline Variable,Inline Variable,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Extract Variable,Inline Variable,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Rename Parameter,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Variable Type,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Remove Parameter,Extract Variable,False
+Change Class Access Modifier,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Replace Anonymous With Lambda,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Remove Variable Modifier,Remove Variable Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Remove Parameter Modifier,Change Method Access Modifier,False
+Change Method Access Modifier,Inline Variable,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Extract Variable,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Class Access Modifier,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Replace Anonymous With Lambda,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Remove Variable Annotation,Remove Variable Annotation,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Remove Method Annotation,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Add Parameter Modifier,Extract Variable,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Class Access Modifier,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Remove Parameter Modifier,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Replace Anonymous With Lambda,Change Method Access Modifier,False
+Change Attribute Access Modifier,Inline Variable,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Add Parameter,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Modify Method Annotation,Change Method Access Modifier,False
+Replace Anonymous With Lambda,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Remove Parameter Modifier,Change Method Access Modifier,False
+Inline Variable,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Rename Class,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Remove Class Annotation,Remove Variable Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Class Access Modifier,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Remove Variable Modifier,Remove Variable Modifier,True
+Rename Method,Change Method Access Modifier,False
+Remove Variable Modifier,Extract Variable,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Class Access Modifier,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Remove Parameter Modifier,Change Method Access Modifier,False
+Change Variable Type,Change Method Access Modifier,False
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True
+Change Method Access Modifier,Change Method Access Modifier,True

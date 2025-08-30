@@ -7,26 +7,28 @@ Mixed-domain training using 70% from all domains (Apache Commons/Gson, IntelliJ,
 ## Baseline vs Mixed-Domain Comparison
 
 ### Single-Domain Training Results (Baseline)
-| Domain                | Test Size | Accuracy | Unique Predictions | Dominant Prediction Pattern |
-|-----------------------|-----------|----------|-------------------|----------------------------|
-| **Apache Commons/Gson** | N/A       | 81.8%*   | 1                 | Change Method Access Modifier (100%) |
-| **IntelliJ**           | 125       | 8.0%     | 1                 | Change Method Access Modifier (100%) |
-| **Mockito**            | 97        | 5.2%     | 1                 | Change Method Access Modifier (100%) |
-| **Elasticsearch**      | 7,266     | 2.1%     | 1                 | Change Method Access Modifier (100%) |
-| **Combined**           | N/A       | N/A      | N/A               | Not tested |
 
-*Training performance on same domain type
+| Domain                  | Test Size | Accuracy | Unique Predictions | Dominant Prediction Pattern          |
+| ----------------------- | --------- | -------- | ------------------ | ------------------------------------ |
+| **Apache Commons/Gson** | N/A       | 81.8%\*  | 1                  | Change Method Access Modifier (100%) |
+| **IntelliJ**            | 125       | 8.0%     | 1                  | Change Method Access Modifier (100%) |
+| **Mockito**             | 97        | 5.2%     | 1                  | Change Method Access Modifier (100%) |
+| **Elasticsearch**       | 7,266     | 2.1%     | 1                  | Change Method Access Modifier (100%) |
+| **Combined**            | N/A       | N/A      | N/A                | Not tested                           |
+
+\*Training performance on same domain type
 
 ### Mixed-Domain Training Results (Current)
-| Domain                | Test Size | Accuracy | Unique Predictions | Improvement | Top Prediction Pattern |
-|-----------------------|-----------|----------|-------------------|-------------|------------------------|
-| **Apache Commons/Gson** | 729       | 92.2%    | 33                | +10.4%      | Change Method Access Modifier (78.1%) |
-| **IntelliJ**           | 34        | 58.8%    | 15                | +50.8%      | Add Parameter Annotation (35.3%) |
-| **Mockito**            | 26        | 30.8%    | 12                | +25.6%      | Change Return Type (26.9%) |
-| **Elasticsearch**      | 2,178     | 38.6%    | 68                | +36.5%      | Rename Variable (17.3%) |
-| **Combined**           | 2,967     | 51.9%    | 68                | N/A**       | Mixed patterns across domains |
 
-**No baseline - combined testing not performed in single-domain approach
+| Domain                  | Test Size | Accuracy | Unique Predictions | Improvement | Top Prediction Pattern                |
+| ----------------------- | --------- | -------- | ------------------ | ----------- | ------------------------------------- |
+| **Apache Commons/Gson** | 729       | 92.2%    | 33                 | +10.4%      | Change Method Access Modifier (78.1%) |
+| **IntelliJ**            | 34        | 58.8%    | 15                 | +50.8%      | Add Parameter Annotation (35.3%)      |
+| **Mockito**             | 26        | 30.8%    | 12                 | +25.6%      | Change Return Type (26.9%)            |
+| **Elasticsearch**       | 2,178     | 38.6%    | 68                 | +36.5%      | Rename Variable (17.3%)               |
+| **Combined**            | 2,967     | 51.9%    | 68                 | N/A\*\*     | Mixed patterns across domains         |
+
+\*\*No baseline - combined testing not performed in single-domain approach
 
 ## Performance Overview Table
 

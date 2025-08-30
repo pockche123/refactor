@@ -1,0 +1,3894 @@
+{
+"commits": [
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "bc06f214c0c9505a1887e4422a449c6304993ff5",
+	"url": "https://github.com/mockito/mockito/commit/bc06f214c0c9505a1887e4422a449c6304993ff5",
+	"refactorings": [{
+	"type": "Rename Method",
+	"description": "Rename Method public should_return_empty_sequenced_collection_on_java21() : void renamed to public should_return_empty_sequenced_collection() : void in class org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/test/java/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValuesTest.java",
+		"startLine": 179,
+		"endLine": 186,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public should_return_empty_sequenced_collection_on_java21() : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/test/java/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValuesTest.java",
+		"startLine": 185,
+		"endLine": 195,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "public should_return_empty_sequenced_collection() : void"
+}]
+},
+{
+	"type": "Rename Method",
+	"description": "Rename Method public should_return_empty_sequenced_set_on_java21() : void renamed to public should_return_empty_sequenced_set() : void in class org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/test/java/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValuesTest.java",
+		"startLine": 188,
+		"endLine": 195,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public should_return_empty_sequenced_set_on_java21() : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/test/java/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValuesTest.java",
+		"startLine": 197,
+		"endLine": 207,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "public should_return_empty_sequenced_set() : void"
+}]
+},
+{
+	"type": "Rename Method",
+	"description": "Rename Method public should_return_empty_sequenced_map_on_java21() : void renamed to public should_return_empty_sequenced_map() : void in class org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/test/java/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValuesTest.java",
+		"startLine": 197,
+		"endLine": 204,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public should_return_empty_sequenced_map_on_java21() : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/test/java/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValuesTest.java",
+		"startLine": 209,
+		"endLine": 219,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "public should_return_empty_sequenced_map() : void"
+}]
+},
+{
+	"type": "Remove Variable Modifier",
+	"description": "Remove Variable Modifier final in variable durationClass : Class<?> in method public should_return_empty_duration() : void from class org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/test/java/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValuesTest.java",
+		"startLine": 167,
+		"endLine": 167,
+		"startColumn": 24,
+		"endColumn": 64,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "durationClass : Class<?>"
+}, {
+		"filePath": "mockito-core/src/test/java/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValuesTest.java",
+		"startLine": 163,
+		"endLine": 177,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public should_return_empty_duration() : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/test/java/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValuesTest.java",
+		"startLine": 173,
+		"endLine": 173,
+		"startColumn": 18,
+		"endColumn": 53,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "variable declaration with removed modifier",
+		"codeElement": "durationClass : Class<?>"
+}, {
+		"filePath": "mockito-core/src/test/java/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValuesTest.java",
+		"startLine": 168,
+		"endLine": 183,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with removed variable modifier",
+		"codeElement": "public should_return_empty_duration() : void"
+}]
+}
+]
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "a10aed01a455bf1f45bb25dc1bb887fd171cffee",
+	"url": "https://github.com/mockito/mockito/commit/a10aed01a455bf1f45bb25dc1bb887fd171cffee",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "37bb3e5062bbedda96dc3810c5e3d4f5c0c644e0",
+	"url": "https://github.com/mockito/mockito/commit/37bb3e5062bbedda96dc3810c5e3d4f5c0c644e0",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "ef2fd6f8e12df2db9b1c3aef067c33f6fe2aba95",
+	"url": "https://github.com/mockito/mockito/commit/ef2fd6f8e12df2db9b1c3aef067c33f6fe2aba95",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "0776d973fc5b06d7f7a16ac31e45aff24f1ab888",
+	"url": "https://github.com/mockito/mockito/commit/0776d973fc5b06d7f7a16ac31e45aff24f1ab888",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "144751b053da44970d78a31b65a0eb9a780a86fa",
+	"url": "https://github.com/mockito/mockito/commit/144751b053da44970d78a31b65a0eb9a780a86fa",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "b275c7d289b12787fb955fa75a3b831495905501",
+	"url": "https://github.com/mockito/mockito/commit/b275c7d289b12787fb955fa75a3b831495905501",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "ad6ae2f9fdc014790ba91afccbcbdef348e4591e",
+	"url": "https://github.com/mockito/mockito/commit/ad6ae2f9fdc014790ba91afccbcbdef348e4591e",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "096ee9fb09878f2a292168fe26114b8de57605cb",
+	"url": "https://github.com/mockito/mockito/commit/096ee9fb09878f2a292168fe26114b8de57605cb",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "aa7be27c038f06c4206577ccb46dec83baff6ccb",
+	"url": "https://github.com/mockito/mockito/commit/aa7be27c038f06c4206577ccb46dec83baff6ccb",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "c8a698b8a2178e54910a688f97c179525b406aae",
+	"url": "https://github.com/mockito/mockito/commit/c8a698b8a2178e54910a688f97c179525b406aae",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "ea45979ae266acd6ef9d929c72d31b164ed6edfe",
+	"url": "https://github.com/mockito/mockito/commit/ea45979ae266acd6ef9d929c72d31b164ed6edfe",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "9c8eb230bea71407124ca2d84a45336ce4478748",
+	"url": "https://github.com/mockito/mockito/commit/9c8eb230bea71407124ca2d84a45336ce4478748",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "f05e44d97c8008ef65e221f77c00b0ce1289d67a",
+	"url": "https://github.com/mockito/mockito/commit/f05e44d97c8008ef65e221f77c00b0ce1289d67a",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "9d32dfeff599934addd23c97276f1e5b7340aff5",
+	"url": "https://github.com/mockito/mockito/commit/9d32dfeff599934addd23c97276f1e5b7340aff5",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "e6bbae0742616842c43d361bca9a2656f330d4d5",
+	"url": "https://github.com/mockito/mockito/commit/e6bbae0742616842c43d361bca9a2656f330d4d5",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "5e371cf767cd4927efe4e71def788507bf09cefa",
+	"url": "https://github.com/mockito/mockito/commit/5e371cf767cd4927efe4e71def788507bf09cefa",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "f3d65eedcb003c03470e863da1ca749e0373e759",
+	"url": "https://github.com/mockito/mockito/commit/f3d65eedcb003c03470e863da1ca749e0373e759",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "d33a182fbcae90ad4fe910d3e1603afc73aded18",
+	"url": "https://github.com/mockito/mockito/commit/d33a182fbcae90ad4fe910d3e1603afc73aded18",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "6dbd65ad39f414d7fb07db5f313f273a45d3c78c",
+	"url": "https://github.com/mockito/mockito/commit/6dbd65ad39f414d7fb07db5f313f273a45d3c78c",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "21177d3475dd8ed771bddd29a314db0484446dde",
+	"url": "https://github.com/mockito/mockito/commit/21177d3475dd8ed771bddd29a314db0484446dde",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "1161a62fdc7bc94da0af916e71f20abe1ebbb8fc",
+	"url": "https://github.com/mockito/mockito/commit/1161a62fdc7bc94da0af916e71f20abe1ebbb8fc",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "7c1f82244af945870c0caa544b7ef70123dad146",
+	"url": "https://github.com/mockito/mockito/commit/7c1f82244af945870c0caa544b7ef70123dad146",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "268f3a49984f84ceac4f8d2e1543cba1b8c6acde",
+	"url": "https://github.com/mockito/mockito/commit/268f3a49984f84ceac4f8d2e1543cba1b8c6acde",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "08de9e0cda7f7dbc584dcdb3e8b8424fd7d1fc67",
+	"url": "https://github.com/mockito/mockito/commit/08de9e0cda7f7dbc584dcdb3e8b8424fd7d1fc67",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "ab3f99edfd494ceae286a0479180a445ee2178dd",
+	"url": "https://github.com/mockito/mockito/commit/ab3f99edfd494ceae286a0479180a445ee2178dd",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "d4de90c5bba5d2c6a00c91ce2c6911abc5d58a74",
+	"url": "https://github.com/mockito/mockito/commit/d4de90c5bba5d2c6a00c91ce2c6911abc5d58a74",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "22c3b203126303a2de494b4e2e34c718e4d46129",
+	"url": "https://github.com/mockito/mockito/commit/22c3b203126303a2de494b4e2e34c718e4d46129",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "86cbcaf75a24cff545977c631e81ffb291bc7fcf",
+	"url": "https://github.com/mockito/mockito/commit/86cbcaf75a24cff545977c631e81ffb291bc7fcf",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "8b580e2e2db708db8d5b5b884c9eb18ec964651c",
+	"url": "https://github.com/mockito/mockito/commit/8b580e2e2db708db8d5b5b884c9eb18ec964651c",
+	"refactorings": [{
+	"type": "Add Method Annotation",
+	"description": "Add Method Annotation @SuppressWarnings(\"SelfAssertion\") in method public isEqualToItself() : void from class org.mockito.internal.util.collections.HashCodeAndEqualsSafeSetTest",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/test/java/org/mockito/internal/util/collections/HashCodeAndEqualsSafeSetTest.java",
+		"startLine": 133,
+		"endLine": 137,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public isEqualToItself() : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/test/java/org/mockito/internal/util/collections/HashCodeAndEqualsSafeSetTest.java",
+		"startLine": 134,
+		"endLine": 134,
+		"startColumn": 5,
+		"endColumn": 39,
+		"codeElementType": "ANNOTATION",
+		"description": "added annotation",
+		"codeElement": "@SuppressWarnings(\"SelfAssertion\")"
+}, {
+		"filePath": "mockito-core/src/test/java/org/mockito/internal/util/collections/HashCodeAndEqualsSafeSetTest.java",
+		"startLine": 133,
+		"endLine": 138,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added annotation",
+		"codeElement": "public isEqualToItself() : void"
+}]
+},
+{
+	"type": "Add Method Annotation",
+	"description": "Add Method Annotation @SuppressWarnings(\"SelfAssertion\") in method public shouldReplaceObjectMethods() : void from class org.mockitousage.basicapi.ReplacingObjectMethodsTest",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/test/java/org/mockitousage/basicapi/ReplacingObjectMethodsTest.java",
+		"startLine": 31,
+		"endLine": 41,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public shouldReplaceObjectMethods() : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/test/java/org/mockitousage/basicapi/ReplacingObjectMethodsTest.java",
+		"startLine": 32,
+		"endLine": 32,
+		"startColumn": 5,
+		"endColumn": 39,
+		"codeElementType": "ANNOTATION",
+		"description": "added annotation",
+		"codeElement": "@SuppressWarnings(\"SelfAssertion\")"
+}, {
+		"filePath": "mockito-core/src/test/java/org/mockitousage/basicapi/ReplacingObjectMethodsTest.java",
+		"startLine": 31,
+		"endLine": 42,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added annotation",
+		"codeElement": "public shouldReplaceObjectMethods() : void"
+}]
+},
+{
+	"type": "Add Method Annotation",
+	"description": "Add Method Annotation @SuppressWarnings(\"SelfAssertion\") in method public shouldReplaceObjectMethodsWhenOverridden() : void from class org.mockitousage.basicapi.ReplacingObjectMethodsTest",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/test/java/org/mockitousage/basicapi/ReplacingObjectMethodsTest.java",
+		"startLine": 43,
+		"endLine": 53,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public shouldReplaceObjectMethodsWhenOverridden() : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/test/java/org/mockitousage/basicapi/ReplacingObjectMethodsTest.java",
+		"startLine": 45,
+		"endLine": 45,
+		"startColumn": 5,
+		"endColumn": 39,
+		"codeElementType": "ANNOTATION",
+		"description": "added annotation",
+		"codeElement": "@SuppressWarnings(\"SelfAssertion\")"
+}, {
+		"filePath": "mockito-core/src/test/java/org/mockitousage/basicapi/ReplacingObjectMethodsTest.java",
+		"startLine": 44,
+		"endLine": 55,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added annotation",
+		"codeElement": "public shouldReplaceObjectMethodsWhenOverridden() : void"
+}]
+}
+]
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "4817b0f3f406b7626d8d174f6385589a5f9d174a",
+	"url": "https://github.com/mockito/mockito/commit/4817b0f3f406b7626d8d174f6385589a5f9d174a",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "86aa4e00b865ed79cec16e39b15930d96149ce59",
+	"url": "https://github.com/mockito/mockito/commit/86aa4e00b865ed79cec16e39b15930d96149ce59",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "21af6e6dc55bbae47e74e14af7a6912587d07134",
+	"url": "https://github.com/mockito/mockito/commit/21af6e6dc55bbae47e74e14af7a6912587d07134",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "7b308479c36a8e583c750bf4ccae381ef77b1878",
+	"url": "https://github.com/mockito/mockito/commit/7b308479c36a8e583c750bf4ccae381ef77b1878",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "eacb3794b4bd0020484e5ec3a9f71bfca3846f74",
+	"url": "https://github.com/mockito/mockito/commit/eacb3794b4bd0020484e5ec3a9f71bfca3846f74",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "32988a2bdf671d60bb843d6b60e3e4aeb9addd66",
+	"url": "https://github.com/mockito/mockito/commit/32988a2bdf671d60bb843d6b60e3e4aeb9addd66",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "2892189e139e8d8a0b28f73bcd6be011dd13564b",
+	"url": "https://github.com/mockito/mockito/commit/2892189e139e8d8a0b28f73bcd6be011dd13564b",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "ad510f0285dde048158a5521342d39acfea006f5",
+	"url": "https://github.com/mockito/mockito/commit/ad510f0285dde048158a5521342d39acfea006f5",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "5911a1142fe2c53fc74b5f9cd54e4a3faf8de13e",
+	"url": "https://github.com/mockito/mockito/commit/5911a1142fe2c53fc74b5f9cd54e4a3faf8de13e",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "10cd78bcf3c5bbe0650203b8103ce5aa71322c56",
+	"url": "https://github.com/mockito/mockito/commit/10cd78bcf3c5bbe0650203b8103ce5aa71322c56",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "0a5dd7396627ec1e7b5713353def9982eb0ee5ef",
+	"url": "https://github.com/mockito/mockito/commit/0a5dd7396627ec1e7b5713353def9982eb0ee5ef",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "f9b73cbfc004da847d1bcdb79a21896f979d1705",
+	"url": "https://github.com/mockito/mockito/commit/f9b73cbfc004da847d1bcdb79a21896f979d1705",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "06737471ea19ca023581351eeac778ffbce8da74",
+	"url": "https://github.com/mockito/mockito/commit/06737471ea19ca023581351eeac778ffbce8da74",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "65388f01eb8a555c4df5dec692ba9abf8a2591b8",
+	"url": "https://github.com/mockito/mockito/commit/65388f01eb8a555c4df5dec692ba9abf8a2591b8",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "60179ca10dbd29ff959d7eae670ce95b3f19f5fd",
+	"url": "https://github.com/mockito/mockito/commit/60179ca10dbd29ff959d7eae670ce95b3f19f5fd",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "8f15169774cb639b5757f121f27d6c0d8ca18c97",
+	"url": "https://github.com/mockito/mockito/commit/8f15169774cb639b5757f121f27d6c0d8ca18c97",
+	"refactorings": [{
+	"type": "Change Variable Type",
+	"description": "Change Variable Type matcherType : Class<?> to isJavaVarargs : boolean in method public forEachMatcherAndArgument(action ArgumentMatcherAction) : boolean from class org.mockito.internal.invocation.MatcherApplicationStrategy",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/invocation/MatcherApplicationStrategy.java",
+		"startLine": 63,
+		"endLine": 63,
+		"startColumn": 28,
+		"endColumn": 59,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "matcherType : Class<?>"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/invocation/MatcherApplicationStrategy.java",
+		"startLine": 63,
+		"endLine": 63,
+		"startColumn": 13,
+		"endColumn": 60,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "statement referencing the original variable",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/invocation/MatcherApplicationStrategy.java",
+		"startLine": 60,
+		"endLine": 66,
+		"startColumn": 23,
+		"endColumn": 47,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "changed-type variable declaration",
+		"codeElement": "isJavaVarargs : boolean"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/invocation/MatcherApplicationStrategy.java",
+		"startLine": 60,
+		"endLine": 66,
+		"startColumn": 9,
+		"endColumn": 48,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "statement referencing the variable with changed type",
+		"codeElement": null
+}]
+},
+{
+	"type": "Rename Variable",
+	"description": "Rename Variable matcherType : Class<?> to isJavaVarargs : boolean in method public forEachMatcherAndArgument(action ArgumentMatcherAction) : boolean from class org.mockito.internal.invocation.MatcherApplicationStrategy",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/invocation/MatcherApplicationStrategy.java",
+		"startLine": 63,
+		"endLine": 63,
+		"startColumn": 28,
+		"endColumn": 59,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "matcherType : Class<?>"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/invocation/MatcherApplicationStrategy.java",
+		"startLine": 63,
+		"endLine": 63,
+		"startColumn": 13,
+		"endColumn": 60,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "statement referencing the original variable",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/invocation/MatcherApplicationStrategy.java",
+		"startLine": 60,
+		"endLine": 66,
+		"startColumn": 23,
+		"endColumn": 47,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "renamed variable declaration",
+		"codeElement": "isJavaVarargs : boolean"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/invocation/MatcherApplicationStrategy.java",
+		"startLine": 60,
+		"endLine": 66,
+		"startColumn": 9,
+		"endColumn": 48,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "statement referencing the renamed variable",
+		"codeElement": null
+}]
+},
+{
+	"type": "Rename Variable",
+	"description": "Rename Variable maybeVararg : boolean to isVararg : boolean in method public forEachMatcherAndArgument(action ArgumentMatcherAction) : boolean from class org.mockito.internal.invocation.MatcherApplicationStrategy",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/invocation/MatcherApplicationStrategy.java",
+		"startLine": 58,
+		"endLine": 60,
+		"startColumn": 23,
+		"endColumn": 82,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "maybeVararg : boolean"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/invocation/MatcherApplicationStrategy.java",
+		"startLine": 58,
+		"endLine": 60,
+		"startColumn": 9,
+		"endColumn": 83,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "statement referencing the original variable",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/invocation/MatcherApplicationStrategy.java",
+		"startLine": 85,
+		"endLine": 85,
+		"startColumn": 23,
+		"endColumn": 64,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "renamed variable declaration",
+		"codeElement": "isVararg : boolean"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/invocation/MatcherApplicationStrategy.java",
+		"startLine": 85,
+		"endLine": 85,
+		"startColumn": 9,
+		"endColumn": 65,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "statement referencing the renamed variable",
+		"codeElement": null
+}]
+},
+{
+	"type": "Change Return Type",
+	"description": "Change Return Type Class<?> to Optional<Class<?>> in method private lastMatcherType() : Optional<Class<?>> from class org.mockito.internal.invocation.MatcherApplicationStrategy",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/invocation/MatcherApplicationStrategy.java",
+		"startLine": 92,
+		"endLine": 92,
+		"startColumn": 13,
+		"endColumn": 21,
+		"codeElementType": "TYPE",
+		"description": "original return type",
+		"codeElement": "Class<?>"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/invocation/MatcherApplicationStrategy.java",
+		"startLine": 92,
+		"endLine": 94,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private lastMatcherType() : Class<?>"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/invocation/MatcherApplicationStrategy.java",
+		"startLine": 113,
+		"endLine": 113,
+		"startColumn": 13,
+		"endColumn": 31,
+		"codeElementType": "TYPE",
+		"description": "changed return type",
+		"codeElement": "Optional<Class<?>>"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/invocation/MatcherApplicationStrategy.java",
+		"startLine": 113,
+		"endLine": 117,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with changed return type",
+		"codeElement": "private lastMatcherType() : Optional<Class<?>>"
+}]
+}
+]
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "3a631cb87082fff212bc00c00970508b4ce63072",
+	"url": "https://github.com/mockito/mockito/commit/3a631cb87082fff212bc00c00970508b4ce63072",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "7764992d1250f4e7f6ffd10f650dc89516139c8d",
+	"url": "https://github.com/mockito/mockito/commit/7764992d1250f4e7f6ffd10f650dc89516139c8d",
+	"refactorings": [{
+	"type": "Rename Method",
+	"description": "Rename Method public shouldGiveExplanationOnStaticMockingWithoutInlineMockMaker() : void renamed to public shouldGiveExplanationOnStaticMockingMockMaker() : void in class org.mockito.MockitoTest",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/test/java/org/mockito/MockitoTest.java",
+		"startLine": 105,
+		"endLine": 120,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public shouldGiveExplanationOnStaticMockingWithoutInlineMockMaker() : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/test/java/org/mockito/MockitoTest.java",
+		"startLine": 105,
+		"endLine": 119,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "public shouldGiveExplanationOnStaticMockingMockMaker() : void"
+}]
+},
+{
+	"type": "Rename Method",
+	"description": "Rename Method public shouldGiveExplanationOnConstructionMockingWithoutInlineMockMaker() : void renamed to public shouldGiveExplanationOnConstructionMockingMockMaker() : void in class org.mockito.MockitoTest",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/test/java/org/mockito/MockitoTest.java",
+		"startLine": 122,
+		"endLine": 137,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public shouldGiveExplanationOnConstructionMockingWithoutInlineMockMaker() : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/test/java/org/mockito/MockitoTest.java",
+		"startLine": 121,
+		"endLine": 135,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "public shouldGiveExplanationOnConstructionMockingMockMaker() : void"
+}]
+}
+]
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "ee92ad4916d9f3f6ae6836bdba5c30f8404d3d50",
+	"url": "https://github.com/mockito/mockito/commit/ee92ad4916d9f3f6ae6836bdba5c30f8404d3d50",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "3edab5283552c3c6c393d8c818c8d6a8fa1f94a5",
+	"url": "https://github.com/mockito/mockito/commit/3edab5283552c3c6c393d8c818c8d6a8fa1f94a5",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "bfab74365e91135b2f88ccb0228372a8799d9279",
+	"url": "https://github.com/mockito/mockito/commit/bfab74365e91135b2f88ccb0228372a8799d9279",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "4f469c830b2f6ab0e1f061e9383aff2e6f9f8376",
+	"url": "https://github.com/mockito/mockito/commit/4f469c830b2f6ab0e1f061e9383aff2e6f9f8376",
+	"refactorings": [{
+	"type": "Extract Variable",
+	"description": "Extract Variable store : ExtensionContext.Store in method public afterEach(context ExtensionContext) : void from class org.mockito.junit.jupiter.MockitoExtension",
+	"leftSideLocations": [{
+		"filePath": "mockito-extensions/mockito-junit-jupiter/src/main/java/org/mockito/junit/jupiter/MockitoExtension.java",
+		"startLine": 195,
+		"endLine": 197,
+		"startColumn": 9,
+		"endColumn": 78,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement with the initializer of the extracted variable",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-extensions/mockito-junit-jupiter/src/main/java/org/mockito/junit/jupiter/MockitoExtension.java",
+		"startLine": 192,
+		"endLine": 192,
+		"startColumn": 32,
+		"endColumn": 65,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted variable declaration",
+		"codeElement": "store : ExtensionContext.Store"
+}]
+}
+]
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "1764e62102f525ff9a82b8166b8596edd25f5b7f",
+	"url": "https://github.com/mockito/mockito/commit/1764e62102f525ff9a82b8166b8596edd25f5b7f",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "1e029d767b33ee8de42e58459a2c3e63ab3f7c41",
+	"url": "https://github.com/mockito/mockito/commit/1e029d767b33ee8de42e58459a2c3e63ab3f7c41",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "d000e630775cfa45752eeb491a197283e7370621",
+	"url": "https://github.com/mockito/mockito/commit/d000e630775cfa45752eeb491a197283e7370621",
+	"refactorings": [{
+	"type": "Move Class",
+	"description": "Move Class org.mockito.internal.creation.bytebuddy.MockAccess moved to org.mockito.internal.creation.bytebuddy.access.MockAccess",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/MockAccess.java",
+		"startLine": 7,
+		"endLine": 12,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.mockito.internal.creation.bytebuddy.MockAccess"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/access/MockAccess.java",
+		"startLine": 7,
+		"endLine": 12,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.mockito.internal.creation.bytebuddy.access.MockAccess"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.mockito.internal.creation.bytebuddy.MockMethodInterceptor moved to org.mockito.internal.creation.bytebuddy.access.MockMethodInterceptor",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.java",
+		"startLine": 31,
+		"endLine": 165,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.mockito.internal.creation.bytebuddy.MockMethodInterceptor"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/access/MockMethodInterceptor.java",
+		"startLine": 32,
+		"endLine": 167,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.mockito.internal.creation.bytebuddy.access.MockMethodInterceptor"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.mockito.codegen.InjectionBase moved to org.mockito.internal.creation.bytebuddy.codegen.InjectionBase",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/codegen/InjectionBase.java",
+		"startLine": 7,
+		"endLine": 16,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.mockito.codegen.InjectionBase"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/codegen/InjectionBase.java",
+		"startLine": 7,
+		"endLine": 16,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.mockito.internal.creation.bytebuddy.codegen.InjectionBase"
+}]
+},
+{
+	"type": "Change Class Access Modifier",
+	"description": "Change Class Access Modifier package to public in class org.mockito.internal.creation.bytebuddy.ByteBuddyCrossClassLoaderSerializationSupport",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ByteBuddyCrossClassLoaderSerializationSupport.java",
+		"startLine": 33,
+		"endLine": 413,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original class declaration",
+		"codeElement": "org.mockito.internal.creation.bytebuddy.ByteBuddyCrossClassLoaderSerializationSupport"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ByteBuddyCrossClassLoaderSerializationSupport.java",
+		"startLine": 35,
+		"endLine": 415,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "class declaration with changed access modifier",
+		"codeElement": "org.mockito.internal.creation.bytebuddy.ByteBuddyCrossClassLoaderSerializationSupport"
+}]
+},
+{
+	"type": "Change Return Type",
+	"description": "Change Return Type MockHandler to MockHandler<?> in method public getHandler(mock Object) : MockHandler<?> from class org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMaker",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineDelegateByteBuddyMockMaker.java",
+		"startLine": 509,
+		"endLine": 509,
+		"startColumn": 12,
+		"endColumn": 23,
+		"codeElementType": "TYPE",
+		"description": "original return type",
+		"codeElement": "MockHandler"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineDelegateByteBuddyMockMaker.java",
+		"startLine": 508,
+		"endLine": 522,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public getHandler(mock Object) : MockHandler"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineDelegateByteBuddyMockMaker.java",
+		"startLine": 511,
+		"endLine": 511,
+		"startColumn": 12,
+		"endColumn": 26,
+		"codeElementType": "TYPE",
+		"description": "changed return type",
+		"codeElement": "MockHandler<?>"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineDelegateByteBuddyMockMaker.java",
+		"startLine": 510,
+		"endLine": 524,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with changed return type",
+		"codeElement": "public getHandler(mock Object) : MockHandler<?>"
+}]
+},
+{
+	"type": "Change Attribute Type",
+	"description": "Change Attribute Type handler : MockHandler to handler : MockHandler<?> in class org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMaker.InlineStaticMockControl",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineDelegateByteBuddyMockMaker.java",
+		"startLine": 732,
+		"endLine": 732,
+		"startColumn": 35,
+		"endColumn": 42,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "handler : MockHandler"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineDelegateByteBuddyMockMaker.java",
+		"startLine": 734,
+		"endLine": 734,
+		"startColumn": 38,
+		"endColumn": 45,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "changed-type attribute declaration",
+		"codeElement": "handler : MockHandler<?>"
+}]
+},
+{
+	"type": "Change Parameter Type",
+	"description": "Change Parameter Type handler : MockHandler to handler : MockHandler<?> in method private InlineStaticMockControl(type Class<T>, interceptors Map<Class<?>,MockMethodInterceptor>, settings MockCreationSettings<T>, handler MockHandler<?>) from class org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMaker.InlineStaticMockControl",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineDelegateByteBuddyMockMaker.java",
+		"startLine": 738,
+		"endLine": 738,
+		"startColumn": 17,
+		"endColumn": 36,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "handler : MockHandler"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineDelegateByteBuddyMockMaker.java",
+		"startLine": 742,
+		"endLine": 742,
+		"startColumn": 13,
+		"endColumn": 36,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement referencing the original variable",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineDelegateByteBuddyMockMaker.java",
+		"startLine": 740,
+		"endLine": 740,
+		"startColumn": 17,
+		"endColumn": 39,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "changed-type variable declaration",
+		"codeElement": "handler : MockHandler<?>"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineDelegateByteBuddyMockMaker.java",
+		"startLine": 744,
+		"endLine": 744,
+		"startColumn": 13,
+		"endColumn": 36,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement referencing the variable with changed type",
+		"codeElement": null
+}]
+},
+{
+	"type": "Change Class Access Modifier",
+	"description": "Change Class Access Modifier package to public in class org.mockito.internal.creation.bytebuddy.ModuleHandler",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 26,
+		"endLine": 340,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original class declaration",
+		"codeElement": "org.mockito.internal.creation.bytebuddy.ModuleHandler"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 22,
+		"endLine": 423,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "class declaration with changed access modifier",
+		"codeElement": "org.mockito.internal.creation.bytebuddy.ModuleHandler"
+}]
+},
+{
+	"type": "Remove Parameter",
+	"description": "Remove Parameter byteBuddy : ByteBuddy in method package make(byteBuddy ByteBuddy, loader SubclassLoader) : ModuleHandler from class org.mockito.internal.creation.bytebuddy.ModuleHandler",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 40,
+		"endLine": 40,
+		"startColumn": 31,
+		"endColumn": 50,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "removed parameter",
+		"codeElement": "byteBuddy : ByteBuddy"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 40,
+		"endLine": 46,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "package make(byteBuddy ByteBuddy, loader SubclassLoader) : ModuleHandler"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 42,
+		"endLine": 71,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with removed parameter",
+		"codeElement": "package make() : ModuleHandler"
+}]
+},
+{
+	"type": "Remove Parameter",
+	"description": "Remove Parameter loader : SubclassLoader in method package make(byteBuddy ByteBuddy, loader SubclassLoader) : ModuleHandler from class org.mockito.internal.creation.bytebuddy.ModuleHandler",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 40,
+		"endLine": 40,
+		"startColumn": 52,
+		"endColumn": 73,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "removed parameter",
+		"codeElement": "loader : SubclassLoader"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 40,
+		"endLine": 46,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "package make(byteBuddy ByteBuddy, loader SubclassLoader) : ModuleHandler"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 42,
+		"endLine": 71,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with removed parameter",
+		"codeElement": "package make() : ModuleHandler"
+}]
+},
+{
+	"type": "Change Class Access Modifier",
+	"description": "Change Class Access Modifier private to public in class org.mockito.internal.creation.bytebuddy.ModuleHandler.NoModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 308,
+		"endLine": 339,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original class declaration",
+		"codeElement": "org.mockito.internal.creation.bytebuddy.ModuleHandler.NoModuleSystemFound"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 151,
+		"endLine": 194,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "class declaration with changed access modifier",
+		"codeElement": "org.mockito.internal.creation.bytebuddy.ModuleHandler.NoModuleSystemFound"
+}]
+},
+{
+	"type": "Add Class Modifier",
+	"description": "Add Class Modifier abstract in class org.mockito.internal.creation.bytebuddy.ModuleHandler.NoModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 308,
+		"endLine": 339,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original class declaration",
+		"codeElement": "org.mockito.internal.creation.bytebuddy.ModuleHandler.NoModuleSystemFound"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 151,
+		"endLine": 194,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "class declaration with added modifier",
+		"codeElement": "org.mockito.internal.creation.bytebuddy.ModuleHandler.NoModuleSystemFound"
+}]
+},
+{
+	"type": "Rename Method",
+	"description": "Rename Method package isOpened(source Class<?>, target Class<?>) : boolean renamed to package canOpen(type Class<?>) : boolean in class org.mockito.internal.creation.bytebuddy.ModuleHandler.NoModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 310,
+		"endLine": 313,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "package isOpened(source Class<?>, target Class<?>) : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 185,
+		"endLine": 188,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "package canOpen(type Class<?>) : boolean"
+}]
+},
+{
+	"type": "Rename Method",
+	"description": "Rename Method package canRead(source Class<?>, target Class<?>) : boolean renamed to package canAddRead(type Class<?>) : boolean in class org.mockito.internal.creation.bytebuddy.ModuleHandler.NoModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 315,
+		"endLine": 318,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "package canRead(source Class<?>, target Class<?>) : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 190,
+		"endLine": 193,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "package canAddRead(type Class<?>) : boolean"
+}]
+},
+{
+	"type": "Rename Method",
+	"description": "Rename Method package isExported(source Class<?>) : boolean renamed to package toCodegenLoader(classLoader ClassLoader) : ClassLoader in class org.mockito.internal.creation.bytebuddy.ModuleHandler.NoModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 320,
+		"endLine": 323,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "package isExported(source Class<?>) : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 175,
+		"endLine": 178,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "package toCodegenLoader(classLoader ClassLoader) : ClassLoader"
+}]
+},
+{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter source : Class<?> to type : Class<?> in method package canOpen(type Class<?>) : boolean from class org.mockito.internal.creation.bytebuddy.ModuleHandler.NoModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 311,
+		"endLine": 311,
+		"startColumn": 26,
+		"endColumn": 41,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "source : Class<?>"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 186,
+		"endLine": 186,
+		"startColumn": 25,
+		"endColumn": 38,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "type : Class<?>"
+}]
+},
+{
+	"type": "Remove Parameter",
+	"description": "Remove Parameter target : Class<?> in method package isOpened(source Class<?>, target Class<?>) : boolean from class org.mockito.internal.creation.bytebuddy.ModuleHandler.NoModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 311,
+		"endLine": 311,
+		"startColumn": 43,
+		"endColumn": 58,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "removed parameter",
+		"codeElement": "target : Class<?>"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 310,
+		"endLine": 313,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "package isOpened(source Class<?>, target Class<?>) : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 185,
+		"endLine": 188,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with removed parameter",
+		"codeElement": "package canOpen(type Class<?>) : boolean"
+}]
+},
+{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter source : Class<?> to type : Class<?> in method package canAddRead(type Class<?>) : boolean from class org.mockito.internal.creation.bytebuddy.ModuleHandler.NoModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 316,
+		"endLine": 316,
+		"startColumn": 25,
+		"endColumn": 40,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "source : Class<?>"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 191,
+		"endLine": 191,
+		"startColumn": 28,
+		"endColumn": 41,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "type : Class<?>"
+}]
+},
+{
+	"type": "Remove Parameter",
+	"description": "Remove Parameter target : Class<?> in method package canRead(source Class<?>, target Class<?>) : boolean from class org.mockito.internal.creation.bytebuddy.ModuleHandler.NoModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 316,
+		"endLine": 316,
+		"startColumn": 42,
+		"endColumn": 57,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "removed parameter",
+		"codeElement": "target : Class<?>"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 315,
+		"endLine": 318,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "package canRead(source Class<?>, target Class<?>) : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 190,
+		"endLine": 193,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with removed parameter",
+		"codeElement": "package canAddRead(type Class<?>) : boolean"
+}]
+},
+{
+	"type": "Change Return Type",
+	"description": "Change Return Type boolean to ClassLoader in method package toCodegenLoader(classLoader ClassLoader) : ClassLoader from class org.mockito.internal.creation.bytebuddy.ModuleHandler.NoModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 321,
+		"endLine": 321,
+		"startColumn": 9,
+		"endColumn": 16,
+		"codeElementType": "TYPE",
+		"description": "original return type",
+		"codeElement": "boolean"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 320,
+		"endLine": 323,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "package isExported(source Class<?>) : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 176,
+		"endLine": 176,
+		"startColumn": 9,
+		"endColumn": 20,
+		"codeElementType": "TYPE",
+		"description": "changed return type",
+		"codeElement": "ClassLoader"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 175,
+		"endLine": 178,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with changed return type",
+		"codeElement": "package toCodegenLoader(classLoader ClassLoader) : ClassLoader"
+}]
+},
+{
+	"type": "Change Class Access Modifier",
+	"description": "Change Class Access Modifier private to package in class org.mockito.internal.creation.bytebuddy.ModuleHandler.ModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 48,
+		"endLine": 306,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original class declaration",
+		"codeElement": "org.mockito.internal.creation.bytebuddy.ModuleHandler.ModuleSystemFound"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 196,
+		"endLine": 401,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "class declaration with changed access modifier",
+		"codeElement": "org.mockito.internal.creation.bytebuddy.ModuleHandler.ModuleSystemFound"
+}]
+},
+{
+	"type": "Add Class Modifier",
+	"description": "Add Class Modifier abstract in class org.mockito.internal.creation.bytebuddy.ModuleHandler.ModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 48,
+		"endLine": 306,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original class declaration",
+		"codeElement": "org.mockito.internal.creation.bytebuddy.ModuleHandler.ModuleSystemFound"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 196,
+		"endLine": 401,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "class declaration with added modifier",
+		"codeElement": "org.mockito.internal.creation.bytebuddy.ModuleHandler.ModuleSystemFound"
+}]
+},
+{
+	"type": "Rename Method",
+	"description": "Rename Method private invoke(method Method, target Object, args Object...) : Object renamed to package classLoadingStrategy(type Class<?>) : ClassLoadingStrategy<ClassLoader> in class org.mockito.internal.creation.bytebuddy.ModuleHandler.ModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 294,
+		"endLine": 305,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private invoke(method Method, target Object, args Object...) : Object"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 379,
+		"endLine": 390,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "package classLoadingStrategy(type Class<?>) : ClassLoadingStrategy<ClassLoader>"
+}]
+},
+{
+	"type": "Extract Method",
+	"description": "Extract Method private getModule(type Class<?>) : Object extracted from private invoke(method Method, target Object, args Object...) : Object in class org.mockito.internal.creation.bytebuddy.ModuleHandler.ModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 294,
+		"endLine": 305,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration before extraction",
+		"codeElement": "private invoke(method Method, target Object, args Object...) : Object"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 296,
+		"endLine": 296,
+		"startColumn": 17,
+		"endColumn": 52,
+		"codeElementType": "RETURN_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 295,
+		"endLine": 304,
+		"startColumn": 13,
+		"endColumn": 14,
+		"codeElementType": "TRY_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 297,
+		"endLine": 304,
+		"startColumn": 15,
+		"endColumn": 14,
+		"codeElementType": "CATCH_CLAUSE",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 230,
+		"endLine": 236,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private getModule(type Class<?>) : Object"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 232,
+		"endLine": 232,
+		"startColumn": 17,
+		"endColumn": 47,
+		"codeElementType": "RETURN_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 231,
+		"endLine": 235,
+		"startColumn": 13,
+		"endColumn": 14,
+		"codeElementType": "TRY_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 233,
+		"endLine": 235,
+		"startColumn": 15,
+		"endColumn": 14,
+		"codeElementType": "CATCH_CLAUSE",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 379,
+		"endLine": 390,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration after extraction",
+		"codeElement": "package classLoadingStrategy(type Class<?>) : ClassLoadingStrategy<ClassLoader>"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 381,
+		"endLine": 381,
+		"startColumn": 26,
+		"endColumn": 50,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "getModule(Mockito.class)"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 381,
+		"endLine": 381,
+		"startColumn": 52,
+		"endColumn": 67,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "getModule(type)"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 382,
+		"endLine": 382,
+		"startColumn": 26,
+		"endColumn": 50,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "getModule(Mockito.class)"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 382,
+		"endLine": 382,
+		"startColumn": 52,
+		"endColumn": 67,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "getModule(type)"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 234,
+		"endLine": 234,
+		"startColumn": 17,
+		"endColumn": 52,
+		"codeElementType": "THROW_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}]
+},
+{
+	"type": "Extract Method",
+	"description": "Extract Method private addReads(module Object, target Object) : void extracted from private invoke(method Method, target Object, args Object...) : Object in class org.mockito.internal.creation.bytebuddy.ModuleHandler.ModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 294,
+		"endLine": 305,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration before extraction",
+		"codeElement": "private invoke(method Method, target Object, args Object...) : Object"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 295,
+		"endLine": 304,
+		"startColumn": 13,
+		"endColumn": 14,
+		"codeElementType": "TRY_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 297,
+		"endLine": 304,
+		"startColumn": 15,
+		"endColumn": 14,
+		"codeElementType": "CATCH_CLAUSE",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 278,
+		"endLine": 284,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private addReads(module Object, target Object) : void"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 279,
+		"endLine": 283,
+		"startColumn": 13,
+		"endColumn": 14,
+		"codeElementType": "TRY_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 281,
+		"endLine": 283,
+		"startColumn": 15,
+		"endColumn": 14,
+		"codeElementType": "CATCH_CLAUSE",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 379,
+		"endLine": 390,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration after extraction",
+		"codeElement": "package classLoadingStrategy(type Class<?>) : ClassLoadingStrategy<ClassLoader>"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 382,
+		"endLine": 382,
+		"startColumn": 17,
+		"endColumn": 68,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "addReads(getModule(Mockito.class),getModule(type))"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 280,
+		"endLine": 280,
+		"startColumn": 17,
+		"endColumn": 49,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 282,
+		"endLine": 282,
+		"startColumn": 17,
+		"endColumn": 52,
+		"codeElementType": "THROW_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}]
+},
+{
+	"type": "Rename Variable",
+	"description": "Rename Variable moduleType : Class<?> to module : Class<?> in method public ModuleSystemFound() from class org.mockito.internal.creation.bytebuddy.ModuleHandler.ModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 71,
+		"endLine": 71,
+		"startColumn": 22,
+		"endColumn": 68,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "moduleType : Class<?>"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 71,
+		"endLine": 71,
+		"startColumn": 13,
+		"endColumn": 69,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "statement referencing the original variable",
+		"codeElement": null
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 73,
+		"endLine": 73,
+		"startColumn": 13,
+		"endColumn": 79,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement referencing the original variable",
+		"codeElement": null
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 74,
+		"endLine": 74,
+		"startColumn": 13,
+		"endColumn": 87,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement referencing the original variable",
+		"codeElement": null
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 75,
+		"endLine": 75,
+		"startColumn": 13,
+		"endColumn": 86,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement referencing the original variable",
+		"codeElement": null
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 76,
+		"endLine": 76,
+		"startColumn": 13,
+		"endColumn": 67,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement referencing the original variable",
+		"codeElement": null
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 77,
+		"endLine": 77,
+		"startColumn": 13,
+		"endColumn": 87,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement referencing the original variable",
+		"codeElement": null
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 78,
+		"endLine": 78,
+		"startColumn": 13,
+		"endColumn": 69,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement referencing the original variable",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 219,
+		"endLine": 219,
+		"startColumn": 22,
+		"endColumn": 64,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "renamed variable declaration",
+		"codeElement": "module : Class<?>"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 219,
+		"endLine": 219,
+		"startColumn": 13,
+		"endColumn": 65,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "statement referencing the renamed variable",
+		"codeElement": null
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 221,
+		"endLine": 221,
+		"startColumn": 13,
+		"endColumn": 71,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement referencing the renamed variable",
+		"codeElement": null
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 220,
+		"endLine": 220,
+		"startColumn": 13,
+		"endColumn": 79,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement referencing the renamed variable",
+		"codeElement": null
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 223,
+		"endLine": 223,
+		"startColumn": 13,
+		"endColumn": 79,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement referencing the renamed variable",
+		"codeElement": null
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 222,
+		"endLine": 222,
+		"startColumn": 13,
+		"endColumn": 59,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement referencing the renamed variable",
+		"codeElement": null
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 224,
+		"endLine": 224,
+		"startColumn": 13,
+		"endColumn": 75,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement referencing the renamed variable",
+		"codeElement": null
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 225,
+		"endLine": 225,
+		"startColumn": 13,
+		"endColumn": 61,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement referencing the renamed variable",
+		"codeElement": null
+}]
+},
+{
+	"type": "Remove Parameter",
+	"description": "Remove Parameter byteBuddy : ByteBuddy in method private ModuleSystemFound(byteBuddy ByteBuddy, loader SubclassLoader) from class org.mockito.internal.creation.bytebuddy.ModuleHandler.ModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 64,
+		"endLine": 64,
+		"startColumn": 35,
+		"endColumn": 54,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "removed parameter",
+		"codeElement": "byteBuddy : ByteBuddy"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 64,
+		"endLine": 80,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private ModuleSystemFound(byteBuddy ByteBuddy, loader SubclassLoader)"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 210,
+		"endLine": 228,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with removed parameter",
+		"codeElement": "public ModuleSystemFound()"
+}]
+},
+{
+	"type": "Remove Parameter",
+	"description": "Remove Parameter loader : SubclassLoader in method private ModuleSystemFound(byteBuddy ByteBuddy, loader SubclassLoader) from class org.mockito.internal.creation.bytebuddy.ModuleHandler.ModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 64,
+		"endLine": 64,
+		"startColumn": 56,
+		"endColumn": 77,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "removed parameter",
+		"codeElement": "loader : SubclassLoader"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 64,
+		"endLine": 80,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private ModuleSystemFound(byteBuddy ByteBuddy, loader SubclassLoader)"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 210,
+		"endLine": 228,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with removed parameter",
+		"codeElement": "public ModuleSystemFound()"
+}]
+},
+{
+	"type": "Change Method Access Modifier",
+	"description": "Change Method Access Modifier private to public in method public ModuleSystemFound() from class org.mockito.internal.creation.bytebuddy.ModuleHandler.ModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 64,
+		"endLine": 80,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private ModuleSystemFound(byteBuddy ByteBuddy, loader SubclassLoader)"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 210,
+		"endLine": 228,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with changed access modifier",
+		"codeElement": "public ModuleSystemFound()"
+}]
+},
+{
+	"type": "Change Parameter Type",
+	"description": "Change Parameter Type target : Class<?> to target : Object in method private canRead(module Object, target Object) : boolean from class org.mockito.internal.creation.bytebuddy.ModuleHandler.ModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 96,
+		"endLine": 96,
+		"startColumn": 42,
+		"endColumn": 57,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "target : Class<?>"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 254,
+		"endLine": 254,
+		"startColumn": 48,
+		"endColumn": 61,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "changed-type variable declaration",
+		"codeElement": "target : Object"
+}]
+},
+{
+	"type": "Remove Method Annotation",
+	"description": "Remove Method Annotation @Override in method package canRead(source Class<?>, target Class<?>) : boolean from class org.mockito.internal.creation.bytebuddy.ModuleHandler.ModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 95,
+		"endLine": 95,
+		"startColumn": 9,
+		"endColumn": 18,
+		"codeElementType": "ANNOTATION",
+		"description": "removed annotation",
+		"codeElement": "@Override"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 95,
+		"endLine": 98,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "package canRead(source Class<?>, target Class<?>) : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 254,
+		"endLine": 260,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with removed annotation",
+		"codeElement": "private canRead(module Object, target Object) : boolean"
+}]
+},
+{
+	"type": "Change Method Access Modifier",
+	"description": "Change Method Access Modifier package to private in method private canRead(module Object, target Object) : boolean from class org.mockito.internal.creation.bytebuddy.ModuleHandler.ModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 95,
+		"endLine": 98,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "package canRead(source Class<?>, target Class<?>) : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 254,
+		"endLine": 260,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with changed access modifier",
+		"codeElement": "private canRead(module Object, target Object) : boolean"
+}]
+},
+{
+	"type": "Change Return Type",
+	"description": "Change Return Type Object to ClassLoadingStrategy<ClassLoader> in method package classLoadingStrategy(type Class<?>) : ClassLoadingStrategy<ClassLoader> from class org.mockito.internal.creation.bytebuddy.ModuleHandler.ModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 294,
+		"endLine": 294,
+		"startColumn": 24,
+		"endColumn": 30,
+		"codeElementType": "TYPE",
+		"description": "original return type",
+		"codeElement": "Object"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 294,
+		"endLine": 305,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private invoke(method Method, target Object, args Object...) : Object"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 380,
+		"endLine": 380,
+		"startColumn": 9,
+		"endColumn": 42,
+		"codeElementType": "TYPE",
+		"description": "changed return type",
+		"codeElement": "ClassLoadingStrategy<ClassLoader>"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 379,
+		"endLine": 390,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with changed return type",
+		"codeElement": "package classLoadingStrategy(type Class<?>) : ClassLoadingStrategy<ClassLoader>"
+}]
+},
+{
+	"type": "Add Parameter",
+	"description": "Add Parameter type : Class<?> in method package classLoadingStrategy(type Class<?>) : ClassLoadingStrategy<ClassLoader> from class org.mockito.internal.creation.bytebuddy.ModuleHandler.ModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 294,
+		"endLine": 305,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private invoke(method Method, target Object, args Object...) : Object"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 380,
+		"endLine": 380,
+		"startColumn": 64,
+		"endColumn": 77,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "added parameter",
+		"codeElement": "type : Class<?>"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 379,
+		"endLine": 390,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added parameter",
+		"codeElement": "package classLoadingStrategy(type Class<?>) : ClassLoadingStrategy<ClassLoader>"
+}]
+},
+{
+	"type": "Remove Parameter",
+	"description": "Remove Parameter method : Method in method private invoke(method Method, target Object, args Object...) : Object from class org.mockito.internal.creation.bytebuddy.ModuleHandler.ModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 294,
+		"endLine": 294,
+		"startColumn": 38,
+		"endColumn": 51,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "removed parameter",
+		"codeElement": "method : Method"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 294,
+		"endLine": 305,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private invoke(method Method, target Object, args Object...) : Object"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 379,
+		"endLine": 390,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with removed parameter",
+		"codeElement": "package classLoadingStrategy(type Class<?>) : ClassLoadingStrategy<ClassLoader>"
+}]
+},
+{
+	"type": "Remove Parameter",
+	"description": "Remove Parameter target : Object in method private invoke(method Method, target Object, args Object...) : Object from class org.mockito.internal.creation.bytebuddy.ModuleHandler.ModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 294,
+		"endLine": 294,
+		"startColumn": 53,
+		"endColumn": 66,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "removed parameter",
+		"codeElement": "target : Object"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 294,
+		"endLine": 305,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private invoke(method Method, target Object, args Object...) : Object"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 379,
+		"endLine": 390,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with removed parameter",
+		"codeElement": "package classLoadingStrategy(type Class<?>) : ClassLoadingStrategy<ClassLoader>"
+}]
+},
+{
+	"type": "Remove Parameter",
+	"description": "Remove Parameter args : Object... in method private invoke(method Method, target Object, args Object...) : Object from class org.mockito.internal.creation.bytebuddy.ModuleHandler.ModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 294,
+		"endLine": 294,
+		"startColumn": 68,
+		"endColumn": 82,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "removed parameter",
+		"codeElement": "args : Object..."
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 294,
+		"endLine": 305,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private invoke(method Method, target Object, args Object...) : Object"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 379,
+		"endLine": 390,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with removed parameter",
+		"codeElement": "package classLoadingStrategy(type Class<?>) : ClassLoadingStrategy<ClassLoader>"
+}]
+},
+{
+	"type": "Add Method Annotation",
+	"description": "Add Method Annotation @Override in method package classLoadingStrategy(type Class<?>) : ClassLoadingStrategy<ClassLoader> from class org.mockito.internal.creation.bytebuddy.ModuleHandler.ModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 294,
+		"endLine": 305,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private invoke(method Method, target Object, args Object...) : Object"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 379,
+		"endLine": 379,
+		"startColumn": 9,
+		"endColumn": 18,
+		"codeElementType": "ANNOTATION",
+		"description": "added annotation",
+		"codeElement": "@Override"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 379,
+		"endLine": 390,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added annotation",
+		"codeElement": "package classLoadingStrategy(type Class<?>) : ClassLoadingStrategy<ClassLoader>"
+}]
+},
+{
+	"type": "Change Method Access Modifier",
+	"description": "Change Method Access Modifier private to package in method package classLoadingStrategy(type Class<?>) : ClassLoadingStrategy<ClassLoader> from class org.mockito.internal.creation.bytebuddy.ModuleHandler.ModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 294,
+		"endLine": 305,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private invoke(method Method, target Object, args Object...) : Object"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 379,
+		"endLine": 390,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with changed access modifier",
+		"codeElement": "package classLoadingStrategy(type Class<?>) : ClassLoadingStrategy<ClassLoader>"
+}]
+},
+{
+	"type": "Remove Method Modifier",
+	"description": "Remove Method Modifier static in method private invoke(method Method, target Object, args Object...) : Object from class org.mockito.internal.creation.bytebuddy.ModuleHandler.ModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 294,
+		"endLine": 305,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private invoke(method Method, target Object, args Object...) : Object"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 379,
+		"endLine": 390,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with removed modifier",
+		"codeElement": "package classLoadingStrategy(type Class<?>) : ClassLoadingStrategy<ClassLoader>"
+}]
+},
+{
+	"type": "Replace Variable With Attribute",
+	"description": "Replace Variable With Attribute method : Method to getModule : Method in method private getModule(type Class<?>) : Object from class org.mockito.internal.creation.bytebuddy.ModuleHandler.ModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 294,
+		"endLine": 294,
+		"startColumn": 38,
+		"endColumn": 51,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "method : Method"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 296,
+		"endLine": 296,
+		"startColumn": 17,
+		"endColumn": 52,
+		"codeElementType": "RETURN_STATEMENT",
+		"description": "statement referencing the original variable",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 200,
+		"endLine": 200,
+		"startColumn": 17,
+		"endColumn": 26,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "getModule : Method"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 232,
+		"endLine": 232,
+		"startColumn": 17,
+		"endColumn": 47,
+		"codeElementType": "RETURN_STATEMENT",
+		"description": "statement referencing the renamed variable",
+		"codeElement": null
+}]
+},
+{
+	"type": "Rename Attribute",
+	"description": "Rename Attribute forName : Method to getPackageName : Method in class org.mockito.internal.creation.bytebuddy.ModuleHandler.ModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 62,
+		"endLine": 62,
+		"startColumn": 17,
+		"endColumn": 24,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "forName : Method"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 207,
+		"endLine": 207,
+		"startColumn": 17,
+		"endColumn": 31,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "renamed attribute declaration",
+		"codeElement": "getPackageName : Method"
+}]
+},
+{
+	"type": "Change Parameter Type",
+	"description": "Change Parameter Type loader : SubclassLoader to handler : ModuleHandler in method public SubclassByteBuddyMockMaker(handler ModuleHandler) from class org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassByteBuddyMockMaker.java",
+		"startLine": 36,
+		"endLine": 36,
+		"startColumn": 39,
+		"endColumn": 60,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "loader : SubclassLoader"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassByteBuddyMockMaker.java",
+		"startLine": 37,
+		"endLine": 38,
+		"startColumn": 9,
+		"endColumn": 96,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement referencing the original variable",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassByteBuddyMockMaker.java",
+		"startLine": 38,
+		"endLine": 38,
+		"startColumn": 39,
+		"endColumn": 60,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "changed-type variable declaration",
+		"codeElement": "handler : ModuleHandler"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassByteBuddyMockMaker.java",
+		"startLine": 39,
+		"endLine": 40,
+		"startColumn": 9,
+		"endColumn": 97,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement referencing the variable with changed type",
+		"codeElement": null
+}]
+},
+{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter loader : SubclassLoader to handler : ModuleHandler in method public SubclassByteBuddyMockMaker(handler ModuleHandler) from class org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassByteBuddyMockMaker.java",
+		"startLine": 36,
+		"endLine": 36,
+		"startColumn": 39,
+		"endColumn": 60,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "loader : SubclassLoader"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassByteBuddyMockMaker.java",
+		"startLine": 37,
+		"endLine": 38,
+		"startColumn": 9,
+		"endColumn": 96,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement referencing the original variable",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassByteBuddyMockMaker.java",
+		"startLine": 38,
+		"endLine": 38,
+		"startColumn": 39,
+		"endColumn": 60,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "handler : ModuleHandler"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassByteBuddyMockMaker.java",
+		"startLine": 39,
+		"endLine": 40,
+		"startColumn": 9,
+		"endColumn": 97,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement referencing the renamed variable",
+		"codeElement": null
+}]
+},
+{
+	"type": "Change Parameter Type",
+	"description": "Change Parameter Type loader : SubclassLoader to handler : ModuleHandler in method public SubclassBytecodeGenerator(handler ModuleHandler) from class org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java",
+		"startLine": 69,
+		"endLine": 69,
+		"startColumn": 38,
+		"endColumn": 59,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "loader : SubclassLoader"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java",
+		"startLine": 70,
+		"endLine": 70,
+		"startColumn": 9,
+		"endColumn": 35,
+		"codeElementType": "CONSTRUCTOR_INVOCATION",
+		"description": "statement referencing the original variable",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java",
+		"startLine": 72,
+		"endLine": 72,
+		"startColumn": 38,
+		"endColumn": 59,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "changed-type variable declaration",
+		"codeElement": "handler : ModuleHandler"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java",
+		"startLine": 73,
+		"endLine": 73,
+		"startColumn": 9,
+		"endColumn": 36,
+		"codeElementType": "CONSTRUCTOR_INVOCATION",
+		"description": "statement referencing the variable with changed type",
+		"codeElement": null
+}]
+},
+{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter loader : SubclassLoader to handler : ModuleHandler in method public SubclassBytecodeGenerator(handler ModuleHandler) from class org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java",
+		"startLine": 69,
+		"endLine": 69,
+		"startColumn": 38,
+		"endColumn": 59,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "loader : SubclassLoader"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java",
+		"startLine": 70,
+		"endLine": 70,
+		"startColumn": 9,
+		"endColumn": 35,
+		"codeElementType": "CONSTRUCTOR_INVOCATION",
+		"description": "statement referencing the original variable",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java",
+		"startLine": 72,
+		"endLine": 72,
+		"startColumn": 38,
+		"endColumn": 59,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "handler : ModuleHandler"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java",
+		"startLine": 73,
+		"endLine": 73,
+		"startColumn": 9,
+		"endColumn": 36,
+		"codeElementType": "CONSTRUCTOR_INVOCATION",
+		"description": "statement referencing the renamed variable",
+		"codeElement": null
+}]
+},
+{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter loader : SubclassLoader to handler : ModuleHandler in method package SubclassBytecodeGenerator(handler ModuleHandler, readReplace Implementation, matcher ElementMatcher<? super MethodDescription>) from class org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java",
+		"startLine": 79,
+		"endLine": 79,
+		"startColumn": 13,
+		"endColumn": 34,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "loader : SubclassLoader"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java",
+		"startLine": 82,
+		"endLine": 82,
+		"startColumn": 9,
+		"endColumn": 30,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement referencing the original variable",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java",
+		"startLine": 77,
+		"endLine": 77,
+		"startColumn": 13,
+		"endColumn": 34,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "handler : ModuleHandler"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java",
+		"startLine": 80,
+		"endLine": 80,
+		"startColumn": 9,
+		"endColumn": 32,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement referencing the renamed variable",
+		"codeElement": null
+}]
+},
+{
+	"type": "Change Parameter Type",
+	"description": "Change Parameter Type loader : SubclassLoader to handler : ModuleHandler in method package SubclassBytecodeGenerator(handler ModuleHandler, readReplace Implementation, matcher ElementMatcher<? super MethodDescription>) from class org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java",
+		"startLine": 79,
+		"endLine": 79,
+		"startColumn": 13,
+		"endColumn": 34,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "loader : SubclassLoader"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java",
+		"startLine": 82,
+		"endLine": 82,
+		"startColumn": 9,
+		"endColumn": 30,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement referencing the original variable",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java",
+		"startLine": 77,
+		"endLine": 77,
+		"startColumn": 13,
+		"endColumn": 34,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "changed-type variable declaration",
+		"codeElement": "handler : ModuleHandler"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java",
+		"startLine": 80,
+		"endLine": 80,
+		"startColumn": 9,
+		"endColumn": 32,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement referencing the variable with changed type",
+		"codeElement": null
+}]
+},
+{
+	"type": "Change Method Access Modifier",
+	"description": "Change Method Access Modifier protected to package in method package SubclassBytecodeGenerator(handler ModuleHandler, readReplace Implementation, matcher ElementMatcher<? super MethodDescription>) from class org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java",
+		"startLine": 78,
+		"endLine": 87,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected SubclassBytecodeGenerator(loader SubclassLoader, readReplace Implementation, matcher ElementMatcher<? super MethodDescription>)"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java",
+		"startLine": 76,
+		"endLine": 84,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with changed access modifier",
+		"codeElement": "package SubclassBytecodeGenerator(handler ModuleHandler, readReplace Implementation, matcher ElementMatcher<? super MethodDescription>)"
+}]
+},
+{
+	"type": "Rename Method",
+	"description": "Rename Method public resolveStrategy(mockedType Class<?>, classLoader ClassLoader, localMock boolean) : ClassLoadingStrategy<ClassLoader> renamed to public classLoadingStrategy() : ClassLoadingStrategy<ClassLoader> in class org.mockito.android.internal.creation.AndroidLoadingStrategy",
+	"leftSideLocations": [{
+		"filePath": "mockito-extensions/mockito-android/src/main/java/org/mockito/android/internal/creation/AndroidLoadingStrategy.java",
+		"startLine": 23,
+		"endLine": 41,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public resolveStrategy(mockedType Class<?>, classLoader ClassLoader, localMock boolean) : ClassLoadingStrategy<ClassLoader>"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-extensions/mockito-android/src/main/java/org/mockito/android/internal/creation/AndroidLoadingStrategy.java",
+		"startLine": 18,
+		"endLine": 35,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "public classLoadingStrategy() : ClassLoadingStrategy<ClassLoader>"
+}]
+},
+{
+	"type": "Remove Parameter",
+	"description": "Remove Parameter mockedType : Class<?> in method public resolveStrategy(mockedType Class<?>, classLoader ClassLoader, localMock boolean) : ClassLoadingStrategy<ClassLoader> from class org.mockito.android.internal.creation.AndroidLoadingStrategy",
+	"leftSideLocations": [{
+		"filePath": "mockito-extensions/mockito-android/src/main/java/org/mockito/android/internal/creation/AndroidLoadingStrategy.java",
+		"startLine": 25,
+		"endLine": 25,
+		"startColumn": 13,
+		"endColumn": 32,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "removed parameter",
+		"codeElement": "mockedType : Class<?>"
+}, {
+		"filePath": "mockito-extensions/mockito-android/src/main/java/org/mockito/android/internal/creation/AndroidLoadingStrategy.java",
+		"startLine": 23,
+		"endLine": 41,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public resolveStrategy(mockedType Class<?>, classLoader ClassLoader, localMock boolean) : ClassLoadingStrategy<ClassLoader>"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-extensions/mockito-android/src/main/java/org/mockito/android/internal/creation/AndroidLoadingStrategy.java",
+		"startLine": 18,
+		"endLine": 35,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with removed parameter",
+		"codeElement": "public classLoadingStrategy() : ClassLoadingStrategy<ClassLoader>"
+}]
+},
+{
+	"type": "Remove Parameter",
+	"description": "Remove Parameter classLoader : ClassLoader in method public resolveStrategy(mockedType Class<?>, classLoader ClassLoader, localMock boolean) : ClassLoadingStrategy<ClassLoader> from class org.mockito.android.internal.creation.AndroidLoadingStrategy",
+	"leftSideLocations": [{
+		"filePath": "mockito-extensions/mockito-android/src/main/java/org/mockito/android/internal/creation/AndroidLoadingStrategy.java",
+		"startLine": 25,
+		"endLine": 25,
+		"startColumn": 34,
+		"endColumn": 57,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "removed parameter",
+		"codeElement": "classLoader : ClassLoader"
+}, {
+		"filePath": "mockito-extensions/mockito-android/src/main/java/org/mockito/android/internal/creation/AndroidLoadingStrategy.java",
+		"startLine": 23,
+		"endLine": 41,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public resolveStrategy(mockedType Class<?>, classLoader ClassLoader, localMock boolean) : ClassLoadingStrategy<ClassLoader>"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-extensions/mockito-android/src/main/java/org/mockito/android/internal/creation/AndroidLoadingStrategy.java",
+		"startLine": 18,
+		"endLine": 35,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with removed parameter",
+		"codeElement": "public classLoadingStrategy() : ClassLoadingStrategy<ClassLoader>"
+}]
+},
+{
+	"type": "Remove Parameter",
+	"description": "Remove Parameter localMock : boolean in method public resolveStrategy(mockedType Class<?>, classLoader ClassLoader, localMock boolean) : ClassLoadingStrategy<ClassLoader> from class org.mockito.android.internal.creation.AndroidLoadingStrategy",
+	"leftSideLocations": [{
+		"filePath": "mockito-extensions/mockito-android/src/main/java/org/mockito/android/internal/creation/AndroidLoadingStrategy.java",
+		"startLine": 25,
+		"endLine": 25,
+		"startColumn": 59,
+		"endColumn": 76,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "removed parameter",
+		"codeElement": "localMock : boolean"
+}, {
+		"filePath": "mockito-extensions/mockito-android/src/main/java/org/mockito/android/internal/creation/AndroidLoadingStrategy.java",
+		"startLine": 23,
+		"endLine": 41,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public resolveStrategy(mockedType Class<?>, classLoader ClassLoader, localMock boolean) : ClassLoadingStrategy<ClassLoader>"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-extensions/mockito-android/src/main/java/org/mockito/android/internal/creation/AndroidLoadingStrategy.java",
+		"startLine": 18,
+		"endLine": 35,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with removed parameter",
+		"codeElement": "public classLoadingStrategy() : ClassLoadingStrategy<ClassLoader>"
+}]
+},
+{
+	"type": "Rename Method",
+	"description": "Rename Method public can_mock_with_named_module() : void renamed to public can_mock_with_named_module_inline() : void in class org.mockito.modulenamedtest.ModuleUseTest",
+	"leftSideLocations": [{
+		"filePath": "mockito-integration-tests/module-named-tests/src/test/java/org/mockito/modulenamedtest/ModuleUseTest.java",
+		"startLine": 15,
+		"endLine": 20,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public can_mock_with_named_module() : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-integration-tests/module-named-tests/src/test/java/org/mockito/modulenamedtest/ModuleUseTest.java",
+		"startLine": 16,
+		"endLine": 21,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "public can_mock_with_named_module_inline() : void"
+}]
+},
+{
+	"type": "Change Attribute Type",
+	"description": "Change Attribute Type handler : MockHandler to handler : MockHandler<?> in class org.mockito.internal.creation.bytebuddy.access.MockMethodInterceptor",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.java",
+		"startLine": 35,
+		"endLine": 35,
+		"startColumn": 23,
+		"endColumn": 30,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "handler : MockHandler"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/access/MockMethodInterceptor.java",
+		"startLine": 36,
+		"endLine": 36,
+		"startColumn": 34,
+		"endColumn": 41,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "changed-type attribute declaration",
+		"codeElement": "handler : MockHandler<?>"
+}]
+},
+{
+	"type": "Change Attribute Access Modifier",
+	"description": "Change Attribute Access Modifier package to private in attribute private handler : MockHandler<?> from class org.mockito.internal.creation.bytebuddy.access.MockMethodInterceptor",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.java",
+		"startLine": 35,
+		"endLine": 35,
+		"startColumn": 23,
+		"endColumn": 30,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "package handler : MockHandler"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/access/MockMethodInterceptor.java",
+		"startLine": 36,
+		"endLine": 36,
+		"startColumn": 34,
+		"endColumn": 41,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "attribute declaration with changed access modifier",
+		"codeElement": "private handler : MockHandler<?>"
+}]
+},
+{
+	"type": "Change Attribute Type",
+	"description": "Change Attribute Type mockCreationSettings : MockCreationSettings to mockCreationSettings : MockCreationSettings<?> in class org.mockito.internal.creation.bytebuddy.access.MockMethodInterceptor",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.java",
+		"startLine": 37,
+		"endLine": 37,
+		"startColumn": 40,
+		"endColumn": 60,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "mockCreationSettings : MockCreationSettings"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/access/MockMethodInterceptor.java",
+		"startLine": 38,
+		"endLine": 38,
+		"startColumn": 43,
+		"endColumn": 63,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "changed-type attribute declaration",
+		"codeElement": "mockCreationSettings : MockCreationSettings<?>"
+}]
+},
+{
+	"type": "Change Parameter Type",
+	"description": "Change Parameter Type handler : MockHandler to handler : MockHandler<?> in method public MockMethodInterceptor(handler MockHandler<?>, mockCreationSettings MockCreationSettings<?>) from class org.mockito.internal.creation.bytebuddy.access.MockMethodInterceptor",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.java",
+		"startLine": 43,
+		"endLine": 43,
+		"startColumn": 34,
+		"endColumn": 53,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "handler : MockHandler"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.java",
+		"startLine": 44,
+		"endLine": 44,
+		"startColumn": 9,
+		"endColumn": 32,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement referencing the original variable",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/access/MockMethodInterceptor.java",
+		"startLine": 45,
+		"endLine": 45,
+		"startColumn": 13,
+		"endColumn": 35,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "changed-type variable declaration",
+		"codeElement": "handler : MockHandler<?>"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/access/MockMethodInterceptor.java",
+		"startLine": 46,
+		"endLine": 46,
+		"startColumn": 9,
+		"endColumn": 32,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement referencing the variable with changed type",
+		"codeElement": null
+}]
+},
+{
+	"type": "Change Parameter Type",
+	"description": "Change Parameter Type mockCreationSettings : MockCreationSettings to mockCreationSettings : MockCreationSettings<?> in method public MockMethodInterceptor(handler MockHandler<?>, mockCreationSettings MockCreationSettings<?>) from class org.mockito.internal.creation.bytebuddy.access.MockMethodInterceptor",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.java",
+		"startLine": 43,
+		"endLine": 43,
+		"startColumn": 55,
+		"endColumn": 96,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "mockCreationSettings : MockCreationSettings"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.java",
+		"startLine": 45,
+		"endLine": 45,
+		"startColumn": 9,
+		"endColumn": 58,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement referencing the original variable",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/access/MockMethodInterceptor.java",
+		"startLine": 45,
+		"endLine": 45,
+		"startColumn": 37,
+		"endColumn": 81,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "changed-type variable declaration",
+		"codeElement": "mockCreationSettings : MockCreationSettings<?>"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/access/MockMethodInterceptor.java",
+		"startLine": 47,
+		"endLine": 47,
+		"startColumn": 9,
+		"endColumn": 58,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement referencing the variable with changed type",
+		"codeElement": null
+}]
+},
+{
+	"type": "Change Method Access Modifier",
+	"description": "Change Method Access Modifier package to public in method public doIntercept(mock Object, invokedMethod Method, arguments Object[], realMethod RealMethod, location Location) : Object from class org.mockito.internal.creation.bytebuddy.access.MockMethodInterceptor",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.java",
+		"startLine": 59,
+		"endLine": 93,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "package doIntercept(mock Object, invokedMethod Method, arguments Object[], realMethod RealMethod, location Location) : Object"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/access/MockMethodInterceptor.java",
+		"startLine": 61,
+		"endLine": 95,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with changed access modifier",
+		"codeElement": "public doIntercept(mock Object, invokedMethod Method, arguments Object[], realMethod RealMethod, location Location) : Object"
+}]
+},
+{
+	"type": "Change Return Type",
+	"description": "Change Return Type MockHandler to MockHandler<?> in method public getMockHandler() : MockHandler<?> from class org.mockito.internal.creation.bytebuddy.access.MockMethodInterceptor",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.java",
+		"startLine": 95,
+		"endLine": 95,
+		"startColumn": 12,
+		"endColumn": 23,
+		"codeElementType": "TYPE",
+		"description": "original return type",
+		"codeElement": "MockHandler"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.java",
+		"startLine": 95,
+		"endLine": 97,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public getMockHandler() : MockHandler"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/access/MockMethodInterceptor.java",
+		"startLine": 97,
+		"endLine": 97,
+		"startColumn": 12,
+		"endColumn": 26,
+		"codeElementType": "TYPE",
+		"description": "changed return type",
+		"codeElement": "MockHandler<?>"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/access/MockMethodInterceptor.java",
+		"startLine": 97,
+		"endLine": 99,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with changed return type",
+		"codeElement": "public getMockHandler() : MockHandler<?>"
+}]
+},
+{
+	"type": "Rename Method",
+	"description": "Rename Method package abstract isOpened(source Class<?>, target Class<?>) : boolean renamed to package abstract canOpen(type Class<?>) : boolean in class org.mockito.internal.creation.bytebuddy.ModuleHandler",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 28,
+		"endLine": 28,
+		"startColumn": 5,
+		"endColumn": 65,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "package abstract isOpened(source Class<?>, target Class<?>) : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 38,
+		"endLine": 38,
+		"startColumn": 5,
+		"endColumn": 45,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "package abstract canOpen(type Class<?>) : boolean"
+}]
+},
+{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter source : Class<?> to type : Class<?> in method package abstract canOpen(type Class<?>) : boolean from class org.mockito.internal.creation.bytebuddy.ModuleHandler",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 28,
+		"endLine": 28,
+		"startColumn": 31,
+		"endColumn": 46,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "source : Class<?>"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 38,
+		"endLine": 38,
+		"startColumn": 30,
+		"endColumn": 43,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "type : Class<?>"
+}]
+},
+{
+	"type": "Remove Parameter",
+	"description": "Remove Parameter target : Class<?> in method package abstract isOpened(source Class<?>, target Class<?>) : boolean from class org.mockito.internal.creation.bytebuddy.ModuleHandler",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 28,
+		"endLine": 28,
+		"startColumn": 48,
+		"endColumn": 63,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "removed parameter",
+		"codeElement": "target : Class<?>"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 28,
+		"endLine": 28,
+		"startColumn": 5,
+		"endColumn": 65,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "package abstract isOpened(source Class<?>, target Class<?>) : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 38,
+		"endLine": 38,
+		"startColumn": 5,
+		"endColumn": 45,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with removed parameter",
+		"codeElement": "package abstract canOpen(type Class<?>) : boolean"
+}]
+},
+{
+	"type": "Rename Method",
+	"description": "Rename Method package abstract canRead(source Class<?>, target Class<?>) : boolean renamed to package abstract canAddRead(type Class<?>) : boolean in class org.mockito.internal.creation.bytebuddy.ModuleHandler",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 30,
+		"endLine": 30,
+		"startColumn": 5,
+		"endColumn": 64,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "package abstract canRead(source Class<?>, target Class<?>) : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 40,
+		"endLine": 40,
+		"startColumn": 5,
+		"endColumn": 48,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "package abstract canAddRead(type Class<?>) : boolean"
+}]
+},
+{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter source : Class<?> to type : Class<?> in method package abstract canAddRead(type Class<?>) : boolean from class org.mockito.internal.creation.bytebuddy.ModuleHandler",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 30,
+		"endLine": 30,
+		"startColumn": 30,
+		"endColumn": 45,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "source : Class<?>"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 40,
+		"endLine": 40,
+		"startColumn": 33,
+		"endColumn": 46,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "type : Class<?>"
+}]
+},
+{
+	"type": "Remove Parameter",
+	"description": "Remove Parameter target : Class<?> in method package abstract canRead(source Class<?>, target Class<?>) : boolean from class org.mockito.internal.creation.bytebuddy.ModuleHandler",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 30,
+		"endLine": 30,
+		"startColumn": 47,
+		"endColumn": 62,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "removed parameter",
+		"codeElement": "target : Class<?>"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 30,
+		"endLine": 30,
+		"startColumn": 5,
+		"endColumn": 64,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "package abstract canRead(source Class<?>, target Class<?>) : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 40,
+		"endLine": 40,
+		"startColumn": 5,
+		"endColumn": 48,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with removed parameter",
+		"codeElement": "package abstract canAddRead(type Class<?>) : boolean"
+}]
+},
+{
+	"type": "Rename Method",
+	"description": "Rename Method package abstract isExported(source Class<?>) : boolean renamed to package abstract toCodegenLoader(classLoader ClassLoader) : ClassLoader in class org.mockito.internal.creation.bytebuddy.ModuleHandler",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 32,
+		"endLine": 32,
+		"startColumn": 5,
+		"endColumn": 50,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "package abstract isExported(source Class<?>) : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 32,
+		"endLine": 32,
+		"startColumn": 5,
+		"endColumn": 67,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "package abstract toCodegenLoader(classLoader ClassLoader) : ClassLoader"
+}]
+},
+{
+	"type": "Change Return Type",
+	"description": "Change Return Type boolean to ClassLoader in method package abstract toCodegenLoader(classLoader ClassLoader) : ClassLoader from class org.mockito.internal.creation.bytebuddy.ModuleHandler",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 32,
+		"endLine": 32,
+		"startColumn": 14,
+		"endColumn": 21,
+		"codeElementType": "TYPE",
+		"description": "original return type",
+		"codeElement": "boolean"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 32,
+		"endLine": 32,
+		"startColumn": 5,
+		"endColumn": 50,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "package abstract isExported(source Class<?>) : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 32,
+		"endLine": 32,
+		"startColumn": 14,
+		"endColumn": 25,
+		"codeElementType": "TYPE",
+		"description": "changed return type",
+		"codeElement": "ClassLoader"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 32,
+		"endLine": 32,
+		"startColumn": 5,
+		"endColumn": 67,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with changed return type",
+		"codeElement": "package abstract toCodegenLoader(classLoader ClassLoader) : ClassLoader"
+}]
+},
+{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter source : Class<?> to classLoader : ClassLoader in method package abstract toCodegenLoader(classLoader ClassLoader) : ClassLoader from class org.mockito.internal.creation.bytebuddy.ModuleHandler",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 32,
+		"endLine": 32,
+		"startColumn": 33,
+		"endColumn": 48,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "source : Class<?>"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 32,
+		"endLine": 32,
+		"startColumn": 42,
+		"endColumn": 65,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "classLoader : ClassLoader"
+}]
+},
+{
+	"type": "Change Parameter Type",
+	"description": "Change Parameter Type source : Class<?> to classLoader : ClassLoader in method package abstract toCodegenLoader(classLoader ClassLoader) : ClassLoader from class org.mockito.internal.creation.bytebuddy.ModuleHandler",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 32,
+		"endLine": 32,
+		"startColumn": 33,
+		"endColumn": 48,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "source : Class<?>"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 32,
+		"endLine": 32,
+		"startColumn": 42,
+		"endColumn": 65,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "changed-type variable declaration",
+		"codeElement": "classLoader : ClassLoader"
+}]
+},
+{
+	"type": "Move And Inline Method",
+	"description": "Move And Inline Method package injectionBase(classLoader ClassLoader, tyoeName String) : Class<?> moved from class org.mockito.internal.creation.bytebuddy.ModuleHandler.NoModuleSystemFound to class org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator & inlined to public mockClass(features MockFeatures<T>) : Class<? extends T>",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 330,
+		"endLine": 333,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "inlined method declaration",
+		"codeElement": "package injectionBase(classLoader ClassLoader, tyoeName String) : Class<?>"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 332,
+		"endLine": 332,
+		"startColumn": 13,
+		"endColumn": 40,
+		"codeElementType": "RETURN_STATEMENT",
+		"description": "inlined code from inlined method declaration",
+		"codeElement": null
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 332,
+		"endLine": 332,
+		"startColumn": 20,
+		"endColumn": 39,
+		"codeElementType": "TYPE_LITERAL",
+		"description": "inlined code from inlined method declaration",
+		"codeElement": null
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java",
+		"startLine": 125,
+		"endLine": 301,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "target method declaration before inline",
+		"codeElement": "public mockClass(features MockFeatures<T>) : Class<? extends T>"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java",
+		"startLine": 215,
+		"endLine": 215,
+		"startColumn": 33,
+		"endColumn": 77,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "inlined method invocation",
+		"codeElement": "handler.injectionBase(classLoader,typeName)"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java",
+		"startLine": 122,
+		"endLine": 283,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "target method declaration after inline",
+		"codeElement": "public mockClass(features MockFeatures<T>) : Class<? extends T>"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java",
+		"startLine": 278,
+		"endLine": 278,
+		"startColumn": 13,
+		"endColumn": 74,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "inlined code in target method declaration",
+		"codeElement": null
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java",
+		"startLine": 278,
+		"endLine": 278,
+		"startColumn": 53,
+		"endColumn": 72,
+		"codeElementType": "TYPE_LITERAL",
+		"description": "inlined code in target method declaration",
+		"codeElement": null
+}]
+},
+{
+	"type": "Rename Method",
+	"description": "Rename Method package isOpened(source Class<?>, target Class<?>) : boolean renamed to package canOpen(type Class<?>) : boolean in class org.mockito.internal.creation.bytebuddy.ModuleHandler.ModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 82,
+		"endLine": 93,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "package isOpened(source Class<?>, target Class<?>) : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 392,
+		"endLine": 395,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "package canOpen(type Class<?>) : boolean"
+}]
+},
+{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter source : Class<?> to type : Class<?> in method package canOpen(type Class<?>) : boolean from class org.mockito.internal.creation.bytebuddy.ModuleHandler.ModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 83,
+		"endLine": 83,
+		"startColumn": 26,
+		"endColumn": 41,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "source : Class<?>"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 393,
+		"endLine": 393,
+		"startColumn": 25,
+		"endColumn": 38,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "type : Class<?>"
+}]
+},
+{
+	"type": "Remove Parameter",
+	"description": "Remove Parameter target : Class<?> in method package isOpened(source Class<?>, target Class<?>) : boolean from class org.mockito.internal.creation.bytebuddy.ModuleHandler.ModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 83,
+		"endLine": 83,
+		"startColumn": 43,
+		"endColumn": 58,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "removed parameter",
+		"codeElement": "target : Class<?>"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 82,
+		"endLine": 93,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "package isOpened(source Class<?>, target Class<?>) : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 392,
+		"endLine": 395,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with removed parameter",
+		"codeElement": "package canOpen(type Class<?>) : boolean"
+}]
+},
+{
+	"type": "Rename Method",
+	"description": "Rename Method package isExported(source Class<?>) : boolean renamed to package toCodegenLoader(classLoader ClassLoader) : ClassLoader in class org.mockito.internal.creation.bytebuddy.ModuleHandler.ModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 100,
+		"endLine": 110,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "package isExported(source Class<?>) : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 358,
+		"endLine": 364,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "package toCodegenLoader(classLoader ClassLoader) : ClassLoader"
+}]
+},
+{
+	"type": "Change Return Type",
+	"description": "Change Return Type boolean to ClassLoader in method package toCodegenLoader(classLoader ClassLoader) : ClassLoader from class org.mockito.internal.creation.bytebuddy.ModuleHandler.ModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 101,
+		"endLine": 101,
+		"startColumn": 9,
+		"endColumn": 16,
+		"codeElementType": "TYPE",
+		"description": "original return type",
+		"codeElement": "boolean"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 100,
+		"endLine": 110,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "package isExported(source Class<?>) : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 359,
+		"endLine": 359,
+		"startColumn": 9,
+		"endColumn": 20,
+		"codeElementType": "TYPE",
+		"description": "changed return type",
+		"codeElement": "ClassLoader"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 358,
+		"endLine": 364,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with changed return type",
+		"codeElement": "package toCodegenLoader(classLoader ClassLoader) : ClassLoader"
+}]
+},
+{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter source : Class<?> to classLoader : ClassLoader in method package toCodegenLoader(classLoader ClassLoader) : ClassLoader from class org.mockito.internal.creation.bytebuddy.ModuleHandler.ModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 101,
+		"endLine": 101,
+		"startColumn": 28,
+		"endColumn": 43,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "source : Class<?>"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 359,
+		"endLine": 359,
+		"startColumn": 37,
+		"endColumn": 60,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "classLoader : ClassLoader"
+}]
+},
+{
+	"type": "Change Parameter Type",
+	"description": "Change Parameter Type source : Class<?> to classLoader : ClassLoader in method package toCodegenLoader(classLoader ClassLoader) : ClassLoader from class org.mockito.internal.creation.bytebuddy.ModuleHandler.ModuleSystemFound",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 101,
+		"endLine": 101,
+		"startColumn": 28,
+		"endColumn": 43,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "source : Class<?>"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java",
+		"startLine": 359,
+		"endLine": 359,
+		"startColumn": 37,
+		"endColumn": 60,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "changed-type variable declaration",
+		"codeElement": "classLoader : ClassLoader"
+}]
+}
+]
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "0215884a5e68016504be98599b3045070a558002",
+	"url": "https://github.com/mockito/mockito/commit/0215884a5e68016504be98599b3045070a558002",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "d18503512b01eed650f5fdf78f7e3c02755c8ee5",
+	"url": "https://github.com/mockito/mockito/commit/d18503512b01eed650f5fdf78f7e3c02755c8ee5",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "c81be5deedfd966bd17c9619769a34c74d9779e6",
+	"url": "https://github.com/mockito/mockito/commit/c81be5deedfd966bd17c9619769a34c74d9779e6",
+	"refactorings": [{
+	"type": "Remove Thrown Exception Type",
+	"description": "Remove Thrown Exception Type Exception in method public testMockDispatcherIsRelocated() : void from class org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/test/java/org/mockito/internal/creation/bytebuddy/InlineDelegateByteBuddyMockMakerTest.java",
+		"startLine": 531,
+		"endLine": 531,
+		"startColumn": 56,
+		"endColumn": 65,
+		"codeElementType": "TYPE",
+		"description": "removed thrown exception type",
+		"codeElement": "Exception"
+}, {
+		"filePath": "mockito-core/src/test/java/org/mockito/internal/creation/bytebuddy/InlineDelegateByteBuddyMockMakerTest.java",
+		"startLine": 530,
+		"endLine": 538,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public testMockDispatcherIsRelocated() : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/test/java/org/mockito/internal/creation/bytebuddy/InlineDelegateByteBuddyMockMakerTest.java",
+		"startLine": 530,
+		"endLine": 545,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with removed thrown exception type",
+		"codeElement": "public testMockDispatcherIsRelocated() : void"
+}]
+}
+]
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "d01ac9d8222b01d6694b11a9978a91eb9aced5b1",
+	"url": "https://github.com/mockito/mockito/commit/d01ac9d8222b01d6694b11a9978a91eb9aced5b1",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "83ee69b8b927e166f7a8acf6e789a26a58f63567",
+	"url": "https://github.com/mockito/mockito/commit/83ee69b8b927e166f7a8acf6e789a26a58f63567",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "289e97126431d48d835c921789039d2bcb8ddd82",
+	"url": "https://github.com/mockito/mockito/commit/289e97126431d48d835c921789039d2bcb8ddd82",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "1ab848368745281e0fb811f2ad2728ef5178e135",
+	"url": "https://github.com/mockito/mockito/commit/1ab848368745281e0fb811f2ad2728ef5178e135",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "fdb5df19862559d01c9755eecc7d1ab818c10eb6",
+	"url": "https://github.com/mockito/mockito/commit/fdb5df19862559d01c9755eecc7d1ab818c10eb6",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "e280630e98e21a23c4493dd808c7b79356613cbf",
+	"url": "https://github.com/mockito/mockito/commit/e280630e98e21a23c4493dd808c7b79356613cbf",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "96c2095e4f790d0c3a2c120d7f54c9cf44572b30",
+	"url": "https://github.com/mockito/mockito/commit/96c2095e4f790d0c3a2c120d7f54c9cf44572b30",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "1c3800dff2006ff436f017afdfd926c6d64e7bb7",
+	"url": "https://github.com/mockito/mockito/commit/1c3800dff2006ff436f017afdfd926c6d64e7bb7",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "e9a4c774ecfcfd0fd00ac3979f711a31724d0c4a",
+	"url": "https://github.com/mockito/mockito/commit/e9a4c774ecfcfd0fd00ac3979f711a31724d0c4a",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "e04dbbe3c83badb0d7d6d9cd700f456e227a9bb3",
+	"url": "https://github.com/mockito/mockito/commit/e04dbbe3c83badb0d7d6d9cd700f456e227a9bb3",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "567c5b95bfb98bca343a6c2a9b0c8df9bd86175a",
+	"url": "https://github.com/mockito/mockito/commit/567c5b95bfb98bca343a6c2a9b0c8df9bd86175a",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "2c184c9a5f80a46a0dff9a299874973235f48a10",
+	"url": "https://github.com/mockito/mockito/commit/2c184c9a5f80a46a0dff9a299874973235f48a10",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "68c428544cc827d0fe039ef971e9605fec97d3de",
+	"url": "https://github.com/mockito/mockito/commit/68c428544cc827d0fe039ef971e9605fec97d3de",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "cd4704a5caa5bc5afbae4d17ab73984abc599213",
+	"url": "https://github.com/mockito/mockito/commit/cd4704a5caa5bc5afbae4d17ab73984abc599213",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "3731b6b4b1f790ea6a7c9c165efe15b5a4ab2630",
+	"url": "https://github.com/mockito/mockito/commit/3731b6b4b1f790ea6a7c9c165efe15b5a4ab2630",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "29c947628af5b816387d01bec0123946236427b9",
+	"url": "https://github.com/mockito/mockito/commit/29c947628af5b816387d01bec0123946236427b9",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "dc0dc88f98d87c29393dd1da8e00c483ec4e8092",
+	"url": "https://github.com/mockito/mockito/commit/dc0dc88f98d87c29393dd1da8e00c483ec4e8092",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "2e7992bc98c6fd3e1f51efd02a46e4e0309178b8",
+	"url": "https://github.com/mockito/mockito/commit/2e7992bc98c6fd3e1f51efd02a46e4e0309178b8",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "51ed33f037dacf19407b4e692e3f6253f874a908",
+	"url": "https://github.com/mockito/mockito/commit/51ed33f037dacf19407b4e692e3f6253f874a908",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "835f6be3114a70988e5db23c3bc3c09c12020f12",
+	"url": "https://github.com/mockito/mockito/commit/835f6be3114a70988e5db23c3bc3c09c12020f12",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "1fcf39571f3107d72a7bf3000c0b65f9f6229aa4",
+	"url": "https://github.com/mockito/mockito/commit/1fcf39571f3107d72a7bf3000c0b65f9f6229aa4",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "f86a4a1dd1655e63d795f705f00ed7cfc1645a25",
+	"url": "https://github.com/mockito/mockito/commit/f86a4a1dd1655e63d795f705f00ed7cfc1645a25",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "c18c21ed1c6a8cfc3d45f34fcaf287ce63e167ad",
+	"url": "https://github.com/mockito/mockito/commit/c18c21ed1c6a8cfc3d45f34fcaf287ce63e167ad",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "6cdd4dafa310c6443eff44db041cf50c600146d2",
+	"url": "https://github.com/mockito/mockito/commit/6cdd4dafa310c6443eff44db041cf50c600146d2",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "7c277acac44986450090f6540a32305be342e324",
+	"url": "https://github.com/mockito/mockito/commit/7c277acac44986450090f6540a32305be342e324",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "6e53f34a3f54d2b7dc23595566b9331a94b57263",
+	"url": "https://github.com/mockito/mockito/commit/6e53f34a3f54d2b7dc23595566b9331a94b57263",
+	"refactorings": [{
+	"type": "Extract Variable",
+	"description": "Extract Variable matcher : StubbedInvocationMatcher in method package answerTo(invocation Invocation) : Object from class org.mockito.internal.stubbing.InvocationContainerImpl",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/stubbing/InvocationContainerImpl.java",
+		"startLine": 86,
+		"endLine": 86,
+		"startColumn": 9,
+		"endColumn": 61,
+		"codeElementType": "RETURN_STATEMENT",
+		"description": "statement with the initializer of the extracted variable",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/stubbing/InvocationContainerImpl.java",
+		"startLine": 87,
+		"endLine": 87,
+		"startColumn": 34,
+		"endColumn": 69,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted variable declaration",
+		"codeElement": "matcher : StubbedInvocationMatcher"
+}, {
+		"filePath": "mockito-core/src/main/java/org/mockito/internal/stubbing/InvocationContainerImpl.java",
+		"startLine": 94,
+		"endLine": 94,
+		"startColumn": 9,
+		"endColumn": 43,
+		"codeElementType": "RETURN_STATEMENT",
+		"description": "statement with the name of the extracted variable",
+		"codeElement": null
+}]
+}
+]
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "a66dfa081c3703fcda9618f507d30248361f5e7b",
+	"url": "https://github.com/mockito/mockito/commit/a66dfa081c3703fcda9618f507d30248361f5e7b",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "c6d9123dcd6a6778b28d021c613c5ada7ff53ad5",
+	"url": "https://github.com/mockito/mockito/commit/c6d9123dcd6a6778b28d021c613c5ada7ff53ad5",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "3819ca8f7537c7f59c2f305be3e880156e960f10",
+	"url": "https://github.com/mockito/mockito/commit/3819ca8f7537c7f59c2f305be3e880156e960f10",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "717af5ac16c8dc0fb205bfe4da9ea56e4573aabb",
+	"url": "https://github.com/mockito/mockito/commit/717af5ac16c8dc0fb205bfe4da9ea56e4573aabb",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "894c5737cffa551e425fdd2c1c4958de5a0888db",
+	"url": "https://github.com/mockito/mockito/commit/894c5737cffa551e425fdd2c1c4958de5a0888db",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "02830006a86979356859c5064c251026410ba6e8",
+	"url": "https://github.com/mockito/mockito/commit/02830006a86979356859c5064c251026410ba6e8",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "1193be78bb3e82136ac8c2c94f744337f39c57c7",
+	"url": "https://github.com/mockito/mockito/commit/1193be78bb3e82136ac8c2c94f744337f39c57c7",
+	"refactorings": [{
+	"type": "Move Source Folder",
+	"description": "Move Source Folder mockito-core/src/test to mockito-core/src/testFixtures",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/test/java/org/mockitoutil/ClassLoaders.java",
+		"startLine": 45,
+		"endLine": 557,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.mockitoutil.ClassLoaders"
+}, {
+		"filePath": "mockito-core/src/test/java/org/mockitoutil/SimplePerRealmReloadingClassLoader.java",
+		"startLine": 14,
+		"endLine": 133,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.mockitoutil.SimplePerRealmReloadingClassLoader"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/testFixtures/java/org/mockitoutil/ClassLoaders.java",
+		"startLine": 46,
+		"endLine": 562,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.mockitoutil.ClassLoaders"
+}, {
+		"filePath": "mockito-core/src/testFixtures/java/org/mockitoutil/SimplePerRealmReloadingClassLoader.java",
+		"startLine": 15,
+		"endLine": 151,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.mockitoutil.SimplePerRealmReloadingClassLoader"
+}]
+},
+{
+	"type": "Rename Method",
+	"description": "Rename Method private obtainClassPath() : URL renamed to private obtainThisClassPath() : URL in class org.mockitoutil.SimplePerRealmReloadingClassLoader",
+	"leftSideLocations": [{
+		"filePath": "mockito-core/src/test/java/org/mockitoutil/SimplePerRealmReloadingClassLoader.java",
+		"startLine": 43,
+		"endLine": 46,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private obtainClassPath() : URL"
+}],
+	"rightSideLocations": [{
+		"filePath": "mockito-core/src/testFixtures/java/org/mockitoutil/SimplePerRealmReloadingClassLoader.java",
+		"startLine": 45,
+		"endLine": 48,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "private obtainThisClassPath() : URL"
+}]
+},
+{
+	"type": "Move Source Folder",
+	"description": "Move Source Folder mockito-core/src/test to mockito-core/src/testFixtures",
+	"leftSideLocations": [],
+	"rightSideLocations": []
+}
+]
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "8712b42bb2039606c7dfcbff6a2395e78dc4a73e",
+	"url": "https://github.com/mockito/mockito/commit/8712b42bb2039606c7dfcbff6a2395e78dc4a73e",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "e34d82941df8ac94c9dea10d6419a100d71857f5",
+	"url": "https://github.com/mockito/mockito/commit/e34d82941df8ac94c9dea10d6419a100d71857f5",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "9cfe256796280854f2ceb05cd29a351c44721641",
+	"url": "https://github.com/mockito/mockito/commit/9cfe256796280854f2ceb05cd29a351c44721641",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "654e726fe575bd9345b9707ac15e894b9aa842ef",
+	"url": "https://github.com/mockito/mockito/commit/654e726fe575bd9345b9707ac15e894b9aa842ef",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "82d3ab4f2d5cff3f772115a9a9ee1e41782d33b1",
+	"url": "https://github.com/mockito/mockito/commit/82d3ab4f2d5cff3f772115a9a9ee1e41782d33b1",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "bb21a00e95a8040c8fabc20a259739a4174a56d1",
+	"url": "https://github.com/mockito/mockito/commit/bb21a00e95a8040c8fabc20a259739a4174a56d1",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "c574988c19341a501583ae9f3c6344018083aef2",
+	"url": "https://github.com/mockito/mockito/commit/c574988c19341a501583ae9f3c6344018083aef2",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/mockito/mockito.git",
+	"sha1": "1c25d5f77255a456314ebffb3b9777a86e30f62b",
+	"url": "https://github.com/mockito/mockito/commit/1c25d5f77255a456314ebffb3b9777a86e30f62b",
+	"refactorings": []
+}]
+}

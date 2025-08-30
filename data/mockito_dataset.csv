@@ -1,0 +1,99 @@
+refactoring_type,file_path,method_name,class_name,lines_changed,commit_sha
+Rename Method,mockito-core/src/test/java/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValuesTest.java,,ReturnsEmptyValuesTest,19,bc06f214c0c9505a1887e4422a449c6304993ff5
+Rename Method,mockito-core/src/test/java/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValuesTest.java,,ReturnsEmptyValuesTest,19,bc06f214c0c9505a1887e4422a449c6304993ff5
+Rename Method,mockito-core/src/test/java/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValuesTest.java,,ReturnsEmptyValuesTest,19,bc06f214c0c9505a1887e4422a449c6304993ff5
+Remove Variable Modifier,mockito-core/src/test/java/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValuesTest.java,public,ReturnsEmptyValuesTest,33,bc06f214c0c9505a1887e4422a449c6304993ff5
+Add Method Annotation,mockito-core/src/test/java/org/mockito/internal/util/collections/HashCodeAndEqualsSafeSetTest.java,public,HashCodeAndEqualsSafeSetTest,12,8b580e2e2db708db8d5b5b884c9eb18ec964651c
+Add Method Annotation,mockito-core/src/test/java/org/mockitousage/basicapi/ReplacingObjectMethodsTest.java,public,ReplacingObjectMethodsTest,24,8b580e2e2db708db8d5b5b884c9eb18ec964651c
+Add Method Annotation,mockito-core/src/test/java/org/mockitousage/basicapi/ReplacingObjectMethodsTest.java,public,ReplacingObjectMethodsTest,24,8b580e2e2db708db8d5b5b884c9eb18ec964651c
+Change Variable Type,mockito-core/src/main/java/org/mockito/internal/invocation/MatcherApplicationStrategy.java,public,MatcherApplicationStrategy,16,8f15169774cb639b5757f121f27d6c0d8ca18c97
+Rename Variable,mockito-core/src/main/java/org/mockito/internal/invocation/MatcherApplicationStrategy.java,public,MatcherApplicationStrategy,16,8f15169774cb639b5757f121f27d6c0d8ca18c97
+Rename Variable,mockito-core/src/main/java/org/mockito/internal/invocation/MatcherApplicationStrategy.java,public,MatcherApplicationStrategy,8,8f15169774cb639b5757f121f27d6c0d8ca18c97
+Change Return Type,mockito-core/src/main/java/org/mockito/internal/invocation/MatcherApplicationStrategy.java,private,MatcherApplicationStrategy,10,8f15169774cb639b5757f121f27d6c0d8ca18c97
+Rename Method,mockito-core/src/test/java/org/mockito/MockitoTest.java,,MockitoTest,31,7764992d1250f4e7f6ffd10f650dc89516139c8d
+Rename Method,mockito-core/src/test/java/org/mockito/MockitoTest.java,,MockitoTest,31,7764992d1250f4e7f6ffd10f650dc89516139c8d
+Extract Variable,mockito-extensions/mockito-junit-jupiter/src/main/java/org/mockito/junit/jupiter/MockitoExtension.java,public,MockitoExtension,4,4f469c830b2f6ab0e1f061e9383aff2e6f9f8376
+Move Class,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/MockAccess.java,,MockAccess,12,d000e630775cfa45752eeb491a197283e7370621
+Move Class,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.java,,MockMethodInterceptor,271,d000e630775cfa45752eeb491a197283e7370621
+Move Class,mockito-core/src/main/java/org/mockito/codegen/InjectionBase.java,,InjectionBase,20,d000e630775cfa45752eeb491a197283e7370621
+Change Class Access Modifier,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ByteBuddyCrossClassLoaderSerializationSupport.java,,ByteBuddyCrossClassLoaderSerializationSupport,762,d000e630775cfa45752eeb491a197283e7370621
+Change Return Type,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineDelegateByteBuddyMockMaker.java,public,InlineDelegateByteBuddyMockMaker,32,d000e630775cfa45752eeb491a197283e7370621
+Change Attribute Type,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineDelegateByteBuddyMockMaker.java,,InlineDelegateByteBuddyMockMaker,2,d000e630775cfa45752eeb491a197283e7370621
+Change Parameter Type,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineDelegateByteBuddyMockMaker.java,private,InlineDelegateByteBuddyMockMaker,4,d000e630775cfa45752eeb491a197283e7370621
+Change Class Access Modifier,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,,ModuleHandler,717,d000e630775cfa45752eeb491a197283e7370621
+Remove Parameter,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,package,ModuleHandler,38,d000e630775cfa45752eeb491a197283e7370621
+Remove Parameter,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,package,ModuleHandler,38,d000e630775cfa45752eeb491a197283e7370621
+Change Class Access Modifier,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,,ModuleHandler,76,d000e630775cfa45752eeb491a197283e7370621
+Add Class Modifier,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,,ModuleHandler,76,d000e630775cfa45752eeb491a197283e7370621
+Rename Method,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,,ModuleHandler,8,d000e630775cfa45752eeb491a197283e7370621
+Rename Method,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,,ModuleHandler,8,d000e630775cfa45752eeb491a197283e7370621
+Rename Method,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,,ModuleHandler,8,d000e630775cfa45752eeb491a197283e7370621
+Rename Parameter,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,package,ModuleHandler,2,d000e630775cfa45752eeb491a197283e7370621
+Remove Parameter,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,package,ModuleHandler,9,d000e630775cfa45752eeb491a197283e7370621
+Rename Parameter,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,package,ModuleHandler,2,d000e630775cfa45752eeb491a197283e7370621
+Remove Parameter,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,package,ModuleHandler,9,d000e630775cfa45752eeb491a197283e7370621
+Change Return Type,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,package,ModuleHandler,10,d000e630775cfa45752eeb491a197283e7370621
+Change Class Access Modifier,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,,ModuleHandler,465,d000e630775cfa45752eeb491a197283e7370621
+Add Class Modifier,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,,ModuleHandler,465,d000e630775cfa45752eeb491a197283e7370621
+Rename Method,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,,ModuleHandler,24,d000e630775cfa45752eeb491a197283e7370621
+Extract Method,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,,ModuleHandler,64,d000e630775cfa45752eeb491a197283e7370621
+Extract Method,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,,ModuleHandler,60,d000e630775cfa45752eeb491a197283e7370621
+Rename Variable,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,public,ModuleHandler,16,d000e630775cfa45752eeb491a197283e7370621
+Remove Parameter,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,private,ModuleHandler,37,d000e630775cfa45752eeb491a197283e7370621
+Remove Parameter,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,private,ModuleHandler,37,d000e630775cfa45752eeb491a197283e7370621
+Change Method Access Modifier,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,public,ModuleHandler,36,d000e630775cfa45752eeb491a197283e7370621
+Change Parameter Type,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,private,ModuleHandler,2,d000e630775cfa45752eeb491a197283e7370621
+Remove Method Annotation,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,package,ModuleHandler,12,d000e630775cfa45752eeb491a197283e7370621
+Change Method Access Modifier,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,private,ModuleHandler,11,d000e630775cfa45752eeb491a197283e7370621
+Change Return Type,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,package,ModuleHandler,26,d000e630775cfa45752eeb491a197283e7370621
+Add Parameter,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,package,ModuleHandler,25,d000e630775cfa45752eeb491a197283e7370621
+Remove Parameter,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,:,ModuleHandler,25,d000e630775cfa45752eeb491a197283e7370621
+Remove Parameter,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,private,ModuleHandler,25,d000e630775cfa45752eeb491a197283e7370621
+Remove Parameter,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,private,ModuleHandler,25,d000e630775cfa45752eeb491a197283e7370621
+Add Method Annotation,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,package,ModuleHandler,25,d000e630775cfa45752eeb491a197283e7370621
+Change Method Access Modifier,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,package,ModuleHandler,24,d000e630775cfa45752eeb491a197283e7370621
+Remove Method Modifier,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,private,ModuleHandler,24,d000e630775cfa45752eeb491a197283e7370621
+Replace Variable With Attribute,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,:,ModuleHandler,4,d000e630775cfa45752eeb491a197283e7370621
+Rename Attribute,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,,ModuleHandler,2,d000e630775cfa45752eeb491a197283e7370621
+Change Parameter Type,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassByteBuddyMockMaker.java,public,SubclassByteBuddyMockMaker,6,d000e630775cfa45752eeb491a197283e7370621
+Rename Parameter,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassByteBuddyMockMaker.java,public,SubclassByteBuddyMockMaker,6,d000e630775cfa45752eeb491a197283e7370621
+Change Parameter Type,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java,public,SubclassBytecodeGenerator,4,d000e630775cfa45752eeb491a197283e7370621
+Rename Parameter,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java,public,SubclassBytecodeGenerator,4,d000e630775cfa45752eeb491a197283e7370621
+Rename Parameter,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java,package,SubclassBytecodeGenerator,4,d000e630775cfa45752eeb491a197283e7370621
+Change Parameter Type,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java,package,SubclassBytecodeGenerator,4,d000e630775cfa45752eeb491a197283e7370621
+Change Method Access Modifier,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java,package,SubclassBytecodeGenerator,19,d000e630775cfa45752eeb491a197283e7370621
+Rename Method,mockito-extensions/mockito-android/src/main/java/org/mockito/android/internal/creation/AndroidLoadingStrategy.java,,AndroidLoadingStrategy,37,d000e630775cfa45752eeb491a197283e7370621
+Remove Parameter,mockito-extensions/mockito-android/src/main/java/org/mockito/android/internal/creation/AndroidLoadingStrategy.java,public,AndroidLoadingStrategy,38,d000e630775cfa45752eeb491a197283e7370621
+Remove Parameter,mockito-extensions/mockito-android/src/main/java/org/mockito/android/internal/creation/AndroidLoadingStrategy.java,public,AndroidLoadingStrategy,38,d000e630775cfa45752eeb491a197283e7370621
+Remove Parameter,mockito-extensions/mockito-android/src/main/java/org/mockito/android/internal/creation/AndroidLoadingStrategy.java,public,AndroidLoadingStrategy,38,d000e630775cfa45752eeb491a197283e7370621
+Rename Method,mockito-integration-tests/module-named-tests/src/test/java/org/mockito/modulenamedtest/ModuleUseTest.java,,ModuleUseTest,12,d000e630775cfa45752eeb491a197283e7370621
+Change Attribute Type,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.java,,MockMethodInterceptor,2,d000e630775cfa45752eeb491a197283e7370621
+Change Attribute Access Modifier,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.java,,MockMethodInterceptor,2,d000e630775cfa45752eeb491a197283e7370621
+Change Attribute Type,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.java,,MockMethodInterceptor,2,d000e630775cfa45752eeb491a197283e7370621
+Change Parameter Type,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.java,public,MockMethodInterceptor,4,d000e630775cfa45752eeb491a197283e7370621
+Change Parameter Type,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.java,public,MockMethodInterceptor,4,d000e630775cfa45752eeb491a197283e7370621
+Change Method Access Modifier,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.java,public,MockMethodInterceptor,70,d000e630775cfa45752eeb491a197283e7370621
+Change Return Type,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.java,public,MockMethodInterceptor,8,d000e630775cfa45752eeb491a197283e7370621
+Rename Method,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,,ModuleHandler,2,d000e630775cfa45752eeb491a197283e7370621
+Rename Parameter,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,package,ModuleHandler,2,d000e630775cfa45752eeb491a197283e7370621
+Remove Parameter,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,package,ModuleHandler,3,d000e630775cfa45752eeb491a197283e7370621
+Rename Method,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,,ModuleHandler,2,d000e630775cfa45752eeb491a197283e7370621
+Rename Parameter,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,package,ModuleHandler,2,d000e630775cfa45752eeb491a197283e7370621
+Remove Parameter,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,package,ModuleHandler,3,d000e630775cfa45752eeb491a197283e7370621
+Rename Method,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,,ModuleHandler,2,d000e630775cfa45752eeb491a197283e7370621
+Change Return Type,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,package,ModuleHandler,4,d000e630775cfa45752eeb491a197283e7370621
+Rename Parameter,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,package,ModuleHandler,2,d000e630775cfa45752eeb491a197283e7370621
+Change Parameter Type,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,package,ModuleHandler,2,d000e630775cfa45752eeb491a197283e7370621
+Move And Inline Method,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,,ModuleHandler,348,d000e630775cfa45752eeb491a197283e7370621
+Rename Method,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,,ModuleHandler,16,d000e630775cfa45752eeb491a197283e7370621
+Rename Parameter,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,package,ModuleHandler,2,d000e630775cfa45752eeb491a197283e7370621
+Remove Parameter,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,package,ModuleHandler,17,d000e630775cfa45752eeb491a197283e7370621
+Rename Method,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,,ModuleHandler,18,d000e630775cfa45752eeb491a197283e7370621
+Change Return Type,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,package,ModuleHandler,20,d000e630775cfa45752eeb491a197283e7370621
+Rename Parameter,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,package,ModuleHandler,2,d000e630775cfa45752eeb491a197283e7370621
+Change Parameter Type,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,package,ModuleHandler,2,d000e630775cfa45752eeb491a197283e7370621
+Remove Thrown Exception Type,mockito-core/src/test/java/org/mockito/internal/creation/bytebuddy/InlineDelegateByteBuddyMockMakerTest.java,public,InlineDelegateByteBuddyMockMakerTest,26,c81be5deedfd966bd17c9619769a34c74d9779e6
+Extract Variable,mockito-core/src/main/java/org/mockito/internal/stubbing/InvocationContainerImpl.java,package,InvocationContainerImpl,3,6e53f34a3f54d2b7dc23595566b9331a94b57263
+Move Source Folder,mockito-core/src/test/java/org/mockitoutil/ClassLoaders.java,,ClassLoaders,1287,1193be78bb3e82136ac8c2c94f744337f39c57c7
+Rename Method,mockito-core/src/test/java/org/mockitoutil/SimplePerRealmReloadingClassLoader.java,,SimplePerRealmReloadingClassLoader,8,1193be78bb3e82136ac8c2c94f744337f39c57c7
+Move Source Folder,,,,0,1193be78bb3e82136ac8c2c94f744337f39c57c7

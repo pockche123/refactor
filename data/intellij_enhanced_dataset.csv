@@ -1,0 +1,126 @@
+refactoring_type,class_name,method_name,lines_changed,cyclomatic_complexity,nesting_depth,file_path,commit_sha,class_encoded,method_encoded
+Extract Method,TransientVirtualFileImpl,,14,6,3,platform/analysis-api/src/com/intellij/openapi/vfs/newvfs/TransientVirtualFileImpl.java,e6c9306615f1ecb1c375eda4df01efe3dd901cd9,17,0
+Replace Attribute With Variable,TransientVirtualFileImpl,public,1,1,1,platform/analysis-api/src/com/intellij/openapi/vfs/newvfs/TransientVirtualFileImpl.java,e6c9306615f1ecb1c375eda4df01efe3dd901cd9,17,4
+Rename Attribute,TransientVirtualFileImpl,,1,1,1,platform/analysis-api/src/com/intellij/openapi/vfs/newvfs/TransientVirtualFileImpl.java,e6c9306615f1ecb1c375eda4df01efe3dd901cd9,17,0
+Change Attribute Type,TransientVirtualFileImpl,,1,1,1,platform/analysis-api/src/com/intellij/openapi/vfs/newvfs/TransientVirtualFileImpl.java,e6c9306615f1ecb1c375eda4df01efe3dd901cd9,17,0
+Remove Attribute Modifier,TransientVirtualFileImpl,,1,1,1,platform/analysis-api/src/com/intellij/openapi/vfs/newvfs/TransientVirtualFileImpl.java,e6c9306615f1ecb1c375eda4df01efe3dd901cd9,17,0
+Add Attribute Annotation,CompletionProgressIndicator,,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,d9a633b5b56343ae7667ee877387e894c48dd5a2,9,0
+Add Attribute Annotation,CompletionProgressIndicator,,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,d9a633b5b56343ae7667ee877387e894c48dd5a2,9,0
+Add Attribute Annotation,CompletionProgressIndicator,,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,d9a633b5b56343ae7667ee877387e894c48dd5a2,9,0
+Add Attribute Annotation,CompletionProgressIndicator,,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,d9a633b5b56343ae7667ee877387e894c48dd5a2,9,0
+Add Attribute Annotation,CompletionProgressIndicator,,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,d9a633b5b56343ae7667ee877387e894c48dd5a2,9,0
+Add Attribute Annotation,CompletionProgressIndicator,,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,d9a633b5b56343ae7667ee877387e894c48dd5a2,9,0
+Add Attribute Annotation,CompletionProgressIndicator,,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,d9a633b5b56343ae7667ee877387e894c48dd5a2,9,0
+Add Parameter Annotation,CompletionProcessEx,public,1,1,1,platform/analysis-impl/src/com/intellij/codeInsight/completion/CompletionProcessEx.java,9075c2868897995aed0dfa7c7a29afab9eec0202,8,4
+Rename Parameter,CompletionProcessEx,public,1,1,1,platform/analysis-impl/src/com/intellij/codeInsight/completion/CompletionProcessEx.java,9075c2868897995aed0dfa7c7a29afab9eec0202,8,4
+Add Parameter Annotation,BaseCompletionLookupArranger,public,1,1,1,platform/analysis-impl/src/com/intellij/codeInsight/completion/BaseCompletionLookupArranger.java,6e96835a5997dfc842a223fe473363aeb2be4f4d,3,4
+Add Parameter Annotation,CompletionProcessBase,public,1,1,1,platform/analysis-impl/src/com/intellij/codeInsight/completion/CompletionProcessBase.java,6e96835a5997dfc842a223fe473363aeb2be4f4d,7,4
+Add Parameter Annotation,CompletionProgressIndicator,private,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,6e96835a5997dfc842a223fe473363aeb2be4f4d,9,2
+Add Parameter Annotation,CompletionProgressIndicator,private,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,6e96835a5997dfc842a223fe473363aeb2be4f4d,9,2
+Add Parameter Annotation,CompletionProgressIndicator,private,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,6e96835a5997dfc842a223fe473363aeb2be4f4d,9,2
+Add Parameter Annotation,CompletionProgressIndicator,private,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,6e96835a5997dfc842a223fe473363aeb2be4f4d,9,2
+Add Parameter Annotation,CompletionProgressIndicator,private,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,6e96835a5997dfc842a223fe473363aeb2be4f4d,9,2
+Add Parameter Annotation,CompletionProgressIndicator,package,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,6e96835a5997dfc842a223fe473363aeb2be4f4d,9,1
+Add Method Annotation,CompletionProgressIndicator,private,3,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,6e96835a5997dfc842a223fe473363aeb2be4f4d,9,2
+Add Parameter Annotation,CompletionProgressIndicator,package,1,2,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,6e96835a5997dfc842a223fe473363aeb2be4f4d,9,1
+Add Parameter Annotation,CompletionProgressIndicator,package,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,6e96835a5997dfc842a223fe473363aeb2be4f4d,9,1
+Add Parameter Annotation,CompletionProgressIndicator,private,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,6e96835a5997dfc842a223fe473363aeb2be4f4d,9,2
+Add Parameter Annotation,CompletionProgressIndicator,public,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,6e96835a5997dfc842a223fe473363aeb2be4f4d,9,4
+Add Parameter Annotation,CompletionProgressIndicator,public,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,6e96835a5997dfc842a223fe473363aeb2be4f4d,9,4
+Add Parameter Annotation,CompletionProgressIndicator,public,1,2,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,6e96835a5997dfc842a223fe473363aeb2be4f4d,9,4
+Add Parameter Annotation,CompletionProgressIndicator,private,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,6e96835a5997dfc842a223fe473363aeb2be4f4d,9,2
+Add Parameter Annotation,CompletionProgressIndicator,private,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,6e96835a5997dfc842a223fe473363aeb2be4f4d,9,2
+Add Parameter Annotation,CompletionProgressIndicator,private,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,6e96835a5997dfc842a223fe473363aeb2be4f4d,9,2
+Add Parameter Annotation,CompletionProgressIndicator,public,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,6e96835a5997dfc842a223fe473363aeb2be4f4d,9,4
+Add Parameter Annotation,CompletionProgressIndicator,private,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,6e96835a5997dfc842a223fe473363aeb2be4f4d,9,2
+Add Parameter Annotation,CompletionProgressIndicator,private,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,6e96835a5997dfc842a223fe473363aeb2be4f4d,9,2
+Add Parameter Annotation,CompletionProgressIndicator,private,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,6e96835a5997dfc842a223fe473363aeb2be4f4d,9,2
+Add Attribute Annotation,CompletionProgressIndicator,,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,6e96835a5997dfc842a223fe473363aeb2be4f4d,9,0
+Add Parameter Annotation,CompletionProgressIndicator,package,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,6e96835a5997dfc842a223fe473363aeb2be4f4d,9,1
+Add Parameter Annotation,CodeCompletionHandlerBase,private,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CodeCompletionHandlerBase.java,5fed472b7c331401b1a279ac5b0660a565d4eec4,5,2
+Add Parameter Annotation,CodeCompletionHandlerBase,protected,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CodeCompletionHandlerBase.java,26764034139143fafc541bd07faf69712da05db8,5,3
+Remove Parameter Modifier,CodeCompletionHandlerBase,protected,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CodeCompletionHandlerBase.java,26764034139143fafc541bd07faf69712da05db8,5,3
+Add Parameter Annotation,CompletionProgressIndicator,private,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,26764034139143fafc541bd07faf69712da05db8,9,2
+Rename Variable,CompletionProgressIndicator,private,1,2,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,26764034139143fafc541bd07faf69712da05db8,9,2
+Add Parameter Annotation,EditorTestFixture,protected,1,1,1,platform/testFramework/src/com/intellij/testFramework/fixtures/EditorTestFixture.java,26764034139143fafc541bd07faf69712da05db8,10,3
+Add Parameter Annotation,LookupImpl,public,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/lookup/impl/LookupImpl.java,1ef1057c9703fba6f6bd4fa2fc49e606e0b0226a,14,4
+Add Parameter Annotation,LookupImpl,public,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/lookup/impl/LookupImpl.java,1ef1057c9703fba6f6bd4fa2fc49e606e0b0226a,14,4
+Extract Method,CompletionPhase,,38,12,4,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionPhase.java,b3aaca1310eb726ba2cacb650296fae7792b92f1,6,0
+Extract Method,CompletionPhase,,38,12,4,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionPhase.java,b3aaca1310eb726ba2cacb650296fae7792b92f1,6,0
+Add Parameter Annotation,CompletionProgressIndicator,package,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,c177e3bf87bae432d247cff0012c1dc2ff218ba8,9,1
+Move Class,LocalInspectionTestGenerated,,33,2,1,plugins/kotlin/idea/tests/test/org/jetbrains/kotlin/idea/inspections/LocalInspectionTestGenerated.java,f6c74ffa8d315ac4d88b7bfa56d314faa3df6740,13,0
+Modify Class Annotation,LocalInspectionTestGenerated,,1,2,1,plugins/kotlin/idea/tests/test/org/jetbrains/kotlin/idea/inspections/LocalInspectionTestGenerated.java,f6c74ffa8d315ac4d88b7bfa56d314faa3df6740,13,0
+Add Class Annotation,EnvironmentUtilTest,,65,6,3,platform/util/testSrc/com/intellij/util/EnvironmentUtilTest.java,da0bb5526d5033e9b6607221e8f1d290a4b9f1b4,11,0
+Change Variable Type,EnvironmentUtilTest,private,1,1,1,platform/util/testSrc/com/intellij/util/EnvironmentUtilTest.java,da0bb5526d5033e9b6607221e8f1d290a4b9f1b4,11,2
+Change Variable Type,EnvironmentUtilTest,private,1,1,1,platform/util/testSrc/com/intellij/util/EnvironmentUtilTest.java,da0bb5526d5033e9b6607221e8f1d290a4b9f1b4,11,2
+Modify Method Annotation,EnvironmentUtilTest,package,1,1,1,platform/util/testSrc/com/intellij/util/EnvironmentUtilTest.java,da0bb5526d5033e9b6607221e8f1d290a4b9f1b4,11,1
+Change Method Access Modifier,EnvironmentUtilTest,package,4,1,1,platform/util/testSrc/com/intellij/util/EnvironmentUtilTest.java,da0bb5526d5033e9b6607221e8f1d290a4b9f1b4,11,1
+Change Method Access Modifier,EnvironmentUtilTest,package,7,2,2,platform/util/testSrc/com/intellij/util/EnvironmentUtilTest.java,da0bb5526d5033e9b6607221e8f1d290a4b9f1b4,11,1
+Change Method Access Modifier,EnvironmentUtilTest,package,15,4,2,platform/util/testSrc/com/intellij/util/EnvironmentUtilTest.java,da0bb5526d5033e9b6607221e8f1d290a4b9f1b4,11,1
+Change Variable Type,EnvironmentUtilTest,package,1,2,1,platform/util/testSrc/com/intellij/util/EnvironmentUtilTest.java,da0bb5526d5033e9b6607221e8f1d290a4b9f1b4,11,1
+Change Variable Type,EnvironmentUtilTest,package,1,1,1,platform/util/testSrc/com/intellij/util/EnvironmentUtilTest.java,da0bb5526d5033e9b6607221e8f1d290a4b9f1b4,11,1
+Change Method Access Modifier,EnvironmentUtilTest,package,6,2,1,platform/util/testSrc/com/intellij/util/EnvironmentUtilTest.java,da0bb5526d5033e9b6607221e8f1d290a4b9f1b4,11,1
+Change Variable Type,EnvironmentUtilTest,package,1,1,1,platform/util/testSrc/com/intellij/util/EnvironmentUtilTest.java,da0bb5526d5033e9b6607221e8f1d290a4b9f1b4,11,1
+Change Method Access Modifier,EnvironmentUtilTest,package,5,1,1,platform/util/testSrc/com/intellij/util/EnvironmentUtilTest.java,da0bb5526d5033e9b6607221e8f1d290a4b9f1b4,11,1
+Change Variable Type,EnvironmentUtilTest,package,1,1,1,platform/util/testSrc/com/intellij/util/EnvironmentUtilTest.java,da0bb5526d5033e9b6607221e8f1d290a4b9f1b4,11,1
+Change Method Access Modifier,EnvironmentUtilTest,package,6,1,1,platform/util/testSrc/com/intellij/util/EnvironmentUtilTest.java,da0bb5526d5033e9b6607221e8f1d290a4b9f1b4,11,1
+Change Variable Type,EnvironmentUtilTest,package,1,1,1,platform/util/testSrc/com/intellij/util/EnvironmentUtilTest.java,da0bb5526d5033e9b6607221e8f1d290a4b9f1b4,11,1
+Change Method Access Modifier,EnvironmentUtilTest,package,7,1,1,platform/util/testSrc/com/intellij/util/EnvironmentUtilTest.java,da0bb5526d5033e9b6607221e8f1d290a4b9f1b4,11,1
+Inline Variable,HgMoveTest,public,1,1,1,plugins/hg4idea/testSrc/org/zmlx/hg4idea/test/HgMoveTest.java,88828ba67642ae9b36756889de4d445b5bb15fe9,12,4
+Change Variable Type,HgMoveTest,public,1,1,1,plugins/hg4idea/testSrc/org/zmlx/hg4idea/test/HgMoveTest.java,88828ba67642ae9b36756889de4d445b5bb15fe9,12,4
+Add Class Annotation,CheckCanceledEvent,,46,9,2,platform/platform-impl/src/com/intellij/openapi/progress/impl/CheckCanceledEvent.java,221242a510cce7c2ad2389c10ede8b2f5e9183ca,4,0
+Extract Variable,AddMissingPropertyFix,public,1,1,1,json/backend/src/com/jetbrains/jsonSchema/impl/fixes/AddMissingPropertyFix.java,e6875fbbef6976e52cd157436e95963e0b11982e,2,4
+Add Method Annotation,WatchNodeImpl,public,3,1,1,platform/xdebugger-impl/src/com/intellij/xdebugger/impl/ui/tree/nodes/WatchNodeImpl.java,e98d6fd3593c34427bb5233f0aef64ca80270f59,18,4
+Add Class Annotation,XEvaluationCallbackWithOrigin,,3,1,1,platform/xdebugger-impl/src/com/intellij/xdebugger/impl/ui/tree/nodes/XEvaluationCallbackWithOrigin.java,e98d6fd3593c34427bb5233f0aef64ca80270f59,19,0
+Add Class Annotation,ActionGroupPanelWrapper,,44,5,4,platform/platform-impl/src/com/intellij/openapi/wm/impl/welcomeScreen/ActionGroupPanelWrapper.java,dbd4a6b928d91015838b32e6446f110f1afb585d,0,0
+Replace Anonymous With Class,ActionGroupPanelWrapper,,44,5,4,platform/platform-impl/src/com/intellij/openapi/wm/impl/welcomeScreen/ActionGroupPanelWrapper.java,dbd4a6b928d91015838b32e6446f110f1afb585d,0,0
+Rename Method,ActionGroupPanelWrapper,,22,6,5,platform/platform-impl/src/com/intellij/openapi/wm/impl/welcomeScreen/ActionGroupPanelWrapper.java,dbd4a6b928d91015838b32e6446f110f1afb585d,0,0
+Change Variable Type,ActionGroupPanelWrapper,public,2,1,1,platform/platform-impl/src/com/intellij/openapi/wm/impl/welcomeScreen/ActionGroupPanelWrapper.java,dbd4a6b928d91015838b32e6446f110f1afb585d,0,4
+Rename Variable,ActionGroupPanelWrapper,public,2,1,1,platform/platform-impl/src/com/intellij/openapi/wm/impl/welcomeScreen/ActionGroupPanelWrapper.java,dbd4a6b928d91015838b32e6446f110f1afb585d,0,4
+Rename Variable,ActionGroupPanelWrapper,public,1,1,1,platform/platform-impl/src/com/intellij/openapi/wm/impl/welcomeScreen/ActionGroupPanelWrapper.java,dbd4a6b928d91015838b32e6446f110f1afb585d,0,4
+Rename Variable,ActionGroupPanelWrapper,public,1,2,1,platform/platform-impl/src/com/intellij/openapi/wm/impl/welcomeScreen/ActionGroupPanelWrapper.java,dbd4a6b928d91015838b32e6446f110f1afb585d,0,4
+Rename Parameter,ActionGroupPanelWrapper,public,1,1,1,platform/platform-impl/src/com/intellij/openapi/wm/impl/welcomeScreen/ActionGroupPanelWrapper.java,dbd4a6b928d91015838b32e6446f110f1afb585d,0,4
+Rename Variable,ActionGroupPanelWrapper,private,1,1,1,platform/platform-impl/src/com/intellij/openapi/wm/impl/welcomeScreen/ActionGroupPanelWrapper.java,dbd4a6b928d91015838b32e6446f110f1afb585d,0,2
+Add Method Annotation,PsiDocumentManagerBase,public,6,1,1,platform/core-impl/src/com/intellij/psi/impl/PsiDocumentManagerBase.java,fa299d562f733d636bd58a58db1db9613322d4cd,15,4
+Rename Method,PsiDocumentManagerImplTest,,10,4,1,platform/platform-tests/testSrc/com/intellij/psi/impl/PsiDocumentManagerImplTest.java,fa299d562f733d636bd58a58db1db9613322d4cd,16,0
+Rename Method,PsiDocumentManagerImplTest,,55,4,5,platform/platform-tests/testSrc/com/intellij/psi/impl/PsiDocumentManagerImplTest.java,fa299d562f733d636bd58a58db1db9613322d4cd,16,0
+Extract Method,PsiDocumentManagerImplTest,,55,4,5,platform/platform-tests/testSrc/com/intellij/psi/impl/PsiDocumentManagerImplTest.java,fa299d562f733d636bd58a58db1db9613322d4cd,16,0
+Extract Method,PsiDocumentManagerImplTest,,55,4,5,platform/platform-tests/testSrc/com/intellij/psi/impl/PsiDocumentManagerImplTest.java,fa299d562f733d636bd58a58db1db9613322d4cd,16,0
+Replace Variable With Attribute,PsiDocumentManagerImplTest,private,1,1,1,platform/platform-tests/testSrc/com/intellij/psi/impl/PsiDocumentManagerImplTest.java,fa299d562f733d636bd58a58db1db9613322d4cd,16,2
+Extract Variable,PsiDocumentManagerImplTest,private,14,2,2,platform/platform-tests/testSrc/com/intellij/psi/impl/PsiDocumentManagerImplTest.java,fa299d562f733d636bd58a58db1db9613322d4cd,16,2
+Change Variable Type,PsiDocumentManagerImplTest,private,1,2,1,platform/platform-tests/testSrc/com/intellij/psi/impl/PsiDocumentManagerImplTest.java,fa299d562f733d636bd58a58db1db9613322d4cd,16,2
+Rename Variable,PsiDocumentManagerImplTest,private,1,2,1,platform/platform-tests/testSrc/com/intellij/psi/impl/PsiDocumentManagerImplTest.java,fa299d562f733d636bd58a58db1db9613322d4cd,16,2
+Move Code,PsiDocumentManagerImplTest,,55,4,5,platform/platform-tests/testSrc/com/intellij/psi/impl/PsiDocumentManagerImplTest.java,fa299d562f733d636bd58a58db1db9613322d4cd,16,0
+Extract Variable,PsiDocumentManagerImplTest,private,5,4,1,platform/platform-tests/testSrc/com/intellij/psi/impl/PsiDocumentManagerImplTest.java,fa299d562f733d636bd58a58db1db9613322d4cd,16,2
+Change Thrown Exception Type,PsiDocumentManagerImplTest,public,1,1,1,platform/platform-tests/testSrc/com/intellij/psi/impl/PsiDocumentManagerImplTest.java,fa299d562f733d636bd58a58db1db9613322d4cd,16,4
+Add Method Annotation,CodeCompletionHandlerBase,public,3,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CodeCompletionHandlerBase.java,882da60d891257a4ec7dcd3de8274a67b1efc8bf,5,4
+Add Method Annotation,CodeCompletionHandlerBase,public,6,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CodeCompletionHandlerBase.java,882da60d891257a4ec7dcd3de8274a67b1efc8bf,5,4
+Add Parameter Annotation,CodeCompletionHandlerBase,public,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CodeCompletionHandlerBase.java,882da60d891257a4ec7dcd3de8274a67b1efc8bf,5,4
+Add Method Annotation,CodeCompletionHandlerBase,public,13,2,2,platform/lang-impl/src/com/intellij/codeInsight/completion/CodeCompletionHandlerBase.java,882da60d891257a4ec7dcd3de8274a67b1efc8bf,5,4
+Add Parameter Annotation,CompletionPhase,package,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionPhase.java,5f5b00a7ff86c2b12f5d2092244690b226e75a3f,6,1
+Add Parameter Annotation,CompletionPhase,package,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionPhase.java,5f5b00a7ff86c2b12f5d2092244690b226e75a3f,6,1
+Add Parameter Annotation,CodeCompletionHandlerBase,private,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CodeCompletionHandlerBase.java,3b9fba495ef71321782639cb8cf08a0fce099274,5,2
+Add Parameter Annotation,CodeCompletionHandlerBase,private,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CodeCompletionHandlerBase.java,3b9fba495ef71321782639cb8cf08a0fce099274,5,2
+Add Parameter Annotation,CodeCompletionHandlerBase,private,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CodeCompletionHandlerBase.java,3b9fba495ef71321782639cb8cf08a0fce099274,5,2
+Add Parameter Annotation,CodeCompletionHandlerBase,private,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CodeCompletionHandlerBase.java,3b9fba495ef71321782639cb8cf08a0fce099274,5,2
+Add Parameter Annotation,CodeCompletionHandlerBase,private,1,2,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CodeCompletionHandlerBase.java,3b9fba495ef71321782639cb8cf08a0fce099274,5,2
+Change Method Access Modifier,CompletionPhase,package,3,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionPhase.java,26aa6dc4def83c2150aa99fce863953a1bd3ccde,6,1
+Change Method Access Modifier,CompletionPhase,package,38,12,4,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionPhase.java,26aa6dc4def83c2150aa99fce863953a1bd3ccde,6,1
+Change Method Access Modifier,CompletionPhase,package,3,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionPhase.java,26aa6dc4def83c2150aa99fce863953a1bd3ccde,6,1
+Add Parameter Annotation,CodeCompletionHandlerBase,protected,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CodeCompletionHandlerBase.java,391f4f62f4ad8e77541aff22992694daa46360ca,5,3
+Add Parameter Annotation,CodeCompletionHandlerBase,private,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CodeCompletionHandlerBase.java,391f4f62f4ad8e77541aff22992694daa46360ca,5,2
+Add Parameter Annotation,CodeCompletionHandlerBase,private,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CodeCompletionHandlerBase.java,391f4f62f4ad8e77541aff22992694daa46360ca,5,2
+Add Method Annotation,CodeCompletionHandlerBase,private,21,1,2,platform/lang-impl/src/com/intellij/codeInsight/completion/CodeCompletionHandlerBase.java,391f4f62f4ad8e77541aff22992694daa46360ca,5,2
+Add Parameter Annotation,CompletionProgressIndicator,package,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,391f4f62f4ad8e77541aff22992694daa46360ca,9,1
+Add Parameter Annotation,CompletionProgressIndicator,package,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,391f4f62f4ad8e77541aff22992694daa46360ca,9,1
+Add Parameter Annotation,CompletionPhase,public,1,4,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionPhase.java,391f4f62f4ad8e77541aff22992694daa46360ca,6,4
+Remove Parameter Modifier,CompletionPhase,public,1,4,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionPhase.java,391f4f62f4ad8e77541aff22992694daa46360ca,6,4
+Add Attribute Annotation,CompletionPhase,,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionPhase.java,391f4f62f4ad8e77541aff22992694daa46360ca,6,0
+Add Parameter Annotation,CompletionPhase,package,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionPhase.java,391f4f62f4ad8e77541aff22992694daa46360ca,6,1
+Add Parameter Annotation,CompletionPhase,package,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionPhase.java,391f4f62f4ad8e77541aff22992694daa46360ca,6,1
+Add Parameter Annotation,CompletionPhase,package,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionPhase.java,391f4f62f4ad8e77541aff22992694daa46360ca,6,1
+Add Parameter Annotation,CompletionPhase,package,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionPhase.java,391f4f62f4ad8e77541aff22992694daa46360ca,6,1
+Add Parameter Annotation,CompletionPhase,package,1,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionPhase.java,391f4f62f4ad8e77541aff22992694daa46360ca,6,1
+Add Method Annotation,CompletionPhase,public,4,1,1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionPhase.java,a3f1066d5bf1c449e157123b225b10550a67358e,6,4
+Extract Method,ActionTracker,,16,2,3,platform/lang-impl/src/com/intellij/codeInsight/completion/ActionTracker.java,0d8508a26784c1e0eedd76b1d02b08cff9d3cb07,1,0
+Extract Method,ActionTracker,,17,3,4,platform/lang-impl/src/com/intellij/codeInsight/completion/ActionTracker.java,0d8508a26784c1e0eedd76b1d02b08cff9d3cb07,1,0

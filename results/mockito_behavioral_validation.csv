@@ -1,0 +1,6 @@
+index,actual_refactoring,predicted_refactoring,file_path,applied,valid,tests_passed
+0,Rename Method,Rename Method,mockito-core/src/test/java/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValuesTest.java,True,True,True
+1,Rename Method,Rename Method,mockito-core/src/test/java/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValuesTest.java,True,True,True
+2,Rename Method,Rename Method,mockito-core/src/test/java/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValuesTest.java,True,True,True
+3,Remove Variable Modifier,Change Variable Type,mockito-core/src/test/java/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValuesTest.java,False,False,False
+4,Add Method Annotation,Add Method Annotation,mockito-core/src/test/java/org/mockito/internal/util/collections/HashCodeAndEqualsSafeSetTest.java,False,False,False

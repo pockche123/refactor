@@ -1,0 +1,35 @@
+refactoring_type,predicted,correct,file_path
+Extract Method,Extract Method,True,platform/platform-tests/testSrc/com/intellij/psi/impl/PsiDocumentManagerImplTest.java
+Add Parameter Annotation,Remove Parameter Modifier,False,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionPhase.java
+Add Class Annotation,Rename Method,False,platform/platform-impl/src/com/intellij/openapi/wm/impl/welcomeScreen/ActionGroupPanelWrapper.java
+Add Parameter Annotation,Add Parameter Annotation,True,platform/lang-impl/src/com/intellij/codeInsight/lookup/impl/LookupImpl.java
+Add Parameter Annotation,Remove Parameter,False,platform/analysis-impl/src/com/intellij/codeInsight/completion/BaseCompletionLookupArranger.java
+Add Parameter Annotation,Add Parameter Annotation,True,platform/analysis-impl/src/com/intellij/codeInsight/completion/CompletionProcessBase.java
+Rename Variable,Rename Parameter,False,platform/platform-impl/src/com/intellij/openapi/wm/impl/welcomeScreen/ActionGroupPanelWrapper.java
+Add Parameter Annotation,Add Parameter Annotation,True,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java
+Add Parameter Annotation,Add Parameter Annotation,True,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionPhase.java
+Change Method Access Modifier,Add Parameter,False,platform/util/testSrc/com/intellij/util/EnvironmentUtilTest.java
+Add Method Annotation,Add Method Annotation,True,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionPhase.java
+Extract Variable,Change Return Type,False,json/backend/src/com/jetbrains/jsonSchema/impl/fixes/AddMissingPropertyFix.java
+Add Parameter Annotation,Remove Thrown Exception Type,False,platform/testFramework/src/com/intellij/testFramework/fixtures/EditorTestFixture.java
+Rename Method,Extract Method,False,platform/platform-tests/testSrc/com/intellij/psi/impl/PsiDocumentManagerImplTest.java
+Add Attribute Annotation,Rename Attribute,False,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionPhase.java
+Add Parameter Annotation,Change Parameter Type,False,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java
+Add Parameter Annotation,Add Parameter Annotation,True,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java
+Change Variable Type,Change Variable Type,True,platform/util/testSrc/com/intellij/util/EnvironmentUtilTest.java
+Add Method Annotation,Add Method Annotation,True,platform/core-impl/src/com/intellij/psi/impl/PsiDocumentManagerBase.java
+Change Variable Type,Change Variable Type,True,platform/util/testSrc/com/intellij/util/EnvironmentUtilTest.java
+Add Attribute Annotation,Add Attribute Annotation,True,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java
+Add Attribute Annotation,Add Attribute Annotation,True,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java
+Add Parameter Annotation,Add Parameter Annotation,True,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionPhase.java
+Add Parameter Annotation,Add Parameter Annotation,True,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java
+Extract Method,Extract Method,True,platform/lang-impl/src/com/intellij/codeInsight/completion/ActionTracker.java
+Rename Parameter,Add Parameter Annotation,False,platform/analysis-impl/src/com/intellij/codeInsight/completion/CompletionProcessEx.java
+Add Parameter Annotation,Add Parameter Annotation,True,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java
+Add Parameter Annotation,Add Parameter Annotation,True,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java
+Add Parameter Annotation,Add Parameter Annotation,True,platform/lang-impl/src/com/intellij/codeInsight/completion/CodeCompletionHandlerBase.java
+Rename Variable,Add Parameter Annotation,False,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java
+Change Method Access Modifier,Change Method Access Modifier,True,platform/util/testSrc/com/intellij/util/EnvironmentUtilTest.java
+Change Variable Type,Change Variable Type,True,platform/util/testSrc/com/intellij/util/EnvironmentUtilTest.java
+Add Parameter Annotation,Remove Parameter Modifier,False,platform/lang-impl/src/com/intellij/codeInsight/completion/CodeCompletionHandlerBase.java
+Change Method Access Modifier,Add Parameter,False,platform/util/testSrc/com/intellij/util/EnvironmentUtilTest.java

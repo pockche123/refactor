@@ -1,0 +1,730 @@
+refactoring_type,predicted,correct,file_path
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/set/PredicatedSetTest.java
+Change Class Access Modifier,Rename Method,False,src/test/java/org/apache/commons/collections4/bloomfilter/BloomFilterExtractorFromBloomFilterArrayTest.java
+Change Class Access Modifier,Change Class Access Modifier,True,src/test/java/org/apache/commons/collections4/EnumerationUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/properties/AbstractPropertiesFactoryTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bag/AbstractBagTest.java
+Remove Parameter Modifier,Remove Parameter Modifier,True,gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/DefaultAbstractLinkedListJava21Test.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/BoundedIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/MapUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/SkippingIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/AbstractMapTest.java
+Change Return Type,Change Return Type,True,src/test/java/org/apache/commons/collections4/bag/AbstractBagTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/Flat3MapTest.java
+Change Attribute Access Modifier,Change Attribute Access Modifier,True,gson/src/test/java/com/google/gson/functional/JsonAdapterAnnotationOnFieldsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,gson/src/main/java/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.java
+Add Parameter Modifier,Add Parameter Modifier,True,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bag/AbstractBagTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Remove Variable Annotation,Remove Variable Annotation,True,src/test/java/org/apache/commons/collections4/map/MultiValueMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/ListUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Rename Parameter,Rename Parameter,True,src/main/java/org/apache/commons/collections4/functors/FunctorUtils.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/ClosureUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/MapUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/CartesianProductIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/IteratorUtilsTest.java
+Remove Attribute Annotation,Remove Attribute Annotation,True,gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/ListOrderedMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/PermutationIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/queue/AbstractQueueTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/CompositeMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/CartesianProductIteratorTest.java
+Change Class Access Modifier,Change Class Access Modifier,True,src/test/java/org/apache/commons/collections4/comparators/BooleanComparatorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/properties/EmptyPropertiesTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/IterableUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/UnmodifiableMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/sequence/SequencesComparatorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/UnmodifiableMapIteratorTest.java
+Change Class Access Modifier,Change Class Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/IndexExtractorFromSimpleBloomFilterTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/AbstractListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/DefaultBloomFilterTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/MultiKeyMapTest.java
+Remove Class Annotation,Add Parameter Modifier,False,src/main/java/org/apache/commons/collections4/Factory.java
+Extract Method,Add Method Annotation,False,test-shrinker/src/test/java/com/google/gson/it/ShrinkingIT.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/AbstractBitMapExtractorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/multiset/PredicatedMultiSetTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bidimap/AbstractSortedBidiMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/PredicateUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/TransformedListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/TransformedMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/SetOperationsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/LazyIteratorChainTest.java
+Extract Method,Add Parameter Modifier,False,src/main/java/org/apache/commons/collections4/IteratorUtils.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/ExtendedIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/queue/AbstractQueueTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/comparators/ComparatorChainTest.java
+Remove Variable Modifier,Remove Variable Modifier,True,gson/src/test/java/com/google/gson/GsonTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/DefaultIndexExtractorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/PassiveExpiringMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/CursorableLinkedListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bag/UnmodifiableBagTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/multiset/AbstractMultiSetTest.java
+Replace Anonymous With Lambda,Replace Anonymous With Lambda,True,gson/src/test/java/com/google/gson/GsonTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/AbstractMapTest.java
+Add Method Annotation,Add Method Annotation,True,src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/TransformerUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/PredicateUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/EnumerationUtilsTest.java
+Remove Method Annotation,Remove Method Annotation,True,src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/CursorableLinkedListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/multimap/HashSetValuedHashMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/CursorableLinkedListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/SetUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/MapUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/set/ListOrderedSetTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/PredicateUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/CountingPredicateTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/SkippingIteratorTest.java
+Add Class Annotation,Add Class Annotation,True,gson/src/main/java/com/google/gson/internal/bind/util/ISO8601Utils.java
+Replace Anonymous With Lambda,Move Code,False,gson/src/test/java/com/google/gson/GsonTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/FluentIterableTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/queue/CircularFifoQueueTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/AbstractMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/ReverseListIteratorTest.java
+Change Attribute Access Modifier,Change Attribute Access Modifier,True,gson/src/test/java/com/google/gson/ExposeAnnotationExclusionStrategyTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/properties/EmptyPropertiesTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/properties/EmptyPropertiesTest.java
+Remove Variable Modifier,Remove Parameter Modifier,False,gson/src/main/java/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.java
+Remove Variable Modifier,Remove Variable Modifier,True,gson/src/test/java/com/google/gson/GsonTest.java
+Remove Class Annotation,Remove Variable Modifier,False,src/main/java/org/apache/commons/collections4/Predicate.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/PermutationIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/SetUniqueListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/DefaultAbstractLinkedListJava21Test.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/FixedSizeListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/IteratorUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/multimap/TransformedMultiValuedMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/AbstractListIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/LayeredBloomFilterTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/UnmodifiableIteratorTest.java
+Replace Anonymous With Lambda,Remove Variable Modifier,False,gson/src/test/java/com/google/gson/functional/CustomSerializerTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/BitMapTrackerTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bidimap/AbstractBidiMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/AbstractMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/PredicatedListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,gson/src/test/java/com/google/gson/functional/NamingPolicyTest.java
+Remove Variable Modifier,Remove Variable Modifier,True,proto/src/test/java/com/google/gson/protobuf/functional/ProtosWithComplexAndRepeatedFieldsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/ListUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/LayerManagerTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/PredicateUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/comparators/FixedOrderComparatorTest.java
+Remove Variable Modifier,Remove Variable Modifier,True,gson/src/main/java/com/google/gson/internal/sql/SqlTimestampTypeAdapter.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/collection/AbstractCollectionTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/BoundedIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/MapUtilsTest.java
+Add Class Annotation,Add Class Annotation,True,gson/src/main/java/com/google/gson/internal/$Gson$Preconditions.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/TreeListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/PredicatedSortedMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bidimap/AbstractBidiMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/LayerManagerTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/AbstractOrderedMapIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/SingletonIterator2Test.java
+Add Method Annotation,Move Class,False,gson/src/test/java/com/google/gson/GsonTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/MultiSetUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/functors/AbstractCompositePredicateTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/queue/AbstractQueueTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/FluentIterableTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/ListUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/queue/CircularFifoQueueTest.java
+Modify Method Annotation,Change Method Access Modifier,False,src/test/java/org/apache/commons/collections4/collection/CompositeCollectionTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/Flat3MapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/collection/CompositeCollectionTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/collection/AbstractCollectionTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/comparators/AbstractComparatorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/TransformerUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/multimap/AbstractMultiValuedMapTest.java
+Add Method Annotation,Modify Method Annotation,False,gson/src/test/java/com/google/gson/functional/Java17RecordTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/AbstractMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/FixedSizeListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/multimap/ArrayListValuedHashMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/AbstractIndexExtractorTest.java
+Change Class Access Modifier,Extract Method,False,src/test/java/org/apache/commons/collections4/bloomfilter/DefaultCellExtractorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/SetUniqueListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/ArrayIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,gson/src/test/java/com/google/gson/functional/RuntimeTypeAdapterFactoryFunctionalTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/set/CompositeSetTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/TransformerUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/LoopingIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/SetOperationsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/properties/AbstractPropertiesFactoryTest.java
+Change Parameter Type,Rename Class,False,gson/src/main/java/com/google/gson/internal/$Gson$Types.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/MapUtilsTest.java
+Remove Variable Modifier,Remove Variable Modifier,True,gson/src/test/java/com/google/gson/functional/ReflectionAccessTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/CursorableLinkedListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/functors/EqualPredicateTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,gson/src/test/java/com/google/gson/functional/CustomDeserializerTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/AbstractCountingBloomFilterTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/AbstractMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/queue/CircularFifoQueueTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/Collections701Test.java
+Remove Parameter Modifier,Remove Parameter Modifier,True,gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java
+Remove Variable Modifier,Remove Variable Modifier,True,gson/src/test/java/com/google/gson/GsonTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bidimap/AbstractOrderedBidiMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/MultiValueMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/CollatingIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/LRUMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/comparators/AbstractComparatorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/keyvalue/MultiKeyTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/ExtendedIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/AbstractSortedMapTest.java
+Change Class Access Modifier,Change Class Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/ExtendedIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/MultiKeyMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/AbstractBloomFilterTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/ListOrderedMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/properties/EmptyPropertiesTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/IterableUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/CursorableLinkedListTest.java
+Remove Variable Modifier,Remove Parameter Modifier,False,gson/src/main/java/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/functors/AbstractCompositePredicateTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/ExtendedIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/ReferenceMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/MapUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/AbstractCountingBloomFilterTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bidimap/DualTreeBidiMap2Test.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/set/CompositeSetTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/ReferenceMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/ArrayListIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/AbstractIndexExtractorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/ListUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/IteratorUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/multiset/AbstractMultiSetTest.java
+Remove Class Modifier,Remove Class Modifier,True,gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bag/AbstractBagTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/CaseInsensitiveMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bag/TransformedBagTest.java
+Change Class Access Modifier,Change Class Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/DefaultBitMapExtractorTest.java
+Change Class Access Modifier,Change Class Access Modifier,True,src/test/java/org/apache/commons/collections4/collection/IndexedCollectionTest.java
+Remove Variable Modifier,Add Parameter Modifier,False,gson/src/test/java/com/google/gson/functional/MapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/PredicateUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/AbstractIterableMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/AbstractMapTest.java
+Add Parameter Modifier,Add Parameter Modifier,True,src/main/java/org/apache/commons/lang3/reflect/ConstructorUtils.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/FilterListIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/MapUtilsTest.java
+Remove Variable Modifier,Remove Variable Modifier,True,gson/src/main/java/com/google/gson/internal/ConstructorConstructor.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bidimap/UnmodifiableOrderedBidiMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/MultiValueMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/CompositeMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/PredicateUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/IterableUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/PredicateUtilsTest.java
+Replace Anonymous With Lambda,Remove Parameter Modifier,False,gson/src/test/java/com/google/gson/functional/InstanceCreatorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/properties/EmptyPropertiesTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,gson/src/test/java/com/google/gson/functional/JsonAdapterAnnotationOnFieldsTest.java
+Replace Anonymous With Lambda,Replace Anonymous With Lambda,True,gson/src/test/java/com/google/gson/functional/CustomTypeAdaptersTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/ShapeTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/multiset/UnmodifiableMultiSetTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/ArrayUtilsTest.java
+Remove Variable Modifier,Remove Variable Modifier,True,gson/src/main/java/com/google/gson/internal/Excluder.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/AbstractLinkedListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/multiset/AbstractMultiSetTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/PredicateUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/CursorableLinkedListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/SetOperationsTest.java
+Rename Class,Rename Class,True,src/test/java/org/apache/commons/collections4/map/ListOrderedMapTest.java
+Replace Anonymous With Lambda,Replace Anonymous With Lambda,True,gson/src/test/java/com/google/gson/functional/JsonAdapterAnnotationOnClassesTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/LRUMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/set/UnmodifiableNavigableSetTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/multimap/AbstractMultiValuedMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/IteratorUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/comparators/ComparatorChainTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/AbstractMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/set/PredicatedNavigableSetTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/IterableUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/SkippingIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/keyvalue/TiedMapEntryTest.java
+Change Variable Type,Rename Variable,False,gson/src/main/java/com/google/gson/JsonElement.java
+Change Class Access Modifier,Change Class Access Modifier,True,src/test/java/org/apache/commons/collections4/functors/CatchAndRethrowClosureTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/LayerManagerTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/LayerManagerTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/HashedMapTest.java
+Remove Variable Modifier,Remove Variable Modifier,True,gson/src/main/java/com/google/gson/internal/ConstructorConstructor.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/SimpleBloomFilterTest.java
+Change Class Access Modifier,Change Class Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/IndexExtractorFromBitmapExtractorTest.java
+Change Attribute Access Modifier,Change Attribute Access Modifier,True,gson/src/test/java/com/google/gson/internal/bind/RecursiveTypesResolveTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/collection/IndexedCollectionTest.java
+Add Parameter Modifier,Add Parameter Modifier,True,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/EnumerationUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/BoundedIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/multimap/AbstractMultiValuedMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Change Class Access Modifier,Rename Method,False,src/test/java/org/apache/commons/collections4/bloomfilter/ArrayCountingBloomFilterTest.java
+Remove Parameter Modifier,Replace Anonymous With Lambda,False,gson/src/main/java/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/FilterIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/LazySortedMapTest.java
+Rename Variable,Rename Variable,True,gson/src/test/java/com/google/gson/functional/CustomTypeAdaptersTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/UnmodifiableListTest.java
+Remove Parameter Modifier,Remove Parameter Modifier,True,gson/src/test/java/com/google/gson/functional/TypeAdapterPrecedenceTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/multimap/ArrayListValuedHashMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/MultiKeyMapTest.java
+Move Method,Add Parameter,False,gson/src/main/java/com/google/gson/internal/bind/CollectionTypeAdapterFactory.java
+Remove Variable Modifier,Remove Variable Modifier,True,extras/src/main/java/com/google/gson/graph/GraphAdapterBuilder.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/BoundedIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/ClosureUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/MapUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/AbstractBloomFilterTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/functors/AbstractCompositePredicateTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/FactoryUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/queue/PredicatedQueueTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Remove Parameter Modifier,Remove Parameter Modifier,True,gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/FluentIterableTest.java
+Add Parameter,Add Method Annotation,False,src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java
+Change Attribute Access Modifier,Change Attribute Access Modifier,True,gson/src/test/java/com/google/gson/functional/ReusedTypeVariablesFullyResolveTest.java
+Replace Anonymous With Lambda,Replace Anonymous With Lambda,True,gson/src/test/java/com/google/gson/functional/CustomDeserializerTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/TransformerUtilsTest.java
+Rename Class,Move And Rename Class,False,src/test/java/org/apache/commons/collections4/bidimap/AbstractBidiMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/ListOrderedMap2Test.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/properties/EmptyPropertiesTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/comparators/AbstractComparatorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/FluentIterableTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/Flat3MapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/properties/EmptyPropertiesTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/SetUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/ExtendedIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/ClosureUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/collection/AbstractCollectionTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/LoopingListIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/queue/CircularFifoQueueTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/ClosureUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/LayeredBloomFilterTest.java
+Remove Variable Modifier,Remove Variable Modifier,True,extras/src/main/java/com/google/gson/graph/GraphAdapterBuilder.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/MapUtilsTest.java
+Change Class Access Modifier,Change Class Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/CellExtractorFromArrayCountingBloomFilterTest.java
+Replace Anonymous With Lambda,Extract And Move Method,False,gson/src/test/java/com/google/gson/functional/TypeAdapterRuntimeTypeWrapperTest.java
+Replace Anonymous With Lambda,Add Method Annotation,False,gson/src/test/java/com/google/gson/GsonTypeAdapterTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/multimap/AbstractMultiValuedMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/IterableUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/MultiValueMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/AbstractBloomFilterTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/AbstractIndexExtractorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/properties/AbstractPropertiesFactoryTest.java
+Parameterize Variable,Inline Variable,False,src/main/java/org/apache/commons/collections4/IteratorUtils.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/AbstractMapIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/CursorableLinkedListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/Flat3MapTest.java
+Replace Anonymous With Lambda,Replace Anonymous With Lambda,True,gson/src/main/java/com/google/gson/internal/ConstructorConstructor.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/ObjectArrayListIteratorTest.java
+Change Class Access Modifier,Change Class Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/BitMapExtractorFromLayeredBloomFilterTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/ObjectGraphIteratorTest.java
+Add Method Annotation,Add Parameter Modifier,False,gson/src/test/java/com/google/gson/functional/Java17RecordTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/AbstractSortedMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Rename Variable,Rename Variable,True,gson/src/test/java/com/google/gson/GsonBuilderTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/multimap/ArrayListValuedLinkedHashMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/Flat3MapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/LazyIteratorChainTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/Flat3MapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/SetUniqueListTest.java
+Change Class Access Modifier,Change Class Access Modifier,True,src/test/java/org/apache/commons/collections4/MapUtilsTest.java
+Change Class Access Modifier,Change Class Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Rename Class,Rename Class,True,src/test/java/org/apache/commons/collections4/map/ListOrderedMap2Test.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/MapUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Replace Anonymous With Lambda,Replace Anonymous With Lambda,True,gson/src/main/java/com/google/gson/internal/ConstructorConstructor.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/set/CompositeSetTest.java
+Change Class Access Modifier,Change Class Access Modifier,True,src/test/java/org/apache/commons/collections4/IteratorUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/LayerManagerTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/AbstractMapIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,gson/src/test/java/com/google/gson/functional/CollectionTest.java
+Remove Variable Modifier,Remove Variable Modifier,True,gson/src/main/java/com/google/gson/internal/ConstructorConstructor.java
+Change Attribute Access Modifier,Change Attribute Access Modifier,True,gson/src/test/java/com/google/gson/functional/JsonAdapterSerializerDeserializerTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/UnmodifiableSortedMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/ListUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/MapUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/FilterIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bag/AbstractBagTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,gson/src/test/java/com/google/gson/functional/CustomDeserializerTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/SetOperationsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/AbstractMapIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/ShapeTest.java
+Move And Rename Class,Move And Rename Class,True,src/test/java/org/apache/commons/collections4/map/AbstractMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Change Attribute Access Modifier,Change Attribute Access Modifier,True,gson/src/test/java/com/google/gson/ExposeAnnotationExclusionStrategyTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/multiset/AbstractMultiSetTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/AbstractMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/Flat3MapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/Flat3MapTest.java
+Remove Variable Modifier,Remove Variable Modifier,True,extras/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/AbstractMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/LoopingListIteratorTest.java
+Add Class Annotation,Change Class Access Modifier,False,gson/src/main/java/com/google/gson/JsonIOException.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/MultiValueMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/FilterIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/AbstractTreeMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/TreeListTest.java
+Remove Variable Modifier,Remove Variable Modifier,True,src/test/java/org/apache/commons/collections4/map/MultiValueMapTest.java
+Rename Variable,Extract Variable,False,gson/src/main/java/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/multimap/UnmodifiableMultiValuedMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/UnmodifiableSortedMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/ListUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/properties/EmptyPropertiesTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/comparators/FixedOrderComparatorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/FilterListIteratorTest.java
+Replace Anonymous With Lambda,Add Parameter Modifier,False,gson/src/test/java/com/google/gson/functional/MapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/SetOperationsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/properties/EmptyPropertiesTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,gson/src/test/java/com/google/gson/functional/JsonAdapterAnnotationOnClassesTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/MultiSetUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/DefaultedMapTest.java
+Add Parameter Modifier,Add Parameter Modifier,True,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/BitMapsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/FactoryUtilsTest.java
+Replace Anonymous With Lambda,Replace Anonymous With Lambda,True,gson/src/test/java/com/google/gson/functional/InstanceCreatorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/AbstractListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/StaticBucketMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/multimap/UnmodifiableMultiValuedMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/CaseInsensitiveMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bag/CollectionBagTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/properties/EmptyPropertiesTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/comparators/FixedOrderComparatorTest.java
+Change Class Access Modifier,Extract Method,False,src/test/java/org/apache/commons/collections4/BagUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/IteratorChainTest.java
+Remove Variable Modifier,Remove Variable Modifier,True,gson/src/test/java/com/google/gson/functional/ConcurrencyTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/AbstractBloomFilterTest.java
+Change Class Access Modifier,Change Class Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/BitMapExtractorFromLongArrayTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/ComparatorUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/properties/EmptyPropertiesTest.java
+Change Class Access Modifier,Add Class Annotation,False,src/test/java/org/apache/commons/collections4/sequence/SequencesComparatorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/IteratorChainTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/PeekingIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/set/TransformedNavigableSetTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/AbstractMapTest.java
+Inline Variable,Inline Variable,True,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java
+Replace Anonymous With Lambda,Replace Anonymous With Lambda,True,gson/src/test/java/com/google/gson/GsonTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/multiset/AbstractMultiSetTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/properties/OrderedPropertiesTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/MapUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/AbstractLinkedListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/CursorableLinkedListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/MapUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/SetUniqueListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/multimap/ArrayListValuedHashMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/Flat3MapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/PeekingIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/ClosureUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/ListOrderedMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/CursorableLinkedListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/set/ListOrderedSetTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/Flat3MapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/UnmodifiableOrderedMapIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/MultiValueMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/QueueUtilsTest.java
+Replace Anonymous With Lambda,Replace Anonymous With Lambda,True,gson/src/main/java/com/google/gson/internal/ConstructorConstructor.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/functors/NullPredicateTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,gson/src/test/java/com/google/gson/functional/JsonAdapterAnnotationOnClassesTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/LinkedMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/TransformerUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/ShapeTest.java
+Add Parameter Modifier,Add Parameter Modifier,True,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/ListUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/IteratorUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/FilterIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bidimap/AbstractBidiMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/AbstractMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/AbstractMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/collection/AbstractCollectionTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/AbstractIterableMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/multimap/ArrayListValuedLinkedHashMapTest.java
+Remove Parameter Modifier,Remove Parameter Modifier,True,gson/src/main/java/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/AbstractMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/BitMapsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/CursorableLinkedListTest.java
+Replace Anonymous With Lambda,Replace Anonymous With Lambda,True,gson/src/main/java/com/google/gson/internal/ConstructorConstructor.java
+Remove Variable Modifier,Remove Variable Modifier,True,gson/src/main/java/com/google/gson/internal/UnsafeAllocator.java
+Remove Variable Modifier,Replace Anonymous With Lambda,False,gson/src/main/java/com/google/gson/internal/ConstructorConstructor.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/set/AbstractSetTest.java
+Remove Method Annotation,Remove Method Annotation,True,src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/MultiValueMapTest.java
+Change Class Access Modifier,Change Class Access Modifier,True,gson/src/main/java/com/google/gson/internal/bind/JsonElementTypeAdapter.java
+Change Variable Type,Rename Variable,False,gson/src/main/java/com/google/gson/TypeAdapter.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/properties/EmptyPropertiesTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/properties/EmptyPropertiesTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/Flat3MapTest.java
+Change Class Access Modifier,Change Class Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/IndexExtractorFromArrayCountingBloomFilterTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/ObjectArrayIteratorTest.java
+Extract Variable,Inline Variable,False,gson/src/test/java/com/google/gson/JsonObjectAsMapSuiteTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/SetOperationsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/SetUniqueListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Replace Anonymous With Lambda,Replace Anonymous With Lambda,True,gson/src/test/java/com/google/gson/functional/CustomTypeAdaptersTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/MapUtilsTest.java
+Replace Anonymous With Lambda,Replace Anonymous With Lambda,True,gson/src/test/java/com/google/gson/functional/ObjectTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/properties/EmptyPropertiesTest.java
+Replace Anonymous With Lambda,Replace Anonymous With Lambda,True,gson/src/test/java/com/google/gson/functional/CustomTypeAdaptersTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bag/PredicatedBagTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/MultiMapUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/SetUniqueListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/LinkedMapTest.java
+Replace Conditional With Ternary,Move Code,False,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/AbstractMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/Flat3MapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/LayerManagerTest.java
+Extract Variable,Extract Variable,True,gson/src/main/java/com/google/gson/internal/bind/MapTypeAdapterFactory.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/ListOrderedMap2Test.java
+Change Class Access Modifier,Change Class Access Modifier,True,src/test/java/org/apache/commons/collections4/functors/ComparatorPredicateTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/ClosureUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/AbstractBloomFilterTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/LazyListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/AbstractLinkedListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/AbstractMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/ShapeTest.java
+Remove Parameter,Remove Parameter,True,gson/src/main/java/com/google/gson/internal/bind/MapTypeAdapterFactory.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/AbstractIndexExtractorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,gson/src/test/java/com/google/gson/functional/CustomTypeAdaptersTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/LoopingIteratorTest.java
+Change Class Access Modifier,Add Class Annotation,False,src/test/java/org/apache/commons/collections4/iterators/ZippingIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,gson/src/test/java/com/google/gson/functional/JsonAdapterAnnotationOnClassesTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Replace Anonymous With Lambda,Remove Variable Modifier,False,gson/src/test/java/com/google/gson/functional/DefaultTypeAdaptersTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/SingletonIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/properties/AbstractPropertiesFactoryTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/IteratorIterableTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/PredicateUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/IteratorUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/Flat3MapTest.java
+Add Method Annotation,Add Method Annotation,True,src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java
+Change Method Access Modifier,Change Attribute Access Modifier,False,gson/src/main/java/com/google/gson/internal/reflect/ReflectionHelper.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/ShapeTest.java
+Extract Variable,Remove Variable Modifier,False,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/multimap/ArrayListValuedLinkedHashMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/queue/CircularFifoQueueTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,gson/src/test/java/com/google/gson/functional/ExposeFieldsTest.java
+Change Attribute Access Modifier,Change Variable Type,False,gson/src/main/java/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/AbstractMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/properties/EmptyPropertiesTest.java
+Extract Method,Extract Method,True,gson/src/main/java/com/google/gson/internal/ConstructorConstructor.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/MapUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/LoopingIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Merge Catch,Extract Superclass,False,gson/src/main/java/com/google/gson/JsonStreamParser.java
+Remove Parameter Modifier,Remove Parameter Modifier,True,gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/ListUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/PredicateUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/keyvalue/MultiKeyTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/multiset/AbstractMultiSetTest.java
+Inline Variable,Parameterize Variable,False,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java
+Rename Class,Rename Class,True,src/test/java/org/apache/commons/collections4/bidimap/AbstractBidiMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/Collections701Test.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/set/PredicatedNavigableSetTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/AbstractBloomFilterTest.java
+Remove Parameter Modifier,Extract Method,False,gson/src/main/java/com/google/gson/internal/bind/ObjectTypeAdapter.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/multimap/ArrayListValuedLinkedHashMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/PredicateUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,gson/src/test/java/com/google/gson/functional/CustomTypeAdaptersTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/PredicateUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bidimap/UnmodifiableSortedBidiMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/AbstractListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/properties/SortedPropertiesTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/CursorableLinkedListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Change Attribute Access Modifier,Change Attribute Access Modifier,True,gson/src/test/java/com/google/gson/metrics/PerformanceTest.java
+Change Method Access Modifier,Add Parameter,False,gson/src/test/java/com/google/gson/internal/ConstructorConstructorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/MapUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/AbstractObjectTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/IterableUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/TreeListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/Flat3MapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/TransformedSortedMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/PredicateUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/MultiSetUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/AbstractCellExtractorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/FactoryUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/BoundedIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/PredicateUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/PredicateUtilsTest.java
+Inline Variable,Inline Variable,True,src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/AbstractMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/AbstractBloomFilterTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/AbstractListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/collection/IndexedCollectionTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/IteratorEnumerationTest.java
+Add Parameter Modifier,Add Parameter Modifier,True,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java
+Rename Class,Change Class Access Modifier,False,src/test/java/org/apache/commons/collections4/map/AbstractMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/FactoryUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/AbstractListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/AbstractListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/TrieUtilsTest.java
+Change Attribute Access Modifier,Change Attribute Access Modifier,True,gson/src/test/java/com/google/gson/functional/NamingPolicyTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/Flat3MapTest.java
+Remove Parameter Modifier,Remove Parameter Modifier,True,gson/src/test/java/com/google/gson/functional/JsonAdapterAnnotationOnFieldsTest.java
+Inline Variable,Inline Variable,True,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java
+Change Method Access Modifier,Change Method Access Modifier,True,gson/src/test/java/com/google/gson/functional/ParameterizedTypesTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/multimap/TransformedMultiValuedMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/ListOrderedMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/LayerManagerTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/ObjectGraphIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/PredicateUtilsTest.java
+Remove Parameter Modifier,Remove Parameter Modifier,True,gson/src/main/java/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/functors/EqualPredicateTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/ComparatorUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/SetUniqueListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/MultiValueMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/Flat3MapTest.java
+Change Attribute Access Modifier,Change Attribute Access Modifier,True,gson/src/test/java/com/google/gson/functional/ReflectionAccessFilterTest.java
+Remove Variable Modifier,Remove Variable Modifier,True,gson/src/test/java/com/google/gson/GsonBuilderTest.java
+Change Class Access Modifier,Extract Class,False,src/test/java/org/apache/commons/collections4/splitmap/TransformedSplitMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/ExtendedIteratorTest.java
+Change Class Access Modifier,Change Class Access Modifier,True,src/test/java/org/apache/commons/collections4/MultiMapUtilsTest.java
+Change Class Access Modifier,Change Class Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/BitMapsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/LRUMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/MapUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/set/ListOrderedSetTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/ListUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/IteratorUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/Flat3MapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/CartesianProductIteratorTest.java
+Change Return Type,Change Return Type,True,src/test/java/org/apache/commons/collections4/map/AbstractMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/ObjectGraphIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/keyvalue/DefaultKeyValueTest.java
+Change Method Access Modifier,Add Parameter,False,gson/src/test/java/com/google/gson/functional/TreeTypeAdaptersTest.java
+Add Parameter Modifier,Remove Parameter,False,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/CursorableLinkedListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/AbstractCellExtractorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/set/CompositeSetTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/AbstractMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/BoundedIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bag/TransformedSortedBagTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/AbstractBloomFilterTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/AbstractSortedMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/multiset/UnmodifiableMultiSetTest.java
+Replace Anonymous With Lambda,Replace Anonymous With Lambda,True,gson/src/test/java/com/google/gson/functional/NamingPolicyTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/AbstractListTest.java
+Remove Parameter Modifier,Add Parameter Modifier,False,gson/src/test/java/com/google/gson/GsonTest.java
+Replace Anonymous With Lambda,Replace Anonymous With Lambda,True,gson/src/test/java/com/google/gson/GsonBuilderTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/set/PredicatedNavigableSetTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bag/AbstractBagTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/DefaultBloomFilterTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/keyvalue/MultiKeyTest.java
+Inline Variable,Inline Variable,True,src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/AbstractMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/PredicateUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/BitMapsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/PermutationIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/ListUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/ReverseListIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/ClosureUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/comparators/ComparatorChainTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/MapUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/AbstractListIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/PassiveExpiringMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/LoopingListIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/CursorableLinkedListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/set/TransformedSetTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/CaseInsensitiveMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/MapUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/functors/ComparatorPredicateTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/multimap/LinkedHashSetValuedLinkedHashMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/FluentIterableTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/CollatingIteratorTest.java
+Change Class Access Modifier,Change Class Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/BloomFilterExtractorFromLayeredBloomFilterTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/FactoryUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/FilterIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/AbstractMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/AbstractMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/IteratorUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/DefaultedMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/MultiKeyMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/AbstractMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/FixedSizeListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/MultiValueMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/FilterIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/multimap/AbstractMultiValuedMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/collection/AbstractCollectionTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/multiset/AbstractMultiSetTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/PredicateUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/BitMapsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bidimap/AbstractSortedBidiMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/DefaultAbstractLinkedListJava21Test.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/comparators/FixedOrderComparatorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/IteratorUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/AbstractListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,gson/src/test/java/com/google/gson/functional/InheritanceTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/IteratorChainTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/queue/CircularFifoQueueTest.java
+Extract Method,Extract Method,True,src/main/java/org/apache/commons/collections4/functors/FunctorUtils.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/AbstractBitMapExtractorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/IterableUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/ArrayIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/properties/EmptyPropertiesTest.java
+Add Attribute Annotation,Remove Attribute Annotation,False,gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/AbstractListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/ListUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/SkippingIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/multimap/HashSetValuedHashMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/IteratorIterableTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/LayerManagerTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/CursorableLinkedListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/set/ListOrderedSetTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,extras/src/test/java/com/google/gson/interceptors/InterceptorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/multimap/HashSetValuedHashMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/collection/AbstractCollectionTest.java
+Change Variable Type,Modify Class Annotation,False,extras/src/main/java/com/google/gson/typeadapters/UtcDateTypeAdapter.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/multimap/AbstractMultiValuedMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/EnumerationUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/set/CompositeSetTest.java
+Add Parameter,Add Method Annotation,False,src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bag/AbstractBagTest.java
+Modify Method Annotation,Move Class,False,gson/src/test/java/com/google/gson/GsonBuilderTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/DefaultedMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/multimap/UnmodifiableMultiValuedMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/multimap/ArrayListValuedLinkedHashMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/AbstractIndexExtractorTest.java
+Change Class Access Modifier,Extract Method,False,src/test/java/org/apache/commons/collections4/bloomfilter/DefaultBloomFilterExtractorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/AbstractMapTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/FactoryUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,gson/src/test/java/com/google/gson/functional/InheritanceTest.java
+Remove Parameter,Rename Method,False,gson/src/main/java/com/google/gson/internal/bind/CollectionTypeAdapterFactory.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/IteratorUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/functors/EqualPredicateTest.java
+Change Attribute Access Modifier,Change Attribute Access Modifier,True,gson/src/test/java/com/google/gson/functional/JsonAdapterSerializerDeserializerTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/MapUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/ArrayIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/SetUniqueListTest.java
+Change Class Access Modifier,Extract Method,False,src/test/java/org/apache/commons/collections4/bloomfilter/WrappedBloomFilterTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bloomfilter/ShapeTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/SplitMapUtilsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,gson/src/main/java/com/google/gson/internal/GsonTypes.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bag/CollectionSortedBagTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/ZippingIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/iterators/LoopingIteratorTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/AbstractLinkedListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Rename Class,Rename Class,True,src/test/java/org/apache/commons/collections4/set/AbstractNavigableSetTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bidimap/DualTreeBidiMap2Test.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/list/CursorableLinkedListTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/multiset/PredicatedMultiSetTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,gson/src/test/java/com/google/gson/functional/ExposeFieldsTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/bag/AbstractBagTest.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/Flat3MapTest.java
+Change Class Access Modifier,Remove Class Modifier,False,gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java
+Change Method Access Modifier,Change Method Access Modifier,True,src/test/java/org/apache/commons/collections4/map/PassiveExpiringMapTest.java
+Remove Variable Modifier,Remove Variable Modifier,True,gson/src/main/java/com/google/gson/internal/bind/NumberTypeAdapter.java

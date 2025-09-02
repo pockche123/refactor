@@ -1,0 +1,9 @@
+index,actual_refactoring,predicted_refactoring,file_path,applied,valid,tests_passed,error
+0,Add Method Annotation,Add Method Annotation,mockito-core/src/test/java/org/mockito/internal/util/collections/HashCodeAndEqualsSafeSetTest.java,True,False,False,
+1,Rename Method,Rename Method,mockito-core/src/test/java/org/mockito/MockitoTest.java,True,True,True,
+2,Rename Method,Rename Method,mockito-core/src/test/java/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValuesTest.java,True,True,True,
+3,Move Class,Move Class,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/MockAccess.java,False,False,False,File not found: mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/MockAccess.java
+4,Change Return Type,Change Return Type,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,True,True,True,
+5,Extract Method,Extract Method,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,True,False,False,
+6,Rename Method,Rename Method,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,True,True,True,
+7,Change Attribute Type,Change Attribute Type,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineDelegateByteBuddyMockMaker.java,True,False,False,

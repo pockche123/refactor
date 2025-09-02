@@ -1,0 +1,27 @@
+refactoring_type,predicted,correct,file_path
+Add Method Annotation,Add Method Annotation,True,mockito-core/src/test/java/org/mockito/internal/util/collections/HashCodeAndEqualsSafeSetTest.java
+Remove Parameter,Rename Parameter,False,mockito-extensions/mockito-android/src/main/java/org/mockito/android/internal/creation/AndroidLoadingStrategy.java
+Change Parameter Type,Change Return Type,False,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassByteBuddyMockMaker.java
+Rename Method,Extract Method,False,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java
+Extract Variable,Add Parameter Annotation,False,mockito-core/src/main/java/org/mockito/internal/stubbing/InvocationContainerImpl.java
+Change Parameter Type,Change Return Type,False,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java
+Rename Method,Push Down Method,False,mockito-core/src/test/java/org/mockitoutil/SimplePerRealmReloadingClassLoader.java
+Change Class Access Modifier,Add Class Modifier,False,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java
+Rename Method,Rename Method,True,mockito-core/src/test/java/org/mockito/MockitoTest.java
+Remove Parameter,Change Return Type,False,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java
+Rename Method,Rename Method,True,mockito-core/src/test/java/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValuesTest.java
+Move Class,Move Class,True,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/MockAccess.java
+Change Return Type,Add Parameter Annotation,False,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineDelegateByteBuddyMockMaker.java
+Change Return Type,Change Return Type,True,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java
+Extract Method,Extract Method,True,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java
+Change Parameter Type,Change Return Type,False,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java
+Rename Method,Rename Method,True,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java
+Rename Parameter,Change Return Type,False,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java
+Rename Parameter,Remove Parameter,False,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java
+Rename Parameter,Change Return Type,False,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java
+Remove Parameter,Rename Parameter,False,mockito-extensions/mockito-android/src/main/java/org/mockito/android/internal/creation/AndroidLoadingStrategy.java
+Remove Parameter,Rename Parameter,False,mockito-extensions/mockito-android/src/main/java/org/mockito/android/internal/creation/AndroidLoadingStrategy.java
+Change Method Access Modifier,Add Method Annotation,False,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java
+Rename Variable,Add Method Annotation,False,mockito-core/src/main/java/org/mockito/internal/invocation/MatcherApplicationStrategy.java
+Add Class Modifier,Change Class Access Modifier,False,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java
+Change Attribute Type,Change Attribute Type,True,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineDelegateByteBuddyMockMaker.java

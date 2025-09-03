@@ -38,3 +38,8 @@ ENV/
 # OS
 .DS_Store
 Thumbs.db
+
+# Backup and workspace directories
+complex_projects/
+workspace/
+*.backup

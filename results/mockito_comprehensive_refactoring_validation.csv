@@ -1,0 +1,9 @@
+file_path,refactoring_type,status,reason,tests_passed,functionally_correct,refactoring_details
+mockito-core/src/test/java/org/mockito/internal/util/collections/HashCodeAndEqualsSafeSetTest.java,Add Method Annotation,REVERSE_FAILED,No changes made,,,
+mockito-core/src/test/java/org/mockito/MockitoTest.java,Rename Method,TESTED,,True,True,"{'type': 'rename_method', 'old_name': 'shouldGiveExplanationOnStaticMockingWithoutInlineMockMaker', 'new_name': 'shouldGiveExplanationOnStaticMockingMockMaker'}"
+mockito-core/src/test/java/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValuesTest.java,Rename Method,TESTED,,True,True,"{'type': 'rename_method', 'old_name': 'should_return_empty_sequenced_collection_on_java21', 'new_name': 'should_return_empty_sequenced_collection'}"
+mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/MockAccess.java,Move Class,FILE_NOT_FOUND,,,,
+mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,Change Return Type,TESTED,,True,True,"{'type': 'change_return_type', 'old_type': 'boolean', 'new_type': 'ClassLoader', 'method': 'toCodegenLoader'}"
+mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,Extract Method,REVERSE_FAILED,Extract Method reversal too complex,,,
+mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,Rename Method,REVERSE_FAILED,No changes made,,,
+mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineDelegateByteBuddyMockMaker.java,Change Attribute Type,REVERSE_FAILED,No changes made,,,

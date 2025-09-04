@@ -1,0 +1,29 @@
+status,path,refactoring_type,file_path,compiles,stdout,stderr
+FILE_NOT_FOUND,complex_projects/intellij-community/platform/platform-tests/testSrc/com/intellij/psi/impl/PsiDocumentManagerImplTest.java,Extract Method,,,,
+TESTED,,Add Parameter Annotation,platform/lang-impl/src/com/intellij/codeInsight/lookup/impl/LookupImpl.java,False,,"error: file not found: complex_projects/intellij-community/platform/lang-impl/src/com/intellij/codeInsight/lookup/impl/LookupImpl.java
+Usage: javac <options> <source files>
+use --help for a list of possible options
+"
+FILE_NOT_FOUND,complex_projects/intellij-community/platform/analysis-impl/src/com/intellij/codeInsight/completion/CompletionProcessBase.java,Add Parameter Annotation,,,,
+TESTED,,Add Parameter Annotation,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,False,,"error: file not found: complex_projects/intellij-community/platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java
+Usage: javac <options> <source files>
+use --help for a list of possible options
+"
+TESTED,,Add Parameter Annotation,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionPhase.java,False,,"error: file not found: complex_projects/intellij-community/platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionPhase.java
+Usage: javac <options> <source files>
+use --help for a list of possible options
+"
+TESTED,,Add Method Annotation,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionPhase.java,False,,"error: file not found: complex_projects/intellij-community/platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionPhase.java
+Usage: javac <options> <source files>
+use --help for a list of possible options
+"
+TESTED,,Add Parameter Annotation,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,False,,"error: file not found: complex_projects/intellij-community/platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java
+Usage: javac <options> <source files>
+use --help for a list of possible options
+"
+FILE_NOT_FOUND,complex_projects/intellij-community/platform/util/testSrc/com/intellij/util/EnvironmentUtilTest.java,Change Variable Type,,,,
+TESTED,,Add Method Annotation,platform/core-impl/src/com/intellij/psi/impl/PsiDocumentManagerBase.java,False,,"error: file not found: complex_projects/intellij-community/platform/core-impl/src/com/intellij/psi/impl/PsiDocumentManagerBase.java
+Usage: javac <options> <source files>
+use --help for a list of possible options
+"
+FILE_NOT_FOUND,complex_projects/intellij-community/platform/util/testSrc/com/intellij/util/EnvironmentUtilTest.java,Change Variable Type,,,,

@@ -1,0 +1,1036 @@
+file_path,refactoring_type,lines_changed,cyclomatic_complexity,nesting_depth
+src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Replace Conditional With Ternary,5,1,1
+src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Extract Variable,7,1,1
+src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Extract Variable,39,1,1
+src/main/java/org/apache/commons/lang3/math/NumberUtils.java,Extract And Move Method,135,1,1
+src/main/java/org/apache/commons/lang3/text/translate/OctalUnescaper.java,Change Method Access Modifier,8,1,1
+src/main/java/org/apache/commons/lang3/text/translate/OctalUnescaper.java,Add Method Modifier,8,1,1
+src/main/java/org/apache/commons/lang3/text/translate/OctalUnescaper.java,Move And Rename Method,8,1,1
+src/main/java/org/apache/commons/lang3/math/NumberUtils.java,Extract Method,202,1,1
+src/main/java/org/apache/commons/lang3/math/NumberUtils.java,Extract Method,19,1,1
+src/main/java/org/apache/commons/lang3/math/NumberUtils.java,Extract Method,133,1,1
+src/main/java/org/apache/commons/lang3/math/NumberUtils.java,Parameterize Variable,1,1,1
+src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Add Class Modifier,26,1,1
+src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Add Class Modifier,85,1,1
+src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Add Class Modifier,32,1,1
+src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Add Class Modifier,42,1,1
+src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Add Class Modifier,53,1,1
+src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Add Class Modifier,44,1,1
+src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Add Class Modifier,53,1,1
+src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Add Class Modifier,44,1,1
+src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Add Class Modifier,44,1,1
+src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Add Class Modifier,36,1,1
+src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Remove Method Modifier,7,1,1
+src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Add Class Modifier,43,1,1
+src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Remove Method Modifier,11,1,1
+src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Add Class Modifier,36,1,1
+src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Remove Method Modifier,7,1,1
+src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Add Class Modifier,40,1,1
+src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Remove Method Modifier,11,1,1
+src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Add Class Modifier,45,1,1
+src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Remove Method Modifier,13,1,1
+src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Add Class Modifier,25,1,1
+src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Add Class Modifier,32,1,1
+src/main/java/org/apache/commons/lang3/time/DateUtils.java,Add Class Modifier,54,1,1
+src/main/java/org/apache/commons/lang3/time/DurationFormatUtils.java,Add Class Modifier,112,1,1
+src/main/java/org/apache/commons/lang3/text/StrLookup.java,Change Class Access Modifier,37,1,1
+src/main/java/org/apache/commons/lang3/text/StrLookup.java,Add Class Modifier,37,1,1
+src/main/java/org/apache/commons/lang3/concurrent/EventCountCircuitBreaker.java,Rename Class,41,1,1
+src/main/java/org/apache/commons/lang3/concurrent/EventCountCircuitBreaker.java,Change Attribute Type,1,1,1
+src/main/java/org/apache/commons/lang3/concurrent/EventCountCircuitBreaker.java,Change Variable Type,1,1,1
+src/main/java/org/apache/commons/lang3/concurrent/EventCountCircuitBreaker.java,Change Return Type,1,1,1
+src/main/java/org/apache/commons/lang3/concurrent/EventCountCircuitBreaker.java,Change Return Type,1,1,1
+src/main/java/org/apache/commons/lang3/StringEscapeUtils.java,Change Class Access Modifier,31,1,1
+src/main/java/org/apache/commons/lang3/StringEscapeUtils.java,Add Class Modifier,31,1,1
+src/main/java/org/apache/commons/lang3/StringEscapeUtils.java,Change Class Access Modifier,24,1,1
+src/main/java/org/apache/commons/lang3/StringEscapeUtils.java,Add Class Modifier,24,1,1
+src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java,Rename Method,7,1,1
+src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java,Add Parameter Modifier,1,1,1
+src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java,Rename Method,6,1,1
+src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java,Rename Variable,1,1,1
+src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java,Add Method Annotation,9,1,1
+src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java,Add Method Annotation,8,1,1
+src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java,Add Method Annotation,8,1,1
+src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java,Rename Method,16,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java,Extract Method,11,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java,Rename Method,12,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java,Rename Method,12,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java,Rename Method,7,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java,Rename Method,7,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java,Rename Method,7,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java,Rename Method,7,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java,Rename Method,7,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java,Rename Method,7,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java,Rename Method,7,1,1
+src/main/java/org/apache/commons/lang3/function/Predicates.java,Rename Attribute,1,1,1
+src/main/java/org/apache/commons/lang3/function/Predicates.java,Rename Attribute,1,1,1
+src/test/java/org/apache/commons/lang3/concurrent/locks/LockingVisitorsTest.java,Rename Variable,1,1,1
+src/test/java/org/apache/commons/lang3/concurrent/locks/LockingVisitorsTest.java,Rename Variable,1,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java,Extract And Move Method,7,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java,Extract And Move Method,7,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/CharRangeTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/CharUtilsTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/CharUtilsTest.java,Extract And Move Method,7,1,1
+src/test/java/org/apache/commons/lang3/CharUtilsTest.java,Extract And Move Method,7,1,1
+src/test/java/org/apache/commons/lang3/ClassPathUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/ClassPathUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/DoubleRangeTest.java,Extract And Move Method,10,1,1
+src/test/java/org/apache/commons/lang3/DoubleRangeTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/DoubleRangeTest.java,Extract And Move Method,12,1,1
+src/test/java/org/apache/commons/lang3/EnumUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/EnumUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/EnumUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/EnumUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/EnumUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/EnumUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/EnumUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/EnumUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/EnumUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/EnumUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/EnumUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/EnumUtilsTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/EnumUtilsTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/IntegerRangeTest.java,Extract And Move Method,10,1,1
+src/test/java/org/apache/commons/lang3/IntegerRangeTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/IntegerRangeTest.java,Extract And Move Method,12,1,1
+src/test/java/org/apache/commons/lang3/LongRangeTest.java,Extract And Move Method,10,1,1
+src/test/java/org/apache/commons/lang3/LongRangeTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/LongRangeTest.java,Extract And Move Method,12,1,1
+src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java,Extract And Move Method,15,1,1
+src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java,Extract And Move Method,13,1,1
+src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java,Extract And Move Method,12,1,1
+src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java,Extract And Move Method,11,1,1
+src/test/java/org/apache/commons/lang3/RangeTest.java,Extract And Move Method,32,1,1
+src/test/java/org/apache/commons/lang3/RangeTest.java,Extract And Move Method,10,1,1
+src/test/java/org/apache/commons/lang3/RangeTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/RangeTest.java,Extract And Move Method,32,1,1
+src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/StringEscapeUtilsTest.java,Extract And Move Method,10,1,1
+src/test/java/org/apache/commons/lang3/StringEscapeUtilsTest.java,Extract And Move Method,22,1,1
+src/test/java/org/apache/commons/lang3/StringEscapeUtilsTest.java,Extract And Move Method,13,1,1
+src/test/java/org/apache/commons/lang3/StringEscapeUtilsTest.java,Extract And Move Method,10,1,1
+src/test/java/org/apache/commons/lang3/StringEscapeUtilsTest.java,Extract And Move Method,18,1,1
+src/test/java/org/apache/commons/lang3/StringEscapeUtilsTest.java,Extract And Move Method,13,1,1
+src/test/java/org/apache/commons/lang3/ThreadUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/ThreadUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/ThreadUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/ThreadUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/ThreadUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/ThreadUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/ThreadUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/ThreadUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/ThreadUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/ThreadUtilsTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ThreadUtilsTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ThreadUtilsTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/builder/CompareToBuilderTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/builder/ConversionTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/builder/DiffBuilderTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/builder/DiffBuilderTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/builder/DiffBuilderTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/builder/DiffBuilderTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/builder/DiffResultTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/builder/HashCodeBuilderTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/builder/ToStringBuilderTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/builder/ToStringBuilderTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/concurrent/AbstractConcurrentInitializerCloseAndExceptionsTest.java,Extract And Move Method,16,1,1
+src/test/java/org/apache/commons/lang3/concurrent/AbstractConcurrentInitializerCloseAndExceptionsTest.java,Extract And Move Method,12,1,1
+src/test/java/org/apache/commons/lang3/concurrent/BasicThreadFactoryTest.java,Extract And Move Method,7,1,1
+src/test/java/org/apache/commons/lang3/concurrent/BasicThreadFactoryTest.java,Extract And Move Method,7,1,1
+src/test/java/org/apache/commons/lang3/concurrent/BasicThreadFactoryTest.java,Extract And Move Method,7,1,1
+src/test/java/org/apache/commons/lang3/concurrent/CallableBackgroundInitializerTest.java,Extract And Move Method,15,1,1
+src/test/java/org/apache/commons/lang3/concurrent/CallableBackgroundInitializerTest.java,Extract And Move Method,8,1,1
+src/test/java/org/apache/commons/lang3/concurrent/MultiBackgroundInitializerTest.java,Extract And Move Method,8,1,1
+src/test/java/org/apache/commons/lang3/concurrent/MultiBackgroundInitializerTest.java,Extract And Move Method,8,1,1
+src/test/java/org/apache/commons/lang3/event/EventListenerSupportTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/event/EventListenerSupportTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/event/EventListenerSupportTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/exception/ExceptionUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/function/BooleanConsumerTest.java,Extract And Move Method,30,1,1
+src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java,Extract And Move Method,17,1,1
+src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java,Extract And Move Method,25,1,1
+src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java,Extract And Move Method,15,1,1
+src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java,Extract And Move Method,17,1,1
+src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java,Extract And Move Method,18,1,1
+src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java,Extract And Move Method,18,1,1
+src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java,Extract And Move Method,8,1,1
+src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java,Extract And Move Method,18,1,1
+src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java,Extract And Move Method,8,1,1
+src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java,Extract And Move Method,17,1,1
+src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java,Extract And Move Method,18,1,1
+src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java,Extract And Move Method,18,1,1
+src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java,Extract And Move Method,8,1,1
+src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java,Extract And Move Method,17,1,1
+src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java,Extract And Move Method,10,1,1
+src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java,Extract And Move Method,10,1,1
+src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java,Extract And Move Method,18,1,1
+src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java,Extract And Move Method,18,1,1
+src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java,Extract And Move Method,8,1,1
+src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java,Extract And Move Method,10,1,1
+src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java,Extract And Move Method,10,1,1
+src/test/java/org/apache/commons/lang3/function/MethodInvokersBiConsumerTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/function/MethodInvokersBiFunctionTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/function/MethodInvokersFailableBiConsumerTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/function/MethodInvokersFailableBiFunctionTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/function/MethodInvokersFailableFunctionTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/function/MethodInvokersFunctionTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/math/FractionTest.java,Extract And Move Method,99,1,1
+src/test/java/org/apache/commons/lang3/math/FractionTest.java,Extract And Move Method,32,1,1
+src/test/java/org/apache/commons/lang3/math/FractionTest.java,Extract And Move Method,44,1,1
+src/test/java/org/apache/commons/lang3/math/FractionTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/math/FractionTest.java,Extract And Move Method,59,1,1
+src/test/java/org/apache/commons/lang3/math/FractionTest.java,Extract And Move Method,89,1,1
+src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/mutable/MutableBooleanTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/mutable/MutableBooleanTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/mutable/MutableBooleanTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/mutable/MutableDoubleTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/mutable/MutableDoubleTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/mutable/MutableDoubleTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/mutable/MutableFloatTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/mutable/MutableFloatTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/mutable/MutableFloatTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/mutable/MutableLongTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/mutable/MutableLongTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/mutable/MutableLongTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/mutable/MutableShortTest.java,Extract And Move Method,9,1,1
+src/test/java/org/apache/commons/lang3/mutable/MutableShortTest.java,Extract And Move Method,13,1,1
+src/test/java/org/apache/commons/lang3/mutable/MutableShortTest.java,Extract And Move Method,23,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,25,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java,Extract And Move Method,46,1,1
+src/test/java/org/apache/commons/lang3/reflect/TypeLiteralTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java,Extract And Move Method,11,1,1
+src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java,Extract And Move Method,14,1,1
+src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java,Extract And Move Method,9,1,1
+src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java,Extract And Move Method,7,1,1
+src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java,Extract And Move Method,14,1,1
+src/test/java/org/apache/commons/lang3/text/StrSubstitutorTest.java,Extract And Move Method,21,1,1
+src/test/java/org/apache/commons/lang3/text/StrSubstitutorTest.java,Extract And Move Method,21,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsFragmentTest.java,Extract And Move Method,8,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsFragmentTest.java,Extract And Move Method,8,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,158,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,11,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,62,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,24,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,24,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,24,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,24,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,29,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,24,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,145,1,1
+src/test/java/org/apache/commons/lang3/time/DurationUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,13,1,1
+src/main/java/org/apache/commons/lang3/StringUtils.java,Extract Attribute,1,1,1
+src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,Extract Method,14,1,1
+src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,Extract Method,14,1,1
+src/main/java/org/apache/commons/lang3/EnumUtils.java,Remove Variable Modifier,1,1,1
+src/main/java/org/apache/commons/lang3/ClassUtils.java,Rename Attribute,1,1,1
+src/main/java/org/apache/commons/lang3/ClassUtils.java,Rename Attribute,1,1,1
+src/main/java/org/apache/commons/lang3/ClassUtils.java,Rename Attribute,1,1,1
+src/main/java/org/apache/commons/lang3/ClassUtils.java,Rename Attribute,1,1,1
+src/main/java/org/apache/commons/lang3/ClassUtils.java,Rename Attribute,1,1,1
+src/main/java/org/apache/commons/lang3/SystemProperties.java,Inline Variable,1,1,1
+src/test/java/org/apache/commons/lang3/SystemPropertiesTest.java,Rename Attribute,1,1,1
+src/test/java/org/apache/commons/lang3/SystemPropertiesTest.java,Rename Attribute,1,1,1
+src/test/java/org/apache/commons/lang3/SystemPropertiesTest.java,Modify Method Annotation,1,1,1
+src/test/java/org/apache/commons/lang3/SystemPropertiesTest.java,Modify Method Annotation,1,1,1
+src/test/java/org/apache/commons/lang3/SystemPropertiesTest.java,Add Class Annotation,740,1,1
+src/test/java/org/apache/commons/lang3/SystemPropertiesTest.java,Remove Method Annotation,1,1,1
+src/test/java/org/apache/commons/lang3/SystemPropertiesTest.java,Remove Method Annotation,1,1,1
+src/test/java/org/apache/commons/lang3/SystemPropertiesTest.java,Remove Method Annotation,1,1,1
+src/test/java/org/apache/commons/lang3/SystemPropertiesTest.java,Change Attribute Access Modifier,1,1,1
+src/test/java/org/apache/commons/lang3/SystemPropertiesTest.java,Change Attribute Access Modifier,1,1,1
+src/main/java/org/apache/commons/lang3/EnumUtils.java,Rename Variable,1,1,1
+src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,Rename Variable,1,1,1
+src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,Rename Attribute,1,1,1
+src/main/java/org/apache/commons/lang3/mutable/Mutable.java,Add Method Annotation,9,1,1
+src/main/java/org/apache/commons/lang3/mutable/MutableBoolean.java,Remove Method Annotation,1,1,1
+src/main/java/org/apache/commons/lang3/mutable/MutableByte.java,Remove Method Annotation,1,1,1
+src/main/java/org/apache/commons/lang3/mutable/MutableDouble.java,Remove Method Annotation,1,1,1
+src/main/java/org/apache/commons/lang3/mutable/MutableFloat.java,Remove Method Annotation,1,1,1
+src/main/java/org/apache/commons/lang3/mutable/MutableInt.java,Remove Method Annotation,1,1,1
+src/main/java/org/apache/commons/lang3/mutable/MutableLong.java,Remove Method Annotation,1,1,1
+src/main/java/org/apache/commons/lang3/mutable/MutableObject.java,Remove Method Annotation,1,1,1
+src/main/java/org/apache/commons/lang3/mutable/MutableShort.java,Remove Method Annotation,1,1,1
+src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,Add Variable Modifier,1,1,1
+src/test/java/org/apache/commons/lang3/LangAssertions.java,Add Parameter Modifier,1,1,1
+src/test/java/org/apache/commons/lang3/LangAssertions.java,Add Parameter Modifier,1,1,1
+src/test/java/org/apache/commons/lang3/LangAssertions.java,Add Parameter Modifier,1,1,1
+src/test/java/org/apache/commons/lang3/compare/ComparableUtilsTest.java,Remove Class Annotation,1,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,10,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,8,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,8,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java,Extract And Move Method,54,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java,Extract And Move Method,12,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java,Extract And Move Method,12,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java,Extract And Move Method,12,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java,Extract And Move Method,46,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java,Extract And Move Method,46,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java,Extract And Move Method,46,1,1
+src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/CachedRandomBitsTest.java,Extract And Move Method,39,1,1
+src/test/java/org/apache/commons/lang3/CachedRandomBitsTest.java,Extract And Move Method,39,1,1
+src/test/java/org/apache/commons/lang3/CharUtilsTest.java,Extract And Move Method,7,1,1
+src/test/java/org/apache/commons/lang3/CharUtilsTest.java,Extract And Move Method,14,1,1
+src/test/java/org/apache/commons/lang3/CharUtilsTest.java,Extract And Move Method,7,1,1
+src/test/java/org/apache/commons/lang3/ClassUtilsTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ClassUtilsTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ClassUtilsTest.java,Extract And Move Method,48,1,1
+src/test/java/org/apache/commons/lang3/ConversionTest.java,Extract And Move Method,44,1,1
+src/test/java/org/apache/commons/lang3/ConversionTest.java,Extract And Move Method,27,1,1
+src/test/java/org/apache/commons/lang3/ConversionTest.java,Extract And Move Method,44,1,1
+src/test/java/org/apache/commons/lang3/ConversionTest.java,Extract And Move Method,51,1,1
+src/test/java/org/apache/commons/lang3/ConversionTest.java,Extract And Move Method,29,1,1
+src/test/java/org/apache/commons/lang3/ConversionTest.java,Extract And Move Method,51,1,1
+src/test/java/org/apache/commons/lang3/ConversionTest.java,Extract And Move Method,29,1,1
+src/test/java/org/apache/commons/lang3/ConversionTest.java,Extract And Move Method,23,1,1
+src/test/java/org/apache/commons/lang3/ConversionTest.java,Extract And Move Method,23,1,1
+src/test/java/org/apache/commons/lang3/DoubleRangeTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/DoubleRangeTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/EnumUtilsTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/EnumUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/EnumUtilsTest.java,Extract And Move Method,9,1,1
+src/test/java/org/apache/commons/lang3/EnumUtilsTest.java,Extract And Move Method,7,1,1
+src/test/java/org/apache/commons/lang3/EnumUtilsTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/EnumUtilsTest.java,Extract And Move Method,9,1,1
+src/test/java/org/apache/commons/lang3/EnumUtilsTest.java,Extract And Move Method,7,1,1
+src/test/java/org/apache/commons/lang3/EnumUtilsTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/EnumUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/IntegerRangeTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/IntegerRangeTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/LongRangeTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/LongRangeTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/LocaleUtilsTest.java,Extract And Move Method,22,1,1
+src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java,Extract And Move Method,11,1,1
+src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java,Extract And Move Method,11,1,1
+src/test/java/org/apache/commons/lang3/RangeTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/RangeTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,15,1,1
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,15,1,1
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,15,1,1
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,15,1,1
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,15,1,1
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,15,1,1
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,15,1,1
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,15,1,1
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,15,1,1
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,15,1,1
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,15,1,1
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,15,1,1
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,15,1,1
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,15,1,1
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,15,1,1
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,15,1,1
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,15,1,1
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,15,1,1
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,15,1,1
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,15,1,1
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,15,1,1
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,15,1,1
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,15,1,1
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,8,1,1
+src/test/java/org/apache/commons/lang3/RandomUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/RandomUtilsTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/RandomUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/RandomUtilsTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/RandomUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/RandomUtilsTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/RandomUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/RandomUtilsTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/RandomUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/RandomUtilsTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/RandomUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/RandomUtilsTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/RandomUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/RandomUtilsTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/RandomUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/RandomUtilsTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/RandomUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/RandomUtilsTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ThreadUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/StreamsTest.java,Extract And Move Method,39,1,1
+src/test/java/org/apache/commons/lang3/StreamsTest.java,Parameterize Variable,4,1,1
+src/test/java/org/apache/commons/lang3/StreamsTest.java,Parameterize Variable,1,1,1
+src/test/java/org/apache/commons/lang3/stream/StreamsTest.java,Parameterize Variable,1,1,1
+src/test/java/org/apache/commons/lang3/stream/StreamsTest.java,Parameterize Variable,1,1,1
+src/test/java/org/apache/commons/lang3/StreamsTest.java,Extract And Move Method,25,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/builder/ConversionTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/builder/HashCodeBuilderTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/builder/HashCodeBuilderTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/builder/HashCodeBuilderTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/builder/HashCodeBuilderTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/builder/HashCodeBuilderTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/builder/HashCodeBuilderTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/builder/HashCodeBuilderTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/builder/HashCodeBuilderTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/builder/ToStringBuilderTest.java,Extract And Move Method,10,1,1
+src/test/java/org/apache/commons/lang3/concurrent/ConcurrentUtilsTest.java,Extract And Move Method,7,1,1
+src/test/java/org/apache/commons/lang3/concurrent/ConcurrentUtilsTest.java,Extract And Move Method,7,1,1
+src/test/java/org/apache/commons/lang3/concurrent/ConcurrentUtilsTest.java,Extract And Move Method,7,1,1
+src/test/java/org/apache/commons/lang3/concurrent/ConcurrentUtilsTest.java,Extract And Move Method,7,1,1
+src/test/java/org/apache/commons/lang3/concurrent/ConcurrentUtilsTest.java,Extract And Move Method,7,1,1
+src/test/java/org/apache/commons/lang3/concurrent/ConcurrentUtilsTest.java,Extract And Move Method,7,1,1
+src/test/java/org/apache/commons/lang3/concurrent/MemoizerFunctionTest.java,Extract And Move Method,11,1,1
+src/test/java/org/apache/commons/lang3/concurrent/MemoizerFunctionTest.java,Extract And Move Method,11,1,1
+src/test/java/org/apache/commons/lang3/event/EventListenerSupportTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/concurrent/TimedSemaphoreTest.java,Extract And Move Method,8,1,1
+src/test/java/org/apache/commons/lang3/event/EventUtilsTest.java,Extract And Move Method,10,1,1
+src/test/java/org/apache/commons/lang3/event/EventUtilsTest.java,Extract And Move Method,10,1,1
+src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,35,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,35,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,35,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,35,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,35,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,35,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,35,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,35,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,35,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,35,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,35,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,35,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,25,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,25,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,25,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,20,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,20,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,20,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,37,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,37,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,37,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,37,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,37,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,37,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,7,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,46,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,46,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,46,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,46,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,46,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,46,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,46,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,46,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,46,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,46,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,46,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,44,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,44,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,44,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,44,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,44,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,44,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,44,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,39,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,39,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,39,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,36,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,36,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,36,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,43,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,43,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,43,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,43,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,43,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,43,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,43,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,43,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,43,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,42,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,42,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,42,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,39,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,39,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,39,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,36,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,36,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,36,1,1
+src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java,Extract And Move Method,7,1,1
+src/test/java/org/apache/commons/lang3/stream/StreamsTest.java,Extract And Move Method,26,1,1
+src/test/java/org/apache/commons/lang3/stream/StreamsTest.java,Extract And Move Method,24,1,1
+src/test/java/org/apache/commons/lang3/text/FormattableUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsFragmentTest.java,Extract And Move Method,8,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsFragmentTest.java,Extract And Move Method,8,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsFragmentTest.java,Extract And Move Method,8,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsFragmentTest.java,Extract And Move Method,8,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsFragmentTest.java,Extract And Move Method,8,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsFragmentTest.java,Extract And Move Method,8,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsFragmentTest.java,Extract And Move Method,8,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsFragmentTest.java,Extract And Move Method,8,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsFragmentTest.java,Extract And Move Method,8,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsFragmentTest.java,Extract And Move Method,8,1,1
+src/test/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaperTest.java,Extract And Move Method,24,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,158,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,11,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,62,1,1
+src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/time/FastDateParserTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/time/FastDatePrinterTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/time/GmtTimeZoneTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/time/GmtTimeZoneTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/math/IEEE754rUtilsTest.java,Extract And Move Method,42,1,1
+src/test/java/org/apache/commons/lang3/math/IEEE754rUtilsTest.java,Extract And Move Method,42,1,1
+src/test/java/org/apache/commons/lang3/math/IEEE754rUtilsTest.java,Extract And Move Method,42,1,1
+src/test/java/org/apache/commons/lang3/math/IEEE754rUtilsTest.java,Extract And Move Method,42,1,1
+src/test/java/org/apache/commons/lang3/LocaleUtilsTest.java,Extract And Move Method,37,1,1
+src/test/java/org/apache/commons/lang3/LocaleUtilsTest.java,Extract And Move Method,37,1,1
+src/test/java/org/apache/commons/lang3/LocaleUtilsTest.java,Extract And Move Method,37,1,1
+src/test/java/org/apache/commons/lang3/LocaleUtilsTest.java,Extract And Move Method,37,1,1
+src/test/java/org/apache/commons/lang3/LocaleUtilsTest.java,Extract And Move Method,37,1,1
+src/test/java/org/apache/commons/lang3/LocaleUtilsTest.java,Extract And Move Method,37,1,1
+src/test/java/org/apache/commons/lang3/LocaleUtilsTest.java,Extract And Move Method,37,1,1
+src/test/java/org/apache/commons/lang3/LocaleUtilsTest.java,Extract And Move Method,24,1,1
+src/test/java/org/apache/commons/lang3/LocaleUtilsTest.java,Extract And Move Method,24,1,1
+src/test/java/org/apache/commons/lang3/LocaleUtilsTest.java,Extract And Move Method,24,1,1
+src/test/java/org/apache/commons/lang3/LocaleUtilsTest.java,Extract And Move Method,24,1,1
+src/test/java/org/apache/commons/lang3/LocaleUtilsTest.java,Extract And Move Method,24,1,1
+src/test/java/org/apache/commons/lang3/LocaleUtilsTest.java,Extract And Move Method,31,1,1
+src/test/java/org/apache/commons/lang3/LocaleUtilsTest.java,Extract And Move Method,31,1,1
+src/test/java/org/apache/commons/lang3/LocaleUtilsTest.java,Extract And Move Method,31,1,1
+src/test/java/org/apache/commons/lang3/LocaleUtilsTest.java,Extract And Move Method,31,1,1
+src/test/java/org/apache/commons/lang3/LocaleUtilsTest.java,Extract And Move Method,31,1,1
+src/test/java/org/apache/commons/lang3/LocaleUtilsTest.java,Extract And Move Method,21,1,1
+src/test/java/org/apache/commons/lang3/LocaleUtilsTest.java,Extract And Move Method,21,1,1
+src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java,Extract And Move Method,66,1,1
+src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java,Extract And Move Method,66,1,1
+src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java,Extract And Move Method,66,1,1
+src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java,Extract And Move Method,66,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsAbbreviateTest.java,Extract And Move Method,17,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsAbbreviateTest.java,Extract And Move Method,32,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsAbbreviateTest.java,Extract And Move Method,32,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsAbbreviateTest.java,Extract And Move Method,20,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsAbbreviateTest.java,Extract And Move Method,34,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsAbbreviateTest.java,Extract And Move Method,34,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,39,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,32,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,32,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,32,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,32,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,32,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,32,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,92,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,92,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,92,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,92,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,92,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,92,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,92,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,92,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,92,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,92,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,92,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,92,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,92,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,92,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,92,1,1
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,92,1,1
+src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,13,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,35,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,35,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,35,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,35,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,35,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,35,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,37,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,37,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,37,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,35,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,35,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,35,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,37,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,37,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,37,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,37,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,37,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,37,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,37,1,1
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,37,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,24,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,24,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Parameterize Variable,1,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Parameterize Variable,1,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Parameterize Variable,1,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Parameterize Variable,1,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Parameterize Variable,1,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Parameterize Variable,1,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,24,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,24,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,24,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,24,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,24,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,24,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,29,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,29,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,24,1,1
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,24,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,170,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,170,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,170,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,170,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,170,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,170,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,170,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,170,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,170,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,170,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,170,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,170,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,170,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,170,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,170,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,170,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,170,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,170,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,170,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,170,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,170,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,170,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,170,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,170,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsInsertTest.java,Extract And Move Method,23,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsInsertTest.java,Extract And Move Method,23,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsInsertTest.java,Extract And Move Method,23,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsInsertTest.java,Extract And Move Method,23,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsInsertTest.java,Extract And Move Method,23,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsInsertTest.java,Extract And Move Method,23,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsInsertTest.java,Extract And Move Method,24,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsInsertTest.java,Extract And Move Method,24,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsInsertTest.java,Extract And Move Method,24,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsInsertTest.java,Extract And Move Method,24,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsInsertTest.java,Extract And Move Method,23,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsInsertTest.java,Extract And Move Method,23,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsInsertTest.java,Extract And Move Method,23,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsInsertTest.java,Extract And Move Method,23,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsInsertTest.java,Extract And Move Method,23,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsInsertTest.java,Extract And Move Method,23,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsInsertTest.java,Extract And Move Method,23,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsInsertTest.java,Extract And Move Method,23,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveMultipleTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveMultipleTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveMultipleTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveMultipleTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveMultipleTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveMultipleTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveMultipleTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveMultipleTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveMultipleTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveMultipleTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveMultipleTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveMultipleTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveMultipleTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveMultipleTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveMultipleTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveMultipleTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveMultipleTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveMultipleTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1
+src/test/java/org/apache/commons/lang3/CharSequenceUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/CharSequenceUtilsTest.java,Extract And Move Method,4,1,1
+src/test/java/org/apache/commons/lang3/ConversionTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,57,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,57,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,57,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,57,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,8,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,16,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,16,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,16,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,18,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,18,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,18,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,18,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,25,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,25,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,25,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,52,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,58,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,58,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,21,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,21,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,21,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,21,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,11,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,11,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,14,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,14,1,1
+src/test/java/org/apache/commons/lang3/util/FluentBitSetTest.java,Extract And Move Method,48,1,1
+src/test/java/org/apache/commons/lang3/util/FluentBitSetTest.java,Extract And Move Method,48,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,47,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,47,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,47,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,47,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,47,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,47,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,47,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,47,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,47,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,47,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,47,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,47,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,50,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,50,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,50,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,50,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,50,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,50,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,47,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,47,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,47,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,47,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,47,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,47,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,50,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,50,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,50,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,50,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,50,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,50,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,217,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,217,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,217,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,217,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,217,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,217,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,217,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,217,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,217,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,217,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,217,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,217,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,217,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,217,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,217,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,217,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,217,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,217,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,217,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,217,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,217,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,217,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,217,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,217,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,49,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,49,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,49,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,49,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,81,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,16,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,16,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,16,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,16,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,21,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,21,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,21,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,16,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,27,1,1
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,27,1,1
+src/test/java/org/apache/commons/lang3/util/FluentBitSetTest.java,Extract And Move Method,186,1,1
+src/test/java/org/apache/commons/lang3/util/FluentBitSetTest.java,Extract And Move Method,186,1,1
+src/test/java/org/apache/commons/lang3/util/FluentBitSetTest.java,Extract And Move Method,186,1,1
+src/test/java/org/apache/commons/lang3/util/FluentBitSetTest.java,Extract And Move Method,70,1,1
+src/test/java/org/apache/commons/lang3/util/FluentBitSetTest.java,Extract And Move Method,35,1,1

@@ -1,0 +1,2 @@
+file_path,refactoring_type,status
+mockito-core/src/test/java/org/mockitoutil/SimplePerRealmReloadingClassLoader.java,Rename Method,FILE_NOT_FOUND

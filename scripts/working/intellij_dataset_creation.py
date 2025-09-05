@@ -1,25 +1,32 @@
 #!/usr/bin/env python3
 """
-Create Mockito dataset designed for behavioral validation
+Create IntelliJ Single-Domain Dataset
 """
 
 import json
 import csv
+from collections import defaultdict
 
-def create_behavioral_ready_dataset():
-    """Create dataset with behavioral validation metadata"""
+def load_intellij_refactorings():
+    """Load IntelliJ RefactoringMiner JSON"""
+    with open('data/intellij_refactorings.json', 'r') as f:
+        return json.load(f)
+
+def create_intellij_dataset():
+    """Create IntelliJ behavioral-ready dataset"""
     
-    print("🔄 Creating behavioral-ready Mockito dataset...")
+    print("🚀 CREATING INTELLIJ SINGLE-DOMAIN DATASET")
+    print("=" * 50)
     
     # Load refactoring data
-    with open('data/mockito_refactorings.json', 'r') as f:
-        data = json.load(f)
+    print("📊 Loading IntelliJ refactorings...")
+    data = load_intellij_refactorings()
     
+    # Extract features for each refactoring
     dataset = []
     
     for commit_idx, commit in enumerate(data['commits']):
         for ref_idx, refactoring in enumerate(commit['refactorings']):
-            
             # Get file path
             file_path = None
             if 'leftSideLocations' in refactoring and refactoring['leftSideLocations']:
@@ -59,7 +66,7 @@ def create_behavioral_ready_dataset():
         ref_type = row['refactoring_type']
         type_counts[ref_type] = type_counts.get(ref_type, 0) + 1
     
-    print(f"📊 Behavioral-ready dataset created:")
+    print(f"📊 IntelliJ dataset created:")
     print(f"   Total refactorings: {len(dataset)}")
     print(f"   Refactoring types: {len(type_counts)}")
     print(f"   Files: {len(set(row['file_path'] for row in dataset))}")
@@ -80,12 +87,12 @@ def create_behavioral_ready_dataset():
         'has_left_locations', 'has_right_locations'
     ]
     
-    with open('data/mockito_behavioral_dataset.csv', 'w', newline='') as f:
+    with open('data/intellij_behavioral_dataset.csv', 'w', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(dataset)
     
-    print(f"\n💾 Dataset saved to: data/mockito_behavioral_dataset.csv")
+    print(f"\n💾 Dataset saved to: data/intellij_behavioral_dataset.csv")
     
     # Also save a simple version for ML
     simple_dataset = []
@@ -99,15 +106,15 @@ def create_behavioral_ready_dataset():
         }
         simple_dataset.append(simple_row)
     
-    with open('data/mockito_simple_dataset.csv', 'w', newline='') as f:
+    with open('data/intellij_simple_dataset.csv', 'w', newline='') as f:
         simple_fieldnames = ['file_path', 'refactoring_type', 'lines_changed', 'cyclomatic_complexity', 'nesting_depth']
         writer = csv.DictWriter(f, fieldnames=simple_fieldnames)
         writer.writeheader()
         writer.writerows(simple_dataset)
     
-    print(f"💾 Simple ML dataset saved to: data/mockito_simple_dataset.csv")
+    print(f"💾 Simple ML dataset saved to: data/intellij_simple_dataset.csv")
     
     return dataset
 
 if __name__ == "__main__":
-    create_behavioral_ready_dataset()
+    create_intellij_dataset()

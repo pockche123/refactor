@@ -1,0 +1,4 @@
+file_path,refactoring_type,status,ast_success,tests_passed,annotation,param_name
+platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionPhase.java,Add Parameter Annotation,TESTED,True,False,NotNull,editor
+platform/lang-impl/src/com/intellij/codeInsight/completion/CodeCompletionHandlerBase.java,Add Parameter Annotation,TESTED,True,False,NotNull,initContext
+platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionPhase.java,Add Parameter Annotation,TESTED,True,False,Nullable,indicator

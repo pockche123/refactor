@@ -1,0 +1,35 @@
+public class SourceClassTest {
+    
+    public static void main(String[] args) {
+        SourceClass obj = new SourceClass();
+        
+        // Test attribute functionality
+        obj.setData23("test value");
+        String value = obj.getData23();
+        
+        // Test status
+        String status = obj.getStatus();
+        
+        // Simple test validation
+        int testsRun = 2;
+        int testsPassed = 0;
+        
+        if (status.equals("working")) {
+            testsPassed++;
+        }
+        
+        if ("test value".equals(value)) {
+            testsPassed++;
+        }
+        
+        System.out.println("Tests run: " + testsRun);
+        System.out.println("Tests passed: " + testsPassed);
+        System.out.println("Tests failed: " + (testsRun - testsPassed));
+        
+        if (testsPassed == testsRun) {
+            System.out.println("ALL TESTS PASSED!");
+        } else {
+            System.out.println("SOME TESTS FAILED!");
+        }
+    }
+}

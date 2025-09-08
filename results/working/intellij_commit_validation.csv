@@ -1,0 +1,9 @@
+prediction_index,file_path,class_name,refactoring_type,annotation,param_name,commit_sha,before_tests_passed,after_tests_passed,test_regression,functionally_safe,conclusion
+1,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionPhase.java,CompletionPhase,Add Parameter Annotation,NotNull,editor,391f4f62f4ad8e77541aff22992694daa46360ca,2,2,0,True,SAFE
+2,platform/lang-impl/src/com/intellij/codeInsight/completion/CodeCompletionHandlerBase.java,CodeCompletionHandlerBase,Add Parameter Annotation,NotNull,initContext,391f4f62f4ad8e77541aff22992694daa46360ca,2,2,0,True,SAFE
+3,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionPhase.java,CompletionPhase,Add Parameter Annotation,Nullable,indicator,5f5b00a7ff86c2b12f5d2092244690b226e75a3f,2,2,0,True,SAFE
+4,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,CompletionProgressIndicator,Add Parameter Annotation,NotNull,restartCondition,6e96835a5997dfc842a223fe473363aeb2be4f4d,2,2,0,True,SAFE
+5,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,CompletionProgressIndicator,Add Parameter Annotation,NotNull,editor,6e96835a5997dfc842a223fe473363aeb2be4f4d,2,2,0,True,SAFE
+6,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,CompletionProgressIndicator,Add Parameter Annotation,NotNull,parameters,6e96835a5997dfc842a223fe473363aeb2be4f4d,2,2,0,True,SAFE
+7,platform/analysis-impl/src/com/intellij/codeInsight/completion/BaseCompletionLookupArranger.java,BaseCompletionLookupArranger,Add Parameter Annotation,NotNull,runnable,6e96835a5997dfc842a223fe473363aeb2be4f4d,2,2,0,True,SAFE
+8,platform/analysis-impl/src/com/intellij/codeInsight/completion/CompletionProcessBase.java,CompletionProcessBase,Add Parameter Annotation,NotNull,restartCondition,6e96835a5997dfc842a223fe473363aeb2be4f4d,2,2,0,True,SAFE

@@ -1,0 +1,42 @@
+file_path,refactoring_type,lines_changed,cyclomatic_complexity,nesting_depth,file_path_encoded,predicted_type,correct_prediction
+clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java,Remove Parameter,1,1,1,2,Remove Parameter,True
+clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java,Remove Parameter,1,1,1,2,Remove Parameter,True
+clients/src/test/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticatorTest.java,Rename Method,29,1,1,5,Rename Method,True
+clients/src/test/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticatorTest.java,Assert Throws,1,1,1,5,Assert Throws,True
+clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java,Change Return Type,1,1,1,3,Remove Parameter,False
+clients/src/test/java/org/apache/kafka/clients/consumer/internals/ConsumerHeartbeatRequestManagerTest.java,Rename Method,16,1,1,4,Rename Method,True
+clients/src/test/java/org/apache/kafka/clients/consumer/internals/ConsumerHeartbeatRequestManagerTest.java,Modify Method Annotation,1,1,1,4,Assert Throws,False
+clients/src/test/java/org/apache/kafka/clients/consumer/internals/ConsumerHeartbeatRequestManagerTest.java,Add Parameter,10,1,1,4,Add Parameter,True
+clients/src/test/java/org/apache/kafka/clients/consumer/internals/ConsumerHeartbeatRequestManagerTest.java,Add Parameter,16,1,1,4,Rename Method,False
+clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerHeartbeatRequestManager.java,Rename Method,31,1,1,1,Rename Method,True
+clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractHeartbeatRequestManager.java,Rename Method,10,1,1,0,Rename Method,True
+clients/src/test/java/org/apache/kafka/common/utils/LogCaptureAppender.java,Change Attribute Type,1,1,1,6,Change Attribute Type,True
+clients/src/test/java/org/apache/kafka/common/utils/LogCaptureAppender.java,Inline Variable,1,1,1,6,Change Attribute Type,False
+clients/src/test/java/org/apache/kafka/common/utils/LogCaptureAppender.java,Rename Variable,1,1,1,6,Change Attribute Type,False
+clients/src/test/java/org/apache/kafka/common/utils/LogCaptureAppender.java,Remove Parameter,1,1,1,6,Change Attribute Type,False
+connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java,Move Class,30,1,1,8,Move Class,True
+clients/src/test/java/org/apache/kafka/common/utils/LogCaptureAppender.java,Change Variable Type,1,1,1,6,Change Attribute Type,False
+connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java,Remove Class Annotation,1,1,1,8,Change Return Type,False
+connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java,Remove Class Annotation,1,1,1,8,Change Return Type,False
+connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java,Rename Method,8,1,1,8,Change Return Type,False
+connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java,Replace Variable With Attribute,1,1,1,8,Change Return Type,False
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java,Extract Method,32,1,1,7,Extract Method,True
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java,Extract Method,35,1,1,7,Extract Method,True
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java,Change Variable Type,1,1,1,7,Change Variable Type,True
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java,Extract Variable,1,1,1,7,Change Variable Type,False
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java,Change Variable Type,1,1,1,7,Change Variable Type,True
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java,Rename Variable,1,1,1,7,Change Variable Type,False
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java,Inline Variable,1,1,1,7,Change Variable Type,False
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java,Change Variable Type,1,1,1,7,Change Variable Type,True
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java,Change Variable Type,1,1,1,7,Change Variable Type,True
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java,Change Variable Type,1,1,1,7,Change Variable Type,True
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java,Change Return Type,1,1,1,7,Change Variable Type,False
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java,Change Return Type,1,1,1,7,Change Variable Type,False
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java,Replace Attribute With Variable,1,1,1,7,Change Variable Type,False
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java,Replace Attribute With Variable,1,1,1,7,Change Variable Type,False
+connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java,Change Return Type,1,1,1,8,Change Return Type,True
+connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java,Move Method,21,1,1,8,Move Method,True
+connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java,Move Method,18,1,1,8,Move Method,True
+connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java,Move Method,17,1,1,8,Move Method,True
+connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java,Move Method,51,1,1,8,Extract Method,False
+connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java,Extract Class,217,1,1,8,Extract Method,False

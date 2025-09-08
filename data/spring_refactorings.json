@@ -1,0 +1,2036 @@
+{
+  "commits": [
+    {
+      "repository": "https://github.com/spring-projects/spring-framework.git",
+      "sha1": "4fa33dfece3e558447e151bdf1a0c963097496a8",
+      "url": "https://github.com/spring-projects/spring-framework/commit/4fa33dfece3e558447e151bdf1a0c963097496a8",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/spring-projects/spring-framework.git",
+      "sha1": "abccba22f1511efd6d5e8cb5b00f16ba15b83e84",
+      "url": "https://github.com/spring-projects/spring-framework/commit/abccba22f1511efd6d5e8cb5b00f16ba15b83e84",
+      "refactorings": [
+        {
+          "type": "Extract Variable",
+          "description": "Extract Variable handlerMethod : HandlerMethod in method private addMatchesToCollection(mappingsToCheck Collection<T>, message Message<?>, matches List<Match>) : void from class org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-messaging/src/main/java/org/springframework/messaging/handler/invocation/AbstractMethodMessageHandler.java",
+              "startLine": 522,
+              "endLine": 522,
+              "startColumn": 5,
+              "endColumn": 69,
+              "codeElementType": "EXPRESSION_STATEMENT",
+              "description": "statement with the initializer of the extracted variable",
+              "codeElement": null
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-messaging/src/main/java/org/springframework/messaging/handler/invocation/AbstractMethodMessageHandler.java",
+              "startLine": 521,
+              "endLine": 521,
+              "startColumn": 19,
+              "endColumn": 67,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "extracted variable declaration",
+              "codeElement": "handlerMethod : HandlerMethod"
+            },
+            {
+              "filePath": "spring-messaging/src/main/java/org/springframework/messaging/handler/invocation/AbstractMethodMessageHandler.java",
+              "startLine": 523,
+              "endLine": 523,
+              "startColumn": 5,
+              "endColumn": 50,
+              "codeElementType": "EXPRESSION_STATEMENT",
+              "description": "statement with the name of the extracted variable",
+              "codeElement": null
+            }
+          ]
+        },
+        {
+          "type": "Remove Method Annotation",
+          "description": "Remove Method Annotation @SuppressWarnings(\"NullAway\") in method private addMatchesToCollection(mappingsToCheck Collection<T>, message Message<?>, matches List<Match>) : void from class org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-messaging/src/main/java/org/springframework/messaging/handler/invocation/AbstractMethodMessageHandler.java",
+              "startLine": 517,
+              "endLine": 517,
+              "startColumn": 2,
+              "endColumn": 31,
+              "codeElementType": "ANNOTATION",
+              "description": "removed annotation",
+              "codeElement": "@SuppressWarnings(\"NullAway\")"
+            },
+            {
+              "filePath": "spring-messaging/src/main/java/org/springframework/messaging/handler/invocation/AbstractMethodMessageHandler.java",
+              "startLine": 517,
+              "endLine": 525,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "private addMatchesToCollection(mappingsToCheck Collection<T>, message Message<?>, matches List<Match>) : void"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-messaging/src/main/java/org/springframework/messaging/handler/invocation/AbstractMethodMessageHandler.java",
+              "startLine": 517,
+              "endLine": 526,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with removed annotation",
+              "codeElement": "private addMatchesToCollection(mappingsToCheck Collection<T>, message Message<?>, matches List<Match>) : void"
+            }
+          ]
+        },
+        {
+          "type": "Extract Variable",
+          "description": "Extract Variable handlerMethod : HandlerMethod in method private addMatchesToCollection(mappingsToCheck Collection<T>, message Message<?>, matches List<Match<T>>) : void from class org.springframework.messaging.handler.invocation.reactive.AbstractMethodMessageHandler",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-messaging/src/main/java/org/springframework/messaging/handler/invocation/reactive/AbstractMethodMessageHandler.java",
+              "startLine": 506,
+              "endLine": 506,
+              "startColumn": 5,
+              "endColumn": 71,
+              "codeElementType": "EXPRESSION_STATEMENT",
+              "description": "statement with the initializer of the extracted variable",
+              "codeElement": null
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-messaging/src/main/java/org/springframework/messaging/handler/invocation/reactive/AbstractMethodMessageHandler.java",
+              "startLine": 505,
+              "endLine": 505,
+              "startColumn": 19,
+              "endColumn": 67,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "extracted variable declaration",
+              "codeElement": "handlerMethod : HandlerMethod"
+            },
+            {
+              "filePath": "spring-messaging/src/main/java/org/springframework/messaging/handler/invocation/reactive/AbstractMethodMessageHandler.java",
+              "startLine": 507,
+              "endLine": 507,
+              "startColumn": 5,
+              "endColumn": 52,
+              "codeElementType": "EXPRESSION_STATEMENT",
+              "description": "statement with the name of the extracted variable",
+              "codeElement": null
+            }
+          ]
+        },
+        {
+          "type": "Remove Method Annotation",
+          "description": "Remove Method Annotation @SuppressWarnings(\"NullAway\") in method private addMatchesToCollection(mappingsToCheck Collection<T>, message Message<?>, matches List<Match<T>>) : void from class org.springframework.messaging.handler.invocation.reactive.AbstractMethodMessageHandler",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-messaging/src/main/java/org/springframework/messaging/handler/invocation/reactive/AbstractMethodMessageHandler.java",
+              "startLine": 499,
+              "endLine": 499,
+              "startColumn": 2,
+              "endColumn": 31,
+              "codeElementType": "ANNOTATION",
+              "description": "removed annotation",
+              "codeElement": "@SuppressWarnings(\"NullAway\")"
+            },
+            {
+              "filePath": "spring-messaging/src/main/java/org/springframework/messaging/handler/invocation/reactive/AbstractMethodMessageHandler.java",
+              "startLine": 499,
+              "endLine": 509,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "private addMatchesToCollection(mappingsToCheck Collection<T>, message Message<?>, matches List<Match<T>>) : void"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-messaging/src/main/java/org/springframework/messaging/handler/invocation/reactive/AbstractMethodMessageHandler.java",
+              "startLine": 499,
+              "endLine": 510,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with removed annotation",
+              "codeElement": "private addMatchesToCollection(mappingsToCheck Collection<T>, message Message<?>, matches List<Match<T>>) : void"
+            }
+          ]
+        },
+        {
+          "type": "Add Method Annotation",
+          "description": "Add Method Annotation @Nullable in method protected getMatchingMapping(mapping String, message Message<?>) : String from class org.springframework.messaging.handler.invocation.MethodMessageHandlerTests.TestMethodMessageHandler",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-messaging/src/test/java/org/springframework/messaging/handler/invocation/MethodMessageHandlerTests.java",
+              "startLine": 238,
+              "endLine": 243,
+              "startColumn": 3,
+              "endColumn": 4,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "protected getMatchingMapping(mapping String, message Message<?>) : String"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-messaging/src/test/java/org/springframework/messaging/handler/invocation/MethodMessageHandlerTests.java",
+              "startLine": 240,
+              "endLine": 240,
+              "startColumn": 13,
+              "endColumn": 22,
+              "codeElementType": "ANNOTATION",
+              "description": "added annotation",
+              "codeElement": "@Nullable"
+            },
+            {
+              "filePath": "spring-messaging/src/test/java/org/springframework/messaging/handler/invocation/MethodMessageHandlerTests.java",
+              "startLine": 239,
+              "endLine": 244,
+              "startColumn": 3,
+              "endColumn": 4,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with added annotation",
+              "codeElement": "protected getMatchingMapping(mapping String, message Message<?>) : String"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/spring-projects/spring-framework.git",
+      "sha1": "73b24b6f7be9d3958df23764cb85200cef0ea2fd",
+      "url": "https://github.com/spring-projects/spring-framework/commit/73b24b6f7be9d3958df23764cb85200cef0ea2fd",
+      "refactorings": [
+        {
+          "type": "Extract Variable",
+          "description": "Extract Variable cause : QueryException in method public getQueryString() : String from class org.springframework.orm.hibernate5.HibernateQueryException",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-orm/src/main/java/org/springframework/orm/hibernate5/HibernateQueryException.java",
+              "startLine": 44,
+              "endLine": 44,
+              "startColumn": 3,
+              "endColumn": 57,
+              "codeElementType": "RETURN_STATEMENT",
+              "description": "statement with the initializer of the extracted variable",
+              "codeElement": null
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-orm/src/main/java/org/springframework/orm/hibernate5/HibernateQueryException.java",
+              "startLine": 43,
+              "endLine": 43,
+              "startColumn": 18,
+              "endColumn": 53,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "extracted variable declaration",
+              "codeElement": "cause : QueryException"
+            },
+            {
+              "filePath": "spring-orm/src/main/java/org/springframework/orm/hibernate5/HibernateQueryException.java",
+              "startLine": 44,
+              "endLine": 44,
+              "startColumn": 3,
+              "endColumn": 56,
+              "codeElementType": "RETURN_STATEMENT",
+              "description": "statement with the name of the extracted variable",
+              "codeElement": null
+            }
+          ]
+        },
+        {
+          "type": "Remove Method Annotation",
+          "description": "Remove Method Annotation @SuppressWarnings(\"NullAway\") in method public getQueryString() : String from class org.springframework.orm.hibernate5.HibernateQueryException",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-orm/src/main/java/org/springframework/orm/hibernate5/HibernateQueryException.java",
+              "startLine": 42,
+              "endLine": 42,
+              "startColumn": 2,
+              "endColumn": 31,
+              "codeElementType": "ANNOTATION",
+              "description": "removed annotation",
+              "codeElement": "@SuppressWarnings(\"NullAway\")"
+            },
+            {
+              "filePath": "spring-orm/src/main/java/org/springframework/orm/hibernate5/HibernateQueryException.java",
+              "startLine": 39,
+              "endLine": 45,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "public getQueryString() : String"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-orm/src/main/java/org/springframework/orm/hibernate5/HibernateQueryException.java",
+              "startLine": 39,
+              "endLine": 45,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with removed annotation",
+              "codeElement": "public getQueryString() : String"
+            }
+          ]
+        },
+        {
+          "type": "Rename Variable",
+          "description": "Rename Variable embeddableInstantiatorClass : Class<?> to type : Class<?> in method private registerForReflection(reflection ReflectionHints, annotation Annotation, attribute String) : void from class org.springframework.orm.jpa.persistenceunit.PersistenceManagedTypesBeanRegistrationAotProcessor.JpaManagedTypesBeanRegistrationCodeFragments",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-orm/src/main/java/org/springframework/orm/jpa/persistenceunit/PersistenceManagedTypesBeanRegistrationAotProcessor.java",
+              "startLine": 246,
+              "endLine": 246,
+              "startColumn": 13,
+              "endColumn": 120,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "original variable declaration",
+              "codeElement": "embeddableInstantiatorClass : Class<?>"
+            },
+            {
+              "filePath": "spring-orm/src/main/java/org/springframework/orm/jpa/persistenceunit/PersistenceManagedTypesBeanRegistrationAotProcessor.java",
+              "startLine": 246,
+              "endLine": 246,
+              "startColumn": 4,
+              "endColumn": 121,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "statement referencing the original variable",
+              "codeElement": null
+            },
+            {
+              "filePath": "spring-orm/src/main/java/org/springframework/orm/jpa/persistenceunit/PersistenceManagedTypesBeanRegistrationAotProcessor.java",
+              "startLine": 247,
+              "endLine": 247,
+              "startColumn": 4,
+              "endColumn": 102,
+              "codeElementType": "EXPRESSION_STATEMENT",
+              "description": "statement referencing the original variable",
+              "codeElement": null
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-orm/src/main/java/org/springframework/orm/jpa/persistenceunit/PersistenceManagedTypesBeanRegistrationAotProcessor.java",
+              "startLine": 246,
+              "endLine": 246,
+              "startColumn": 13,
+              "endColumn": 97,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "renamed variable declaration",
+              "codeElement": "type : Class<?>"
+            },
+            {
+              "filePath": "spring-orm/src/main/java/org/springframework/orm/jpa/persistenceunit/PersistenceManagedTypesBeanRegistrationAotProcessor.java",
+              "startLine": 246,
+              "endLine": 246,
+              "startColumn": 4,
+              "endColumn": 98,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "statement referencing the renamed variable",
+              "codeElement": null
+            },
+            {
+              "filePath": "spring-orm/src/main/java/org/springframework/orm/jpa/persistenceunit/PersistenceManagedTypesBeanRegistrationAotProcessor.java",
+              "startLine": 247,
+              "endLine": 247,
+              "startColumn": 4,
+              "endColumn": 79,
+              "codeElementType": "EXPRESSION_STATEMENT",
+              "description": "statement referencing the renamed variable",
+              "codeElement": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/spring-projects/spring-framework.git",
+      "sha1": "7417bd0ac1edce224c321005af39cacc100618a3",
+      "url": "https://github.com/spring-projects/spring-framework/commit/7417bd0ac1edce224c321005af39cacc100618a3",
+      "refactorings": [
+        {
+          "type": "Remove Method Annotation",
+          "description": "Remove Method Annotation @SuppressWarnings(\"NullAway\") in method public initialize() : void from class org.springframework.r2dbc.connection.lookup.AbstractRoutingConnectionFactory",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-r2dbc/src/main/java/org/springframework/r2dbc/connection/lookup/AbstractRoutingConnectionFactory.java",
+              "startLine": 141,
+              "endLine": 141,
+              "startColumn": 2,
+              "endColumn": 31,
+              "codeElementType": "ANNOTATION",
+              "description": "removed annotation",
+              "codeElement": "@SuppressWarnings(\"NullAway\")"
+            },
+            {
+              "filePath": "spring-r2dbc/src/main/java/org/springframework/r2dbc/connection/lookup/AbstractRoutingConnectionFactory.java",
+              "startLine": 132,
+              "endLine": 155,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "public initialize() : void"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-r2dbc/src/main/java/org/springframework/r2dbc/connection/lookup/AbstractRoutingConnectionFactory.java",
+              "startLine": 132,
+              "endLine": 154,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with removed annotation",
+              "codeElement": "public initialize() : void"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/spring-projects/spring-framework.git",
+      "sha1": "a442c180f1956fa0365bca4617fcedb8ea2199f5",
+      "url": "https://github.com/spring-projects/spring-framework/commit/a442c180f1956fa0365bca4617fcedb8ea2199f5",
+      "refactorings": [
+        {
+          "type": "Remove Method Annotation",
+          "description": "Remove Method Annotation @SuppressWarnings(\"NullAway\") in method private parseMediaType(value String) : MediaType from class org.springframework.test.http.MediaTypeAssert",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-test/src/main/java/org/springframework/test/http/MediaTypeAssert.java",
+              "startLine": 106,
+              "endLine": 106,
+              "startColumn": 2,
+              "endColumn": 31,
+              "codeElementType": "ANNOTATION",
+              "description": "removed annotation",
+              "codeElement": "@SuppressWarnings(\"NullAway\")"
+            },
+            {
+              "filePath": "spring-test/src/main/java/org/springframework/test/http/MediaTypeAssert.java",
+              "startLine": 106,
+              "endLine": 114,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "private parseMediaType(value String) : MediaType"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-test/src/main/java/org/springframework/test/http/MediaTypeAssert.java",
+              "startLine": 106,
+              "endLine": 113,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with removed annotation",
+              "codeElement": "private parseMediaType(value String) : MediaType"
+            }
+          ]
+        },
+        {
+          "type": "Extract Variable",
+          "description": "Extract Variable message : String in method private buildUri(uriTemplate String, uriVars Object...) : String from class org.springframework.test.web.UriAssert",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-test/src/main/java/org/springframework/test/web/UriAssert.java",
+              "startLine": 90,
+              "endLine": 91,
+              "startColumn": 4,
+              "endColumn": 66,
+              "codeElementType": "THROW_STATEMENT",
+              "description": "statement with the initializer of the extracted variable",
+              "codeElement": null
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-test/src/main/java/org/springframework/test/web/UriAssert.java",
+              "startLine": 90,
+              "endLine": 90,
+              "startColumn": 11,
+              "endColumn": 36,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "extracted variable declaration",
+              "codeElement": "message : String"
+            },
+            {
+              "filePath": "spring-test/src/main/java/org/springframework/test/web/UriAssert.java",
+              "startLine": 91,
+              "endLine": 94,
+              "startColumn": 4,
+              "endColumn": 71,
+              "codeElementType": "THROW_STATEMENT",
+              "description": "statement with the name of the extracted variable",
+              "codeElement": null
+            }
+          ]
+        },
+        {
+          "type": "Remove Method Annotation",
+          "description": "Remove Method Annotation @SuppressWarnings(\"NullAway\") in method private buildUri(uriTemplate String, uriVars Object...) : String from class org.springframework.test.web.UriAssert",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-test/src/main/java/org/springframework/test/web/UriAssert.java",
+              "startLine": 83,
+              "endLine": 83,
+              "startColumn": 2,
+              "endColumn": 31,
+              "codeElementType": "ANNOTATION",
+              "description": "removed annotation",
+              "codeElement": "@SuppressWarnings(\"NullAway\")"
+            },
+            {
+              "filePath": "spring-test/src/main/java/org/springframework/test/web/UriAssert.java",
+              "startLine": 83,
+              "endLine": 93,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "private buildUri(uriTemplate String, uriVars Object...) : String"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-test/src/main/java/org/springframework/test/web/UriAssert.java",
+              "startLine": 84,
+              "endLine": 96,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with removed annotation",
+              "codeElement": "private buildUri(uriTemplate String, uriVars Object...) : String"
+            }
+          ]
+        },
+        {
+          "type": "Remove Parameter",
+          "description": "Remove Parameter errorMessage : String in method private ShouldBeValidUriTemplate(uriTemplate String, errorMessage String) from class org.springframework.test.web.UriAssert.ShouldBeValidUriTemplate",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-test/src/main/java/org/springframework/test/web/UriAssert.java",
+              "startLine": 98,
+              "endLine": 98,
+              "startColumn": 56,
+              "endColumn": 75,
+              "codeElementType": "SINGLE_VARIABLE_DECLARATION",
+              "description": "removed parameter",
+              "codeElement": "errorMessage : String"
+            },
+            {
+              "filePath": "spring-test/src/main/java/org/springframework/test/web/UriAssert.java",
+              "startLine": 98,
+              "endLine": 100,
+              "startColumn": 3,
+              "endColumn": 4,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "private ShouldBeValidUriTemplate(uriTemplate String, errorMessage String)"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-test/src/main/java/org/springframework/test/web/UriAssert.java",
+              "startLine": 101,
+              "endLine": 103,
+              "startColumn": 3,
+              "endColumn": 4,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with removed parameter",
+              "codeElement": "private ShouldBeValidUriTemplate(uriTemplate String)"
+            }
+          ]
+        },
+        {
+          "type": "Add Method Annotation",
+          "description": "Add Method Annotation @Nullable in method public getAsyncResult() : Object from class org.springframework.test.web.servlet.DefaultMvcResult",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-test/src/main/java/org/springframework/test/web/servlet/DefaultMvcResult.java",
+              "startLine": 126,
+              "endLine": 129,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "public getAsyncResult() : Object"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-test/src/main/java/org/springframework/test/web/servlet/DefaultMvcResult.java",
+              "startLine": 127,
+              "endLine": 127,
+              "startColumn": 9,
+              "endColumn": 18,
+              "codeElementType": "ANNOTATION",
+              "description": "added annotation",
+              "codeElement": "@Nullable"
+            },
+            {
+              "filePath": "spring-test/src/main/java/org/springframework/test/web/servlet/DefaultMvcResult.java",
+              "startLine": 126,
+              "endLine": 129,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with added annotation",
+              "codeElement": "public getAsyncResult() : Object"
+            }
+          ]
+        },
+        {
+          "type": "Add Method Annotation",
+          "description": "Add Method Annotation @Nullable in method public getAsyncResult(timeToWait long) : Object from class org.springframework.test.web.servlet.DefaultMvcResult",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-test/src/main/java/org/springframework/test/web/servlet/DefaultMvcResult.java",
+              "startLine": 131,
+              "endLine": 145,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "public getAsyncResult(timeToWait long) : Object"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-test/src/main/java/org/springframework/test/web/servlet/DefaultMvcResult.java",
+              "startLine": 132,
+              "endLine": 132,
+              "startColumn": 9,
+              "endColumn": 18,
+              "codeElementType": "ANNOTATION",
+              "description": "added annotation",
+              "codeElement": "@Nullable"
+            },
+            {
+              "filePath": "spring-test/src/main/java/org/springframework/test/web/servlet/DefaultMvcResult.java",
+              "startLine": 131,
+              "endLine": 144,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with added annotation",
+              "codeElement": "public getAsyncResult(timeToWait long) : Object"
+            }
+          ]
+        },
+        {
+          "type": "Remove Method Annotation",
+          "description": "Remove Method Annotation @SuppressWarnings(\"NullAway\") in method public getAsyncResult(timeToWait long) : Object from class org.springframework.test.web.servlet.DefaultMvcResult",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-test/src/main/java/org/springframework/test/web/servlet/DefaultMvcResult.java",
+              "startLine": 132,
+              "endLine": 132,
+              "startColumn": 2,
+              "endColumn": 31,
+              "codeElementType": "ANNOTATION",
+              "description": "removed annotation",
+              "codeElement": "@SuppressWarnings(\"NullAway\")"
+            },
+            {
+              "filePath": "spring-test/src/main/java/org/springframework/test/web/servlet/DefaultMvcResult.java",
+              "startLine": 131,
+              "endLine": 145,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "public getAsyncResult(timeToWait long) : Object"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-test/src/main/java/org/springframework/test/web/servlet/DefaultMvcResult.java",
+              "startLine": 131,
+              "endLine": 144,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with removed annotation",
+              "codeElement": "public getAsyncResult(timeToWait long) : Object"
+            }
+          ]
+        },
+        {
+          "type": "Add Method Annotation",
+          "description": "Add Method Annotation @Nullable in method public getAsyncResult() : Object from class org.springframework.test.web.servlet.MvcResult",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-test/src/main/java/org/springframework/test/web/servlet/MvcResult.java",
+              "startLine": 79,
+              "endLine": 88,
+              "startColumn": 2,
+              "endColumn": 26,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "public getAsyncResult() : Object"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-test/src/main/java/org/springframework/test/web/servlet/MvcResult.java",
+              "startLine": 88,
+              "endLine": 88,
+              "startColumn": 2,
+              "endColumn": 11,
+              "codeElementType": "ANNOTATION",
+              "description": "added annotation",
+              "codeElement": "@Nullable"
+            },
+            {
+              "filePath": "spring-test/src/main/java/org/springframework/test/web/servlet/MvcResult.java",
+              "startLine": 79,
+              "endLine": 88,
+              "startColumn": 2,
+              "endColumn": 36,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with added annotation",
+              "codeElement": "public getAsyncResult() : Object"
+            }
+          ]
+        },
+        {
+          "type": "Add Method Annotation",
+          "description": "Add Method Annotation @Nullable in method public getAsyncResult(timeToWait long) : Object from class org.springframework.test.web.servlet.MvcResult",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-test/src/main/java/org/springframework/test/web/servlet/MvcResult.java",
+              "startLine": 90,
+              "endLine": 99,
+              "startColumn": 2,
+              "endColumn": 41,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "public getAsyncResult(timeToWait long) : Object"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-test/src/main/java/org/springframework/test/web/servlet/MvcResult.java",
+              "startLine": 99,
+              "endLine": 99,
+              "startColumn": 2,
+              "endColumn": 11,
+              "codeElementType": "ANNOTATION",
+              "description": "added annotation",
+              "codeElement": "@Nullable"
+            },
+            {
+              "filePath": "spring-test/src/main/java/org/springframework/test/web/servlet/MvcResult.java",
+              "startLine": 90,
+              "endLine": 99,
+              "startColumn": 2,
+              "endColumn": 51,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with added annotation",
+              "codeElement": "public getAsyncResult(timeToWait long) : Object"
+            }
+          ]
+        },
+        {
+          "type": "Add Method Annotation",
+          "description": "Add Method Annotation @Nullable in method public getAsyncResult() : Object from class org.springframework.test.web.servlet.client.MockMvcHttpConnector.PrintingMvcResult",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-test/src/main/java/org/springframework/test/web/servlet/client/MockMvcHttpConnector.java",
+              "startLine": 294,
+              "endLine": 297,
+              "startColumn": 3,
+              "endColumn": 4,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "public getAsyncResult() : Object"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-test/src/main/java/org/springframework/test/web/servlet/client/MockMvcHttpConnector.java",
+              "startLine": 295,
+              "endLine": 295,
+              "startColumn": 10,
+              "endColumn": 19,
+              "codeElementType": "ANNOTATION",
+              "description": "added annotation",
+              "codeElement": "@Nullable"
+            },
+            {
+              "filePath": "spring-test/src/main/java/org/springframework/test/web/servlet/client/MockMvcHttpConnector.java",
+              "startLine": 294,
+              "endLine": 297,
+              "startColumn": 3,
+              "endColumn": 4,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with added annotation",
+              "codeElement": "public getAsyncResult() : Object"
+            }
+          ]
+        },
+        {
+          "type": "Add Method Annotation",
+          "description": "Add Method Annotation @Nullable in method public getAsyncResult(timeToWait long) : Object from class org.springframework.test.web.servlet.client.MockMvcHttpConnector.PrintingMvcResult",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-test/src/main/java/org/springframework/test/web/servlet/client/MockMvcHttpConnector.java",
+              "startLine": 299,
+              "endLine": 302,
+              "startColumn": 3,
+              "endColumn": 4,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "public getAsyncResult(timeToWait long) : Object"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-test/src/main/java/org/springframework/test/web/servlet/client/MockMvcHttpConnector.java",
+              "startLine": 300,
+              "endLine": 300,
+              "startColumn": 10,
+              "endColumn": 19,
+              "codeElementType": "ANNOTATION",
+              "description": "added annotation",
+              "codeElement": "@Nullable"
+            },
+            {
+              "filePath": "spring-test/src/main/java/org/springframework/test/web/servlet/client/MockMvcHttpConnector.java",
+              "startLine": 299,
+              "endLine": 302,
+              "startColumn": 3,
+              "endColumn": 4,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with added annotation",
+              "codeElement": "public getAsyncResult(timeToWait long) : Object"
+            }
+          ]
+        },
+        {
+          "type": "Add Method Annotation",
+          "description": "Add Method Annotation @Nullable in method public getAsyncResult() : Object from class org.springframework.test.web.servlet.StubMvcResult",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-test/src/test/java/org/springframework/test/web/servlet/StubMvcResult.java",
+              "startLine": 129,
+              "endLine": 132,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "public getAsyncResult() : Object"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-test/src/test/java/org/springframework/test/web/servlet/StubMvcResult.java",
+              "startLine": 132,
+              "endLine": 132,
+              "startColumn": 9,
+              "endColumn": 18,
+              "codeElementType": "ANNOTATION",
+              "description": "added annotation",
+              "codeElement": "@Nullable"
+            },
+            {
+              "filePath": "spring-test/src/test/java/org/springframework/test/web/servlet/StubMvcResult.java",
+              "startLine": 131,
+              "endLine": 134,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with added annotation",
+              "codeElement": "public getAsyncResult() : Object"
+            }
+          ]
+        },
+        {
+          "type": "Add Method Annotation",
+          "description": "Add Method Annotation @Nullable in method public getAsyncResult(timeToWait long) : Object from class org.springframework.test.web.servlet.StubMvcResult",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-test/src/test/java/org/springframework/test/web/servlet/StubMvcResult.java",
+              "startLine": 134,
+              "endLine": 137,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "public getAsyncResult(timeToWait long) : Object"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-test/src/test/java/org/springframework/test/web/servlet/StubMvcResult.java",
+              "startLine": 137,
+              "endLine": 137,
+              "startColumn": 9,
+              "endColumn": 18,
+              "codeElementType": "ANNOTATION",
+              "description": "added annotation",
+              "codeElement": "@Nullable"
+            },
+            {
+              "filePath": "spring-test/src/test/java/org/springframework/test/web/servlet/StubMvcResult.java",
+              "startLine": 136,
+              "endLine": 139,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with added annotation",
+              "codeElement": "public getAsyncResult(timeToWait long) : Object"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/spring-projects/spring-framework.git",
+      "sha1": "5fba926ab63f977c8b6b3d411dc3a7077784e1c2",
+      "url": "https://github.com/spring-projects/spring-framework/commit/5fba926ab63f977c8b6b3d411dc3a7077784e1c2",
+      "refactorings": [
+        {
+          "type": "Remove Method Annotation",
+          "description": "Remove Method Annotation @SuppressWarnings(\"NullAway\") in method protected executeInternal(headers HttpHeaders, body Body) : ClientHttpResponse from class org.springframework.http.client.JdkClientHttpRequest",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/http/client/JdkClientHttpRequest.java",
+              "startLine": 97,
+              "endLine": 97,
+              "startColumn": 2,
+              "endColumn": 31,
+              "codeElementType": "ANNOTATION",
+              "description": "removed annotation",
+              "codeElement": "@SuppressWarnings(\"NullAway\")"
+            },
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/http/client/JdkClientHttpRequest.java",
+              "startLine": 96,
+              "endLine": 139,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "protected executeInternal(headers HttpHeaders, body Body) : ClientHttpResponse"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/http/client/JdkClientHttpRequest.java",
+              "startLine": 96,
+              "endLine": 139,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with removed annotation",
+              "codeElement": "protected executeInternal(headers HttpHeaders, body Body) : ClientHttpResponse"
+            }
+          ]
+        },
+        {
+          "type": "Remove Method Annotation",
+          "description": "Remove Method Annotation @SuppressWarnings(\"NullAway\") in method protected executeInternal(headers HttpHeaders, body Body) : ClientHttpResponse from class org.springframework.http.client.JettyClientHttpRequest",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/http/client/JettyClientHttpRequest.java",
+              "startLine": 72,
+              "endLine": 72,
+              "startColumn": 2,
+              "endColumn": 31,
+              "codeElementType": "ANNOTATION",
+              "description": "removed annotation",
+              "codeElement": "@SuppressWarnings(\"NullAway\")"
+            },
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/http/client/JettyClientHttpRequest.java",
+              "startLine": 71,
+              "endLine": 127,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "protected executeInternal(headers HttpHeaders, body Body) : ClientHttpResponse"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/http/client/JettyClientHttpRequest.java",
+              "startLine": 71,
+              "endLine": 127,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with removed annotation",
+              "codeElement": "protected executeInternal(headers HttpHeaders, body Body) : ClientHttpResponse"
+            }
+          ]
+        },
+        {
+          "type": "Remove Class Annotation",
+          "description": "Remove Class Annotation @SuppressWarnings(\"NullAway\") in class org.springframework.http.codec.multipart.MultipartParser",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/http/codec/multipart/MultipartParser.java",
+              "startLine": 52,
+              "endLine": 52,
+              "startColumn": 0,
+              "endColumn": 30,
+              "codeElementType": "ANNOTATION",
+              "description": "removed annotation",
+              "codeElement": "@SuppressWarnings(\"NullAway\")"
+            },
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/http/codec/multipart/MultipartParser.java",
+              "startLine": 46,
+              "endLine": 657,
+              "startColumn": 0,
+              "endColumn": 2,
+              "codeElementType": "TYPE_DECLARATION",
+              "description": "original class declaration",
+              "codeElement": "org.springframework.http.codec.multipart.MultipartParser"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/http/codec/multipart/MultipartParser.java",
+              "startLine": 46,
+              "endLine": 658,
+              "startColumn": 0,
+              "endColumn": 2,
+              "codeElementType": "TYPE_DECLARATION",
+              "description": "class declaration with removed annotation",
+              "codeElement": "org.springframework.http.codec.multipart.MultipartParser"
+            }
+          ]
+        },
+        {
+          "type": "Add Method Annotation",
+          "description": "Add Method Annotation @SuppressWarnings(\"NullAway\") in method protected hookOnNext(value DataBuffer) : void from class org.springframework.http.codec.multipart.MultipartParser",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/http/codec/multipart/MultipartParser.java",
+              "startLine": 119,
+              "endLine": 123,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "protected hookOnNext(value DataBuffer) : void"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/http/codec/multipart/MultipartParser.java",
+              "startLine": 119,
+              "endLine": 119,
+              "startColumn": 2,
+              "endColumn": 31,
+              "codeElementType": "ANNOTATION",
+              "description": "added annotation",
+              "codeElement": "@SuppressWarnings(\"NullAway\")"
+            },
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/http/codec/multipart/MultipartParser.java",
+              "startLine": 118,
+              "endLine": 123,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with added annotation",
+              "codeElement": "protected hookOnNext(value DataBuffer) : void"
+            }
+          ]
+        },
+        {
+          "type": "Add Method Annotation",
+          "description": "Add Method Annotation @SuppressWarnings(\"NullAway\") in method protected hookOnComplete() : void from class org.springframework.http.codec.multipart.MultipartParser",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/http/codec/multipart/MultipartParser.java",
+              "startLine": 125,
+              "endLine": 128,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "protected hookOnComplete() : void"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/http/codec/multipart/MultipartParser.java",
+              "startLine": 126,
+              "endLine": 126,
+              "startColumn": 2,
+              "endColumn": 31,
+              "codeElementType": "ANNOTATION",
+              "description": "added annotation",
+              "codeElement": "@SuppressWarnings(\"NullAway\")"
+            },
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/http/codec/multipart/MultipartParser.java",
+              "startLine": 125,
+              "endLine": 129,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with added annotation",
+              "codeElement": "protected hookOnComplete() : void"
+            }
+          ]
+        },
+        {
+          "type": "Add Attribute Annotation",
+          "description": "Add Attribute Annotation @SuppressWarnings(\"NullAway.Init\") in attribute private multipartFiles : MultiValueMap<String,MultipartFile> from class org.springframework.web.multipart.support.AbstractMultipartHttpServletRequest",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/AbstractMultipartHttpServletRequest.java",
+              "startLine": 47,
+              "endLine": 47,
+              "startColumn": 57,
+              "endColumn": 71,
+              "codeElementType": "FIELD_DECLARATION",
+              "description": "original attribute declaration",
+              "codeElement": "private multipartFiles : MultiValueMap<String,MultipartFile>"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/AbstractMultipartHttpServletRequest.java",
+              "startLine": 47,
+              "endLine": 47,
+              "startColumn": 2,
+              "endColumn": 36,
+              "codeElementType": "ANNOTATION",
+              "description": "added annotation",
+              "codeElement": "@SuppressWarnings(\"NullAway.Init\")"
+            },
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/AbstractMultipartHttpServletRequest.java",
+              "startLine": 48,
+              "endLine": 48,
+              "startColumn": 47,
+              "endColumn": 61,
+              "codeElementType": "FIELD_DECLARATION",
+              "description": "attribute declaration with added annotation",
+              "codeElement": "private multipartFiles : MultiValueMap<String,MultipartFile>"
+            }
+          ]
+        },
+        {
+          "type": "Remove Attribute Annotation",
+          "description": "Remove Attribute Annotation @Nullable in attribute private multipartFiles : MultiValueMap<String,MultipartFile> from class org.springframework.web.multipart.support.AbstractMultipartHttpServletRequest",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/AbstractMultipartHttpServletRequest.java",
+              "startLine": 47,
+              "endLine": 47,
+              "startColumn": 10,
+              "endColumn": 19,
+              "codeElementType": "ANNOTATION",
+              "description": "removed annotation",
+              "codeElement": "@Nullable"
+            },
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/AbstractMultipartHttpServletRequest.java",
+              "startLine": 47,
+              "endLine": 47,
+              "startColumn": 57,
+              "endColumn": 71,
+              "codeElementType": "FIELD_DECLARATION",
+              "description": "original attribute declaration",
+              "codeElement": "private multipartFiles : MultiValueMap<String,MultipartFile>"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/AbstractMultipartHttpServletRequest.java",
+              "startLine": 48,
+              "endLine": 48,
+              "startColumn": 47,
+              "endColumn": 61,
+              "codeElementType": "FIELD_DECLARATION",
+              "description": "attribute declaration with removed annotation",
+              "codeElement": "private multipartFiles : MultiValueMap<String,MultipartFile>"
+            }
+          ]
+        },
+        {
+          "type": "Remove Method Annotation",
+          "description": "Remove Method Annotation @SuppressWarnings(\"NullAway\") in method protected getMultipartFiles() : MultiValueMap<String,MultipartFile> from class org.springframework.web.multipart.support.AbstractMultipartHttpServletRequest",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/AbstractMultipartHttpServletRequest.java",
+              "startLine": 138,
+              "endLine": 138,
+              "startColumn": 2,
+              "endColumn": 31,
+              "codeElementType": "ANNOTATION",
+              "description": "removed annotation",
+              "codeElement": "@SuppressWarnings(\"NullAway\")"
+            },
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/AbstractMultipartHttpServletRequest.java",
+              "startLine": 133,
+              "endLine": 144,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "protected getMultipartFiles() : MultiValueMap<String,MultipartFile>"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/AbstractMultipartHttpServletRequest.java",
+              "startLine": 134,
+              "endLine": 144,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with removed annotation",
+              "codeElement": "protected getMultipartFiles() : MultiValueMap<String,MultipartFile>"
+            }
+          ]
+        },
+        {
+          "type": "Add Attribute Annotation",
+          "description": "Add Attribute Annotation @SuppressWarnings(\"NullAway.Init\") in attribute private multipartParameters : Map<String,String[]> from class org.springframework.web.multipart.support.DefaultMultipartHttpServletRequest",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/DefaultMultipartHttpServletRequest.java",
+              "startLine": 48,
+              "endLine": 48,
+              "startColumn": 42,
+              "endColumn": 61,
+              "codeElementType": "FIELD_DECLARATION",
+              "description": "original attribute declaration",
+              "codeElement": "private multipartParameters : Map<String,String[]>"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/DefaultMultipartHttpServletRequest.java",
+              "startLine": 48,
+              "endLine": 48,
+              "startColumn": 2,
+              "endColumn": 36,
+              "codeElementType": "ANNOTATION",
+              "description": "added annotation",
+              "codeElement": "@SuppressWarnings(\"NullAway.Init\")"
+            },
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/DefaultMultipartHttpServletRequest.java",
+              "startLine": 49,
+              "endLine": 49,
+              "startColumn": 32,
+              "endColumn": 51,
+              "codeElementType": "FIELD_DECLARATION",
+              "description": "attribute declaration with added annotation",
+              "codeElement": "private multipartParameters : Map<String,String[]>"
+            }
+          ]
+        },
+        {
+          "type": "Remove Attribute Annotation",
+          "description": "Remove Attribute Annotation @Nullable in attribute private multipartParameters : Map<String,String[]> from class org.springframework.web.multipart.support.DefaultMultipartHttpServletRequest",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/DefaultMultipartHttpServletRequest.java",
+              "startLine": 48,
+              "endLine": 48,
+              "startColumn": 10,
+              "endColumn": 19,
+              "codeElementType": "ANNOTATION",
+              "description": "removed annotation",
+              "codeElement": "@Nullable"
+            },
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/DefaultMultipartHttpServletRequest.java",
+              "startLine": 48,
+              "endLine": 48,
+              "startColumn": 42,
+              "endColumn": 61,
+              "codeElementType": "FIELD_DECLARATION",
+              "description": "original attribute declaration",
+              "codeElement": "private multipartParameters : Map<String,String[]>"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/DefaultMultipartHttpServletRequest.java",
+              "startLine": 49,
+              "endLine": 49,
+              "startColumn": 32,
+              "endColumn": 51,
+              "codeElementType": "FIELD_DECLARATION",
+              "description": "attribute declaration with removed annotation",
+              "codeElement": "private multipartParameters : Map<String,String[]>"
+            }
+          ]
+        },
+        {
+          "type": "Add Attribute Annotation",
+          "description": "Add Attribute Annotation @SuppressWarnings(\"NullAway.Init\") in attribute private multipartParameterContentTypes : Map<String,String> from class org.springframework.web.multipart.support.DefaultMultipartHttpServletRequest",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/DefaultMultipartHttpServletRequest.java",
+              "startLine": 50,
+              "endLine": 50,
+              "startColumn": 40,
+              "endColumn": 70,
+              "codeElementType": "FIELD_DECLARATION",
+              "description": "original attribute declaration",
+              "codeElement": "private multipartParameterContentTypes : Map<String,String>"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/DefaultMultipartHttpServletRequest.java",
+              "startLine": 51,
+              "endLine": 51,
+              "startColumn": 2,
+              "endColumn": 36,
+              "codeElementType": "ANNOTATION",
+              "description": "added annotation",
+              "codeElement": "@SuppressWarnings(\"NullAway.Init\")"
+            },
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/DefaultMultipartHttpServletRequest.java",
+              "startLine": 52,
+              "endLine": 52,
+              "startColumn": 30,
+              "endColumn": 60,
+              "codeElementType": "FIELD_DECLARATION",
+              "description": "attribute declaration with added annotation",
+              "codeElement": "private multipartParameterContentTypes : Map<String,String>"
+            }
+          ]
+        },
+        {
+          "type": "Remove Attribute Annotation",
+          "description": "Remove Attribute Annotation @Nullable in attribute private multipartParameterContentTypes : Map<String,String> from class org.springframework.web.multipart.support.DefaultMultipartHttpServletRequest",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/DefaultMultipartHttpServletRequest.java",
+              "startLine": 50,
+              "endLine": 50,
+              "startColumn": 10,
+              "endColumn": 19,
+              "codeElementType": "ANNOTATION",
+              "description": "removed annotation",
+              "codeElement": "@Nullable"
+            },
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/DefaultMultipartHttpServletRequest.java",
+              "startLine": 50,
+              "endLine": 50,
+              "startColumn": 40,
+              "endColumn": 70,
+              "codeElementType": "FIELD_DECLARATION",
+              "description": "original attribute declaration",
+              "codeElement": "private multipartParameterContentTypes : Map<String,String>"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/DefaultMultipartHttpServletRequest.java",
+              "startLine": 52,
+              "endLine": 52,
+              "startColumn": 30,
+              "endColumn": 60,
+              "codeElementType": "FIELD_DECLARATION",
+              "description": "attribute declaration with removed annotation",
+              "codeElement": "private multipartParameterContentTypes : Map<String,String>"
+            }
+          ]
+        },
+        {
+          "type": "Remove Method Annotation",
+          "description": "Remove Method Annotation @SuppressWarnings(\"NullAway\") in method protected getMultipartParameters() : Map<String,String[]> from class org.springframework.web.multipart.support.DefaultMultipartHttpServletRequest",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/DefaultMultipartHttpServletRequest.java",
+              "startLine": 167,
+              "endLine": 167,
+              "startColumn": 2,
+              "endColumn": 31,
+              "codeElementType": "ANNOTATION",
+              "description": "removed annotation",
+              "codeElement": "@SuppressWarnings(\"NullAway\")"
+            },
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/DefaultMultipartHttpServletRequest.java",
+              "startLine": 162,
+              "endLine": 173,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "protected getMultipartParameters() : Map<String,String[]>"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/DefaultMultipartHttpServletRequest.java",
+              "startLine": 164,
+              "endLine": 174,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with removed annotation",
+              "codeElement": "protected getMultipartParameters() : Map<String,String[]>"
+            }
+          ]
+        },
+        {
+          "type": "Remove Method Annotation",
+          "description": "Remove Method Annotation @SuppressWarnings(\"NullAway\") in method protected getMultipartParameterContentTypes() : Map<String,String> from class org.springframework.web.multipart.support.DefaultMultipartHttpServletRequest",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/DefaultMultipartHttpServletRequest.java",
+              "startLine": 188,
+              "endLine": 188,
+              "startColumn": 2,
+              "endColumn": 31,
+              "codeElementType": "ANNOTATION",
+              "description": "removed annotation",
+              "codeElement": "@SuppressWarnings(\"NullAway\")"
+            },
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/DefaultMultipartHttpServletRequest.java",
+              "startLine": 183,
+              "endLine": 194,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "protected getMultipartParameterContentTypes() : Map<String,String>"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/DefaultMultipartHttpServletRequest.java",
+              "startLine": 184,
+              "endLine": 194,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with removed annotation",
+              "codeElement": "protected getMultipartParameterContentTypes() : Map<String,String>"
+            }
+          ]
+        },
+        {
+          "type": "Add Attribute Annotation",
+          "description": "Add Attribute Annotation @SuppressWarnings(\"NullAway.Init\") in attribute private multipartParameterNames : Set<String> from class org.springframework.web.multipart.support.StandardMultipartHttpServletRequest",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/StandardMultipartHttpServletRequest.java",
+              "startLine": 61,
+              "endLine": 61,
+              "startColumn": 32,
+              "endColumn": 55,
+              "codeElementType": "FIELD_DECLARATION",
+              "description": "original attribute declaration",
+              "codeElement": "private multipartParameterNames : Set<String>"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/StandardMultipartHttpServletRequest.java",
+              "startLine": 61,
+              "endLine": 61,
+              "startColumn": 2,
+              "endColumn": 36,
+              "codeElementType": "ANNOTATION",
+              "description": "added annotation",
+              "codeElement": "@SuppressWarnings(\"NullAway.Init\")"
+            },
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/StandardMultipartHttpServletRequest.java",
+              "startLine": 62,
+              "endLine": 62,
+              "startColumn": 22,
+              "endColumn": 45,
+              "codeElementType": "FIELD_DECLARATION",
+              "description": "attribute declaration with added annotation",
+              "codeElement": "private multipartParameterNames : Set<String>"
+            }
+          ]
+        },
+        {
+          "type": "Remove Attribute Annotation",
+          "description": "Remove Attribute Annotation @Nullable in attribute private multipartParameterNames : Set<String> from class org.springframework.web.multipart.support.StandardMultipartHttpServletRequest",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/StandardMultipartHttpServletRequest.java",
+              "startLine": 61,
+              "endLine": 61,
+              "startColumn": 10,
+              "endColumn": 19,
+              "codeElementType": "ANNOTATION",
+              "description": "removed annotation",
+              "codeElement": "@Nullable"
+            },
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/StandardMultipartHttpServletRequest.java",
+              "startLine": 61,
+              "endLine": 61,
+              "startColumn": 32,
+              "endColumn": 55,
+              "codeElementType": "FIELD_DECLARATION",
+              "description": "original attribute declaration",
+              "codeElement": "private multipartParameterNames : Set<String>"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/StandardMultipartHttpServletRequest.java",
+              "startLine": 62,
+              "endLine": 62,
+              "startColumn": 22,
+              "endColumn": 45,
+              "codeElementType": "FIELD_DECLARATION",
+              "description": "attribute declaration with removed annotation",
+              "codeElement": "private multipartParameterNames : Set<String>"
+            }
+          ]
+        },
+        {
+          "type": "Remove Method Annotation",
+          "description": "Remove Method Annotation @SuppressWarnings(\"NullAway\") in method public getParameterNames() : Enumeration<String> from class org.springframework.web.multipart.support.StandardMultipartHttpServletRequest",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/StandardMultipartHttpServletRequest.java",
+              "startLine": 141,
+              "endLine": 141,
+              "startColumn": 2,
+              "endColumn": 31,
+              "codeElementType": "ANNOTATION",
+              "description": "removed annotation",
+              "codeElement": "@SuppressWarnings(\"NullAway\")"
+            },
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/StandardMultipartHttpServletRequest.java",
+              "startLine": 140,
+              "endLine": 159,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "public getParameterNames() : Enumeration<String>"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/StandardMultipartHttpServletRequest.java",
+              "startLine": 141,
+              "endLine": 159,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with removed annotation",
+              "codeElement": "public getParameterNames() : Enumeration<String>"
+            }
+          ]
+        },
+        {
+          "type": "Remove Method Annotation",
+          "description": "Remove Method Annotation @SuppressWarnings(\"NullAway\") in method public getParameterMap() : Map<String,String[]> from class org.springframework.web.multipart.support.StandardMultipartHttpServletRequest",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/StandardMultipartHttpServletRequest.java",
+              "startLine": 162,
+              "endLine": 162,
+              "startColumn": 2,
+              "endColumn": 31,
+              "codeElementType": "ANNOTATION",
+              "description": "removed annotation",
+              "codeElement": "@SuppressWarnings(\"NullAway\")"
+            },
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/StandardMultipartHttpServletRequest.java",
+              "startLine": 161,
+              "endLine": 180,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "public getParameterMap() : Map<String,String[]>"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/multipart/support/StandardMultipartHttpServletRequest.java",
+              "startLine": 161,
+              "endLine": 179,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with removed annotation",
+              "codeElement": "public getParameterMap() : Map<String,String[]>"
+            }
+          ]
+        },
+        {
+          "type": "Add Attribute Annotation",
+          "description": "Add Attribute Annotation @SuppressWarnings(\"NullAway.Init\") in attribute private codecConfigurer : ServerCodecConfigurer from class org.springframework.web.server.adapter.HttpWebHandlerAdapter",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/server/adapter/HttpWebHandlerAdapter.java",
+              "startLine": 89,
+              "endLine": 89,
+              "startColumn": 42,
+              "endColumn": 57,
+              "codeElementType": "FIELD_DECLARATION",
+              "description": "original attribute declaration",
+              "codeElement": "private codecConfigurer : ServerCodecConfigurer"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/server/adapter/HttpWebHandlerAdapter.java",
+              "startLine": 89,
+              "endLine": 89,
+              "startColumn": 2,
+              "endColumn": 36,
+              "codeElementType": "ANNOTATION",
+              "description": "added annotation",
+              "codeElement": "@SuppressWarnings(\"NullAway.Init\")"
+            },
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/server/adapter/HttpWebHandlerAdapter.java",
+              "startLine": 90,
+              "endLine": 90,
+              "startColumn": 32,
+              "endColumn": 47,
+              "codeElementType": "FIELD_DECLARATION",
+              "description": "attribute declaration with added annotation",
+              "codeElement": "private codecConfigurer : ServerCodecConfigurer"
+            }
+          ]
+        },
+        {
+          "type": "Remove Attribute Annotation",
+          "description": "Remove Attribute Annotation @Nullable in attribute private codecConfigurer : ServerCodecConfigurer from class org.springframework.web.server.adapter.HttpWebHandlerAdapter",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/server/adapter/HttpWebHandlerAdapter.java",
+              "startLine": 89,
+              "endLine": 89,
+              "startColumn": 10,
+              "endColumn": 19,
+              "codeElementType": "ANNOTATION",
+              "description": "removed annotation",
+              "codeElement": "@Nullable"
+            },
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/server/adapter/HttpWebHandlerAdapter.java",
+              "startLine": 89,
+              "endLine": 89,
+              "startColumn": 42,
+              "endColumn": 57,
+              "codeElementType": "FIELD_DECLARATION",
+              "description": "original attribute declaration",
+              "codeElement": "private codecConfigurer : ServerCodecConfigurer"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/server/adapter/HttpWebHandlerAdapter.java",
+              "startLine": 90,
+              "endLine": 90,
+              "startColumn": 32,
+              "endColumn": 47,
+              "codeElementType": "FIELD_DECLARATION",
+              "description": "attribute declaration with removed annotation",
+              "codeElement": "private codecConfigurer : ServerCodecConfigurer"
+            }
+          ]
+        },
+        {
+          "type": "Remove Method Annotation",
+          "description": "Remove Method Annotation @SuppressWarnings(\"NullAway\") in method public getCodecConfigurer() : ServerCodecConfigurer from class org.springframework.web.server.adapter.HttpWebHandlerAdapter",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/server/adapter/HttpWebHandlerAdapter.java",
+              "startLine": 152,
+              "endLine": 152,
+              "startColumn": 2,
+              "endColumn": 31,
+              "codeElementType": "ANNOTATION",
+              "description": "removed annotation",
+              "codeElement": "@SuppressWarnings(\"NullAway\")"
+            },
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/server/adapter/HttpWebHandlerAdapter.java",
+              "startLine": 149,
+              "endLine": 158,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "public getCodecConfigurer() : ServerCodecConfigurer"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/server/adapter/HttpWebHandlerAdapter.java",
+              "startLine": 150,
+              "endLine": 158,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with removed annotation",
+              "codeElement": "public getCodecConfigurer() : ServerCodecConfigurer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/spring-projects/spring-framework.git",
+      "sha1": "b332920b17719a3e812864a6d22495807fe7fdac",
+      "url": "https://github.com/spring-projects/spring-framework/commit/b332920b17719a3e812864a6d22495807fe7fdac",
+      "refactorings": [
+        {
+          "type": "Remove Method Annotation",
+          "description": "Remove Method Annotation @SuppressWarnings(\"NullAway\") in method public setMediaTypes(mediaTypes Map<String,MediaType>) : void from class org.springframework.web.reactive.resource.ResourceWebHandler",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-webflux/src/main/java/org/springframework/web/reactive/resource/ResourceWebHandler.java",
+              "startLine": 326,
+              "endLine": 326,
+              "startColumn": 2,
+              "endColumn": 31,
+              "codeElementType": "ANNOTATION",
+              "description": "removed annotation",
+              "codeElement": "@SuppressWarnings(\"NullAway\")"
+            },
+            {
+              "filePath": "spring-webflux/src/main/java/org/springframework/web/reactive/resource/ResourceWebHandler.java",
+              "startLine": 318,
+              "endLine": 333,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "public setMediaTypes(mediaTypes Map<String,MediaType>) : void"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-webflux/src/main/java/org/springframework/web/reactive/resource/ResourceWebHandler.java",
+              "startLine": 318,
+              "endLine": 332,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with removed annotation",
+              "codeElement": "public setMediaTypes(mediaTypes Map<String,MediaType>) : void"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/spring-projects/spring-framework.git",
+      "sha1": "6c86914709dbb39d4f1ada60d3743bf46b1c33a9",
+      "url": "https://github.com/spring-projects/spring-framework/commit/6c86914709dbb39d4f1ada60d3743bf46b1c33a9",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/spring-projects/spring-framework.git",
+      "sha1": "fe8c70dddbeded57b4fdcdad3d552e6be90e67c1",
+      "url": "https://github.com/spring-projects/spring-framework/commit/fe8c70dddbeded57b4fdcdad3d552e6be90e67c1",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/spring-projects/spring-framework.git",
+      "sha1": "0cdb8a165703aba4780ef4389cd1838ab0044d46",
+      "url": "https://github.com/spring-projects/spring-framework/commit/0cdb8a165703aba4780ef4389cd1838ab0044d46",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/spring-projects/spring-framework.git",
+      "sha1": "3505c4bcad9fab4a6754d6a4f331669722ae2fae",
+      "url": "https://github.com/spring-projects/spring-framework/commit/3505c4bcad9fab4a6754d6a4f331669722ae2fae",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/spring-projects/spring-framework.git",
+      "sha1": "0f38c28e9155e0190cf3ffb5478aca3e9282b6e7",
+      "url": "https://github.com/spring-projects/spring-framework/commit/0f38c28e9155e0190cf3ffb5478aca3e9282b6e7",
+      "refactorings": [
+        {
+          "type": "Remove Method Annotation",
+          "description": "Remove Method Annotation @Disabled(\"see gh-34121\") in method package postArrayWithEmptyIndex(wac WebApplicationContext) : void from class org.springframework.test.web.servlet.samples.spr.ServletRequestDataBinderIntegrationTests",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-test/src/test/java/org/springframework/test/web/servlet/samples/spr/ServletRequestDataBinderIntegrationTests.java",
+              "startLine": 60,
+              "endLine": 60,
+              "startColumn": 2,
+              "endColumn": 27,
+              "codeElementType": "ANNOTATION",
+              "description": "removed annotation",
+              "codeElement": "@Disabled(\"see gh-34121\")"
+            },
+            {
+              "filePath": "spring-test/src/test/java/org/springframework/test/web/servlet/samples/spr/ServletRequestDataBinderIntegrationTests.java",
+              "startLine": 60,
+              "endLine": 69,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "package postArrayWithEmptyIndex(wac WebApplicationContext) : void"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-test/src/test/java/org/springframework/test/web/servlet/samples/spr/ServletRequestDataBinderIntegrationTests.java",
+              "startLine": 59,
+              "endLine": 67,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with removed annotation",
+              "codeElement": "package postArrayWithEmptyIndex(wac WebApplicationContext) : void"
+            }
+          ]
+        },
+        {
+          "type": "Remove Method Annotation",
+          "description": "Remove Method Annotation @Disabled(\"see gh-34121\") in method package postListWithEmptyIndex(wac WebApplicationContext) : void from class org.springframework.test.web.servlet.samples.spr.ServletRequestDataBinderIntegrationTests",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-test/src/test/java/org/springframework/test/web/servlet/samples/spr/ServletRequestDataBinderIntegrationTests.java",
+              "startLine": 91,
+              "endLine": 91,
+              "startColumn": 2,
+              "endColumn": 27,
+              "codeElementType": "ANNOTATION",
+              "description": "removed annotation",
+              "codeElement": "@Disabled(\"see gh-34121\")"
+            },
+            {
+              "filePath": "spring-test/src/test/java/org/springframework/test/web/servlet/samples/spr/ServletRequestDataBinderIntegrationTests.java",
+              "startLine": 91,
+              "endLine": 100,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "package postListWithEmptyIndex(wac WebApplicationContext) : void"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-test/src/test/java/org/springframework/test/web/servlet/samples/spr/ServletRequestDataBinderIntegrationTests.java",
+              "startLine": 89,
+              "endLine": 97,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with removed annotation",
+              "codeElement": "package postListWithEmptyIndex(wac WebApplicationContext) : void"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/spring-projects/spring-framework.git",
+      "sha1": "eb9ee9fafadc192bda8e329f55aaaec36a0041af",
+      "url": "https://github.com/spring-projects/spring-framework/commit/eb9ee9fafadc192bda8e329f55aaaec36a0041af",
+      "refactorings": [
+        {
+          "type": "Change Method Access Modifier",
+          "description": "Change Method Access Modifier package to private in method private copyHeaderValues(webRequest NativeWebRequest, consumer BiConsumer<String,String>) : void from class org.springframework.web.method.annotation.RequestHeaderMapMethodArgumentResolver",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/method/annotation/RequestHeaderMapMethodArgumentResolver.java",
+              "startLine": 88,
+              "endLine": 98,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "package copyHeaderValues(webRequest NativeWebRequest, consumer BiConsumer<String,String>) : void"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-web/src/main/java/org/springframework/web/method/annotation/RequestHeaderMapMethodArgumentResolver.java",
+              "startLine": 88,
+              "endLine": 98,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with changed access modifier",
+              "codeElement": "private copyHeaderValues(webRequest NativeWebRequest, consumer BiConsumer<String,String>) : void"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/spring-projects/spring-framework.git",
+      "sha1": "a2bc1ded73417332ac474f72f034f55f6f1e4ef6",
+      "url": "https://github.com/spring-projects/spring-framework/commit/a2bc1ded73417332ac474f72f034f55f6f1e4ef6",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/spring-projects/spring-framework.git",
+      "sha1": "6d86b23fbe4ef8ef97579aa7868f180c2bfecbc3",
+      "url": "https://github.com/spring-projects/spring-framework/commit/6d86b23fbe4ef8ef97579aa7868f180c2bfecbc3",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/spring-projects/spring-framework.git",
+      "sha1": "d5bebd5cedf423fe3404f808eecbd90ff5a30a44",
+      "url": "https://github.com/spring-projects/spring-framework/commit/d5bebd5cedf423fe3404f808eecbd90ff5a30a44",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/spring-projects/spring-framework.git",
+      "sha1": "59ed4686c52992e45ac4daabac1c576257c6f190",
+      "url": "https://github.com/spring-projects/spring-framework/commit/59ed4686c52992e45ac4daabac1c576257c6f190",
+      "refactorings": [
+        {
+          "type": "Add Method Annotation",
+          "description": "Add Method Annotation @TestConstraint in method private Person(name String) : record from class org.springframework.web.servlet.mvc.method.annotation.MethodValidationTests",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-webmvc/src/test/java/org/springframework/web/servlet/mvc/method/annotation/MethodValidationTests.java",
+              "startLine": 326,
+              "endLine": 333,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "private Person(name String) : record"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-webmvc/src/test/java/org/springframework/web/servlet/mvc/method/annotation/MethodValidationTests.java",
+              "startLine": 368,
+              "endLine": 368,
+              "startColumn": 2,
+              "endColumn": 17,
+              "codeElementType": "ANNOTATION",
+              "description": "added annotation",
+              "codeElement": "@TestConstraint"
+            },
+            {
+              "filePath": "spring-webmvc/src/test/java/org/springframework/web/servlet/mvc/method/annotation/MethodValidationTests.java",
+              "startLine": 368,
+              "endLine": 376,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with added annotation",
+              "codeElement": "private Person(name String) : record"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/spring-projects/spring-framework.git",
+      "sha1": "4350fc21b3cb30bd09288d8323b4bc4fcd5a3de7",
+      "url": "https://github.com/spring-projects/spring-framework/commit/4350fc21b3cb30bd09288d8323b4bc4fcd5a3de7",
+      "refactorings": [
+        {
+          "type": "Replace Pipeline With Loop",
+          "description": "Replace Pipeline With Loop indexes.forEach(i -> list.add(null)); with for(int i=0; i < size; i++) in method private createList(paramPath String, paramType Class<?>, type ResolvableType, valueResolver ValueResolver) : List<V> from class org.springframework.validation.DataBinder",
+          "leftSideLocations": [
+            {
+              "filePath": "spring-context/src/main/java/org/springframework/validation/DataBinder.java",
+              "startLine": 1063,
+              "endLine": 1063,
+              "startColumn": 3,
+              "endColumn": 40,
+              "codeElementType": "EXPRESSION_STATEMENT",
+              "description": "original code",
+              "codeElement": "indexes.forEach(i -> list.add(null));\n"
+            },
+            {
+              "filePath": "spring-context/src/main/java/org/springframework/validation/DataBinder.java",
+              "startLine": 1051,
+              "endLine": 1068,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "private createList(paramPath String, paramType Class<?>, type ResolvableType, valueResolver ValueResolver) : List<V>"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "spring-context/src/main/java/org/springframework/validation/DataBinder.java",
+              "startLine": 1064,
+              "endLine": 1064,
+              "startColumn": 4,
+              "endColumn": 19,
+              "codeElementType": "EXPRESSION_STATEMENT",
+              "description": "loop code",
+              "codeElement": "list.add(null);\n"
+            },
+            {
+              "filePath": "spring-context/src/main/java/org/springframework/validation/DataBinder.java",
+              "startLine": 1063,
+              "endLine": 1065,
+              "startColumn": 3,
+              "endColumn": 4,
+              "codeElementType": "FOR_STATEMENT",
+              "description": "loop code",
+              "codeElement": "for(int i=0; i < size; i++)"
+            },
+            {
+              "filePath": "spring-context/src/main/java/org/springframework/validation/DataBinder.java",
+              "startLine": 1051,
+              "endLine": 1070,
+              "startColumn": 2,
+              "endColumn": 3,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with introduced loop",
+              "codeElement": "private createList(paramPath String, paramType Class<?>, type ResolvableType, valueResolver ValueResolver) : List<V>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/spring-projects/spring-framework.git",
+      "sha1": "c9436992c99f652fdbcfcdb35798d7ba33531ee9",
+      "url": "https://github.com/spring-projects/spring-framework/commit/c9436992c99f652fdbcfcdb35798d7ba33531ee9",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/spring-projects/spring-framework.git",
+      "sha1": "333dfd157716657b47de0a57f5ded834abc31b50",
+      "url": "https://github.com/spring-projects/spring-framework/commit/333dfd157716657b47de0a57f5ded834abc31b50",
+      "refactorings": []
+    }
+  ]
+}

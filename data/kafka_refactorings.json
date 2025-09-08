@@ -1,0 +1,2127 @@
+{
+  "commits": [
+    {
+      "repository": "https://github.com/apache/kafka.git",
+      "sha1": "649cd6b42cafe29980f8618bc9b7f4462b2c5fef",
+      "url": "https://github.com/apache/kafka/commit/649cd6b42cafe29980f8618bc9b7f4462b2c5fef",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/apache/kafka.git",
+      "sha1": "4567f39825e9aa47a32ea70912b8a2249a50173a",
+      "url": "https://github.com/apache/kafka/commit/4567f39825e9aa47a32ea70912b8a2249a50173a",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/apache/kafka.git",
+      "sha1": "88adb94c818299ef24b30aa61aeebdc80efbcbb3",
+      "url": "https://github.com/apache/kafka/commit/88adb94c818299ef24b30aa61aeebdc80efbcbb3",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/apache/kafka.git",
+      "sha1": "c7c1364b0f0e5f5da30b85cc6173ea52fc6d0008",
+      "url": "https://github.com/apache/kafka/commit/c7c1364b0f0e5f5da30b85cc6173ea52fc6d0008",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/apache/kafka.git",
+      "sha1": "2e3b4cb9578d3e1a32478c8e465f361f46c1018c",
+      "url": "https://github.com/apache/kafka/commit/2e3b4cb9578d3e1a32478c8e465f361f46c1018c",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/apache/kafka.git",
+      "sha1": "6139840e98ccb55d8a2b24fb37f3fb7442917866",
+      "url": "https://github.com/apache/kafka/commit/6139840e98ccb55d8a2b24fb37f3fb7442917866",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/apache/kafka.git",
+      "sha1": "dfb178a1d8d2d847534e3340bcf2267422496975",
+      "url": "https://github.com/apache/kafka/commit/dfb178a1d8d2d847534e3340bcf2267422496975",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/apache/kafka.git",
+      "sha1": "e6d242113625f20108b64bf54e796fcbcff6d8a7",
+      "url": "https://github.com/apache/kafka/commit/e6d242113625f20108b64bf54e796fcbcff6d8a7",
+      "refactorings": [
+        {
+          "type": "Remove Parameter",
+          "description": "Remove Parameter abortForNewBatch : boolean in method public RecordAppendResult(future FutureRecordMetadata, batchIsFull boolean, newBatchCreated boolean, abortForNewBatch boolean, appendedBytes int) from class org.apache.kafka.clients.producer.internals.RecordAccumulator.RecordAppendResult",
+          "leftSideLocations": [
+            {
+              "filePath": "clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java",
+              "startLine": 1222,
+              "endLine": 1222,
+              "startColumn": 35,
+              "endColumn": 59,
+              "codeElementType": "SINGLE_VARIABLE_DECLARATION",
+              "description": "removed parameter",
+              "codeElement": "abortForNewBatch : boolean"
+            },
+            {
+              "filePath": "clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java",
+              "startLine": 1219,
+              "endLine": 1229,
+              "startColumn": 9,
+              "endColumn": 10,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "public RecordAppendResult(future FutureRecordMetadata, batchIsFull boolean, newBatchCreated boolean, abortForNewBatch boolean, appendedBytes int)"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java",
+              "startLine": 1209,
+              "endLine": 1217,
+              "startColumn": 9,
+              "endColumn": 10,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with removed parameter",
+              "codeElement": "public RecordAppendResult(future FutureRecordMetadata, batchIsFull boolean, newBatchCreated boolean, appendedBytes int)"
+            }
+          ]
+        },
+        {
+          "type": "Remove Parameter",
+          "description": "Remove Parameter abortOnNewBatch : boolean in method public append(topic String, partition int, timestamp long, key byte[], value byte[], headers Header[], callbacks AppendCallbacks, maxTimeToBlock long, abortOnNewBatch boolean, nowMs long, cluster Cluster) : RecordAppendResult from class org.apache.kafka.clients.producer.internals.RecordAccumulator",
+          "leftSideLocations": [
+            {
+              "filePath": "clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java",
+              "startLine": 293,
+              "endLine": 293,
+              "startColumn": 38,
+              "endColumn": 61,
+              "codeElementType": "SINGLE_VARIABLE_DECLARATION",
+              "description": "removed parameter",
+              "codeElement": "abortOnNewBatch : boolean"
+            },
+            {
+              "filePath": "clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java",
+              "startLine": 265,
+              "endLine": 376,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "public append(topic String, partition int, timestamp long, key byte[], value byte[], headers Header[], callbacks AppendCallbacks, maxTimeToBlock long, abortOnNewBatch boolean, nowMs long, cluster Cluster) : RecordAppendResult"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java",
+              "startLine": 265,
+              "endLine": 367,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with removed parameter",
+              "codeElement": "public append(topic String, partition int, timestamp long, key byte[], value byte[], headers Header[], callbacks AppendCallbacks, maxTimeToBlock long, nowMs long, cluster Cluster) : RecordAppendResult"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/apache/kafka.git",
+      "sha1": "875da35ec31effa32f534e08846c4d2af8b787a9",
+      "url": "https://github.com/apache/kafka/commit/875da35ec31effa32f534e08846c4d2af8b787a9",
+      "refactorings": [
+        {
+          "type": "Rename Method",
+          "description": "Rename Method public testUnexpectedRequestType() : void renamed to public testUnexpectedRequestTypeWithValidRequestHeader() : void in class org.apache.kafka.common.security.authenticator.SaslServerAuthenticatorTest",
+          "leftSideLocations": [
+            {
+              "filePath": "clients/src/test/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticatorTest.java",
+              "startLine": 109,
+              "endLine": 137,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "public testUnexpectedRequestType() : void"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "clients/src/test/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticatorTest.java",
+              "startLine": 110,
+              "endLine": 132,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "renamed method declaration",
+              "codeElement": "public testUnexpectedRequestTypeWithValidRequestHeader() : void"
+            }
+          ]
+        },
+        {
+          "type": "Assert Throws",
+          "description": "Assert Throws assertThrows(InvalidRequestException.class,() -> authenticator.authenticate()) in method public testUnexpectedRequestTypeWithValidRequestHeader() : void from class org.apache.kafka.common.security.authenticator.SaslServerAuthenticatorTest",
+          "leftSideLocations": [
+            {
+              "filePath": "clients/src/test/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticatorTest.java",
+              "startLine": 130,
+              "endLine": 130,
+              "startColumn": 13,
+              "endColumn": 42,
+              "codeElementType": "EXPRESSION_STATEMENT",
+              "description": "original code",
+              "codeElement": "authenticator.authenticate();\n"
+            },
+            {
+              "filePath": "clients/src/test/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticatorTest.java",
+              "startLine": 109,
+              "endLine": 137,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "public testUnexpectedRequestType() : void"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "clients/src/test/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticatorTest.java",
+              "startLine": 130,
+              "endLine": 130,
+              "startColumn": 59,
+              "endColumn": 87,
+              "codeElementType": "LAMBDA_EXPRESSION_BODY",
+              "description": "assertThrows code",
+              "codeElement": "authenticator.authenticate()"
+            },
+            {
+              "filePath": "clients/src/test/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticatorTest.java",
+              "startLine": 110,
+              "endLine": 132,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with introduced assertThrows",
+              "codeElement": "public testUnexpectedRequestTypeWithValidRequestHeader() : void"
+            }
+          ]
+        },
+        {
+          "type": "Change Return Type",
+          "description": "Change Return Type boolean to void in method private handleKafkaRequest(requestBytes byte[]) : void from class org.apache.kafka.common.security.authenticator.SaslServerAuthenticator",
+          "leftSideLocations": [
+            {
+              "filePath": "clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java",
+              "startLine": 506,
+              "endLine": 506,
+              "startColumn": 13,
+              "endColumn": 20,
+              "codeElementType": "TYPE",
+              "description": "original return type",
+              "codeElement": "boolean"
+            },
+            {
+              "filePath": "clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java",
+              "startLine": 506,
+              "endLine": 563,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "private handleKafkaRequest(requestBytes byte[]) : boolean"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java",
+              "startLine": 507,
+              "endLine": 507,
+              "startColumn": 13,
+              "endColumn": 17,
+              "codeElementType": "TYPE",
+              "description": "changed return type",
+              "codeElement": "void"
+            },
+            {
+              "filePath": "clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java",
+              "startLine": 502,
+              "endLine": 547,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with changed return type",
+              "codeElement": "private handleKafkaRequest(requestBytes byte[]) : void"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/apache/kafka.git",
+      "sha1": "d95cb7d65e17a9712ea04478c86c408e431e3101",
+      "url": "https://github.com/apache/kafka/commit/d95cb7d65e17a9712ea04478c86c408e431e3101",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/apache/kafka.git",
+      "sha1": "e67172ce6dd1915f342768a36059fc92a91baead",
+      "url": "https://github.com/apache/kafka/commit/e67172ce6dd1915f342768a36059fc92a91baead",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/apache/kafka.git",
+      "sha1": "bc7a1a8969b234f080dfed7553860389ad901433",
+      "url": "https://github.com/apache/kafka/commit/bc7a1a8969b234f080dfed7553860389ad901433",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/apache/kafka.git",
+      "sha1": "be4d1a62779b55d4d952fcd0254b9ecfded92ad7",
+      "url": "https://github.com/apache/kafka/commit/be4d1a62779b55d4d952fcd0254b9ecfded92ad7",
+      "refactorings": [
+        {
+          "type": "Rename Method",
+          "description": "Rename Method public testUnsupportedVersion(errorMsg String) : void renamed to public testUnsupportedVersionFromBroker(errorMsg String) : void in class org.apache.kafka.clients.consumer.internals.ConsumerHeartbeatRequestManagerTest",
+          "leftSideLocations": [
+            {
+              "filePath": "clients/src/test/java/org/apache/kafka/clients/consumer/internals/ConsumerHeartbeatRequestManagerTest.java",
+              "startLine": 608,
+              "endLine": 623,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "public testUnsupportedVersion(errorMsg String) : void"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "clients/src/test/java/org/apache/kafka/clients/consumer/internals/ConsumerHeartbeatRequestManagerTest.java",
+              "startLine": 608,
+              "endLine": 623,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "renamed method declaration",
+              "codeElement": "public testUnsupportedVersionFromBroker(errorMsg String) : void"
+            }
+          ]
+        },
+        {
+          "type": "Modify Method Annotation",
+          "description": "Modify Method Annotation @ValueSource(strings = {CONSUMER_PROTOCOL_NOT_SUPPORTED_MSG,REGEX_RESOLUTION_NOT_SUPPORTED_MSG}) to @ValueSource(strings = {CONSUMER_PROTOCOL_NOT_SUPPORTED_MSG}) in method public testUnsupportedVersionFromBroker(errorMsg String) : void from class org.apache.kafka.clients.consumer.internals.ConsumerHeartbeatRequestManagerTest",
+          "leftSideLocations": [
+            {
+              "filePath": "clients/src/test/java/org/apache/kafka/clients/consumer/internals/ConsumerHeartbeatRequestManagerTest.java",
+              "startLine": 614,
+              "endLine": 614,
+              "startColumn": 5,
+              "endColumn": 102,
+              "codeElementType": "ANNOTATION",
+              "description": "original annotation",
+              "codeElement": "@ValueSource(strings = {CONSUMER_PROTOCOL_NOT_SUPPORTED_MSG,REGEX_RESOLUTION_NOT_SUPPORTED_MSG})"
+            },
+            {
+              "filePath": "clients/src/test/java/org/apache/kafka/clients/consumer/internals/ConsumerHeartbeatRequestManagerTest.java",
+              "startLine": 608,
+              "endLine": 623,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "public testUnsupportedVersion(errorMsg String) : void"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "clients/src/test/java/org/apache/kafka/clients/consumer/internals/ConsumerHeartbeatRequestManagerTest.java",
+              "startLine": 614,
+              "endLine": 614,
+              "startColumn": 5,
+              "endColumn": 66,
+              "codeElementType": "ANNOTATION",
+              "description": "modified annotation",
+              "codeElement": "@ValueSource(strings = {CONSUMER_PROTOCOL_NOT_SUPPORTED_MSG})"
+            },
+            {
+              "filePath": "clients/src/test/java/org/apache/kafka/clients/consumer/internals/ConsumerHeartbeatRequestManagerTest.java",
+              "startLine": 608,
+              "endLine": 623,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with modified annotation",
+              "codeElement": "public testUnsupportedVersionFromBroker(errorMsg String) : void"
+            }
+          ]
+        },
+        {
+          "type": "Add Parameter",
+          "description": "Add Parameter isFromBroker : boolean in method private mockResponseWithException(exception UnsupportedVersionException, isFromBroker boolean) : void from class org.apache.kafka.clients.consumer.internals.ConsumerHeartbeatRequestManagerTest",
+          "leftSideLocations": [
+            {
+              "filePath": "clients/src/test/java/org/apache/kafka/clients/consumer/internals/ConsumerHeartbeatRequestManagerTest.java",
+              "startLine": 636,
+              "endLine": 645,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "private mockResponseWithException(exception UnsupportedVersionException) : void"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "clients/src/test/java/org/apache/kafka/clients/consumer/internals/ConsumerHeartbeatRequestManagerTest.java",
+              "startLine": 652,
+              "endLine": 652,
+              "startColumn": 83,
+              "endColumn": 103,
+              "codeElementType": "SINGLE_VARIABLE_DECLARATION",
+              "description": "added parameter",
+              "codeElement": "isFromBroker : boolean"
+            },
+            {
+              "filePath": "clients/src/test/java/org/apache/kafka/clients/consumer/internals/ConsumerHeartbeatRequestManagerTest.java",
+              "startLine": 652,
+              "endLine": 661,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with added parameter",
+              "codeElement": "private mockResponseWithException(exception UnsupportedVersionException, isFromBroker boolean) : void"
+            }
+          ]
+        },
+        {
+          "type": "Add Parameter",
+          "description": "Add Parameter isFromBroker : boolean in method private createHeartbeatResponseWithException(request NetworkClientDelegate.UnsentRequest, exception UnsupportedVersionException, isFromBroker boolean) : ClientResponse from class org.apache.kafka.clients.consumer.internals.ConsumerHeartbeatRequestManagerTest",
+          "leftSideLocations": [
+            {
+              "filePath": "clients/src/test/java/org/apache/kafka/clients/consumer/internals/ConsumerHeartbeatRequestManagerTest.java",
+              "startLine": 1045,
+              "endLine": 1060,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "private createHeartbeatResponseWithException(request NetworkClientDelegate.UnsentRequest, exception UnsupportedVersionException) : ClientResponse"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "clients/src/test/java/org/apache/kafka/clients/consumer/internals/ConsumerHeartbeatRequestManagerTest.java",
+              "startLine": 1064,
+              "endLine": 1064,
+              "startColumn": 9,
+              "endColumn": 35,
+              "codeElementType": "SINGLE_VARIABLE_DECLARATION",
+              "description": "added parameter",
+              "codeElement": "isFromBroker : boolean"
+            },
+            {
+              "filePath": "clients/src/test/java/org/apache/kafka/clients/consumer/internals/ConsumerHeartbeatRequestManagerTest.java",
+              "startLine": 1061,
+              "endLine": 1080,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with added parameter",
+              "codeElement": "private createHeartbeatResponseWithException(request NetworkClientDelegate.UnsentRequest, exception UnsupportedVersionException, isFromBroker boolean) : ClientResponse"
+            }
+          ]
+        },
+        {
+          "type": "Rename Method",
+          "description": "Rename Method public handleSpecificError(response ConsumerGroupHeartbeatResponse, currentTimeMs long) : boolean renamed to public handleSpecificExceptionInResponse(response ConsumerGroupHeartbeatResponse, currentTimeMs long) : boolean in class org.apache.kafka.clients.consumer.internals.ConsumerHeartbeatRequestManager",
+          "leftSideLocations": [
+            {
+              "filePath": "clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerHeartbeatRequestManager.java",
+              "startLine": 90,
+              "endLine": 120,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "public handleSpecificError(response ConsumerGroupHeartbeatResponse, currentTimeMs long) : boolean"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerHeartbeatRequestManager.java",
+              "startLine": 114,
+              "endLine": 154,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "renamed method declaration",
+              "codeElement": "public handleSpecificExceptionInResponse(response ConsumerGroupHeartbeatResponse, currentTimeMs long) : boolean"
+            }
+          ]
+        },
+        {
+          "type": "Rename Method",
+          "description": "Rename Method public handleSpecificError(response R, currentTimeMs long) : boolean renamed to public handleSpecificExceptionInResponse(response R, currentTimeMs long) : boolean in class org.apache.kafka.clients.consumer.internals.AbstractHeartbeatRequestManager",
+          "leftSideLocations": [
+            {
+              "filePath": "clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractHeartbeatRequestManager.java",
+              "startLine": 465,
+              "endLine": 474,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "public handleSpecificError(response R, currentTimeMs long) : boolean"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractHeartbeatRequestManager.java",
+              "startLine": 448,
+              "endLine": 457,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "renamed method declaration",
+              "codeElement": "public handleSpecificExceptionInResponse(response R, currentTimeMs long) : boolean"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/apache/kafka.git",
+      "sha1": "91a2b58616d115f8d6ff4b71d6191a6dd9a17824",
+      "url": "https://github.com/apache/kafka/commit/91a2b58616d115f8d6ff4b71d6191a6dd9a17824",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/apache/kafka.git",
+      "sha1": "e9a03b3a86b423beca4bef0aa52811452f056ca7",
+      "url": "https://github.com/apache/kafka/commit/e9a03b3a86b423beca4bef0aa52811452f056ca7",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/apache/kafka.git",
+      "sha1": "106fd5f601df858ab0affd8967a07df0987e9ee1",
+      "url": "https://github.com/apache/kafka/commit/106fd5f601df858ab0affd8967a07df0987e9ee1",
+      "refactorings": [
+        {
+          "type": "Change Attribute Type",
+          "description": "Change Attribute Type logLevelChanges : List<LogLevelChange> to logLevelChanges : Map<Class<?>,Level> in class org.apache.kafka.common.utils.LogCaptureAppender",
+          "leftSideLocations": [
+            {
+              "filePath": "clients/src/test/java/org/apache/kafka/common/utils/LogCaptureAppender.java",
+              "startLine": 39,
+              "endLine": 39,
+              "startColumn": 40,
+              "endColumn": 76,
+              "codeElementType": "FIELD_DECLARATION",
+              "description": "original attribute declaration",
+              "codeElement": "logLevelChanges : List<LogLevelChange>"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "clients/src/test/java/org/apache/kafka/common/utils/LogCaptureAppender.java",
+              "startLine": 40,
+              "endLine": 40,
+              "startColumn": 40,
+              "endColumn": 73,
+              "codeElementType": "FIELD_DECLARATION",
+              "description": "changed-type attribute declaration",
+              "codeElement": "logLevelChanges : Map<Class<?>,Level>"
+            }
+          ]
+        },
+        {
+          "type": "Inline Variable",
+          "description": "Inline Variable loggerName : String in method public setClassLogger(clazz Class<?>, level Level) : void from class org.apache.kafka.common.utils.LogCaptureAppender",
+          "leftSideLocations": [
+            {
+              "filePath": "clients/src/test/java/org/apache/kafka/common/utils/LogCaptureAppender.java",
+              "startLine": 111,
+              "endLine": 111,
+              "startColumn": 16,
+              "endColumn": 44,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "inlined variable declaration",
+              "codeElement": "loggerName : String"
+            },
+            {
+              "filePath": "clients/src/test/java/org/apache/kafka/common/utils/LogCaptureAppender.java",
+              "startLine": 121,
+              "endLine": 121,
+              "startColumn": 13,
+              "endColumn": 42,
+              "codeElementType": "EXPRESSION_STATEMENT",
+              "description": "statement with the name of the inlined variable",
+              "codeElement": null
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "clients/src/test/java/org/apache/kafka/common/utils/LogCaptureAppender.java",
+              "startLine": 105,
+              "endLine": 105,
+              "startColumn": 9,
+              "endColumn": 55,
+              "codeElementType": "EXPRESSION_STATEMENT",
+              "description": "statement with the initializer of the inlined variable",
+              "codeElement": null
+            }
+          ]
+        },
+        {
+          "type": "Rename Variable",
+          "description": "Rename Variable originalLevel : Level to currentLevel : Level in method public setClassLogger(clazz Class<?>, level Level) : void from class org.apache.kafka.common.utils.LogCaptureAppender",
+          "leftSideLocations": [
+            {
+              "filePath": "clients/src/test/java/org/apache/kafka/common/utils/LogCaptureAppender.java",
+              "startLine": 114,
+              "endLine": 114,
+              "startColumn": 15,
+              "endColumn": 54,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "original variable declaration",
+              "codeElement": "originalLevel : Level"
+            },
+            {
+              "filePath": "clients/src/test/java/org/apache/kafka/common/utils/LogCaptureAppender.java",
+              "startLine": 114,
+              "endLine": 114,
+              "startColumn": 9,
+              "endColumn": 55,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "statement referencing the original variable",
+              "codeElement": null
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "clients/src/test/java/org/apache/kafka/common/utils/LogCaptureAppender.java",
+              "startLine": 101,
+              "endLine": 101,
+              "startColumn": 19,
+              "endColumn": 72,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "renamed variable declaration",
+              "codeElement": "currentLevel : Level"
+            },
+            {
+              "filePath": "clients/src/test/java/org/apache/kafka/common/utils/LogCaptureAppender.java",
+              "startLine": 101,
+              "endLine": 101,
+              "startColumn": 13,
+              "endColumn": 73,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "statement referencing the renamed variable",
+              "codeElement": null
+            }
+          ]
+        },
+        {
+          "type": "Remove Parameter",
+          "description": "Remove Parameter name : String in method public LogCaptureAppender(name String) from class org.apache.kafka.common.utils.LogCaptureAppender",
+          "leftSideLocations": [
+            {
+              "filePath": "clients/src/test/java/org/apache/kafka/common/utils/LogCaptureAppender.java",
+              "startLine": 83,
+              "endLine": 83,
+              "startColumn": 31,
+              "endColumn": 42,
+              "codeElementType": "SINGLE_VARIABLE_DECLARATION",
+              "description": "removed parameter",
+              "codeElement": "name : String"
+            },
+            {
+              "filePath": "clients/src/test/java/org/apache/kafka/common/utils/LogCaptureAppender.java",
+              "startLine": 83,
+              "endLine": 85,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "public LogCaptureAppender(name String)"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "clients/src/test/java/org/apache/kafka/common/utils/LogCaptureAppender.java",
+              "startLine": 74,
+              "endLine": 76,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with removed parameter",
+              "codeElement": "public LogCaptureAppender()"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/apache/kafka.git",
+      "sha1": "e47f6983df516b2511f737730849d5f7ec78a0bd",
+      "url": "https://github.com/apache/kafka/commit/e47f6983df516b2511f737730849d5f7ec78a0bd",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/apache/kafka.git",
+      "sha1": "1156d5c29452eb9804db7521207566d02095107d",
+      "url": "https://github.com/apache/kafka/commit/1156d5c29452eb9804db7521207566d02095107d",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/apache/kafka.git",
+      "sha1": "3654bc451347d35f788296bb314a86d3902bdaac",
+      "url": "https://github.com/apache/kafka/commit/3654bc451347d35f788296bb314a86d3902bdaac",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/apache/kafka.git",
+      "sha1": "96527be90d28f7def483edf99fdde0190238ffa2",
+      "url": "https://github.com/apache/kafka/commit/96527be90d28f7def483edf99fdde0190238ffa2",
+      "refactorings": [
+        {
+          "type": "Move Class",
+          "description": "Move Class org.apache.kafka.connect.runtime.LoggersTest.TestLoggers moved to org.apache.kafka.connect.runtime.MockLoggersTest.TestLoggers",
+          "leftSideLocations": [
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java",
+              "startLine": 237,
+              "endLine": 266,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "TYPE_DECLARATION",
+              "description": "original type declaration",
+              "codeElement": "org.apache.kafka.connect.runtime.LoggersTest.TestLoggers"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/MockLoggersTest.java",
+              "startLine": 237,
+              "endLine": 267,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "TYPE_DECLARATION",
+              "description": "moved type declaration",
+              "codeElement": "org.apache.kafka.connect.runtime.MockLoggersTest.TestLoggers"
+            }
+          ]
+        },
+        {
+          "type": "Change Variable Type",
+          "description": "Change Variable Type result : LinkedList<String> to result : List<String> in method public getMessages() : List<String> from class org.apache.kafka.common.utils.LogCaptureAppender",
+          "leftSideLocations": [
+            {
+              "filePath": "clients/src/test/java/org/apache/kafka/common/utils/LogCaptureAppender.java",
+              "startLine": 123,
+              "endLine": 123,
+              "startColumn": 34,
+              "endColumn": 61,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "original variable declaration",
+              "codeElement": "result : LinkedList<String>"
+            },
+            {
+              "filePath": "clients/src/test/java/org/apache/kafka/common/utils/LogCaptureAppender.java",
+              "startLine": 126,
+              "endLine": 126,
+              "startColumn": 17,
+              "endColumn": 70,
+              "codeElementType": "EXPRESSION_STATEMENT",
+              "description": "statement referencing the original variable",
+              "codeElement": null
+            },
+            {
+              "filePath": "clients/src/test/java/org/apache/kafka/common/utils/LogCaptureAppender.java",
+              "startLine": 129,
+              "endLine": 129,
+              "startColumn": 9,
+              "endColumn": 23,
+              "codeElementType": "RETURN_STATEMENT",
+              "description": "statement referencing the original variable",
+              "codeElement": null
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "clients/src/test/java/org/apache/kafka/common/utils/LogCaptureAppender.java",
+              "startLine": 123,
+              "endLine": 123,
+              "startColumn": 28,
+              "endColumn": 55,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "changed-type variable declaration",
+              "codeElement": "result : List<String>"
+            },
+            {
+              "filePath": "clients/src/test/java/org/apache/kafka/common/utils/LogCaptureAppender.java",
+              "startLine": 126,
+              "endLine": 126,
+              "startColumn": 17,
+              "endColumn": 70,
+              "codeElementType": "EXPRESSION_STATEMENT",
+              "description": "statement referencing the variable with changed type",
+              "codeElement": null
+            },
+            {
+              "filePath": "clients/src/test/java/org/apache/kafka/common/utils/LogCaptureAppender.java",
+              "startLine": 129,
+              "endLine": 129,
+              "startColumn": 9,
+              "endColumn": 23,
+              "codeElementType": "RETURN_STATEMENT",
+              "description": "statement referencing the variable with changed type",
+              "codeElement": null
+            }
+          ]
+        },
+        {
+          "type": "Remove Class Annotation",
+          "description": "Remove Class Annotation @ExtendWith(MockitoExtension.class) in class org.apache.kafka.connect.runtime.LoggersTest",
+          "leftSideLocations": [
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java",
+              "startLine": 51,
+              "endLine": 51,
+              "startColumn": 0,
+              "endColumn": 36,
+              "codeElementType": "ANNOTATION",
+              "description": "removed annotation",
+              "codeElement": "@ExtendWith(MockitoExtension.class)"
+            },
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java",
+              "startLine": 51,
+              "endLine": 267,
+              "startColumn": 0,
+              "endColumn": 2,
+              "codeElementType": "TYPE_DECLARATION",
+              "description": "original class declaration",
+              "codeElement": "org.apache.kafka.connect.runtime.LoggersTest"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java",
+              "startLine": 42,
+              "endLine": 184,
+              "startColumn": 0,
+              "endColumn": 2,
+              "codeElementType": "TYPE_DECLARATION",
+              "description": "class declaration with removed annotation",
+              "codeElement": "org.apache.kafka.connect.runtime.LoggersTest"
+            }
+          ]
+        },
+        {
+          "type": "Remove Class Annotation",
+          "description": "Remove Class Annotation @MockitoSettings(strictness = Strictness.STRICT_STUBS) in class org.apache.kafka.connect.runtime.LoggersTest",
+          "leftSideLocations": [
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java",
+              "startLine": 52,
+              "endLine": 52,
+              "startColumn": 0,
+              "endColumn": 55,
+              "codeElementType": "ANNOTATION",
+              "description": "removed annotation",
+              "codeElement": "@MockitoSettings(strictness = Strictness.STRICT_STUBS)"
+            },
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java",
+              "startLine": 51,
+              "endLine": 267,
+              "startColumn": 0,
+              "endColumn": 2,
+              "codeElementType": "TYPE_DECLARATION",
+              "description": "original class declaration",
+              "codeElement": "org.apache.kafka.connect.runtime.LoggersTest"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java",
+              "startLine": 42,
+              "endLine": 184,
+              "startColumn": 0,
+              "endColumn": 2,
+              "codeElementType": "TYPE_DECLARATION",
+              "description": "class declaration with removed annotation",
+              "codeElement": "org.apache.kafka.connect.runtime.LoggersTest"
+            }
+          ]
+        },
+        {
+          "type": "Rename Method",
+          "description": "Rename Method public testSetLevelNullArguments() : void renamed to public testSetLevelWithNullNameSpaceOrNullLevel() : void in class org.apache.kafka.connect.runtime.LoggersTest",
+          "leftSideLocations": [
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java",
+              "startLine": 228,
+              "endLine": 235,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "public testSetLevelNullArguments() : void"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java",
+              "startLine": 105,
+              "endLine": 112,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "renamed method declaration",
+              "codeElement": "public testSetLevelWithNullNameSpaceOrNullLevel() : void"
+            }
+          ]
+        },
+        {
+          "type": "Replace Variable With Attribute",
+          "description": "Replace Variable With Attribute loggers : Loggers to loggers : Loggers in method public testSetLevelWithNullNameSpaceOrNullLevel() : void from class org.apache.kafka.connect.runtime.LoggersTest",
+          "leftSideLocations": [
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java",
+              "startLine": 232,
+              "endLine": 232,
+              "startColumn": 17,
+              "endColumn": 48,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "original variable declaration",
+              "codeElement": "loggers : Loggers"
+            },
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java",
+              "startLine": 233,
+              "endLine": 233,
+              "startColumn": 56,
+              "endColumn": 90,
+              "codeElementType": "LAMBDA_EXPRESSION_BODY",
+              "description": "statement referencing the original variable",
+              "codeElement": null
+            },
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java",
+              "startLine": 234,
+              "endLine": 234,
+              "startColumn": 56,
+              "endColumn": 86,
+              "codeElementType": "LAMBDA_EXPRESSION_BODY",
+              "description": "statement referencing the original variable",
+              "codeElement": null
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java",
+              "startLine": 45,
+              "endLine": 45,
+              "startColumn": 21,
+              "endColumn": 28,
+              "codeElementType": "FIELD_DECLARATION",
+              "description": "renamed variable declaration",
+              "codeElement": "loggers : Loggers"
+            },
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java",
+              "startLine": 107,
+              "endLine": 107,
+              "startColumn": 89,
+              "endColumn": 117,
+              "codeElementType": "LAMBDA_EXPRESSION_BODY",
+              "description": "statement referencing the renamed variable",
+              "codeElement": null
+            },
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java",
+              "startLine": 110,
+              "endLine": 110,
+              "startColumn": 68,
+              "endColumn": 99,
+              "codeElementType": "LAMBDA_EXPRESSION_BODY",
+              "description": "statement referencing the renamed variable",
+              "codeElement": null
+            }
+          ]
+        },
+        {
+          "type": "Extract Method",
+          "description": "Extract Method private isValidRootLoggerName(namespace String) : boolean extracted from public level(logger String) : LoggerLevel in class org.apache.kafka.connect.runtime.Loggers",
+          "leftSideLocations": [
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 68,
+              "endLine": 99,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "source method declaration before extraction",
+              "codeElement": "public level(logger String) : LoggerLevel"
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 78,
+              "endLine": 78,
+              "startColumn": 13,
+              "endColumn": 54,
+              "codeElementType": "IF_STATEMENT_CONDITION",
+              "description": "extracted code from source method declaration",
+              "codeElement": null
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 78,
+              "endLine": 91,
+              "startColumn": 9,
+              "endColumn": 10,
+              "codeElementType": "IF_STATEMENT",
+              "description": "extracted code from source method declaration",
+              "codeElement": null
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 219,
+              "endLine": 222,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "extracted method declaration",
+              "codeElement": "private isValidRootLoggerName(namespace String) : boolean"
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 221,
+              "endLine": 221,
+              "startColumn": 42,
+              "endColumn": 85,
+              "codeElementType": "LAMBDA_EXPRESSION_BODY",
+              "description": "extracted code to extracted method declaration",
+              "codeElement": null
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 220,
+              "endLine": 221,
+              "startColumn": 9,
+              "endColumn": 87,
+              "codeElementType": "RETURN_STATEMENT",
+              "description": "extracted code to extracted method declaration",
+              "codeElement": null
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 75,
+              "endLine": 106,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "source method declaration after extraction",
+              "codeElement": "public level(logger String) : LoggerLevel"
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 85,
+              "endLine": 85,
+              "startColumn": 13,
+              "endColumn": 42,
+              "codeElementType": "METHOD_INVOCATION",
+              "description": "extracted method invocation",
+              "codeElement": "isValidRootLoggerName(logger)"
+            }
+          ]
+        },
+        {
+          "type": "Extract Method",
+          "description": "Extract Method private isValidRootLoggerName(namespace String) : boolean extracted from private loggers(namespace String) : List<org.apache.logging.log4j.Logger> in class org.apache.kafka.connect.runtime.Loggers",
+          "leftSideLocations": [
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 144,
+              "endLine": 178,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "source method declaration before extraction",
+              "codeElement": "private loggers(namespace String) : List<org.apache.logging.log4j.Logger>"
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 154,
+              "endLine": 154,
+              "startColumn": 13,
+              "endColumn": 57,
+              "codeElementType": "IF_STATEMENT_CONDITION",
+              "description": "extracted code from source method declaration",
+              "codeElement": null
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 154,
+              "endLine": 158,
+              "startColumn": 9,
+              "endColumn": 10,
+              "codeElementType": "IF_STATEMENT",
+              "description": "extracted code from source method declaration",
+              "codeElement": null
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 219,
+              "endLine": 222,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "extracted method declaration",
+              "codeElement": "private isValidRootLoggerName(namespace String) : boolean"
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 221,
+              "endLine": 221,
+              "startColumn": 42,
+              "endColumn": 85,
+              "codeElementType": "LAMBDA_EXPRESSION_BODY",
+              "description": "extracted code to extracted method declaration",
+              "codeElement": null
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 220,
+              "endLine": 221,
+              "startColumn": 9,
+              "endColumn": 87,
+              "codeElementType": "RETURN_STATEMENT",
+              "description": "extracted code to extracted method declaration",
+              "codeElement": null
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 160,
+              "endLine": 194,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "source method declaration after extraction",
+              "codeElement": "private loggers(namespace String) : Collection<org.apache.logging.log4j.Logger>"
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 170,
+              "endLine": 170,
+              "startColumn": 13,
+              "endColumn": 45,
+              "codeElementType": "METHOD_INVOCATION",
+              "description": "extracted method invocation",
+              "codeElement": "isValidRootLoggerName(namespace)"
+            }
+          ]
+        },
+        {
+          "type": "Change Variable Type",
+          "description": "Change Variable Type currentLoggers : List<org.apache.logging.log4j.Logger> to currentLoggers : var in method public level(logger String) : LoggerLevel from class org.apache.kafka.connect.runtime.Loggers",
+          "leftSideLocations": [
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 81,
+              "endLine": 81,
+              "startColumn": 51,
+              "endColumn": 84,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "original variable declaration",
+              "codeElement": "currentLoggers : List<org.apache.logging.log4j.Logger>"
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 85,
+              "endLine": 90,
+              "startColumn": 13,
+              "endColumn": 14,
+              "codeElementType": "ENHANCED_FOR_STATEMENT",
+              "description": "statement referencing the original variable",
+              "codeElement": null
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 88,
+              "endLine": 88,
+              "startColumn": 17,
+              "endColumn": 59,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "changed-type variable declaration",
+              "codeElement": "currentLoggers : var"
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 92,
+              "endLine": 97,
+              "startColumn": 13,
+              "endColumn": 14,
+              "codeElementType": "ENHANCED_FOR_STATEMENT",
+              "description": "statement referencing the variable with changed type",
+              "codeElement": null
+            }
+          ]
+        },
+        {
+          "type": "Extract Variable",
+          "description": "Extract Variable internalNameSpace : String in method public setLevel(namespace String, level Level) : List<String> from class org.apache.kafka.connect.runtime.Loggers",
+          "leftSideLocations": [
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 131,
+              "endLine": 131,
+              "startColumn": 9,
+              "endColumn": 88,
+              "codeElementType": "EXPRESSION_STATEMENT",
+              "description": "statement with the initializer of the extracted variable",
+              "codeElement": null
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 132,
+              "endLine": 132,
+              "startColumn": 9,
+              "endColumn": 81,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "statement with the initializer of the extracted variable",
+              "codeElement": null
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 135,
+              "endLine": 135,
+              "startColumn": 16,
+              "endColumn": 110,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "extracted variable declaration",
+              "codeElement": "internalNameSpace : String"
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 137,
+              "endLine": 137,
+              "startColumn": 9,
+              "endColumn": 96,
+              "codeElementType": "EXPRESSION_STATEMENT",
+              "description": "statement with the name of the extracted variable",
+              "codeElement": null
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 139,
+              "endLine": 139,
+              "startColumn": 9,
+              "endColumn": 50,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "statement with the name of the extracted variable",
+              "codeElement": null
+            }
+          ]
+        },
+        {
+          "type": "Change Variable Type",
+          "description": "Change Variable Type childLoggers : List<org.apache.logging.log4j.Logger> to loggers : var in method public setLevel(namespace String, level Level) : List<String> from class org.apache.kafka.connect.runtime.Loggers",
+          "leftSideLocations": [
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 132,
+              "endLine": 132,
+              "startColumn": 47,
+              "endColumn": 80,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "original variable declaration",
+              "codeElement": "childLoggers : List<org.apache.logging.log4j.Logger>"
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 132,
+              "endLine": 132,
+              "startColumn": 9,
+              "endColumn": 81,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "statement referencing the original variable",
+              "codeElement": null
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 135,
+              "endLine": 138,
+              "startColumn": 9,
+              "endColumn": 10,
+              "codeElementType": "ENHANCED_FOR_STATEMENT",
+              "description": "statement referencing the original variable",
+              "codeElement": null
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 139,
+              "endLine": 139,
+              "startColumn": 13,
+              "endColumn": 49,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "changed-type variable declaration",
+              "codeElement": "loggers : var"
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 139,
+              "endLine": 139,
+              "startColumn": 9,
+              "endColumn": 50,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "statement referencing the variable with changed type",
+              "codeElement": null
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 144,
+              "endLine": 154,
+              "startColumn": 9,
+              "endColumn": 10,
+              "codeElementType": "ENHANCED_FOR_STATEMENT",
+              "description": "statement referencing the variable with changed type",
+              "codeElement": null
+            }
+          ]
+        },
+        {
+          "type": "Rename Variable",
+          "description": "Rename Variable childLoggers : List<org.apache.logging.log4j.Logger> to loggers : var in method public setLevel(namespace String, level Level) : List<String> from class org.apache.kafka.connect.runtime.Loggers",
+          "leftSideLocations": [
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 132,
+              "endLine": 132,
+              "startColumn": 47,
+              "endColumn": 80,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "original variable declaration",
+              "codeElement": "childLoggers : List<org.apache.logging.log4j.Logger>"
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 132,
+              "endLine": 132,
+              "startColumn": 9,
+              "endColumn": 81,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "statement referencing the original variable",
+              "codeElement": null
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 135,
+              "endLine": 138,
+              "startColumn": 9,
+              "endColumn": 10,
+              "codeElementType": "ENHANCED_FOR_STATEMENT",
+              "description": "statement referencing the original variable",
+              "codeElement": null
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 139,
+              "endLine": 139,
+              "startColumn": 13,
+              "endColumn": 49,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "renamed variable declaration",
+              "codeElement": "loggers : var"
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 139,
+              "endLine": 139,
+              "startColumn": 9,
+              "endColumn": 50,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "statement referencing the renamed variable",
+              "codeElement": null
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 144,
+              "endLine": 154,
+              "startColumn": 9,
+              "endColumn": 10,
+              "codeElementType": "ENHANCED_FOR_STATEMENT",
+              "description": "statement referencing the renamed variable",
+              "codeElement": null
+            }
+          ]
+        },
+        {
+          "type": "Inline Variable",
+          "description": "Inline Variable level : Level in method private loggerLevel(logger org.apache.logging.log4j.Logger) : LoggerLevel from class org.apache.kafka.connect.runtime.Loggers",
+          "leftSideLocations": [
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 219,
+              "endLine": 219,
+              "startColumn": 15,
+              "endColumn": 46,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "inlined variable declaration",
+              "codeElement": "level : Level"
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 221,
+              "endLine": 221,
+              "startColumn": 9,
+              "endColumn": 71,
+              "codeElementType": "RETURN_STATEMENT",
+              "description": "statement with the name of the inlined variable",
+              "codeElement": null
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 216,
+              "endLine": 216,
+              "startColumn": 9,
+              "endColumn": 83,
+              "codeElementType": "RETURN_STATEMENT",
+              "description": "statement with the initializer of the inlined variable",
+              "codeElement": null
+            }
+          ]
+        },
+        {
+          "type": "Change Variable Type",
+          "description": "Change Variable Type result : List<org.apache.logging.log4j.Logger> to result : var in method private loggers(namespace String) : Collection<org.apache.logging.log4j.Logger> from class org.apache.kafka.connect.runtime.Loggers",
+          "leftSideLocations": [
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 160,
+              "endLine": 160,
+              "startColumn": 47,
+              "endColumn": 73,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "original variable declaration",
+              "codeElement": "result : List<org.apache.logging.log4j.Logger>"
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 166,
+              "endLine": 166,
+              "startColumn": 17,
+              "endColumn": 43,
+              "codeElementType": "EXPRESSION_STATEMENT",
+              "description": "statement referencing the original variable",
+              "codeElement": null
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 174,
+              "endLine": 174,
+              "startColumn": 13,
+              "endColumn": 40,
+              "codeElementType": "EXPRESSION_STATEMENT",
+              "description": "statement referencing the original variable",
+              "codeElement": null
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 177,
+              "endLine": 177,
+              "startColumn": 9,
+              "endColumn": 23,
+              "codeElementType": "RETURN_STATEMENT",
+              "description": "statement referencing the original variable",
+              "codeElement": null
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 174,
+              "endLine": 174,
+              "startColumn": 13,
+              "endColumn": 70,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "changed-type variable declaration",
+              "codeElement": "result : var"
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 182,
+              "endLine": 182,
+              "startColumn": 17,
+              "endColumn": 43,
+              "codeElementType": "EXPRESSION_STATEMENT",
+              "description": "statement referencing the variable with changed type",
+              "codeElement": null
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 190,
+              "endLine": 190,
+              "startColumn": 13,
+              "endColumn": 40,
+              "codeElementType": "EXPRESSION_STATEMENT",
+              "description": "statement referencing the variable with changed type",
+              "codeElement": null
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 193,
+              "endLine": 193,
+              "startColumn": 9,
+              "endColumn": 23,
+              "codeElementType": "RETURN_STATEMENT",
+              "description": "statement referencing the variable with changed type",
+              "codeElement": null
+            }
+          ]
+        },
+        {
+          "type": "Change Variable Type",
+          "description": "Change Variable Type ancestorLogger : Logger to ancestorLogger : var in method private loggers(namespace String) : Collection<org.apache.logging.log4j.Logger> from class org.apache.kafka.connect.runtime.Loggers",
+          "leftSideLocations": [
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 161,
+              "endLine": 161,
+              "startColumn": 41,
+              "endColumn": 81,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "original variable declaration",
+              "codeElement": "ancestorLogger : Logger"
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 174,
+              "endLine": 174,
+              "startColumn": 13,
+              "endColumn": 40,
+              "codeElementType": "EXPRESSION_STATEMENT",
+              "description": "statement referencing the original variable",
+              "codeElement": null
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 176,
+              "endLine": 176,
+              "startColumn": 13,
+              "endColumn": 53,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "changed-type variable declaration",
+              "codeElement": "ancestorLogger : var"
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 190,
+              "endLine": 190,
+              "startColumn": 13,
+              "endColumn": 40,
+              "codeElementType": "EXPRESSION_STATEMENT",
+              "description": "statement referencing the variable with changed type",
+              "codeElement": null
+            }
+          ]
+        },
+        {
+          "type": "Change Variable Type",
+          "description": "Change Variable Type currentLoggers : List<org.apache.logging.log4j.Logger> to currentLoggers : var in method private loggers(namespace String) : Collection<org.apache.logging.log4j.Logger> from class org.apache.kafka.connect.runtime.Loggers",
+          "leftSideLocations": [
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 162,
+              "endLine": 162,
+              "startColumn": 47,
+              "endColumn": 80,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "original variable declaration",
+              "codeElement": "currentLoggers : List<org.apache.logging.log4j.Logger>"
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 164,
+              "endLine": 171,
+              "startColumn": 9,
+              "endColumn": 10,
+              "codeElementType": "ENHANCED_FOR_STATEMENT",
+              "description": "statement referencing the original variable",
+              "codeElement": null
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 177,
+              "endLine": 177,
+              "startColumn": 13,
+              "endColumn": 51,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "changed-type variable declaration",
+              "codeElement": "currentLoggers : var"
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 180,
+              "endLine": 187,
+              "startColumn": 9,
+              "endColumn": 10,
+              "codeElementType": "ENHANCED_FOR_STATEMENT",
+              "description": "statement referencing the variable with changed type",
+              "codeElement": null
+            }
+          ]
+        },
+        {
+          "type": "Change Return Type",
+          "description": "Change Return Type List<org.apache.logging.log4j.Logger> to Collection<org.apache.logging.log4j.Logger> in method private loggers(namespace String) : Collection<org.apache.logging.log4j.Logger> from class org.apache.kafka.connect.runtime.Loggers",
+          "leftSideLocations": [
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 151,
+              "endLine": 151,
+              "startColumn": 26,
+              "endColumn": 63,
+              "codeElementType": "TYPE",
+              "description": "original return type",
+              "codeElement": "List<org.apache.logging.log4j.Logger>"
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 144,
+              "endLine": 178,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "private loggers(namespace String) : List<org.apache.logging.log4j.Logger>"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 167,
+              "endLine": 167,
+              "startColumn": 26,
+              "endColumn": 69,
+              "codeElementType": "TYPE",
+              "description": "changed return type",
+              "codeElement": "Collection<org.apache.logging.log4j.Logger>"
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 160,
+              "endLine": 194,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with changed return type",
+              "codeElement": "private loggers(namespace String) : Collection<org.apache.logging.log4j.Logger>"
+            }
+          ]
+        },
+        {
+          "type": "Change Return Type",
+          "description": "Change Return Type List<org.apache.logging.log4j.Logger> to Map<String,org.apache.logging.log4j.Logger> in method package currentLoggers() : Map<String,org.apache.logging.log4j.Logger> from class org.apache.kafka.connect.runtime.Loggers",
+          "leftSideLocations": [
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 185,
+              "endLine": 185,
+              "startColumn": 5,
+              "endColumn": 42,
+              "codeElementType": "TYPE",
+              "description": "original return type",
+              "codeElement": "List<org.apache.logging.log4j.Logger>"
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 185,
+              "endLine": 193,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "package currentLoggers() : List<org.apache.logging.log4j.Logger>"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 201,
+              "endLine": 201,
+              "startColumn": 5,
+              "endColumn": 49,
+              "codeElementType": "TYPE",
+              "description": "changed return type",
+              "codeElement": "Map<String,org.apache.logging.log4j.Logger>"
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 201,
+              "endLine": 207,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with changed return type",
+              "codeElement": "package currentLoggers() : Map<String,org.apache.logging.log4j.Logger>"
+            }
+          ]
+        },
+        {
+          "type": "Replace Attribute With Variable",
+          "description": "Replace Attribute With Variable ROOT_LOGGER_NAME : String to rootLoggerNames : null in method private isValidRootLoggerName(namespace String) : boolean from class org.apache.kafka.connect.runtime.Loggers",
+          "leftSideLocations": [
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 58,
+              "endLine": 58,
+              "startColumn": 33,
+              "endColumn": 58,
+              "codeElementType": "FIELD_DECLARATION",
+              "description": "original variable declaration",
+              "codeElement": "ROOT_LOGGER_NAME : String"
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 78,
+              "endLine": 78,
+              "startColumn": 13,
+              "endColumn": 54,
+              "codeElementType": "IF_STATEMENT_CONDITION",
+              "description": "statement referencing the original variable",
+              "codeElement": null
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 221,
+              "endLine": 221,
+              "startColumn": 23,
+              "endColumn": 38,
+              "codeElementType": "LAMBDA_EXPRESSION_PARAMETER",
+              "description": "renamed variable declaration",
+              "codeElement": "rootLoggerNames : null"
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 221,
+              "endLine": 221,
+              "startColumn": 42,
+              "endColumn": 85,
+              "codeElementType": "LAMBDA_EXPRESSION_BODY",
+              "description": "statement referencing the renamed variable",
+              "codeElement": null
+            }
+          ]
+        },
+        {
+          "type": "Replace Attribute With Variable",
+          "description": "Replace Attribute With Variable ROOT_LOGGER_NAME : String to rootLoggerNames : null in method private isValidRootLoggerName(namespace String) : boolean from class org.apache.kafka.connect.runtime.Loggers",
+          "leftSideLocations": [
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 58,
+              "endLine": 58,
+              "startColumn": 33,
+              "endColumn": 58,
+              "codeElementType": "FIELD_DECLARATION",
+              "description": "original variable declaration",
+              "codeElement": "ROOT_LOGGER_NAME : String"
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 154,
+              "endLine": 154,
+              "startColumn": 13,
+              "endColumn": 57,
+              "codeElementType": "IF_STATEMENT_CONDITION",
+              "description": "statement referencing the original variable",
+              "codeElement": null
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 221,
+              "endLine": 221,
+              "startColumn": 23,
+              "endColumn": 38,
+              "codeElementType": "LAMBDA_EXPRESSION_PARAMETER",
+              "description": "renamed variable declaration",
+              "codeElement": "rootLoggerNames : null"
+            },
+            {
+              "filePath": "connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java",
+              "startLine": 221,
+              "endLine": 221,
+              "startColumn": 42,
+              "endColumn": 85,
+              "codeElementType": "LAMBDA_EXPRESSION_BODY",
+              "description": "statement referencing the renamed variable",
+              "codeElement": null
+            }
+          ]
+        },
+        {
+          "type": "Change Return Type",
+          "description": "Change Return Type List<Logger> to Map<String,Logger> in method package currentLoggers() : Map<String,Logger> from class org.apache.kafka.connect.runtime.MockLoggersTest.TestLoggers",
+          "leftSideLocations": [
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java",
+              "startLine": 258,
+              "endLine": 258,
+              "startColumn": 9,
+              "endColumn": 21,
+              "codeElementType": "TYPE",
+              "description": "original return type",
+              "codeElement": "List<Logger>"
+            },
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java",
+              "startLine": 257,
+              "endLine": 260,
+              "startColumn": 9,
+              "endColumn": 10,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "package currentLoggers() : List<Logger>"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/MockLoggersTest.java",
+              "startLine": 259,
+              "endLine": 259,
+              "startColumn": 9,
+              "endColumn": 28,
+              "codeElementType": "TYPE",
+              "description": "changed return type",
+              "codeElement": "Map<String,Logger>"
+            },
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/MockLoggersTest.java",
+              "startLine": 258,
+              "endLine": 261,
+              "startColumn": 9,
+              "endColumn": 10,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "method declaration with changed return type",
+              "codeElement": "package currentLoggers() : Map<String,Logger>"
+            }
+          ]
+        },
+        {
+          "type": "Move Method",
+          "description": "Move Method public testGetLoggersIgnoresNullLevels() : void from class org.apache.kafka.connect.runtime.LoggersTest to public testGetLoggersIgnoresNullLevels() : void from class org.apache.kafka.connect.runtime.MockLoggersTest",
+          "leftSideLocations": [
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java",
+              "startLine": 63,
+              "endLine": 83,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "public testGetLoggersIgnoresNullLevels() : void"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/MockLoggersTest.java",
+              "startLine": 62,
+              "endLine": 82,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "moved method declaration",
+              "codeElement": "public testGetLoggersIgnoresNullLevels() : void"
+            }
+          ]
+        },
+        {
+          "type": "Move Method",
+          "description": "Move Method public testGetLoggerFallsBackToEffectiveLogLevel() : void from class org.apache.kafka.connect.runtime.LoggersTest to public testGetLoggerFallsBackToEffectiveLogLevel() : void from class org.apache.kafka.connect.runtime.MockLoggersTest",
+          "leftSideLocations": [
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java",
+              "startLine": 85,
+              "endLine": 102,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "public testGetLoggerFallsBackToEffectiveLogLevel() : void"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/MockLoggersTest.java",
+              "startLine": 84,
+              "endLine": 101,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "moved method declaration",
+              "codeElement": "public testGetLoggerFallsBackToEffectiveLogLevel() : void"
+            }
+          ]
+        },
+        {
+          "type": "Move Method",
+          "description": "Move Method public testGetUnknownLogger() : void from class org.apache.kafka.connect.runtime.LoggersTest to public testGetUnknownLogger() : void from class org.apache.kafka.connect.runtime.MockLoggersTest",
+          "leftSideLocations": [
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java",
+              "startLine": 104,
+              "endLine": 120,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "public testGetUnknownLogger() : void"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/MockLoggersTest.java",
+              "startLine": 103,
+              "endLine": 119,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "moved method declaration",
+              "codeElement": "public testGetUnknownLogger() : void"
+            }
+          ]
+        },
+        {
+          "type": "Move Method",
+          "description": "Move Method public testSetRootLevel() : void from class org.apache.kafka.connect.runtime.LoggersTest to public testSetRootLevel() : void from class org.apache.kafka.connect.runtime.MockLoggersTest",
+          "leftSideLocations": [
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java",
+              "startLine": 176,
+              "endLine": 226,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "public testSetRootLevel() : void"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/MockLoggersTest.java",
+              "startLine": 175,
+              "endLine": 226,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "moved method declaration",
+              "codeElement": "public testSetRootLevel() : void"
+            }
+          ]
+        },
+        {
+          "type": "Extract Class",
+          "description": "Extract Class org.apache.kafka.connect.runtime.MockLoggersTest from class org.apache.kafka.connect.runtime.LoggersTest",
+          "leftSideLocations": [
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java",
+              "startLine": 51,
+              "endLine": 267,
+              "startColumn": 0,
+              "endColumn": 2,
+              "codeElementType": "TYPE_DECLARATION",
+              "description": "original type declaration",
+              "codeElement": "org.apache.kafka.connect.runtime.LoggersTest"
+            },
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java",
+              "startLine": 63,
+              "endLine": 83,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "public testGetLoggersIgnoresNullLevels() : void"
+            },
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java",
+              "startLine": 85,
+              "endLine": 102,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "public testGetLoggerFallsBackToEffectiveLogLevel() : void"
+            },
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java",
+              "startLine": 104,
+              "endLine": 120,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "public testGetUnknownLogger() : void"
+            },
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java",
+              "startLine": 176,
+              "endLine": 226,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "public testSetRootLevel() : void"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java",
+              "startLine": 42,
+              "endLine": 184,
+              "startColumn": 0,
+              "endColumn": 2,
+              "codeElementType": "TYPE_DECLARATION",
+              "description": "type declaration after extraction",
+              "codeElement": "org.apache.kafka.connect.runtime.LoggersTest"
+            },
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/MockLoggersTest.java",
+              "startLine": 50,
+              "endLine": 268,
+              "startColumn": 0,
+              "endColumn": 2,
+              "codeElementType": "TYPE_DECLARATION",
+              "description": "extracted type declaration",
+              "codeElement": "org.apache.kafka.connect.runtime.MockLoggersTest"
+            },
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/MockLoggersTest.java",
+              "startLine": 62,
+              "endLine": 82,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "extracted method declaration",
+              "codeElement": "public testGetLoggersIgnoresNullLevels() : void"
+            },
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/MockLoggersTest.java",
+              "startLine": 84,
+              "endLine": 101,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "extracted method declaration",
+              "codeElement": "public testGetLoggerFallsBackToEffectiveLogLevel() : void"
+            },
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/MockLoggersTest.java",
+              "startLine": 103,
+              "endLine": 119,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "extracted method declaration",
+              "codeElement": "public testGetUnknownLogger() : void"
+            },
+            {
+              "filePath": "connect/runtime/src/test/java/org/apache/kafka/connect/runtime/MockLoggersTest.java",
+              "startLine": 175,
+              "endLine": 226,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "extracted method declaration",
+              "codeElement": "public testSetRootLevel() : void"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/apache/kafka.git",
+      "sha1": "f2ae20a5c10c1f518a07b61d6c0e41daef41146a",
+      "url": "https://github.com/apache/kafka/commit/f2ae20a5c10c1f518a07b61d6c0e41daef41146a",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/apache/kafka.git",
+      "sha1": "03f16f368be0b8c6d043b136c0d1db120c7fdb4b",
+      "url": "https://github.com/apache/kafka/commit/03f16f368be0b8c6d043b136c0d1db120c7fdb4b",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/apache/kafka.git",
+      "sha1": "585b7db482928291167285bb7c1ee633347c2c4b",
+      "url": "https://github.com/apache/kafka/commit/585b7db482928291167285bb7c1ee633347c2c4b",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/apache/kafka.git",
+      "sha1": "6737178c12fbd90e9d8fc7cb7a17b7d2c4eb0ad0",
+      "url": "https://github.com/apache/kafka/commit/6737178c12fbd90e9d8fc7cb7a17b7d2c4eb0ad0",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/apache/kafka.git",
+      "sha1": "4080f19c5cfd9da10e0b4fd7708cf4aac31d191d",
+      "url": "https://github.com/apache/kafka/commit/4080f19c5cfd9da10e0b4fd7708cf4aac31d191d",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/apache/kafka.git",
+      "sha1": "af7f403ae3d33b70ef11fac7b522f209f29e90c0",
+      "url": "https://github.com/apache/kafka/commit/af7f403ae3d33b70ef11fac7b522f209f29e90c0",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/apache/kafka.git",
+      "sha1": "3161115adae4de9f2b2ec6b87462ea10a8993456",
+      "url": "https://github.com/apache/kafka/commit/3161115adae4de9f2b2ec6b87462ea10a8993456",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/apache/kafka.git",
+      "sha1": "09647c9b953dc29e616ebc8f45d596f1aaf7b573",
+      "url": "https://github.com/apache/kafka/commit/09647c9b953dc29e616ebc8f45d596f1aaf7b573",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/apache/kafka.git",
+      "sha1": "ab4f4a5515f63604ab5914c04d5844c054a12cbd",
+      "url": "https://github.com/apache/kafka/commit/ab4f4a5515f63604ab5914c04d5844c054a12cbd",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/apache/kafka.git",
+      "sha1": "5f8cf0e1f5d6d44fc2abb0bca915a497b55f4dc0",
+      "url": "https://github.com/apache/kafka/commit/5f8cf0e1f5d6d44fc2abb0bca915a497b55f4dc0",
+      "refactorings": []
+    }
+  ]
+}

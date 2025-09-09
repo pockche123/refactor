@@ -91,7 +91,7 @@ def main():
     
     # Get recent commits from Kafka (2023-2024)
     print("📊 Getting commits from Apache Kafka (2023-2024)...")
-    commits = get_commits_from_period(KAFKA_PATH, "2023-01-01", "2024-12-31", 30)  # Start with 30 commits
+    commits = get_commits_from_period(KAFKA_PATH, "2023-01-01", "2024-12-31", 200)  # Start with 30 commits
     
     if not commits:
         print("❌ No commits found in the specified period")

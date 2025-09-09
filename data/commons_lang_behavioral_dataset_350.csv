@@ -1,0 +1,351 @@
+file_path,refactoring_type,lines_changed,cyclomatic_complexity,nesting_depth,commit_sha
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,19,1,1,dummy_commit_294
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,15,1,1,dummy_commit_453
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,35,1,1,dummy_commit_638
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1,dummy_commit_139
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1,dummy_commit_539
+src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,Add Variable Modifier,1,1,1,dummy_commit_365
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1,dummy_commit_513
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1,dummy_commit_584
+src/test/java/org/apache/commons/lang3/mutable/MutableBooleanTest.java,Extract And Move Method,5,1,1,dummy_commit_231
+src/test/java/org/apache/commons/lang3/function/MethodInvokersFailableBiFunctionTest.java,Extract And Move Method,4,1,1,dummy_commit_210
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,37,1,1,dummy_commit_811
+src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java,Extract And Move Method,66,1,1,dummy_commit_760
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1,dummy_commit_904
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,24,1,1,dummy_commit_319
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1,dummy_commit_534
+src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Add Class Modifier,32,1,1,dummy_commit_31
+src/test/java/org/apache/commons/lang3/mutable/MutableDoubleTest.java,Extract And Move Method,5,1,1,dummy_commit_237
+src/test/java/org/apache/commons/lang3/RangeTest.java,Extract And Move Method,32,1,1,dummy_commit_113
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_635
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,24,1,1,dummy_commit_826
+src/test/java/org/apache/commons/lang3/time/DateUtilsFragmentTest.java,Extract And Move Method,8,1,1,dummy_commit_715
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,92,1,1,dummy_commit_784
+src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_617
+src/test/java/org/apache/commons/lang3/EnumUtilsTest.java,Extract And Move Method,9,1,1,dummy_commit_423
+src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_622
+src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,170,1,1,dummy_commit_851
+src/test/java/org/apache/commons/lang3/builder/HashCodeBuilderTest.java,Extract And Move Method,4,1,1,dummy_commit_593
+src/test/java/org/apache/commons/lang3/StringUtilsAbbreviateTest.java,Extract And Move Method,32,1,1,dummy_commit_765
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,37,1,1,dummy_commit_655
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_310
+src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java,Extract And Move Method,4,1,1,dummy_commit_244
+src/test/java/org/apache/commons/lang3/function/MethodInvokersBiFunctionTest.java,Extract And Move Method,4,1,1,dummy_commit_208
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_328
+src/test/java/org/apache/commons/lang3/function/MethodInvokersFailableBiConsumerTest.java,Extract And Move Method,4,1,1,dummy_commit_209
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveMultipleTest.java,Extract And Move Method,4,1,1,dummy_commit_890
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_260
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1,dummy_commit_527
+src/test/java/org/apache/commons/lang3/util/FluentBitSetTest.java,Extract And Move Method,186,1,1,dummy_commit_1030
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,19,1,1,dummy_commit_296
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1,dummy_commit_158
+src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,170,1,1,dummy_commit_845
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,50,1,1,dummy_commit_989
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1,dummy_commit_928
+src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_76
+src/main/java/org/apache/commons/lang3/math/NumberUtils.java,Parameterize Variable,1,1,1,dummy_commit_10
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,25,1,1,dummy_commit_947
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,43,1,1,dummy_commit_687
+src/test/java/org/apache/commons/lang3/SystemPropertiesTest.java,Rename Attribute,1,1,1,dummy_commit_344
+src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java,Rename Method,7,1,1,dummy_commit_59
+src/test/java/org/apache/commons/lang3/builder/HashCodeBuilderTest.java,Extract And Move Method,4,1,1,dummy_commit_168
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,15,1,1,dummy_commit_458
+src/test/java/org/apache/commons/lang3/concurrent/BasicThreadFactoryTest.java,Extract And Move Method,7,1,1,dummy_commit_174
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,6,1,1,dummy_commit_660
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,217,1,1,dummy_commit_995
+src/test/java/org/apache/commons/lang3/mutable/MutableLongTest.java,Extract And Move Method,4,1,1,dummy_commit_247
+src/test/java/org/apache/commons/lang3/builder/ConversionTest.java,Extract And Move Method,4,1,1,dummy_commit_589
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_626
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,92,1,1,dummy_commit_781
+src/test/java/org/apache/commons/lang3/time/FastDateParserTest.java,Extract And Move Method,4,1,1,dummy_commit_732
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_629
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,52,1,1,dummy_commit_948
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,16,1,1,dummy_commit_938
+src/test/java/org/apache/commons/lang3/concurrent/ConcurrentUtilsTest.java,Extract And Move Method,7,1,1,dummy_commit_603
+src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_390
+src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_70
+src/test/java/org/apache/commons/lang3/builder/HashCodeBuilderTest.java,Extract And Move Method,4,1,1,dummy_commit_595
+src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java,Extract And Move Method,13,1,1,dummy_commit_107
+src/test/java/org/apache/commons/lang3/IntegerRangeTest.java,Extract And Move Method,4,1,1,dummy_commit_428
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1,dummy_commit_542
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1,dummy_commit_929
+src/test/java/org/apache/commons/lang3/ArrayUtilsInsertTest.java,Extract And Move Method,23,1,1,dummy_commit_858
+src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_109
+src/test/java/org/apache/commons/lang3/DoubleRangeTest.java,Extract And Move Method,12,1,1,dummy_commit_86
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_314
+src/test/java/org/apache/commons/lang3/IntegerRangeTest.java,Extract And Move Method,6,1,1,dummy_commit_101
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1,dummy_commit_907
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1,dummy_commit_538
+src/test/java/org/apache/commons/lang3/ThreadUtilsTest.java,Extract And Move Method,5,1,1,dummy_commit_136
+src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Add Class Modifier,25,1,1,dummy_commit_30
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1,dummy_commit_912
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1,dummy_commit_568
+src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java,Rename Method,12,1,1,dummy_commit_54
+src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Remove Method Modifier,11,1,1,dummy_commit_23
+src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,170,1,1,dummy_commit_835
+src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_620
+src/test/java/org/apache/commons/lang3/RandomUtilsTest.java,Extract And Move Method,5,1,1,dummy_commit_481
+src/main/java/org/apache/commons/lang3/math/NumberUtils.java,Extract And Move Method,135,1,1,dummy_commit_3
+src/test/java/org/apache/commons/lang3/EnumUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_88
+src/test/java/org/apache/commons/lang3/LongRangeTest.java,Extract And Move Method,4,1,1,dummy_commit_430
+src/test/java/org/apache/commons/lang3/function/BooleanConsumerTest.java,Extract And Move Method,30,1,1,dummy_commit_184
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1,dummy_commit_544
+src/test/java/org/apache/commons/lang3/math/FractionTest.java,Extract And Move Method,99,1,1,dummy_commit_213
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,32,1,1,dummy_commit_774
+src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,8,1,1,dummy_commit_371
+src/test/java/org/apache/commons/lang3/EnumUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_96
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1,dummy_commit_549
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,217,1,1,dummy_commit_1011
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,217,1,1,dummy_commit_997
+src/main/java/org/apache/commons/lang3/function/Predicates.java,Rename Attribute,1,1,1,dummy_commit_63
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1,dummy_commit_924
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_261
+src/test/java/org/apache/commons/lang3/LongRangeTest.java,Extract And Move Method,4,1,1,dummy_commit_429
+src/test/java/org/apache/commons/lang3/IntegerRangeTest.java,Extract And Move Method,10,1,1,dummy_commit_100
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1,dummy_commit_541
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,44,1,1,dummy_commit_673
+src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java,Extract And Move Method,6,1,1,dummy_commit_280
+src/main/java/org/apache/commons/lang3/concurrent/EventCountCircuitBreaker.java,Change Return Type,1,1,1,dummy_commit_39
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1,dummy_commit_572
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,37,1,1,dummy_commit_657
+src/test/java/org/apache/commons/lang3/concurrent/ConcurrentUtilsTest.java,Extract And Move Method,7,1,1,dummy_commit_602
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,42,1,1,dummy_commit_697
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_467
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,47,1,1,dummy_commit_979
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1,dummy_commit_532
+src/test/java/org/apache/commons/lang3/LocaleUtilsTest.java,Extract And Move Method,21,1,1,dummy_commit_758
+src/test/java/org/apache/commons/lang3/time/DateUtilsFragmentTest.java,Extract And Move Method,8,1,1,dummy_commit_290
+src/test/java/org/apache/commons/lang3/concurrent/locks/LockingVisitorsTest.java,Rename Variable,1,1,1,dummy_commit_66
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_309
+src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java,Extract And Move Method,7,1,1,dummy_commit_67
+src/test/java/org/apache/commons/lang3/LocaleUtilsTest.java,Extract And Move Method,31,1,1,dummy_commit_754
+src/test/java/org/apache/commons/lang3/math/FractionTest.java,Extract And Move Method,89,1,1,dummy_commit_218
+src/test/java/org/apache/commons/lang3/ArrayUtilsInsertTest.java,Extract And Move Method,23,1,1,dummy_commit_868
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1,dummy_commit_916
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,217,1,1,dummy_commit_1002
+src/test/java/org/apache/commons/lang3/time/DateUtilsFragmentTest.java,Extract And Move Method,8,1,1,dummy_commit_714
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1,dummy_commit_530
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,35,1,1,dummy_commit_796
+src/test/java/org/apache/commons/lang3/time/GmtTimeZoneTest.java,Extract And Move Method,4,1,1,dummy_commit_734
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,62,1,1,dummy_commit_318
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1,dummy_commit_587
+src/test/java/org/apache/commons/lang3/ClassUtilsTest.java,Extract And Move Method,5,1,1,dummy_commit_405
+src/test/java/org/apache/commons/lang3/SystemPropertiesTest.java,Modify Method Annotation,1,1,1,dummy_commit_346
+src/test/java/org/apache/commons/lang3/ArrayUtilsInsertTest.java,Extract And Move Method,23,1,1,dummy_commit_869
+src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_381
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,32,1,1,dummy_commit_773
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_634
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_265
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_256
+src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Extract Variable,39,1,1,dummy_commit_2
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1,dummy_commit_519
+src/test/java/org/apache/commons/lang3/time/DateUtilsFragmentTest.java,Extract And Move Method,8,1,1,dummy_commit_716
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,158,1,1,dummy_commit_299
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,24,1,1,dummy_commit_822
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,15,1,1,dummy_commit_439
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,47,1,1,dummy_commit_981
+src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,170,1,1,dummy_commit_852
+src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_611
+src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,13,1,1,dummy_commit_792
+src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,13,1,1,dummy_commit_332
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,43,1,1,dummy_commit_692
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,47,1,1,dummy_commit_972
+src/test/java/org/apache/commons/lang3/time/DateUtilsFragmentTest.java,Extract And Move Method,8,1,1,dummy_commit_289
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,92,1,1,dummy_commit_786
+src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java,Extract And Move Method,17,1,1,dummy_commit_199
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,19,1,1,dummy_commit_292
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1,dummy_commit_536
+src/test/java/org/apache/commons/lang3/util/FluentBitSetTest.java,Extract And Move Method,48,1,1,dummy_commit_960
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,29,1,1,dummy_commit_323
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveMultipleTest.java,Extract And Move Method,4,1,1,dummy_commit_879
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1,dummy_commit_894
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,16,1,1,dummy_commit_939
+src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java,Extract And Move Method,15,1,1,dummy_commit_106
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1,dummy_commit_558
+src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java,Rename Method,12,1,1,dummy_commit_55
+src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_120
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1,dummy_commit_915
+src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Remove Method Modifier,7,1,1,dummy_commit_25
+src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_72
+src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java,Extract And Move Method,19,1,1,dummy_commit_192
+src/main/java/org/apache/commons/lang3/StringEscapeUtils.java,Add Class Modifier,24,1,1,dummy_commit_44
+src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java,Extract And Move Method,46,1,1,dummy_commit_277
+src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,170,1,1,dummy_commit_834
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,43,1,1,dummy_commit_694
+src/test/java/org/apache/commons/lang3/time/DurationUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_331
+src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,170,1,1,dummy_commit_833
+src/test/java/org/apache/commons/lang3/SystemPropertiesTest.java,Change Attribute Access Modifier,1,1,1,dummy_commit_351
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,39,1,1,dummy_commit_700
+src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_394
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Parameterize Variable,1,1,1,dummy_commit_816
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,44,1,1,dummy_commit_679
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,50,1,1,dummy_commit_985
+src/test/java/org/apache/commons/lang3/ConversionTest.java,Extract And Move Method,29,1,1,dummy_commit_413
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,46,1,1,dummy_commit_668
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_305
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,50,1,1,dummy_commit_990
+src/test/java/org/apache/commons/lang3/SystemPropertiesTest.java,Remove Method Annotation,1,1,1,dummy_commit_350
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_312
+src/main/java/org/apache/commons/lang3/StringUtils.java,Extract Attribute,1,1,1,dummy_commit_333
+src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java,Rename Method,7,1,1,dummy_commit_60
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_327
+src/main/java/org/apache/commons/lang3/mutable/MutableLong.java,Remove Method Annotation,1,1,1,dummy_commit_362
+src/test/java/org/apache/commons/lang3/EnumUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_92
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_628
+src/test/java/org/apache/commons/lang3/StreamsTest.java,Parameterize Variable,1,1,1,dummy_commit_493
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,15,1,1,dummy_commit_447
+src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_433
+src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java,Extract And Move Method,8,1,1,dummy_commit_198
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_630
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,37,1,1,dummy_commit_808
+src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,Extract Method,14,1,1,dummy_commit_334
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1,dummy_commit_552
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveMultipleTest.java,Extract And Move Method,4,1,1,dummy_commit_881
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,25,1,1,dummy_commit_945
+src/main/java/org/apache/commons/lang3/mutable/MutableBoolean.java,Remove Method Annotation,1,1,1,dummy_commit_357
+src/test/java/org/apache/commons/lang3/RandomUtilsTest.java,Extract And Move Method,5,1,1,dummy_commit_485
+src/test/java/org/apache/commons/lang3/builder/HashCodeBuilderTest.java,Extract And Move Method,4,1,1,dummy_commit_596
+src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_110
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1,dummy_commit_518
+src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,Rename Attribute,1,1,1,dummy_commit_355
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1,dummy_commit_528
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,15,1,1,dummy_commit_445
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,50,1,1,dummy_commit_987
+src/test/java/org/apache/commons/lang3/ConversionTest.java,Extract And Move Method,44,1,1,dummy_commit_409
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,39,1,1,dummy_commit_682
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,47,1,1,dummy_commit_969
+src/main/java/org/apache/commons/lang3/EnumUtils.java,Remove Variable Modifier,1,1,1,dummy_commit_336
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,15,1,1,dummy_commit_450
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,15,1,1,dummy_commit_451
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,217,1,1,dummy_commit_1008
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,46,1,1,dummy_commit_664
+src/test/java/org/apache/commons/lang3/stream/StreamsTest.java,Extract And Move Method,26,1,1,dummy_commit_705
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1,dummy_commit_922
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,217,1,1,dummy_commit_999
+src/test/java/org/apache/commons/lang3/ThreadUtilsTest.java,Extract And Move Method,6,1,1,dummy_commit_137
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,35,1,1,dummy_commit_802
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveMultipleTest.java,Extract And Move Method,4,1,1,dummy_commit_876
+src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java,Extract And Move Method,14,1,1,dummy_commit_286
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,92,1,1,dummy_commit_788
+src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_275
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1,dummy_commit_585
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_307
+src/test/java/org/apache/commons/lang3/ArrayUtilsInsertTest.java,Extract And Move Method,24,1,1,dummy_commit_861
+src/test/java/org/apache/commons/lang3/math/FractionTest.java,Extract And Move Method,44,1,1,dummy_commit_215
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,92,1,1,dummy_commit_780
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_507
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,24,1,1,dummy_commit_814
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1,dummy_commit_567
+src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,10,1,1,dummy_commit_370
+src/test/java/org/apache/commons/lang3/RandomUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_478
+src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,5,1,1,dummy_commit_388
+src/test/java/org/apache/commons/lang3/CharRangeTest.java,Extract And Move Method,6,1,1,dummy_commit_78
+src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Remove Method Modifier,13,1,1,dummy_commit_29
+src/test/java/org/apache/commons/lang3/concurrent/ConcurrentUtilsTest.java,Extract And Move Method,7,1,1,dummy_commit_601
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,15,1,1,dummy_commit_448
+src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java,Add Method Annotation,9,1,1,dummy_commit_49
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,44,1,1,dummy_commit_677
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,46,1,1,dummy_commit_670
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_631
+src/test/java/org/apache/commons/lang3/builder/DiffBuilderTest.java,Extract And Move Method,4,1,1,dummy_commit_165
+src/test/java/org/apache/commons/lang3/builder/HashCodeBuilderTest.java,Extract And Move Method,4,1,1,dummy_commit_591
+src/test/java/org/apache/commons/lang3/concurrent/MultiBackgroundInitializerTest.java,Extract And Move Method,8,1,1,dummy_commit_178
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1,dummy_commit_514
+src/test/java/org/apache/commons/lang3/concurrent/locks/LockingVisitorsTest.java,Rename Variable,1,1,1,dummy_commit_65
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1,dummy_commit_141
+src/test/java/org/apache/commons/lang3/RandomUtilsTest.java,Extract And Move Method,5,1,1,dummy_commit_483
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,35,1,1,dummy_commit_803
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveMultipleTest.java,Extract And Move Method,4,1,1,dummy_commit_873
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_254
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,16,1,1,dummy_commit_940
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_306
+src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_221
+src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java,Extract And Move Method,4,1,1,dummy_commit_235
+src/main/java/org/apache/commons/lang3/SystemProperties.java,Inline Variable,1,1,1,dummy_commit_342
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_308
+src/test/java/org/apache/commons/lang3/concurrent/MemoizerFunctionTest.java,Extract And Move Method,11,1,1,dummy_commit_605
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,58,1,1,dummy_commit_950
+src/test/java/org/apache/commons/lang3/mutable/MutableShortTest.java,Extract And Move Method,9,1,1,dummy_commit_249
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_633
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1,dummy_commit_896
+src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_71
+src/test/java/org/apache/commons/lang3/EnumUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_94
+src/main/java/org/apache/commons/lang3/time/DurationFormatUtils.java,Add Class Modifier,112,1,1,dummy_commit_33
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_259
+src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java,Extract And Move Method,8,1,1,dummy_commit_204
+src/main/java/org/apache/commons/lang3/mutable/MutableInt.java,Remove Method Annotation,1,1,1,dummy_commit_361
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,35,1,1,dummy_commit_643
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1,dummy_commit_917
+src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_77
+src/test/java/org/apache/commons/lang3/DoubleRangeTest.java,Extract And Move Method,10,1,1,dummy_commit_84
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,24,1,1,dummy_commit_321
+src/test/java/org/apache/commons/lang3/ClassPathUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_82
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,47,1,1,dummy_commit_962
+src/test/java/org/apache/commons/lang3/ConversionTest.java,Extract And Move Method,6,1,1,dummy_commit_920
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_497
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1,dummy_commit_547
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,21,1,1,dummy_commit_953
+src/test/java/org/apache/commons/lang3/ArrayUtilsInsertTest.java,Extract And Move Method,23,1,1,dummy_commit_867
+src/test/java/org/apache/commons/lang3/time/DateUtilsFragmentTest.java,Extract And Move Method,8,1,1,dummy_commit_708
+src/main/java/org/apache/commons/lang3/text/translate/OctalUnescaper.java,Add Method Modifier,8,1,1,dummy_commit_5
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,15,1,1,dummy_commit_449
+src/test/java/org/apache/commons/lang3/LongRangeTest.java,Extract And Move Method,6,1,1,dummy_commit_104
+src/test/java/org/apache/commons/lang3/EnumUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_97
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,19,1,1,dummy_commit_298
+src/test/java/org/apache/commons/lang3/ConversionTest.java,Extract And Move Method,29,1,1,dummy_commit_411
+src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_398
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1,dummy_commit_913
+src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_281
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_266
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,5,1,1,dummy_commit_468
+src/test/java/org/apache/commons/lang3/EnumUtilsTest.java,Extract And Move Method,7,1,1,dummy_commit_424
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,42,1,1,dummy_commit_696
+src/test/java/org/apache/commons/lang3/EnumUtilsTest.java,Extract And Move Method,5,1,1,dummy_commit_425
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,47,1,1,dummy_commit_965
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1,dummy_commit_551
+src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_118
+src/test/java/org/apache/commons/lang3/ConversionTest.java,Extract And Move Method,27,1,1,dummy_commit_408
+src/test/java/org/apache/commons/lang3/mutable/MutableShortTest.java,Extract And Move Method,13,1,1,dummy_commit_250
+src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java,Extract And Move Method,46,1,1,dummy_commit_380
+src/test/java/org/apache/commons/lang3/RandomUtilsTest.java,Extract And Move Method,5,1,1,dummy_commit_479
+src/main/java/org/apache/commons/lang3/math/NumberUtils.java,Extract Method,133,1,1,dummy_commit_9
+src/main/java/org/apache/commons/lang3/mutable/MutableDouble.java,Remove Method Annotation,1,1,1,dummy_commit_359
+src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java,Extract And Move Method,18,1,1,dummy_commit_196
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,92,1,1,dummy_commit_777
+src/test/java/org/apache/commons/lang3/CharUtilsTest.java,Extract And Move Method,7,1,1,dummy_commit_81
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,92,1,1,dummy_commit_790
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,46,1,1,dummy_commit_662
+src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,20,1,1,dummy_commit_653
+src/test/java/org/apache/commons/lang3/mutable/MutableDoubleTest.java,Extract And Move Method,5,1,1,dummy_commit_239
+src/test/java/org/apache/commons/lang3/LocaleUtilsTest.java,Extract And Move Method,31,1,1,dummy_commit_752
+src/test/java/org/apache/commons/lang3/function/MethodInvokersFailableFunctionTest.java,Extract And Move Method,4,1,1,dummy_commit_211
+src/test/java/org/apache/commons/lang3/LocaleUtilsTest.java,Extract And Move Method,31,1,1,dummy_commit_755
+src/test/java/org/apache/commons/lang3/EnumUtilsTest.java,Extract And Move Method,9,1,1,dummy_commit_420
+src/test/java/org/apache/commons/lang3/StringUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_501
+src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_227
+src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveTest.java,Extract And Move Method,19,1,1,dummy_commit_901
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1,dummy_commit_533
+src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,170,1,1,dummy_commit_836
+src/test/java/org/apache/commons/lang3/concurrent/CallableBackgroundInitializerTest.java,Extract And Move Method,8,1,1,dummy_commit_177
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,47,1,1,dummy_commit_984
+src/test/java/org/apache/commons/lang3/RangeTest.java,Extract And Move Method,4,1,1,dummy_commit_436
+src/test/java/org/apache/commons/lang3/ClassUtilsTest.java,Extract And Move Method,5,1,1,dummy_commit_404
+src/test/java/org/apache/commons/lang3/CharSequenceUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_918
+src/test/java/org/apache/commons/lang3/SystemPropertiesTest.java,Change Attribute Access Modifier,1,1,1,dummy_commit_352
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,24,1,1,dummy_commit_813
+src/main/java/org/apache/commons/lang3/math/NumberUtils.java,Extract Method,202,1,1,dummy_commit_7
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,5,1,1,dummy_commit_155
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1,dummy_commit_570
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,217,1,1,dummy_commit_1001
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_329
+src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,6,1,1,dummy_commit_525
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,15,1,1,dummy_commit_442
+src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Parameterize Variable,1,1,1,dummy_commit_817
+src/test/java/org/apache/commons/lang3/builder/HashCodeBuilderTest.java,Extract And Move Method,4,1,1,dummy_commit_597
+src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java,Extract And Move Method,21,1,1,dummy_commit_1025
+src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java,Extract And Move Method,66,1,1,dummy_commit_761
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,47,1,1,dummy_commit_983
+src/test/java/org/apache/commons/lang3/builder/ToStringBuilderTest.java,Extract And Move Method,10,1,1,dummy_commit_598
+src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java,Extract And Move Method,5,1,1,dummy_commit_464
+src/test/java/org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java,Extract And Move Method,50,1,1,dummy_commit_978
+src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,4,1,1,dummy_commit_614

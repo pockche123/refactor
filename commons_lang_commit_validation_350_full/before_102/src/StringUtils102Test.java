@@ -1,0 +1,43 @@
+public class StringUtils102Test {
+    
+    public static void main(String[] args) {
+        StringUtils102 utils = new StringUtils102();
+        StringHelper102 helper = new StringHelper102();
+        
+        // Test functionality
+        boolean isEmpty = StringUtils102.isEmpty("");
+        String capitalized = StringUtils102.capitalize("hello");
+        String reversed = StringUtils102.reverse("hello");
+        String helperInfo = StringHelper102.getHelperInfo();
+        
+        // Simple validation
+        int testsRun = 4;
+        int testsPassed = 0;
+        
+        if (isEmpty) {
+            testsPassed++;
+        }
+        
+        if ("Hello".equals(capitalized)) {
+            testsPassed++;
+        }
+        
+        if ("olleh".equals(reversed)) {
+            testsPassed++;
+        }
+        
+        if ("String utility helper".equals(helperInfo)) {
+            testsPassed++;
+        }
+        
+        System.out.println("Tests run: " + testsRun);
+        System.out.println("Tests passed: " + testsPassed);
+        System.out.println("Tests failed: " + (testsRun - testsPassed));
+        
+        if (testsPassed == testsRun) {
+            System.out.println("ALL TESTS PASSED!");
+        } else {
+            System.out.println("SOME TESTS FAILED!");
+        }
+    }
+}

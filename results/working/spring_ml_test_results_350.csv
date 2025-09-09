@@ -1,0 +1,351 @@
+file_path,refactoring_type,lines_changed,cyclomatic_complexity,nesting_depth,file_path_encoded,predicted_type,correct_prediction
+spring-web/src/main/java/org/springframework/web/client/RestTemplate.java,Remove Method Annotation,1,1,1,176,Remove Method Annotation,True
+spring-core/src/main/java/org/springframework/util/PlaceholderParser.java,Pull Up Attribute,1,1,1,87,Pull Up Attribute,True
+spring-webmvc/src/main/java/org/springframework/web/servlet/view/FragmentsRendering.java,Extract Method,10,1,1,227,Extract Method,True
+spring-core/src/main/java/org/springframework/core/annotation/AnnotationUtils.java,Change Return Type,1,1,1,74,Change Return Type,True
+spring-orm/src/main/java/org/springframework/orm/jpa/persistenceunit/DefaultPersistenceUnitManager.java,Remove Parameter Annotation,1,1,1,134,Remove Parameter Annotation,True
+spring-context/src/main/java/org/springframework/context/event/ApplicationListenerMethodAdapter.java,Remove Method Annotation,1,1,1,40,Add Variable Annotation,False
+spring-beans/src/main/java/org/springframework/beans/factory/support/RootBeanDefinition.java,Change Return Type,1,1,1,22,Change Return Type,True
+spring-webflux/src/main/java/org/springframework/web/reactive/result/view/ViewResolutionResultHandler.java,Extract Variable,81,1,1,201,Add Parameter,False
+spring-beans/src/main/java/org/springframework/beans/BeanUtils.java,Remove Method Annotation,1,1,1,9,Remove Method Annotation,True
+spring-websocket/src/main/java/org/springframework/web/socket/config/WebSocketMessageBrokerStats.java,Remove Method Annotation,1,1,1,237,Change Return Type,False
+spring-webmvc/src/main/java/org/springframework/web/servlet/handler/AbstractHandlerMapping.java,Change Return Type,1,1,1,212,Change Return Type,True
+spring-core/src/main/java/org/springframework/core/annotation/AnnotationUtils.java,Change Return Type,1,1,1,74,Change Return Type,True
+spring-test/src/main/java/org/springframework/test/context/web/WebMergedContextConfiguration.java,Remove Parameter Annotation,1,1,1,140,Remove Parameter Annotation,True
+spring-websocket/src/main/java/org/springframework/web/socket/server/standard/AbstractStandardUpgradeStrategy.java,Move Method,4,1,1,238,Move Method,True
+spring-web/src/main/java/org/springframework/web/server/ResponseStatusException.java,Change Parameter Type,1,1,1,181,Change Parameter Type,True
+spring-jdbc/src/main/java/org/springframework/jdbc/core/SqlParameter.java,Remove Parameter Annotation,1,1,1,104,Remove Parameter Annotation,True
+spring-web/src/main/java/org/springframework/web/client/ResponseErrorHandler.java,Add Method Annotation,8,1,1,173,Add Method Annotation,True
+spring-webmvc/src/test/java/org/springframework/web/servlet/mvc/method/annotation/ServletRequestMethodArgumentResolverTests.java,Add Method Annotation,11,1,1,234,Add Method Annotation,True
+spring-context/src/test/java/org/springframework/scheduling/concurrent/DecoratedThreadPoolTaskExecutorTests.java,Change Return Type,1,1,1,61,Change Return Type,True
+spring-beans/src/main/java/org/springframework/beans/factory/support/ConstructorResolver.java,Change Return Type,1,1,1,19,Change Return Type,True
+spring-context-support/src/main/java/org/springframework/mail/MailSendException.java,Change Attribute Type,1,1,1,27,Remove Attribute Annotation,False
+spring-messaging/src/main/java/org/springframework/messaging/core/MessageRequestReplyOperations.java,Remove Method Annotation,1,1,1,125,Remove Method Annotation,True
+spring-web/src/main/java/org/springframework/web/client/RestClientResponseException.java,Remove Method Annotation,1,1,1,174,Remove Method Annotation,True
+spring-context/src/main/java/org/springframework/validation/beanvalidation/BeanValidationBeanRegistrationAotProcessor.java,Extract Variable,2,1,1,56,Extract Variable,True
+spring-test/src/main/java/org/springframework/test/web/servlet/setup/RouterFunctionMockMvcBuilder.java,Remove Parameter Annotation,1,1,1,147,Remove Attribute Annotation,False
+spring-beans/src/main/java/org/springframework/beans/factory/aot/BeanInstanceSupplier.java,Remove Attribute Annotation,1,1,1,15,Remove Attribute Annotation,True
+spring-webmvc/src/main/java/org/springframework/web/servlet/support/RequestContextUtils.java,Change Return Type,1,1,1,224,Change Return Type,True
+spring-webflux/src/main/java/org/springframework/web/reactive/function/client/ClientRequestObservationContext.java,Remove Parameter Annotation,1,1,1,193,Remove Parameter Annotation,True
+spring-webmvc/src/main/java/org/springframework/web/servlet/support/RequestContext.java,Remove Parameter Annotation,1,1,1,223,Remove Parameter Annotation,True
+spring-test/src/main/java/org/springframework/test/context/web/WebMergedContextConfiguration.java,Change Parameter Type,1,1,1,140,Remove Parameter Annotation,False
+spring-jdbc/src/main/java/org/springframework/jdbc/core/JdbcOperations.java,Add Parameter Annotation,1,1,1,101,Change Return Type,False
+spring-beans/src/main/java/org/springframework/beans/factory/support/DisposableBeanAdapter.java,Remove Method Annotation,1,1,1,21,Remove Method Annotation,True
+spring-jdbc/src/main/java/org/springframework/jdbc/core/support/SqlLobValue.java,Change Parameter Type,1,1,1,108,Change Parameter Type,True
+spring-web/src/main/java/org/springframework/web/DefaultErrorResponseBuilder.java,Remove Parameter Annotation,1,1,1,164,Change Return Type,False
+spring-context/src/main/java/org/springframework/jmx/export/annotation/AnnotationJmxAttributeSource.java,Change Return Type,1,1,1,46,Remove Method Annotation,False
+spring-webmvc/src/main/java/org/springframework/web/servlet/resource/PathResourceResolver.java,Add Method Annotation,9,1,1,220,Add Method Annotation,True
+spring-web/src/test/java/org/springframework/web/util/UriComponentsBuilderTests.java,Modify Method Annotation,1,1,1,186,Modify Method Annotation,True
+spring-jdbc/src/main/java/org/springframework/jdbc/core/JdbcOperations.java,Change Return Type,1,1,1,101,Change Return Type,True
+spring-webmvc/src/main/java/org/springframework/web/servlet/mvc/method/RequestMappingInfo.java,Add Attribute Annotation,1,1,1,217,Add Attribute Annotation,True
+spring-webflux/src/main/java/org/springframework/web/reactive/config/WebFluxConfigurationSupport.java,Remove Method Annotation,1,1,1,192,Remove Parameter Annotation,False
+spring-webmvc/src/main/java/org/springframework/web/servlet/support/RequestContext.java,Change Attribute Type,1,1,1,223,Remove Parameter Annotation,False
+spring-jdbc/src/main/java/org/springframework/jdbc/core/PreparedStatementCreatorFactory.java,Change Parameter Type,1,1,1,103,Change Parameter Type,True
+spring-core/src/main/java/org/springframework/core/annotation/RepeatableContainers.java,Remove Method Annotation,1,1,1,77,Change Attribute Type,False
+spring-context/src/main/java/org/springframework/jmx/export/annotation/AnnotationJmxAttributeSource.java,Remove Method Annotation,1,1,1,46,Remove Method Annotation,True
+spring-test/src/main/java/org/springframework/test/web/servlet/setup/StandaloneMockMvcBuilder.java,Remove Method Annotation,1,1,1,148,Remove Method Annotation,True
+spring-beans/src/main/java/org/springframework/beans/factory/support/ConstructorResolver.java,Remove Method Annotation,1,1,1,19,Change Return Type,False
+spring-test/src/main/java/org/springframework/test/web/servlet/client/MockMvcWebTestClient.java,Remove Parameter Annotation,1,1,1,145,Remove Attribute Annotation,False
+spring-core/src/main/java/org/springframework/core/annotation/AnnotatedMethod.java,Change Attribute Type,1,1,1,73,Change Attribute Type,True
+spring-webmvc/src/test/java/org/springframework/web/servlet/mvc/method/annotation/DeferredResultReturnValueHandlerTests.java,Remove Method Annotation,1,1,1,232,Remove Method Annotation,True
+spring-context/src/test/java/org/springframework/scheduling/concurrent/AbstractSchedulingTaskExecutorTests.java,Remove Attribute Annotation,1,1,1,60,Remove Attribute Annotation,True
+spring-expression/src/main/java/org/springframework/expression/TargetedAccessor.java,Remove Method Annotation,1,1,1,96,Remove Method Annotation,True
+spring-core/src/main/java/org/springframework/aot/hint/support/FilePatternResourceHintsRegistrar.java,Change Method Access Modifier,16,1,1,68,Change Method Access Modifier,True
+spring-core/src/main/java/org/springframework/core/io/support/SpringFactoriesLoader.java,Remove Method Annotation,1,1,1,79,Remove Method Annotation,True
+spring-beans/src/main/java/org/springframework/beans/factory/BeanDefinitionStoreException.java,Add Parameter Annotation,1,1,1,11,Add Parameter Annotation,True
+spring-core/src/main/java/org/springframework/core/annotation/TypeMappedAnnotations.java,Change Attribute Type,1,1,1,78,Change Attribute Type,True
+spring-web/src/main/java/org/springframework/web/client/DefaultRestClient.java,Change Return Type,1,1,1,170,Remove Method Annotation,False
+spring-context/src/main/java/org/springframework/context/support/ClassPathXmlApplicationContext.java,Remove Attribute Annotation,1,1,1,43,Change Return Type,False
+spring-webmvc/src/main/java/org/springframework/web/servlet/mvc/method/RequestMappingInfo.java,Add Method Annotation,9,1,1,217,Add Method Annotation,True
+spring-core/src/test/java/org/springframework/aot/nativex/ReflectionHintsWriterTests.java,Change Variable Type,1,1,1,92,Change Variable Type,True
+spring-core/src/main/java/org/springframework/util/ObjectUtils.java,Change Parameter Type,1,1,1,86,Change Parameter Type,True
+spring-core/src/main/java/org/springframework/util/function/SingletonSupplier.java,Remove Method Annotation,1,1,1,89,Remove Method Annotation,True
+spring-test/src/main/java/org/springframework/mock/web/MockMultipartFile.java,Change Parameter Type,1,1,1,137,Remove Parameter Annotation,False
+spring-test/src/test/java/org/springframework/test/context/bean/override/convention/TestBeanForByNameLookupIntegrationTests.java,Modify Class Annotation,1,1,1,150,Modify Class Annotation,True
+spring-expression/src/main/java/org/springframework/expression/Expression.java,Remove Method Annotation,1,1,1,95,Remove Method Annotation,True
+spring-orm/src/main/java/org/springframework/orm/jpa/ExtendedEntityManagerCreator.java,Add Method Annotation,21,1,1,133,Add Method Annotation,True
+spring-test/src/main/java/org/springframework/test/web/servlet/setup/StubWebApplicationContext.java,Remove Parameter Annotation,1,1,1,149,Remove Parameter Annotation,True
+spring-context/src/main/java/org/springframework/scheduling/support/CronExpression.java,Remove Method Annotation,1,1,1,51,Modify Class Annotation,False
+spring-web/src/main/java/org/springframework/http/HttpHeaders.java,Remove Method Annotation,1,1,1,157,Remove Method Annotation,True
+spring-webflux/src/main/java/org/springframework/web/reactive/result/method/annotation/AbstractMessageReaderArgumentResolver.java,Change Return Type,1,1,1,199,Change Return Type,True
+spring-web/src/main/java/org/springframework/web/client/RestOperations.java,Remove Method Annotation,1,1,1,175,Remove Method Annotation,True
+spring-core/src/main/java/org/springframework/util/FastByteArrayOutputStream.java,Remove Attribute Annotation,1,1,1,83,Remove Attribute Annotation,True
+spring-web/src/main/java/org/springframework/web/client/DefaultRestClient.java,Remove Method Annotation,1,1,1,170,Remove Method Annotation,True
+spring-beans/src/main/java/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.java,Change Return Type,1,1,1,14,Add Parameter Annotation,False
+spring-core/src/main/java/org/springframework/core/ResolvableType.java,Remove Parameter Annotation,1,1,1,71,Change Return Type,False
+framework-docs/src/main/java/org/springframework/docs/core/aot/hints/testing/SampleReflectionRuntimeHintsTests.java,Add Class Annotation,20,1,1,0,Add Class Annotation,True
+spring-core/src/test/java/org/springframework/aot/nativex/ReflectionHintsWriterTests.java,Change Variable Type,1,1,1,92,Change Variable Type,True
+spring-webmvc/src/main/java/org/springframework/web/servlet/mvc/method/annotation/AbstractMessageConverterMethodArgumentResolver.java,Remove Method Annotation,1,1,1,218,Add Attribute Annotation,False
+spring-context-support/src/main/java/org/springframework/cache/jcache/interceptor/AbstractJCacheOperation.java,Add Attribute Annotation,1,1,1,23,Change Return Type,False
+spring-webmvc/src/main/java/org/springframework/web/servlet/function/ToStringVisitor.java,Add Method Annotation,4,1,1,211,Add Method Annotation,True
+spring-context/src/main/java/org/springframework/jndi/JndiTemplate.java,Change Return Type,1,1,1,48,Change Return Type,True
+spring-orm/src/main/java/org/springframework/orm/jpa/vendor/HibernateJpaVendorAdapter.java,Add Method Annotation,5,1,1,135,Add Method Annotation,True
+spring-context-support/src/main/java/org/springframework/mail/MailSendException.java,Remove Attribute Annotation,1,1,1,27,Remove Attribute Annotation,True
+spring-webmvc/src/main/java/org/springframework/web/servlet/config/annotation/ResourceChainRegistration.java,Rename Attribute,2,1,1,209,Change Return Type,False
+spring-jms/src/main/java/org/springframework/jms/connection/JmsResourceHolder.java,Remove Method Annotation,1,1,1,117,Remove Method Annotation,True
+spring-orm/src/main/java/org/springframework/orm/hibernate5/HibernateQueryException.java,Extract Variable,1,1,1,131,Remove Method Annotation,False
+spring-jdbc/src/main/java/org/springframework/jdbc/object/RdbmsOperation.java,Remove Parameter Annotation,1,1,1,111,Remove Parameter Annotation,True
+spring-web/src/main/java/org/springframework/web/client/RestTemplate.java,Remove Method Annotation,1,1,1,176,Remove Method Annotation,True
+spring-web/src/main/java/org/springframework/http/ResponseEntity.java,Add Method Annotation,8,1,1,158,Add Method Annotation,True
+spring-messaging/src/main/java/org/springframework/messaging/simp/stomp/StompDecoder.java,Remove Method Annotation,1,1,1,128,Remove Method Annotation,True
+spring-aop/src/main/java/org/springframework/aop/aspectj/MethodInvocationProceedingJoinPoint.java,Remove Attribute Annotation,1,1,1,2,Remove Attribute Annotation,True
+spring-core/src/test/java/org/springframework/core/annotation/AnnotationsScannerTests.java,Remove Method Annotation,1,1,1,94,Change Variable Type,False
+spring-orm/src/main/java/org/springframework/orm/hibernate5/LocalSessionFactoryBean.java,Change Attribute Type,1,1,1,132,Change Attribute Type,True
+spring-beans/src/main/java/org/springframework/beans/factory/support/DefaultListableBeanFactory.java,Change Return Type,1,1,1,20,Change Return Type,True
+spring-webflux/src/main/java/org/springframework/web/reactive/result/view/script/ScriptTemplateConfigurer.java,Remove Parameter Annotation,1,1,1,202,Remove Method Annotation,False
+spring-context/src/main/java/org/springframework/context/support/DefaultMessageSourceResolvable.java,Remove Method Annotation,1,1,1,44,Change Return Type,False
+spring-webmvc/src/main/java/org/springframework/web/servlet/support/RequestContext.java,Remove Parameter Annotation,1,1,1,223,Remove Parameter Annotation,True
+spring-webmvc/src/main/java/org/springframework/web/servlet/handler/MappedInterceptor.java,Remove Parameter Annotation,1,1,1,213,Change Return Type,False
+spring-webflux/src/main/java/org/springframework/web/reactive/function/client/WebClientResponseException.java,Change Parameter Type,1,1,1,194,Change Parameter Type,True
+spring-tx/src/test/java/org/springframework/transaction/interceptor/BeanFactoryTransactionTests.java,Rename Method,6,1,1,156,Rename Method,True
+spring-web/src/main/java/org/springframework/web/context/request/FacesWebRequest.java,Remove Method Annotation,1,1,1,177,Remove Method Annotation,True
+spring-webmvc/src/main/java/org/springframework/web/servlet/handler/SimpleMappingExceptionResolver.java,Remove Attribute Annotation,1,1,1,214,Remove Attribute Annotation,True
+spring-aop/src/main/java/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java,Change Return Type,1,1,1,7,Remove Attribute Annotation,False
+spring-test/src/main/java/org/springframework/test/context/MergedContextConfiguration.java,Remove Parameter Annotation,1,1,1,138,Remove Parameter Annotation,True
+spring-core/src/main/java/org/springframework/util/ObjectUtils.java,Change Parameter Type,1,1,1,86,Change Parameter Type,True
+spring-context/src/main/java/org/springframework/context/event/ApplicationListenerMethodAdapter.java,Add Variable Annotation,1,1,1,40,Add Variable Annotation,True
+spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/AbstractAspectJAdvisorFactory.java,Change Return Type,1,1,1,3,Change Return Type,True
+spring-jdbc/src/main/java/org/springframework/jdbc/support/lob/DefaultLobHandler.java,Remove Parameter Annotation,1,1,1,114,Remove Parameter Annotation,True
+spring-expression/src/main/java/org/springframework/expression/Expression.java,Remove Method Annotation,1,1,1,95,Remove Method Annotation,True
+spring-context/src/main/java/org/springframework/context/support/MessageSourceSupport.java,Remove Parameter Annotation,1,1,1,45,Change Return Type,False
+spring-web/src/main/java/org/springframework/web/client/RestTemplate.java,Remove Method Annotation,1,1,1,176,Remove Method Annotation,True
+spring-webmvc/src/main/java/org/springframework/web/servlet/mvc/condition/ConsumesRequestCondition.java,Remove Parameter Annotation,1,1,1,216,Change Attribute Type,False
+spring-test/src/main/java/org/springframework/test/web/servlet/request/AbstractMockHttpServletRequestBuilder.java,Remove Attribute Annotation,1,1,1,146,Remove Attribute Annotation,True
+spring-beans/src/main/java/org/springframework/beans/factory/support/DisposableBeanAdapter.java,Change Attribute Type,1,1,1,21,Remove Method Annotation,False
+spring-webmvc/src/main/java/org/springframework/web/servlet/support/WebContentGenerator.java,Change Attribute Type,1,1,1,225,Change Return Type,False
+spring-core-test/src/main/java/org/springframework/core/test/tools/DynamicClassFileObject.java,Change Attribute Type,1,1,1,64,Remove Method Annotation,False
+spring-web/src/testFixtures/java/org/springframework/web/testfixture/servlet/MockMultipartFile.java,Remove Method Annotation,1,1,1,191,Remove Method Annotation,True
+spring-web/src/main/java/org/springframework/web/cors/UrlBasedCorsConfigurationSource.java,Add Method Annotation,11,1,1,179,Add Method Annotation,True
+spring-core/src/main/java/org/springframework/aot/hint/MemberCategory.java,Add Attribute Annotation,5,1,1,66,Add Attribute Annotation,True
+spring-context-support/src/main/java/org/springframework/cache/jcache/interceptor/CacheResultInterceptor.java,Change Return Type,1,1,1,25,Add Parameter Annotation,False
+spring-web/src/main/java/org/springframework/http/server/reactive/ServletServerHttpRequest.java,Change Return Type,1,1,1,163,Change Return Type,True
+spring-web/src/main/java/org/springframework/web/client/DefaultResponseErrorHandler.java,Add Method Annotation,20,1,1,169,Add Method Annotation,True
+spring-webmvc/src/test/java/org/springframework/web/servlet/mvc/method/RequestMappingInfoTests.java,Add Method Annotation,22,1,1,231,Add Method Annotation,True
+spring-context/src/main/java/org/springframework/validation/DataBinder.java,Change Attribute Type,1,1,1,53,Change Attribute Type,True
+spring-jdbc/src/main/java/org/springframework/jdbc/core/JdbcTemplate.java,Change Return Type,1,1,1,102,Change Parameter Type,False
+spring-context/src/main/java/org/springframework/context/support/DefaultMessageSourceResolvable.java,Change Parameter Type,1,1,1,44,Change Return Type,False
+spring-core-test/src/test/java/org/springframework/aot/agent/InstrumentedMethodTests.java,Rename Method,8,1,1,65,Rename Method,True
+spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractBeanDefinition.java,Change Attribute Type,1,1,1,18,Change Return Type,False
+spring-web/src/main/java/org/springframework/web/bind/ServletRequestBindingException.java,Remove Parameter Annotation,1,1,1,167,Remove Parameter Annotation,True
+spring-websocket/src/main/java/org/springframework/web/socket/sockjs/frame/Jackson2SockJsMessageCodec.java,Change Return Type,1,1,1,239,Change Return Type,True
+spring-context/src/main/java/org/springframework/cache/Cache.java,Change Return Type,1,1,1,32,Change Return Type,True
+spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractBeanDefinition.java,Remove Parameter Annotation,1,1,1,18,Change Return Type,False
+spring-webflux/src/main/java/org/springframework/web/reactive/resource/PathResourceResolver.java,Remove Method Annotation,1,1,1,196,Remove Method Annotation,True
+spring-messaging/src/main/java/org/springframework/messaging/core/AbstractMessagingTemplate.java,Change Return Type,1,1,1,123,Change Return Type,True
+spring-jdbc/src/main/java/org/springframework/jdbc/core/JdbcTemplate.java,Change Parameter Type,1,1,1,102,Change Parameter Type,True
+spring-web/src/testFixtures/java/org/springframework/web/testfixture/servlet/MockMultipartFile.java,Remove Parameter Annotation,1,1,1,191,Remove Method Annotation,False
+spring-core/src/main/java/org/springframework/util/function/SingletonSupplier.java,Remove Method Annotation,1,1,1,89,Remove Method Annotation,True
+spring-webflux/src/test/java/org/springframework/web/reactive/result/view/FragmentViewResolutionResultHandlerTests.java,Extract Method,34,1,1,207,Extract Method,True
+spring-context/src/main/java/org/springframework/context/support/ClassPathXmlApplicationContext.java,Change Return Type,1,1,1,43,Change Return Type,True
+spring-web/src/main/java/org/springframework/web/server/adapter/HttpWebHandlerAdapter.java,Remove Attribute Annotation,1,1,1,182,Remove Attribute Annotation,True
+spring-context/src/main/java/org/springframework/cache/interceptor/CacheAspectSupport.java,Add Parameter Annotation,1,1,1,34,Add Parameter Annotation,True
+spring-web/src/main/java/org/springframework/http/converter/json/Jackson2ObjectMapperBuilder.java,Change Attribute Type,1,1,1,162,Change Parameter Type,False
+spring-webflux/src/main/java/org/springframework/web/reactive/result/view/UrlBasedViewResolver.java,Change Attribute Type,1,1,1,200,Change Attribute Type,True
+spring-test/src/main/java/org/springframework/test/util/XpathExpectationsHelper.java,Remove Method Annotation,1,1,1,142,Remove Method Annotation,True
+spring-context/src/main/java/org/springframework/context/support/AbstractRefreshableConfigApplicationContext.java,Change Return Type,1,1,1,42,Change Return Type,True
+spring-websocket/src/main/java/org/springframework/web/socket/sockjs/frame/SockJsMessageCodec.java,Change Return Type,1,1,1,240,Change Return Type,True
+spring-web/src/main/java/org/springframework/web/context/request/ServletWebRequest.java,Change Return Type,1,1,1,178,Change Return Type,True
+spring-jdbc/src/main/java/org/springframework/jdbc/support/SQLErrorCodes.java,Change Return Type,1,1,1,113,Change Return Type,True
+spring-web/src/main/java/org/springframework/web/HttpRequestMethodNotSupportedException.java,Change Return Type,1,1,1,165,Change Return Type,True
+spring-jdbc/src/main/java/org/springframework/jdbc/core/JdbcTemplate.java,Add Parameter Annotation,1,1,1,102,Change Parameter Type,False
+spring-core/src/main/java/org/springframework/util/MethodInvoker.java,Change Attribute Type,1,1,1,85,Change Attribute Type,True
+spring-beans/src/main/java/org/springframework/beans/factory/support/DisposableBeanAdapter.java,Remove Attribute Annotation,1,1,1,21,Remove Method Annotation,False
+spring-webflux/src/test/java/org/springframework/web/reactive/result/view/FragmentViewResolutionResultHandlerTests.java,Rename Method,34,1,1,207,Extract Method,False
+spring-messaging/src/test/java/org/springframework/messaging/handler/invocation/ResolvableMethod.java,Change Parameter Type,1,1,1,130,Change Return Type,False
+spring-messaging/src/main/java/org/springframework/messaging/core/AbstractDestinationResolvingMessagingTemplate.java,Remove Method Annotation,1,1,1,122,Change Return Type,False
+spring-context/src/test/java/org/springframework/scheduling/concurrent/ThreadPoolTaskSchedulerTests.java,Change Return Type,1,1,1,62,Change Return Type,True
+spring-core/src/main/java/org/springframework/util/Assert.java,Change Parameter Type,1,1,1,82,Change Parameter Type,True
+spring-core/src/test/java/org/springframework/aot/nativex/ResourceHintsWriterTests.java,Change Variable Type,1,1,1,93,Change Variable Type,True
+spring-core/src/main/java/org/springframework/util/PlaceholderParser.java,Rename Variable,1,1,1,87,Pull Up Attribute,False
+spring-context/src/test/java/org/springframework/scheduling/annotation/AsyncExecutionTests.java,Add Method Annotation,13,1,1,59,Add Method Annotation,True
+spring-web/src/testFixtures/java/org/springframework/web/testfixture/method/ResolvableMethod.java,Change Parameter Type,1,1,1,189,Change Parameter Type,True
+spring-web/src/test/java/org/springframework/web/util/pattern/PathPatternTests.java,Remove Method Annotation,1,1,1,188,Remove Method Annotation,True
+spring-webmvc/src/main/java/org/springframework/web/servlet/resource/ResourceUrlEncodingFilter.java,Add Method Annotation,20,1,1,221,Add Method Annotation,True
+spring-webmvc/src/main/java/org/springframework/web/servlet/handler/MappedInterceptor.java,Remove Method Annotation,1,1,1,213,Change Return Type,False
+spring-jdbc/src/main/java/org/springframework/jdbc/core/PreparedStatementCreatorFactory.java,Change Attribute Type,1,1,1,103,Change Parameter Type,False
+spring-web/src/main/java/org/springframework/web/client/HttpStatusCodeException.java,Change Parameter Type,1,1,1,172,Change Parameter Type,True
+spring-core-test/src/test/java/org/springframework/aot/agent/InstrumentedMethodTests.java,Rename Method,5,1,1,65,Rename Method,True
+spring-jdbc/src/main/java/org/springframework/jdbc/core/JdbcTemplate.java,Remove Method Annotation,1,1,1,102,Change Parameter Type,False
+spring-expression/src/main/java/org/springframework/expression/common/CompositeStringExpression.java,Change Return Type,1,1,1,97,Change Return Type,True
+spring-web/src/main/java/org/springframework/web/client/DefaultResponseErrorHandler.java,Change Parameter Type,1,1,1,169,Inline Variable,False
+spring-test/src/main/java/org/springframework/test/util/ReflectionTestUtils.java,Remove Method Annotation,1,1,1,141,Remove Method Annotation,True
+spring-test/src/main/java/org/springframework/test/context/MergedContextConfiguration.java,Remove Parameter Annotation,1,1,1,138,Remove Parameter Annotation,True
+spring-context/src/main/java/org/springframework/cache/support/NoOpCache.java,Change Return Type,1,1,1,38,Change Return Type,True
+spring-tx/src/main/java/org/springframework/dao/support/DataAccessUtils.java,Change Return Type,1,1,1,155,Change Return Type,True
+spring-web/src/test/java/org/springframework/web/util/UriComponentsTests.java,Modify Method Annotation,1,1,1,187,Modify Method Annotation,True
+spring-webmvc/src/main/java/org/springframework/web/servlet/handler/MappedInterceptor.java,Change Return Type,1,1,1,213,Change Return Type,True
+spring-core/src/main/java/org/springframework/core/annotation/AnnotatedElementUtils.java,Change Return Type,1,1,1,72,Change Return Type,True
+spring-test/src/test/java/org/springframework/test/context/bean/override/mockito/MockitoSpyBeanForByNameLookupIntegrationTests.java,Modify Attribute Annotation,1,1,1,152,Replace Variable With Attribute,False
+spring-webmvc/src/main/java/org/springframework/web/servlet/handler/MappedInterceptor.java,Change Parameter Type,1,1,1,213,Change Return Type,False
+spring-test/src/main/java/org/springframework/mock/web/MockMultipartFile.java,Remove Parameter Annotation,1,1,1,137,Remove Parameter Annotation,True
+spring-websocket/src/main/java/org/springframework/web/socket/sockjs/transport/handler/AbstractHttpReceivingTransportHandler.java,Change Return Type,1,1,1,241,Change Return Type,True
+spring-context/src/main/java/org/springframework/context/support/DefaultMessageSourceResolvable.java,Change Return Type,1,1,1,44,Change Return Type,True
+spring-core/src/main/java/org/springframework/lang/NonNull.java,Add Class Annotation,28,1,1,81,Change Method Access Modifier,False
+spring-web/src/main/java/org/springframework/web/client/RestTemplate.java,Remove Method Annotation,1,1,1,176,Remove Method Annotation,True
+spring-orm/src/main/java/org/springframework/orm/hibernate5/HibernateQueryException.java,Remove Method Annotation,1,1,1,131,Remove Method Annotation,True
+spring-webmvc/src/test/java/org/springframework/web/servlet/mvc/method/annotation/MethodValidationTests.java,Add Method Annotation,8,1,1,233,Add Method Annotation,True
+spring-context/src/main/java/org/springframework/scheduling/support/CronExpression.java,Remove Method Annotation,1,1,1,51,Modify Class Annotation,False
+spring-jdbc/src/main/java/org/springframework/jdbc/core/namedparam/NamedParameterJdbcTemplate.java,Remove Parameter Annotation,1,1,1,106,Remove Parameter Annotation,True
+spring-web/src/main/java/org/springframework/web/accept/ContentNegotiationManagerFactoryBean.java,Remove Method Annotation,1,1,1,166,Remove Method Annotation,True
+spring-jdbc/src/main/java/org/springframework/jdbc/object/MappingSqlQuery.java,Change Parameter Type,1,1,1,109,Change Parameter Type,True
+spring-web/src/test/java/org/springframework/web/util/UriComponentsBuilderTests.java,Modify Method Annotation,1,1,1,186,Modify Method Annotation,True
+spring-websocket/src/main/java/org/springframework/web/socket/adapter/AbstractWebSocketSession.java,Remove Method Annotation,1,1,1,236,Remove Method Annotation,True
+spring-webmvc/src/main/java/org/springframework/web/servlet/view/script/ScriptTemplateConfigurer.java,Remove Parameter Annotation,1,1,1,228,Remove Parameter Annotation,True
+spring-context/src/main/java/org/springframework/context/support/AbstractRefreshableConfigApplicationContext.java,Change Return Type,1,1,1,42,Change Return Type,True
+spring-messaging/src/main/java/org/springframework/messaging/core/DestinationResolvingMessageRequestReplyOperations.java,Change Return Type,1,1,1,124,Change Return Type,True
+spring-jdbc/src/main/java/org/springframework/jdbc/core/JdbcOperations.java,Remove Method Annotation,1,1,1,101,Change Return Type,False
+spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java,Change Return Type,1,1,1,41,Add Variable Annotation,False
+spring-messaging/src/main/java/org/springframework/messaging/simp/stomp/StompHeaders.java,Change Return Type,1,1,1,129,Change Return Type,True
+spring-beans/src/main/java/org/springframework/beans/factory/aot/InstanceSupplierCodeGenerator.java,Localize Parameter,1,1,1,16,Remove Attribute Annotation,False
+spring-web/src/testFixtures/java/org/springframework/web/testfixture/servlet/MockHttpServletRequest.java,Remove Attribute Annotation,1,1,1,190,Remove Attribute Annotation,True
+spring-context/src/main/java/org/springframework/scripting/bsh/BshScriptUtils.java,Remove Parameter Annotation,1,1,1,52,Change Attribute Type,False
+spring-web/src/main/java/org/springframework/web/client/RestTemplate.java,Remove Method Annotation,1,1,1,176,Remove Method Annotation,True
+spring-web/src/main/java/org/springframework/http/client/MultipartBodyBuilder.java,Change Parameter Type,1,1,1,160,Change Parameter Type,True
+spring-web/src/main/java/org/springframework/web/context/request/FacesWebRequest.java,Change Return Type,1,1,1,177,Remove Method Annotation,False
+spring-web/src/main/java/org/springframework/http/client/JettyClientHttpRequest.java,Remove Method Annotation,1,1,1,159,Change Parameter Type,False
+spring-web/src/main/java/org/springframework/http/HttpHeaders.java,Remove Method Annotation,1,1,1,157,Remove Method Annotation,True
+spring-core/src/main/java/org/springframework/core/annotation/AnnotationsScanner.java,Change Return Type,1,1,1,75,Change Return Type,True
+spring-jdbc/src/main/java/org/springframework/jdbc/core/JdbcOperations.java,Remove Method Annotation,1,1,1,101,Change Return Type,False
+spring-aop/src/main/java/org/springframework/aop/aspectj/AspectJAdviceParameterNameDiscoverer.java,Change Return Type,1,1,1,1,Change Return Type,True
+spring-test/src/main/java/org/springframework/test/util/XpathExpectationsHelper.java,Remove Method Annotation,1,1,1,142,Remove Method Annotation,True
+spring-webmvc/src/main/java/org/springframework/web/servlet/config/annotation/PathMatchConfigurer.java,Add Method Annotation,13,1,1,208,Add Method Annotation,True
+spring-test/src/main/java/org/springframework/test/context/MergedContextConfiguration.java,Change Parameter Type,1,1,1,138,Remove Parameter Annotation,False
+spring-jdbc/src/test/java/org/springframework/jdbc/support/incrementer/H2SequenceMaxValueIncrementerTests.java,Modify Method Annotation,1,1,1,116,Modify Method Annotation,True
+spring-web/src/main/java/org/springframework/web/bind/support/ConfigurableWebBindingInitializer.java,Remove Parameter Annotation,1,1,1,168,Remove Parameter Annotation,True
+spring-core-test/src/main/java/org/springframework/core/test/tools/CompileWithForkedClassLoaderClassLoader.java,Remove Method Annotation,1,1,1,63,Remove Method Annotation,True
+spring-messaging/src/main/java/org/springframework/messaging/handler/invocation/reactive/AbstractMethodMessageHandler.java,Remove Parameter Annotation,1,1,1,126,Remove Parameter Annotation,True
+spring-test/src/main/java/org/springframework/test/context/bean/override/mockito/MockitoBeans.java,Add Parameter,3,1,1,139,Add Parameter,True
+spring-core/src/main/java/org/springframework/util/PlaceholderParser.java,Rename Parameter,1,1,1,87,Pull Up Attribute,False
+spring-core/src/main/java/org/springframework/util/PlaceholderParser.java,Change Return Type,1,1,1,87,Pull Up Attribute,False
+spring-webmvc/src/main/java/org/springframework/web/servlet/mvc/method/RequestMappingInfo.java,Add Method Annotation,9,1,1,217,Add Method Annotation,True
+spring-context/src/main/java/org/springframework/validation/ObjectError.java,Remove Parameter Annotation,1,1,1,55,Remove Parameter Annotation,True
+spring-context-support/src/main/java/org/springframework/scheduling/quartz/SchedulerAccessor.java,Change Attribute Type,1,1,1,30,Change Attribute Type,True
+spring-core/src/main/java/org/springframework/aot/hint/predicate/ReflectionHintsPredicates.java,Add Class Annotation,42,1,1,67,Add Class Annotation,True
+spring-context-support/src/main/java/org/springframework/scheduling/quartz/SpringBeanJobFactory.java,Change Attribute Type,1,1,1,31,Change Attribute Type,True
+spring-websocket/src/main/java/org/springframework/web/socket/WebSocketHttpHeaders.java,Change Parameter Type,1,1,1,235,Change Parameter Type,True
+spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/InstantiationModelAwarePointcutAdvisorImpl.java,Remove Attribute Annotation,1,1,1,4,Remove Attribute Annotation,True
+spring-websocket/src/test/java/org/springframework/web/socket/sockjs/client/UndertowSockJsIntegrationTests.java,Remove Method Annotation,1,1,1,242,Remove Method Annotation,True
+spring-core/src/main/java/org/springframework/util/ObjectUtils.java,Remove Parameter Annotation,1,1,1,86,Change Parameter Type,False
+spring-jms/src/main/java/org/springframework/jms/core/JmsOperations.java,Change Return Type,1,1,1,120,Change Return Type,True
+spring-core-test/src/test/java/org/springframework/aot/agent/InstrumentedMethodTests.java,Replace Attribute With Variable,2,1,1,65,Extract Variable,False
+spring-jdbc/src/main/java/org/springframework/jdbc/core/JdbcOperations.java,Change Return Type,1,1,1,101,Change Return Type,True
+spring-test/src/main/java/org/springframework/test/context/MergedContextConfiguration.java,Remove Parameter Annotation,1,1,1,138,Remove Parameter Annotation,True
+spring-context/src/main/java/org/springframework/validation/MapBindingResult.java,Remove Method Annotation,1,1,1,54,Remove Method Annotation,True
+spring-test/src/test/java/org/springframework/test/context/bean/override/convention/TestBeanForByNameLookupIntegrationTests.java,Rename Method,5,1,1,150,Rename Method,True
+spring-test/src/test/java/org/springframework/test/context/bean/override/mockito/MockitoBeanForByNameLookupIntegrationTests.java,Add Attribute Annotation,1,1,1,151,Modify Class Annotation,False
+spring-webflux/src/main/java/org/springframework/web/reactive/result/method/RequestMappingInfo.java,Remove Attribute Annotation,1,1,1,198,Change Parameter Type,False
+spring-jms/src/main/java/org/springframework/jms/connection/JmsTransactionManager.java,Change Return Type,1,1,1,118,Change Return Type,True
+spring-test/src/main/java/org/springframework/test/web/reactive/server/EncoderDecoderMappingProvider.java,Remove Method Annotation,1,1,1,143,Remove Method Annotation,True
+spring-aop/src/main/java/org/springframework/aop/framework/AbstractSingletonProxyFactoryBean.java,Change Attribute Type,1,1,1,6,Remove Attribute Annotation,False
+spring-context/src/main/java/org/springframework/context/support/ClassPathXmlApplicationContext.java,Remove Method Annotation,1,1,1,43,Change Return Type,False
+spring-test/src/main/java/org/springframework/test/context/MergedContextConfiguration.java,Remove Parameter Annotation,1,1,1,138,Remove Parameter Annotation,True
+spring-web/src/main/java/org/springframework/web/client/HttpServerErrorException.java,Change Parameter Type,1,1,1,171,Remove Method Annotation,False
+spring-jdbc/src/main/java/org/springframework/jdbc/core/PreparedStatementCreatorFactory.java,Change Parameter Type,1,1,1,103,Change Parameter Type,True
+spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractBeanDefinition.java,Remove Attribute Annotation,1,1,1,18,Change Return Type,False
+spring-test/src/main/java/org/springframework/test/util/XpathExpectationsHelper.java,Change Return Type,1,1,1,142,Remove Method Annotation,False
+spring-core/src/main/java/org/springframework/util/Assert.java,Change Parameter Type,1,1,1,82,Change Parameter Type,True
+spring-core/src/main/java/org/springframework/util/ObjectUtils.java,Remove Parameter Annotation,1,1,1,86,Change Parameter Type,False
+spring-webmvc/src/main/java/org/springframework/web/servlet/i18n/LocaleChangeInterceptor.java,Change Attribute Type,1,1,1,215,Change Attribute Type,True
+spring-beans/src/main/java/org/springframework/beans/factory/config/CustomEditorConfigurer.java,Remove Attribute Annotation,1,1,1,17,Remove Attribute Annotation,True
+spring-webmvc/src/main/java/org/springframework/web/servlet/tags/MessageTag.java,Change Parameter Type,1,1,1,226,Change Return Type,False
+spring-context/src/main/java/org/springframework/validation/beanvalidation/SpringValidatorAdapter.java,Change Attribute Type,1,1,1,57,Inline Variable,False
+spring-jdbc/src/main/java/org/springframework/jdbc/core/JdbcTemplate.java,Change Parameter Type,1,1,1,102,Change Parameter Type,True
+spring-webflux/src/main/java/org/springframework/web/reactive/socket/adapter/JettyWebSocketSession.java,Remove Parameter Annotation,1,1,1,204,Remove Parameter Annotation,True
+spring-test/src/test/java/org/springframework/test/web/servlet/StubMvcResult.java,Add Method Annotation,4,1,1,154,Add Method Annotation,True
+spring-core/src/main/java/org/springframework/core/annotation/AnnotationsScanner.java,Change Return Type,1,1,1,75,Change Return Type,True
+spring-jdbc/src/main/java/org/springframework/jdbc/core/namedparam/NamedParameterJdbcOperations.java,Remove Method Annotation,1,1,1,105,Remove Method Annotation,True
+spring-oxm/src/main/java/org/springframework/oxm/xstream/XStreamMarshaller.java,Change Attribute Type,1,1,1,136,Change Attribute Type,True
+spring-jdbc/src/main/java/org/springframework/jdbc/object/RdbmsOperation.java,Change Attribute Type,1,1,1,111,Remove Parameter Annotation,False
+spring-webmvc/src/main/java/org/springframework/web/servlet/mvc/method/annotation/ReactiveTypeHandler.java,Remove Method Annotation,1,1,1,219,Remove Method Annotation,True
+spring-context/src/main/java/org/springframework/cache/interceptor/CacheExpressionRootObject.java,Add Parameter Annotation,1,1,1,35,Add Parameter Annotation,True
+spring-context/src/main/java/org/springframework/context/annotation/AnnotatedBeanDefinitionReader.java,Change Parameter Type,1,1,1,39,Change Parameter Type,True
+spring-core-test/src/test/java/org/springframework/aot/agent/InstrumentedMethodTests.java,Rename Method,5,1,1,65,Rename Method,True
+spring-core/src/main/java/org/springframework/core/type/classreading/MergedAnnotationReadingVisitor.java,Change Return Type,1,1,1,80,Change Return Type,True
+spring-web/src/test/java/org/springframework/web/util/ContentCachingRequestWrapperTests.java,Remove Thrown Exception Type,1,1,1,185,Change Attribute Type,False
+spring-web/src/main/java/org/springframework/web/DefaultErrorResponseBuilder.java,Remove Attribute Annotation,1,1,1,164,Change Return Type,False
+spring-tx/src/main/java/org/springframework/dao/support/DataAccessUtils.java,Change Return Type,1,1,1,155,Change Return Type,True
+spring-context-support/src/main/java/org/springframework/cache/jcache/interceptor/DefaultCacheInvocationContext.java,Add Method Annotation,4,1,1,26,Add Method Annotation,True
+spring-web/src/main/java/org/springframework/web/DefaultErrorResponseBuilder.java,Change Return Type,1,1,1,164,Change Return Type,True
+spring-test/src/main/java/org/springframework/test/web/servlet/MvcResult.java,Add Method Annotation,10,1,1,144,Add Method Annotation,True
+spring-web/src/test/java/org/springframework/web/util/UriComponentsBuilderTests.java,Modify Method Annotation,1,1,1,186,Modify Method Annotation,True
+spring-context/src/test/java/org/springframework/aop/aspectj/autoproxy/AspectJAutoProxyCreatorTests.java,Inline Variable,1,1,1,58,Inline Variable,True
+spring-webmvc/src/main/java/org/springframework/web/servlet/support/AbstractAnnotationConfigDispatcherServletInitializer.java,Remove Method Annotation,1,1,1,222,Remove Method Annotation,True
+spring-web/src/main/java/org/springframework/web/util/DefaultUriBuilderFactory.java,Change Attribute Type,1,1,1,184,Change Attribute Type,True
+spring-core/src/main/java/org/springframework/aot/hint/predicate/ReflectionHintsPredicates.java,Invert Condition,3,1,1,67,Add Parameter,False
+spring-context-support/src/main/java/org/springframework/cache/jcache/interceptor/CachePutOperation.java,Add Parameter Annotation,1,1,1,24,Add Parameter Annotation,True
+spring-core-test/src/test/java/org/springframework/aot/agent/InstrumentedMethodTests.java,Rename Method,7,1,1,65,Rename Method,True
+spring-web/src/main/java/org/springframework/web/client/DefaultResponseErrorHandler.java,Inline Variable,1,1,1,169,Inline Variable,True
+spring-core/src/main/java/org/springframework/core/ParameterNameDiscoverer.java,Change Return Type,1,1,1,70,Change Return Type,True
+spring-webmvc/src/main/java/org/springframework/web/servlet/handler/MappedInterceptor.java,Add Method Annotation,14,1,1,213,Add Method Annotation,True
+spring-messaging/src/main/java/org/springframework/messaging/simp/config/SimpleBrokerRegistration.java,Change Attribute Type,1,1,1,127,Remove Parameter Annotation,False
+spring-context-support/src/main/java/org/springframework/mail/javamail/ConfigurableMimeFileTypeMap.java,Change Parameter Type,1,1,1,29,Change Parameter Type,True
+spring-context/src/main/java/org/springframework/jmx/export/annotation/AnnotationJmxAttributeSource.java,Remove Method Annotation,1,1,1,46,Remove Method Annotation,True
+spring-webflux/src/main/java/org/springframework/web/reactive/socket/WebSocketMessage.java,Remove Method Annotation,1,1,1,203,Remove Method Annotation,True
+spring-jms/src/main/java/org/springframework/jms/core/JmsOperations.java,Change Return Type,1,1,1,120,Change Return Type,True
+spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractBeanDefinition.java,Change Return Type,1,1,1,18,Change Return Type,True
+spring-webmvc/src/main/java/org/springframework/web/servlet/mvc/method/RequestMappingInfo.java,Modify Method Annotation,1,1,1,217,Add Attribute Annotation,False
+spring-test/src/test/java/org/springframework/test/context/bean/override/mockito/MockitoBeanForByNameLookupIntegrationTests.java,Move Attribute,1,1,1,151,Modify Class Annotation,False
+spring-websocket/src/main/java/org/springframework/web/socket/config/WebSocketMessageBrokerStats.java,Change Return Type,1,1,1,237,Change Return Type,True
+spring-web/src/main/java/org/springframework/http/codec/json/AbstractJackson2Encoder.java,Change Return Type,1,1,1,161,Change Parameter Type,False
+spring-web/src/main/java/org/springframework/web/client/DefaultRestClient.java,Remove Method Annotation,1,1,1,170,Remove Method Annotation,True
+spring-jms/src/main/java/org/springframework/jms/core/JmsTemplate.java,Change Return Type,1,1,1,121,Change Return Type,True
+spring-context/src/main/java/org/springframework/cache/concurrent/ConcurrentMapCache.java,Remove Method Annotation,1,1,1,33,Remove Method Annotation,True
+spring-webmvc/src/test/java/org/springframework/web/servlet/handler/MappedInterceptorTests.java,Add Method Annotation,8,1,1,230,Add Method Annotation,True
+spring-jms/src/main/java/org/springframework/jms/core/JmsTemplate.java,Remove Method Annotation,1,1,1,121,Change Return Type,False
+spring-jdbc/src/main/java/org/springframework/jdbc/core/DataClassRowMapper.java,Change Attribute Type,1,1,1,100,Change Attribute Type,True
+spring-beans/src/main/java/org/springframework/beans/factory/InjectionPoint.java,Change Return Type,1,1,1,12,Add Parameter Annotation,False
+spring-context/src/main/java/org/springframework/scheduling/concurrent/ThreadPoolTaskScheduler.java,Modify Class Annotation,1,1,1,50,Modify Class Annotation,True
+spring-core/src/main/java/org/springframework/aot/hint/support/FilePatternResourceHintsRegistrar.java,Remove Method Annotation,1,1,1,68,Remove Method Annotation,True
+spring-webflux/src/main/java/org/springframework/web/reactive/result/method/RequestMappingInfo.java,Change Attribute Type,1,1,1,198,Change Parameter Type,False
+spring-jdbc/src/main/java/org/springframework/jdbc/core/namedparam/NamedParameterJdbcTemplate.java,Change Return Type,1,1,1,106,Remove Parameter Annotation,False
+spring-orm/src/main/java/org/springframework/orm/hibernate5/LocalSessionFactoryBean.java,Change Attribute Type,1,1,1,132,Change Attribute Type,True
+spring-jdbc/src/main/java/org/springframework/jdbc/core/PreparedStatementCreatorFactory.java,Remove Parameter Annotation,1,1,1,103,Change Parameter Type,False
+spring-jdbc/src/main/java/org/springframework/jdbc/core/JdbcOperations.java,Change Return Type,1,1,1,101,Change Return Type,True
+spring-jdbc/src/main/java/org/springframework/jdbc/object/SqlQuery.java,Change Parameter Type,1,1,1,112,Change Parameter Type,True
+spring-core/src/main/java/org/springframework/util/InvalidMimeTypeException.java,Add Parameter Annotation,1,1,1,84,Add Parameter Annotation,True
+spring-core/src/test/java/org/springframework/aot/nativex/ProxyHintsWriterTests.java,Move Method,6,1,1,91,Rename Method,False
+spring-webflux/src/main/java/org/springframework/web/reactive/socket/adapter/StandardWebSocketSession.java,Change Parameter Type,1,1,1,205,Change Parameter Type,True
+spring-webflux/src/main/java/org/springframework/web/reactive/result/condition/ConsumesRequestCondition.java,Change Parameter Type,1,1,1,197,Change Parameter Type,True
+spring-webflux/src/main/java/org/springframework/web/reactive/function/client/WebClientResponseException.java,Change Parameter Type,1,1,1,194,Change Parameter Type,True
+spring-web/src/main/java/org/springframework/web/service/invoker/AbstractReactorHttpExchangeAdapter.java,Remove Class Annotation,1,1,1,183,Remove Class Annotation,True
+spring-core/src/test/java/org/springframework/aot/hint/predicate/ReflectionHintsPredicatesTests.java,Rename Method,5,1,1,90,Add Attribute Annotation,False
+spring-expression/src/main/java/org/springframework/expression/spel/standard/SpelExpression.java,Remove Method Annotation,1,1,1,98,Change Return Type,False
+spring-core/src/main/java/org/springframework/util/ObjectUtils.java,Change Parameter Type,1,1,1,86,Change Parameter Type,True
+spring-core/src/main/java/org/springframework/core/annotation/MergedAnnotationsCollection.java,Remove Method Annotation,1,1,1,76,Change Return Type,False
+spring-core/src/main/java/org/springframework/util/PlaceholderParser.java,Add Class Modifier,49,1,1,87,Add Class Modifier,True
+spring-context/src/main/java/org/springframework/cache/interceptor/CacheOperationInvocationContext.java,Add Method Annotation,4,1,1,36,Add Method Annotation,True
+spring-beans/src/main/java/org/springframework/beans/factory/ListableBeanFactory.java,Remove Method Annotation,1,1,1,13,Add Parameter Annotation,False
+spring-webmvc/src/test/java/org/springframework/web/servlet/config/MvcNamespaceTests.java,Add Method Annotation,44,1,1,229,Add Method Annotation,True
+spring-aop/src/main/java/org/springframework/aop/interceptor/AsyncExecutionAspectSupport.java,Add Parameter Annotation,1,1,1,8,Add Parameter Annotation,True
+spring-jdbc/src/main/java/org/springframework/jdbc/core/support/SqlLobValue.java,Change Parameter Type,1,1,1,108,Change Parameter Type,True
+spring-webflux/src/main/java/org/springframework/web/reactive/result/view/ViewResolutionResultHandler.java,Add Parameter,25,1,1,201,Add Parameter,True
+spring-web/src/main/java/org/springframework/web/multipart/support/DefaultMultipartHttpServletRequest.java,Remove Attribute Annotation,1,1,1,180,Remove Attribute Annotation,True
+spring-beans/src/main/java/org/springframework/beans/TypeConverter.java,Change Return Type,1,1,1,10,Change Return Type,True
+spring-webmvc/src/main/java/org/springframework/web/servlet/config/annotation/ResourceHandlerRegistry.java,Add Method Annotation,14,1,1,210,Add Method Annotation,True
+spring-jdbc/src/main/java/org/springframework/jdbc/support/lob/LobHandler.java,Change Return Type,1,1,1,115,Remove Parameter Annotation,False
+spring-context/src/main/java/org/springframework/cache/interceptor/SimpleKeyGenerator.java,Add Method Annotation,5,1,1,37,Add Method Annotation,True
+spring-tx/src/test/java/org/springframework/transaction/interceptor/BeanFactoryTransactionTests.java,Remove Parameter Modifier,1,1,1,156,Remove Parameter Modifier,True
+spring-jdbc/src/main/java/org/springframework/jdbc/core/simple/SimpleJdbcCall.java,Change Return Type,1,1,1,107,Remove Parameter Annotation,False
+spring-test/src/main/java/org/springframework/test/web/servlet/setup/StubWebApplicationContext.java,Add Parameter Annotation,1,1,1,149,Remove Parameter Annotation,False
+spring-webflux/src/test/java/org/springframework/web/reactive/function/server/DefaultServerResponseBuilderTests.java,Remove Method Annotation,1,1,1,206,Change Parameter Type,False
+spring-core/src/main/java/org/springframework/aot/nativex/ProxyHintsWriter.java,Remove Parameter,1,1,1,69,Remove Parameter,True
+spring-webflux/src/main/java/org/springframework/web/reactive/function/server/ServerResponse.java,Add Parameter Annotation,1,1,1,195,Add Parameter Annotation,True
+spring-test/src/main/java/org/springframework/test/context/web/WebMergedContextConfiguration.java,Change Parameter Type,1,1,1,140,Remove Parameter Annotation,False
+spring-test/src/test/java/org/springframework/test/util/XmlExpectationsHelperTests.java,Replace Variable With Attribute,1,1,1,153,Replace Variable With Attribute,True
+spring-context/src/main/java/org/springframework/scheduling/concurrent/ConcurrentTaskExecutor.java,Modify Class Annotation,1,1,1,49,Modify Class Annotation,True
+spring-core/src/main/java/org/springframework/util/StringUtils.java,Remove Parameter Annotation,1,1,1,88,Pull Up Attribute,False
+spring-context-support/src/main/java/org/springframework/mail/SimpleMailMessage.java,Change Parameter Type,1,1,1,28,Change Parameter Type,True
+spring-aop/src/main/java/org/springframework/aop/framework/AbstractSingletonProxyFactoryBean.java,Remove Attribute Annotation,1,1,1,6,Remove Attribute Annotation,True
+spring-expression/src/main/java/org/springframework/expression/spel/standard/Token.java,Remove Parameter Annotation,1,1,1,99,Change Attribute Type,False
+spring-jms/src/main/java/org/springframework/jms/core/JmsOperations.java,Remove Method Annotation,1,1,1,120,Change Return Type,False
+spring-jms/src/main/java/org/springframework/jms/core/JmsMessageOperations.java,Remove Method Annotation,1,1,1,119,Change Return Type,False
+spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractBeanDefinition.java,Change Return Type,1,1,1,18,Change Return Type,True
+spring-jdbc/src/main/java/org/springframework/jdbc/core/JdbcTemplate.java,Add Parameter Annotation,1,1,1,102,Change Parameter Type,False
+spring-core/src/main/java/org/springframework/aot/hint/predicate/ReflectionHintsPredicates.java,Inline Method,8,1,1,67,Inline Method,True
+spring-aop/src/main/java/org/springframework/aop/config/AspectComponentDefinition.java,Change Parameter Type,1,1,1,5,Change Parameter Type,True
+spring-expression/src/main/java/org/springframework/expression/Expression.java,Remove Method Annotation,1,1,1,95,Remove Method Annotation,True
+spring-web/src/test/java/org/springframework/web/util/UriComponentsBuilderTests.java,Modify Method Annotation,1,1,1,186,Modify Method Annotation,True
+spring-jdbc/src/main/java/org/springframework/jdbc/core/JdbcTemplate.java,Change Return Type,1,1,1,102,Change Parameter Type,False
+spring-context/src/main/java/org/springframework/context/support/DefaultMessageSourceResolvable.java,Change Attribute Type,1,1,1,44,Change Return Type,False
+spring-jdbc/src/main/java/org/springframework/jdbc/object/MappingSqlQueryWithParameters.java,Remove Parameter Annotation,1,1,1,110,Remove Parameter Annotation,True
+spring-context/src/main/java/org/springframework/jmx/export/metadata/ManagedNotification.java,Remove Parameter Annotation,1,1,1,47,Remove Parameter Annotation,True

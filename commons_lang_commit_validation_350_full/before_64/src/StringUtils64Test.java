@@ -1,0 +1,43 @@
+public class StringUtils64Test {
+    
+    public static void main(String[] args) {
+        StringUtils64 utils = new StringUtils64();
+        StringHelper64 helper = new StringHelper64();
+        
+        // Test functionality
+        boolean isEmpty = StringUtils64.isEmpty("");
+        String capitalized = StringUtils64.capitalize("hello");
+        String reversed = StringUtils64.reverse("hello");
+        String helperInfo = StringHelper64.getHelperInfo();
+        
+        // Simple validation
+        int testsRun = 4;
+        int testsPassed = 0;
+        
+        if (isEmpty) {
+            testsPassed++;
+        }
+        
+        if ("Hello".equals(capitalized)) {
+            testsPassed++;
+        }
+        
+        if ("olleh".equals(reversed)) {
+            testsPassed++;
+        }
+        
+        if ("String utility helper".equals(helperInfo)) {
+            testsPassed++;
+        }
+        
+        System.out.println("Tests run: " + testsRun);
+        System.out.println("Tests passed: " + testsPassed);
+        System.out.println("Tests failed: " + (testsRun - testsPassed));
+        
+        if (testsPassed == testsRun) {
+            System.out.println("ALL TESTS PASSED!");
+        } else {
+            System.out.println("SOME TESTS FAILED!");
+        }
+    }
+}

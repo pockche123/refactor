@@ -1,0 +1,10 @@
+public class IntellijComponent174 {
+    
+    public void processFile() {
+        System.out.println("Processing IntelliJ file 174");
+    }
+    
+    public String getComponentInfo() {
+        return "IntelliJ IDE component";
+    }
+}

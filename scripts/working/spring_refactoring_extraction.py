@@ -97,7 +97,7 @@ def main():
     
     # Get commits from 2023-2024
     print("📊 Getting commits from Spring Framework (2023-2024)...")
-    commits = get_commits_from_period(SPRING_PATH, "2023-01-01", "2024-12-31", 20)  # Start smaller
+    commits = get_commits_from_period(SPRING_PATH, "2023-01-01", "2024-12-31", 200)  # Start smaller
     
     if len(commits) < 2:
         print("❌ Need at least 2 commits for range extraction!")

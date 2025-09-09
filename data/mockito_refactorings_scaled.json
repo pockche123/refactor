@@ -1,0 +1,306 @@
+{
+  "commits": [
+    {
+      "repository": "https://github.com/mockito/mockito.git",
+      "sha1": "1c25d5f77255a456314ebffb3b9777a86e30f62b",
+      "url": "https://github.com/mockito/mockito/commit/1c25d5f77255a456314ebffb3b9777a86e30f62b",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/mockito/mockito.git",
+      "sha1": "c574988c19341a501583ae9f3c6344018083aef2",
+      "url": "https://github.com/mockito/mockito/commit/c574988c19341a501583ae9f3c6344018083aef2",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/mockito/mockito.git",
+      "sha1": "bb21a00e95a8040c8fabc20a259739a4174a56d1",
+      "url": "https://github.com/mockito/mockito/commit/bb21a00e95a8040c8fabc20a259739a4174a56d1",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/mockito/mockito.git",
+      "sha1": "82d3ab4f2d5cff3f772115a9a9ee1e41782d33b1",
+      "url": "https://github.com/mockito/mockito/commit/82d3ab4f2d5cff3f772115a9a9ee1e41782d33b1",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/mockito/mockito.git",
+      "sha1": "654e726fe575bd9345b9707ac15e894b9aa842ef",
+      "url": "https://github.com/mockito/mockito/commit/654e726fe575bd9345b9707ac15e894b9aa842ef",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/mockito/mockito.git",
+      "sha1": "9cfe256796280854f2ceb05cd29a351c44721641",
+      "url": "https://github.com/mockito/mockito/commit/9cfe256796280854f2ceb05cd29a351c44721641",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/mockito/mockito.git",
+      "sha1": "e34d82941df8ac94c9dea10d6419a100d71857f5",
+      "url": "https://github.com/mockito/mockito/commit/e34d82941df8ac94c9dea10d6419a100d71857f5",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/mockito/mockito.git",
+      "sha1": "8712b42bb2039606c7dfcbff6a2395e78dc4a73e",
+      "url": "https://github.com/mockito/mockito/commit/8712b42bb2039606c7dfcbff6a2395e78dc4a73e",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/mockito/mockito.git",
+      "sha1": "1193be78bb3e82136ac8c2c94f744337f39c57c7",
+      "url": "https://github.com/mockito/mockito/commit/1193be78bb3e82136ac8c2c94f744337f39c57c7",
+      "refactorings": [
+        {
+          "type": "Move Source Folder",
+          "description": "Move Source Folder mockito-core/src/test to mockito-core/src/testFixtures",
+          "leftSideLocations": [
+            {
+              "filePath": "mockito-core/src/test/java/org/mockitoutil/ClassLoaders.java",
+              "startLine": 45,
+              "endLine": 557,
+              "startColumn": 0,
+              "endColumn": 2,
+              "codeElementType": "TYPE_DECLARATION",
+              "description": "original type declaration",
+              "codeElement": "org.mockitoutil.ClassLoaders"
+            },
+            {
+              "filePath": "mockito-core/src/test/java/org/mockitoutil/SimplePerRealmReloadingClassLoader.java",
+              "startLine": 14,
+              "endLine": 133,
+              "startColumn": 0,
+              "endColumn": 2,
+              "codeElementType": "TYPE_DECLARATION",
+              "description": "original type declaration",
+              "codeElement": "org.mockitoutil.SimplePerRealmReloadingClassLoader"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "mockito-core/src/testFixtures/java/org/mockitoutil/ClassLoaders.java",
+              "startLine": 46,
+              "endLine": 562,
+              "startColumn": 0,
+              "endColumn": 2,
+              "codeElementType": "TYPE_DECLARATION",
+              "description": "moved type declaration",
+              "codeElement": "org.mockitoutil.ClassLoaders"
+            },
+            {
+              "filePath": "mockito-core/src/testFixtures/java/org/mockitoutil/SimplePerRealmReloadingClassLoader.java",
+              "startLine": 15,
+              "endLine": 151,
+              "startColumn": 0,
+              "endColumn": 2,
+              "codeElementType": "TYPE_DECLARATION",
+              "description": "moved type declaration",
+              "codeElement": "org.mockitoutil.SimplePerRealmReloadingClassLoader"
+            }
+          ]
+        },
+        {
+          "type": "Rename Method",
+          "description": "Rename Method private obtainClassPath() : URL renamed to private obtainThisClassPath() : URL in class org.mockitoutil.SimplePerRealmReloadingClassLoader",
+          "leftSideLocations": [
+            {
+              "filePath": "mockito-core/src/test/java/org/mockitoutil/SimplePerRealmReloadingClassLoader.java",
+              "startLine": 43,
+              "endLine": 46,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "original method declaration",
+              "codeElement": "private obtainClassPath() : URL"
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "mockito-core/src/testFixtures/java/org/mockitoutil/SimplePerRealmReloadingClassLoader.java",
+              "startLine": 45,
+              "endLine": 48,
+              "startColumn": 5,
+              "endColumn": 6,
+              "codeElementType": "METHOD_DECLARATION",
+              "description": "renamed method declaration",
+              "codeElement": "private obtainThisClassPath() : URL"
+            }
+          ]
+        },
+        {
+          "type": "Move Source Folder",
+          "description": "Move Source Folder mockito-core/src/test to mockito-core/src/testFixtures",
+          "leftSideLocations": [],
+          "rightSideLocations": []
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/mockito/mockito.git",
+      "sha1": "02830006a86979356859c5064c251026410ba6e8",
+      "url": "https://github.com/mockito/mockito/commit/02830006a86979356859c5064c251026410ba6e8",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/mockito/mockito.git",
+      "sha1": "894c5737cffa551e425fdd2c1c4958de5a0888db",
+      "url": "https://github.com/mockito/mockito/commit/894c5737cffa551e425fdd2c1c4958de5a0888db",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/mockito/mockito.git",
+      "sha1": "717af5ac16c8dc0fb205bfe4da9ea56e4573aabb",
+      "url": "https://github.com/mockito/mockito/commit/717af5ac16c8dc0fb205bfe4da9ea56e4573aabb",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/mockito/mockito.git",
+      "sha1": "3819ca8f7537c7f59c2f305be3e880156e960f10",
+      "url": "https://github.com/mockito/mockito/commit/3819ca8f7537c7f59c2f305be3e880156e960f10",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/mockito/mockito.git",
+      "sha1": "c6d9123dcd6a6778b28d021c613c5ada7ff53ad5",
+      "url": "https://github.com/mockito/mockito/commit/c6d9123dcd6a6778b28d021c613c5ada7ff53ad5",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/mockito/mockito.git",
+      "sha1": "a66dfa081c3703fcda9618f507d30248361f5e7b",
+      "url": "https://github.com/mockito/mockito/commit/a66dfa081c3703fcda9618f507d30248361f5e7b",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/mockito/mockito.git",
+      "sha1": "6e53f34a3f54d2b7dc23595566b9331a94b57263",
+      "url": "https://github.com/mockito/mockito/commit/6e53f34a3f54d2b7dc23595566b9331a94b57263",
+      "refactorings": [
+        {
+          "type": "Extract Variable",
+          "description": "Extract Variable matcher : StubbedInvocationMatcher in method package answerTo(invocation Invocation) : Object from class org.mockito.internal.stubbing.InvocationContainerImpl",
+          "leftSideLocations": [
+            {
+              "filePath": "mockito-core/src/main/java/org/mockito/internal/stubbing/InvocationContainerImpl.java",
+              "startLine": 86,
+              "endLine": 86,
+              "startColumn": 9,
+              "endColumn": 61,
+              "codeElementType": "RETURN_STATEMENT",
+              "description": "statement with the initializer of the extracted variable",
+              "codeElement": null
+            }
+          ],
+          "rightSideLocations": [
+            {
+              "filePath": "mockito-core/src/main/java/org/mockito/internal/stubbing/InvocationContainerImpl.java",
+              "startLine": 87,
+              "endLine": 87,
+              "startColumn": 34,
+              "endColumn": 69,
+              "codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+              "description": "extracted variable declaration",
+              "codeElement": "matcher : StubbedInvocationMatcher"
+            },
+            {
+              "filePath": "mockito-core/src/main/java/org/mockito/internal/stubbing/InvocationContainerImpl.java",
+              "startLine": 94,
+              "endLine": 94,
+              "startColumn": 9,
+              "endColumn": 43,
+              "codeElementType": "RETURN_STATEMENT",
+              "description": "statement with the name of the extracted variable",
+              "codeElement": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/mockito/mockito.git",
+      "sha1": "7c277acac44986450090f6540a32305be342e324",
+      "url": "https://github.com/mockito/mockito/commit/7c277acac44986450090f6540a32305be342e324",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/mockito/mockito.git",
+      "sha1": "6cdd4dafa310c6443eff44db041cf50c600146d2",
+      "url": "https://github.com/mockito/mockito/commit/6cdd4dafa310c6443eff44db041cf50c600146d2",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/mockito/mockito.git",
+      "sha1": "c18c21ed1c6a8cfc3d45f34fcaf287ce63e167ad",
+      "url": "https://github.com/mockito/mockito/commit/c18c21ed1c6a8cfc3d45f34fcaf287ce63e167ad",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/mockito/mockito.git",
+      "sha1": "f86a4a1dd1655e63d795f705f00ed7cfc1645a25",
+      "url": "https://github.com/mockito/mockito/commit/f86a4a1dd1655e63d795f705f00ed7cfc1645a25",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/mockito/mockito.git",
+      "sha1": "1fcf39571f3107d72a7bf3000c0b65f9f6229aa4",
+      "url": "https://github.com/mockito/mockito/commit/1fcf39571f3107d72a7bf3000c0b65f9f6229aa4",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/mockito/mockito.git",
+      "sha1": "835f6be3114a70988e5db23c3bc3c09c12020f12",
+      "url": "https://github.com/mockito/mockito/commit/835f6be3114a70988e5db23c3bc3c09c12020f12",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/mockito/mockito.git",
+      "sha1": "51ed33f037dacf19407b4e692e3f6253f874a908",
+      "url": "https://github.com/mockito/mockito/commit/51ed33f037dacf19407b4e692e3f6253f874a908",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/mockito/mockito.git",
+      "sha1": "2e7992bc98c6fd3e1f51efd02a46e4e0309178b8",
+      "url": "https://github.com/mockito/mockito/commit/2e7992bc98c6fd3e1f51efd02a46e4e0309178b8",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/mockito/mockito.git",
+      "sha1": "dc0dc88f98d87c29393dd1da8e00c483ec4e8092",
+      "url": "https://github.com/mockito/mockito/commit/dc0dc88f98d87c29393dd1da8e00c483ec4e8092",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/mockito/mockito.git",
+      "sha1": "29c947628af5b816387d01bec0123946236427b9",
+      "url": "https://github.com/mockito/mockito/commit/29c947628af5b816387d01bec0123946236427b9",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/mockito/mockito.git",
+      "sha1": "3731b6b4b1f790ea6a7c9c165efe15b5a4ab2630",
+      "url": "https://github.com/mockito/mockito/commit/3731b6b4b1f790ea6a7c9c165efe15b5a4ab2630",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/mockito/mockito.git",
+      "sha1": "cd4704a5caa5bc5afbae4d17ab73984abc599213",
+      "url": "https://github.com/mockito/mockito/commit/cd4704a5caa5bc5afbae4d17ab73984abc599213",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/mockito/mockito.git",
+      "sha1": "68c428544cc827d0fe039ef971e9605fec97d3de",
+      "url": "https://github.com/mockito/mockito/commit/68c428544cc827d0fe039ef971e9605fec97d3de",
+      "refactorings": []
+    },
+    {
+      "repository": "https://github.com/mockito/mockito.git",
+      "sha1": "2c184c9a5f80a46a0dff9a299874973235f48a10",
+      "url": "https://github.com/mockito/mockito/commit/2c184c9a5f80a46a0dff9a299874973235f48a10",
+      "refactorings": []
+    }
+  ]
+}

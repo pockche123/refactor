@@ -1,0 +1,351 @@
+file_path,refactoring_type,lines_changed,cyclomatic_complexity,nesting_depth,file_path_encoded,predicted_type,correct_prediction
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java,Add Method Annotation,103,1,1,24,Add Method Annotation,True
+core/src/main/java/kafka/server/share/SharePartitionManager.java,Parameterize Variable,1,1,1,41,Parameterize Variable,True
+clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java,Add Parameter,9,1,1,9,Add Parameter,True
+core/src/main/java/kafka/log/remote/RemoteLogManager.java,Add Parameter,15,1,1,39,Inline Method,False
+core/src/test/java/kafka/test/api/ShareConsumerTest.java,Parameterize Variable,1,1,1,43,Remove Method Annotation,False
+streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java,Add Parameter,31,1,1,86,Add Method Annotation,False
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java,Inline Attribute,6,1,1,26,Inline Attribute,True
+streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java,Extract Variable,12,1,1,97,Add Parameter,False
+streams/src/test/java/org/apache/kafka/streams/state/internals/MeteredSessionStoreTest.java,Add Method Annotation,5,1,1,135,Add Method Annotation,True
+clients/src/main/java/org/apache/kafka/clients/admin/ConsumerGroupDescription.java,Add Parameter,17,1,1,1,Add Method Annotation,False
+raft/src/test/java/org/apache/kafka/raft/KafkaRaftClientSnapshotTest.java,Assert Throws,1,1,1,64,Assert Throws,True
+streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java,Remove Method Annotation,1,1,1,95,Change Parameter Type,False
+raft/src/main/java/org/apache/kafka/raft/UnattachedState.java,Extract Method,33,1,1,63,Extract Method,True
+core/src/test/java/kafka/test/api/ShareConsumerTest.java,Remove Method Annotation,1,1,1,43,Remove Method Annotation,True
+streams/src/test/java/org/apache/kafka/test/NoOpReadOnlyStore.java,Rename Parameter,1,1,1,147,Rename Parameter,True
+raft/src/test/java/org/apache/kafka/raft/KafkaRaftClientSnapshotTest.java,Assert Throws,1,1,1,64,Assert Throws,True
+clients/src/test/java/org/apache/kafka/common/utils/LogCaptureAppender.java,Change Parameter Type,1,1,1,22,Change Variable Type,False
+streams/src/test/java/org/apache/kafka/streams/state/internals/MeteredSessionStoreTest.java,Add Method Annotation,5,1,1,135,Add Method Annotation,True
+raft/src/main/java/org/apache/kafka/raft/EpochState.java,Rename Parameter,1,1,1,57,Rename Parameter,True
+streams/src/test/java/org/apache/kafka/streams/kstream/internals/KStreamSessionWindowAggregateProcessorTest.java,Rename Attribute,1,1,1,114,Remove Method Annotation,False
+tools/src/main/java/org/apache/kafka/tools/consumer/ApiMessageFormatter.java,Remove Parameter,1,1,1,152,Remove Parameter,True
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java,Extract Method,19,1,1,28,Extract Method,True
+tools/src/main/java/org/apache/kafka/tools/consumer/group/ConsumerGroupCommand.java,Move Code,63,1,1,154,Change Method Access Modifier,False
+streams/src/test/java/org/apache/kafka/streams/state/internals/MeteredSessionStoreTest.java,Rename Variable,1,1,1,135,Rename Variable,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/TimeOrderedKeyValueBufferTest.java,Change Variable Type,1,1,1,143,Change Variable Type,True
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java,Change Variable Type,1,1,1,25,Change Variable Type,True
+tools/src/main/java/org/apache/kafka/tools/consumer/group/MemberAssignmentState.java,Add Parameter,10,1,1,156,Add Parameter,True
+raft/src/main/java/org/apache/kafka/raft/RaftUtil.java,Add Parameter,39,1,1,61,Add Parameter,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/StoreSerdeInitializerTest.java,Change Variable Type,1,1,1,141,Change Variable Type,True
+clients/src/test/java/org/apache/kafka/clients/consumer/internals/FetchMetricsManagerTest.java,Add Method Annotation,13,1,1,17,Add Method Annotation,True
+streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java,Change Return Type,1,1,1,98,Change Parameter Type,False
+core/src/main/java/kafka/log/remote/RemoteLogManager.java,Change Variable Type,1,1,1,39,Change Variable Type,True
+connect/runtime/src/test/java/org/apache/kafka/connect/runtime/AbstractHerderTest.java,Add Method Annotation,5,1,1,34,Add Method Annotation,True
+streams/test-utils/src/test/java/org/apache/kafka/streams/MockProcessorContextTest.java,Change Variable Type,10,1,1,148,Rename Variable,False
+streams/src/test/java/org/apache/kafka/streams/state/internals/TimeOrderedKeyValueBufferTest.java,Change Variable Type,1,1,1,143,Change Variable Type,True
+core/src/test/java/kafka/test/api/ShareConsumerTest.java,Remove Method Annotation,1,1,1,43,Remove Method Annotation,True
+group-coordinator/src/main/java/org/apache/kafka/coordinator/group/GroupMetadataManager.java,Inline Variable,1,1,1,53,Inline Variable,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStoreTest.java,Add Method Annotation,4,1,1,132,Add Method Annotation,True
+metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java,Remove Parameter,1,1,1,55,Remove Parameter,True
+streams/src/test/java/org/apache/kafka/streams/processor/internals/ProcessorContextImplTest.java,Remove Variable Annotation,1,1,1,120,Remove Method Annotation,False
+streams/src/test/java/org/apache/kafka/streams/state/internals/TimeOrderedKeyValueBufferTest.java,Change Variable Type,1,1,1,143,Change Variable Type,True
+streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueSegments.java,Change Parameter Type,1,1,1,102,Change Parameter Type,True
+streams/test-utils/src/test/java/org/apache/kafka/streams/MockProcessorContextTest.java,Change Variable Type,15,1,1,148,Rename Variable,False
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java,Extract Variable,1,1,1,25,Change Variable Type,False
+streams/src/test/java/org/apache/kafka/streams/kstream/internals/KStreamImplTest.java,Remove Method Annotation,1,1,1,113,Remove Method Annotation,True
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestClient.java,Split Conditional,1,1,1,32,Change Variable Type,False
+core/src/test/java/kafka/test/api/ShareConsumerTest.java,Add Thrown Exception Type,47,1,1,43,Add Thrown Exception Type,True
+streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/TimeDefinitions.java,Change Class Access Modifier,20,1,1,91,Change Class Access Modifier,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/TimeOrderedKeyValueBufferTest.java,Change Variable Type,1,1,1,143,Change Variable Type,True
+connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java,Move Method,18,1,1,35,Move Method,True
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java,Extract Variable,1,1,1,30,Extract Variable,True
+connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java,Rename Method,8,1,1,35,Rename Method,True
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java,Change Variable Type,1,1,1,25,Change Variable Type,True
+streams/src/test/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorTest.java,Change Variable Type,1,1,1,119,Change Variable Type,True
+streams/test-utils/src/test/java/org/apache/kafka/streams/MockProcessorContextTest.java,Inline Variable,18,1,1,148,Inline Variable,True
+tools/src/main/java/org/apache/kafka/tools/consumer/group/ConsumerGroupCommand.java,Change Parameter Type,1,1,1,154,Extract Variable,False
+streams/src/test/java/org/apache/kafka/streams/processor/internals/ProcessorTopologyTest.java,Move And Inline Method,4,1,1,121,Move And Inline Method,True
+streams/test-utils/src/test/java/org/apache/kafka/streams/MockProcessorContextTest.java,Change Variable Type,1,1,1,148,Change Variable Type,True
+raft/src/main/java/org/apache/kafka/raft/FollowerState.java,Replace Variable With Attribute,1,1,1,58,Replace Variable With Attribute,True
+group-coordinator/group-coordinator-api/src/main/java/org/apache/kafka/coordinator/group/api/assignor/MemberSubscription.java,Remove Class Annotation,1,1,1,48,Remove Class Annotation,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/TimeOrderedKeyValueBufferTest.java,Change Variable Type,1,1,1,143,Change Variable Type,True
+clients/src/main/java/org/apache/kafka/clients/consumer/internals/events/BackgroundEventHandler.java,Add Parameter,3,1,1,7,Add Parameter,True
+clients/src/main/java/org/apache/kafka/clients/consumer/internals/FetchMetricsManager.java,Extract Method,8,1,1,5,Extract Method,True
+tools/src/main/java/org/apache/kafka/tools/consumer/group/ConsumerGroupCommand.java,Rename Parameter,1,1,1,154,Extract Variable,False
+streams/src/test/java/org/apache/kafka/streams/state/internals/CachingInMemoryKeyValueStoreTest.java,Change Attribute Type,1,1,1,123,Change Attribute Type,True
+generator/src/main/java/org/apache/kafka/message/MessageSpec.java,Add Method Annotation,41,1,1,44,Add Method Annotation,True
+streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSuppressNode.java,Change Parameter Type,1,1,1,89,Rename Parameter,False
+raft/src/main/java/org/apache/kafka/raft/UnattachedState.java,Rename Parameter,1,1,1,63,Rename Parameter,True
+streams/src/test/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/ResponseJoinProcessorSupplierTest.java,Change Variable Type,1,1,1,116,Change Variable Type,True
+streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java,Replace Generic With Diamond,1,1,1,77,Change Attribute Type,False
+core/src/test/java/kafka/test/api/ShareConsumerTest.java,Change Variable Type,1,1,1,43,Remove Method Annotation,False
+clients/src/test/java/org/apache/kafka/clients/consumer/internals/FetchMetricsManagerTest.java,Add Method Annotation,18,1,1,17,Add Method Annotation,True
+streams/src/test/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionSendProcessorSupplierTest.java,Change Variable Type,1,1,1,117,Change Variable Type,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStoreTest.java,Add Method Annotation,6,1,1,131,Add Method Annotation,True
+group-coordinator/group-coordinator-api/src/main/java/org/apache/kafka/coordinator/group/api/assignor/SubscribedTopicDescriber.java,Remove Class Annotation,1,1,1,49,Remove Class Annotation,True
+streams/src/main/java/org/apache/kafka/streams/Topology.java,Add Method Annotation,31,1,1,75,Add Method Annotation,True
+raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java,Rename Variable,1,1,1,59,Replace Variable With Attribute,False
+streams/src/test/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionSendProcessorSupplierTest.java,Change Variable Type,1,1,1,117,Change Variable Type,True
+raft/src/main/java/org/apache/kafka/raft/LeaderState.java,Rename Parameter,1,1,1,60,Replace Variable With Attribute,False
+streams/src/test/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingPersistentWindowStoreTest.java,Add Method Annotation,21,1,1,142,Add Method Annotation,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/ChangeLoggingKeyValueBytesStoreTest.java,Change Attribute Type,1,1,1,127,Change Attribute Type,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStoreTest.java,Add Method Annotation,4,1,1,132,Add Method Annotation,True
+streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java,Remove Parameter,1,1,1,86,Replace Variable With Attribute,False
+group-coordinator/group-coordinator-api/src/main/java/org/apache/kafka/coordinator/group/api/assignor/ConsumerGroupPartitionAssignor.java,Remove Class Annotation,1,1,1,45,Remove Class Annotation,True
+clients/src/main/java/org/apache/kafka/clients/consumer/internals/FetchMetricsManager.java,Rename Method,4,1,1,5,Add Parameter,False
+clients/src/test/java/org/apache/kafka/clients/consumer/internals/ConsumerMembershipManagerTest.java,Add Class Annotation,2828,1,1,16,Add Class Annotation,True
+core/src/test/java/kafka/test/api/ShareConsumerTest.java,Remove Method Annotation,1,1,1,43,Remove Method Annotation,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/MeteredVersionedKeyValueStoreTest.java,Rename Variable,1,1,1,137,Rename Variable,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/ChangeLoggingSessionBytesStoreTest.java,Add Method Annotation,6,1,1,128,Add Method Annotation,True
+streams/test-utils/src/test/java/org/apache/kafka/streams/MockProcessorContextTest.java,Change Variable Type,1,1,1,148,Change Variable Type,True
+clients/src/test/java/org/apache/kafka/common/message/MessageTest.java,Rename Method,6,1,1,19,Add Parameter,False
+streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java,Replace Variable With Attribute,1,1,1,86,Replace Variable With Attribute,True
+streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedKeyValueBuffer.java,Rename Attribute,1,1,1,109,Rename Attribute,True
+streams/src/main/java/org/apache/kafka/streams/internals/AutoOffsetResetInternal.java,Add Method Annotation,3,1,1,76,Extract Variable,False
+trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentRestResource.java,Remove Attribute Annotation,1,1,1,158,Extract Variable,False
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java,Change Variable Type,1,1,1,24,Parameterize Variable,False
+connect/runtime/src/test/java/org/apache/kafka/connect/runtime/AbstractHerderTest.java,Modify Method Annotation,1,1,1,34,Modify Method Annotation,True
+tools/src/main/java/org/apache/kafka/tools/consumer/group/ConsumerGroupCommand.java,Rename Variable,1,1,1,154,Extract Variable,False
+clients/src/test/java/org/apache/kafka/clients/consumer/internals/FetchMetricsManagerTest.java,Add Method Annotation,16,1,1,17,Add Method Annotation,True
+streams/src/main/java/org/apache/kafka/streams/Topology.java,Add Method Annotation,28,1,1,75,Add Method Annotation,True
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java,Change Parameter Type,1,1,1,25,Change Variable Type,False
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java,Remove Method Annotation,1,1,1,25,Change Variable Type,False
+streams/src/test/java/org/apache/kafka/streams/state/KeyValueStoreTestDriver.java,Replace Generic With Diamond,18,1,1,122,Replace Generic With Diamond,True
+core/src/test/java/kafka/test/api/ShareConsumerTest.java,Add Thrown Exception Type,116,1,1,43,Add Thrown Exception Type,True
+connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java,Move Class,30,1,1,35,Move Class,True
+streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamToTableNode.java,Remove Parameter,1,1,1,87,Remove Parameter,True
+streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java,Rename Parameter,1,1,1,106,Rename Parameter,True
+clients/src/test/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinatorTest.java,Add Method Annotation,29,1,1,14,Add Method Annotation,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/MeteredVersionedKeyValueStoreTest.java,Add Method Annotation,41,1,1,137,Add Method Annotation,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/CachingPersistentSessionStoreTest.java,Add Method Annotation,4,1,1,125,Add Method Annotation,True
+core/src/main/java/kafka/log/remote/CustomMetadataSizeLimitExceededException.java,Move Class,2,1,1,38,Change Variable Type,False
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java,Rename Variable,1,1,1,25,Change Variable Type,False
+streams/test-utils/src/test/java/org/apache/kafka/streams/MockProcessorContextTest.java,Change Variable Type,8,1,1,148,Rename Variable,False
+streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java,Replace Generic With Diamond,1,1,1,77,Change Attribute Type,False
+streams/src/test/java/org/apache/kafka/streams/state/internals/TimeOrderedKeyValueBufferTest.java,Change Variable Type,1,1,1,143,Change Variable Type,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/RocksDBStoreTest.java,Change Return Type,1,1,1,139,Change Variable Type,False
+group-coordinator/group-coordinator-api/src/main/java/org/apache/kafka/coordinator/group/api/assignor/SubscriptionType.java,Remove Class Annotation,1,1,1,50,Remove Class Annotation,True
+streams/src/test/java/org/apache/kafka/streams/processor/internals/ProcessorContextImplTest.java,Add Attribute Annotation,1,1,1,120,Remove Method Annotation,False
+streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamKStreamJoinRightSide.java,Add Parameter,9,1,1,80,Add Class Annotation,False
+core/src/main/java/kafka/log/remote/RemoteLogOffsetReader.java,Change Variable Type,1,1,1,40,Change Variable Type,True
+streams/src/test/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionSendProcessorSupplierTest.java,Change Variable Type,1,1,1,117,Change Variable Type,True
+clients/src/main/java/org/apache/kafka/clients/consumer/internals/events/BackgroundEventHandler.java,Change Parameter Type,1,1,1,7,Change Attribute Type,False
+clients/src/main/java/org/apache/kafka/common/config/TopicConfig.java,Add Attribute Annotation,5,1,1,10,Add Attribute Annotation,True
+streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java,Rename Method,4,1,1,86,Rename Method,True
+raft/src/test/java/org/apache/kafka/raft/UnattachedStateWithVoteTest.java,Add Method Annotation,15,1,1,67,Add Parameter,False
+clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractHeartbeatRequestManager.java,Rename Method,10,1,1,3,Rename Method,True
+core/src/test/java/kafka/test/api/ShareConsumerTest.java,Add Thrown Exception Type,47,1,1,43,Add Thrown Exception Type,True
+share-coordinator/src/test/java/org/apache/kafka/coordinator/share/ShareCoordinatorShardTest.java,Change Variable Type,1,1,1,71,Change Variable Type,True
+streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingKeyValueBytesStore.java,Change Attribute Type,1,1,1,100,Change Attribute Type,True
+streams/test-utils/src/test/java/org/apache/kafka/streams/MockProcessorContextTest.java,Rename Variable,8,1,1,148,Rename Variable,True
+streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredVersionedKeyValueStore.java,Replace Generic With Diamond,8,1,1,107,Replace Generic With Diamond,True
+streams/test-utils/src/test/java/org/apache/kafka/streams/MockProcessorContextTest.java,Change Variable Type,1,1,1,148,Change Variable Type,True
+streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamKStreamJoinLeftSide.java,Add Parameter,9,1,1,79,Add Class Annotation,False
+streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableProcessorNode.java,Remove Parameter,1,1,1,88,Remove Parameter,True
+core/src/test/java/kafka/log/remote/RemoteLogOffsetReaderTest.java,Change Variable Type,2,1,1,42,Change Variable Type,True
+streams/integration-tests/src/test/java/org/apache/kafka/streams/integration/FineGrainedAutoResetIntegrationTest.java,Change Thrown Exception Type,1,1,1,73,Change Thrown Exception Type,True
+streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ForeignTableJoinNode.java,Remove Parameter,1,1,1,84,Remove Parameter,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStoreTest.java,Change Variable Type,9,1,1,132,Add Method Annotation,False
+streams/src/main/java/org/apache/kafka/streams/Topology.java,Add Class Annotation,8,1,1,75,Add Class Annotation,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/MeteredWindowStoreTest.java,Rename Variable,1,1,1,138,Rename Variable,True
+streams/src/test/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionSendProcessorSupplierTest.java,Change Variable Type,1,1,1,117,Change Variable Type,True
+streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java,Rename Attribute,1,1,1,86,Replace Variable With Attribute,False
+streams/src/test/java/org/apache/kafka/streams/state/internals/MeteredSessionStoreTest.java,Add Method Annotation,5,1,1,135,Add Method Annotation,True
+streams/src/test/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionSendProcessorSupplierTest.java,Change Variable Type,1,1,1,117,Change Variable Type,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueStoreTest.java,Remove Method Annotation,1,1,1,133,Remove Method Annotation,True
+streams/src/test/java/org/apache/kafka/streams/kstream/internals/KStreamWindowAggregateTest.java,Change Variable Type,5,1,1,115,Change Variable Type,True
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java,Encapsulate Attribute,1,1,1,27,Encapsulate Attribute,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/TimeOrderedKeyValueBufferTest.java,Change Variable Type,1,1,1,143,Change Variable Type,True
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java,Change Variable Type,1,1,1,25,Change Variable Type,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueStoreTest.java,Add Method Annotation,31,1,1,133,Add Method Annotation,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/TimeOrderedKeyValueBufferTest.java,Change Variable Type,1,1,1,143,Change Variable Type,True
+clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java,Remove Parameter,1,1,1,8,Remove Parameter,True
+streams/src/main/java/org/apache/kafka/streams/processor/StateStore.java,Rename Parameter,1,1,1,92,Change Attribute Type,False
+streams/src/test/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStoreTest.java,Replace Generic With Diamond,6,1,1,132,Add Method Annotation,False
+group-coordinator/group-coordinator-api/src/main/java/org/apache/kafka/coordinator/group/api/assignor/GroupAssignment.java,Remove Class Annotation,1,1,1,46,Remove Class Annotation,True
+clients/src/test/java/org/apache/kafka/common/utils/LogCaptureAppender.java,Rename Variable,1,1,1,22,Change Variable Type,False
+share-coordinator/src/test/java/org/apache/kafka/coordinator/share/ShareCoordinatorServiceTest.java,Inline Variable,1,1,1,70,Inline Variable,True
+streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java,Change Parameter Type,1,1,1,110,Rename Attribute,False
+tools/src/main/java/org/apache/kafka/tools/consumer/group/ConsumerGroupCommand.java,Extract Variable,1,1,1,154,Extract Variable,True
+core/src/main/java/kafka/log/remote/RemoteLogManager.java,Rename Parameter,1,1,1,39,Change Variable Type,False
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginDesc.java,Encapsulate Attribute,1,1,1,29,Encapsulate Attribute,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStoreTest.java,Rename Variable,1,1,1,136,Rename Variable,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/CachingInMemorySessionStoreTest.java,Remove Class Annotation,1,1,1,124,Remove Class Annotation,True
+connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java,Rename Variable,1,1,1,35,Rename Variable,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/RocksDBStoreTest.java,Change Variable Type,1,1,1,139,Change Variable Type,True
+streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryLRUCache.java,Rename Parameter,1,1,1,104,Rename Parameter,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/ChangeLoggingTimestampedKeyValueBytesStoreTest.java,Change Return Type,1,1,1,129,Change Return Type,True
+tools/src/main/java/org/apache/kafka/tools/consumer/group/GroupInformation.java,Add Parameter,7,1,1,155,Add Parameter,True
+streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java,Move Attribute,1,1,1,85,Change Attribute Type,False
+raft/src/test/java/org/apache/kafka/raft/KafkaRaftClientSnapshotTest.java,Assert Throws,1,1,1,64,Assert Throws,True
+share-coordinator/src/test/java/org/apache/kafka/coordinator/share/ShareCoordinatorConfigTest.java,Rename Class,40,1,1,69,Rename Class,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/CachingInMemorySessionStoreTest.java,Add Method Annotation,21,1,1,124,Add Method Annotation,True
+tools/src/main/java/org/apache/kafka/tools/consumer/TransactionLogMessageFormatter.java,Merge Method,6,1,1,153,Merge Method,True
+connect/runtime/src/test/java/org/apache/kafka/connect/runtime/WorkerTest.java,Remove Thrown Exception Type,1,1,1,36,Remove Thrown Exception Type,True
+group-coordinator/src/main/java/org/apache/kafka/coordinator/group/GroupMetadataManager.java,Inline Variable,1,1,1,53,Inline Variable,True
+streams/test-utils/src/test/java/org/apache/kafka/streams/MockProcessorContextTest.java,Change Variable Type,1,1,1,148,Change Variable Type,True
+clients/src/main/java/org/apache/kafka/common/utils/ThreadUtils.java,Extract Method,28,1,1,12,Add Method Annotation,False
+streams/src/test/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStoreTest.java,Add Method Annotation,6,1,1,134,Add Method Annotation,True
+clients/src/main/java/org/apache/kafka/clients/admin/MemberDescription.java,Add Method Annotation,6,1,1,2,Add Method Annotation,True
+clients/src/test/java/org/apache/kafka/clients/admin/KafkaAdminClientTest.java,Remove Method Annotation,1,1,1,13,Remove Parameter,False
+group-coordinator/group-coordinator-api/src/main/java/org/apache/kafka/coordinator/group/api/assignor/MemberAssignment.java,Remove Class Annotation,1,1,1,47,Remove Class Annotation,True
+core/src/test/java/kafka/log/remote/RemoteLogOffsetReaderTest.java,Change Variable Type,2,1,1,42,Change Variable Type,True
+streams/src/main/java/org/apache/kafka/streams/Topology.java,Add Method Annotation,23,1,1,75,Add Method Annotation,True
+streams/src/main/java/org/apache/kafka/streams/Topology.java,Remove Method Annotation,1,1,1,75,Remove Method Annotation,True
+streams/src/test/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorTest.java,Change Variable Type,1,1,1,119,Change Variable Type,True
+core/src/test/java/kafka/test/api/ShareConsumerTest.java,Remove Thrown Exception Type,1,1,1,43,Remove Method Annotation,False
+clients/src/main/java/org/apache/kafka/common/errors/NotLeaderOrFollowerException.java,Remove Class Annotation,1,1,1,11,Remove Class Annotation,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/metrics/RocksDBBlockCacheMetricsTest.java,Add Method Annotation,11,1,1,145,Add Method Annotation,True
+streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamKStreamJoinLeftSide.java,Remove Parameter,1,1,1,79,Remove Parameter,True
+core/src/test/java/kafka/test/api/ShareConsumerTest.java,Remove Method Annotation,1,1,1,43,Remove Method Annotation,True
+streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredVersionedKeyValueStore.java,Change Attribute Type,19,1,1,107,Change Attribute Type,True
+streams/src/test/java/org/apache/kafka/streams/kstream/internals/KStreamWindowAggregateTest.java,Change Variable Type,1,1,1,115,Change Variable Type,True
+raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java,Rename Variable,4,1,1,59,Rename Variable,True
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java,Extract Method,159,1,1,24,Extract Method,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/CachingPersistentWindowStoreTest.java,Add Method Annotation,4,1,1,126,Add Method Annotation,True
+streams/src/test/java/org/apache/kafka/streams/processor/internals/ProcessorContextImplTest.java,Remove Method Annotation,1,1,1,120,Remove Method Annotation,True
+storage/src/main/java/org/apache/kafka/storage/internals/log/LogConfig.java,Modify Method Annotation,1,1,1,72,Modify Method Annotation,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/TimeOrderedKeyValueBufferTest.java,Change Variable Type,1,1,1,143,Change Variable Type,True
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginDesc.java,Change Method Access Modifier,4,1,1,29,Change Method Access Modifier,True
+streams/test-utils/src/test/java/org/apache/kafka/streams/MockProcessorContextTest.java,Change Variable Type,1,1,1,148,Change Variable Type,True
+tools/src/main/java/org/apache/kafka/tools/consumer/group/MemberAssignmentState.java,Add Parameter,10,1,1,156,Add Parameter,True
+clients/src/test/java/org/apache/kafka/common/utils/LogCaptureAppender.java,Change Method Access Modifier,6,1,1,22,Change Method Access Modifier,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/StoreSerdeInitializerTest.java,Change Variable Type,1,1,1,141,Change Variable Type,True
+streams/src/test/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorMetricsTest.java,Change Variable Type,2,1,1,118,Change Variable Type,True
+streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingKeyValueBytesStore.java,Rename Parameter,1,1,1,100,Change Attribute Type,False
+raft/src/main/java/org/apache/kafka/raft/UnattachedState.java,Rename Parameter,1,1,1,63,Rename Parameter,True
+group-coordinator/src/main/java/org/apache/kafka/coordinator/group/GroupConfig.java,Change Return Type,1,1,1,51,Change Return Type,True
+core/src/test/java/kafka/test/api/ShareConsumerTest.java,Rename Variable,1,1,1,43,Remove Method Annotation,False
+streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java,Add Method Annotation,26,1,1,95,Add Method Annotation,True
+metadata/src/main/java/org/apache/kafka/controller/ActivationRecordsGenerator.java,Remove Parameter,1,1,1,54,Remove Parameter,True
+connect/runtime/src/test/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerderTest.java,Add Method Annotation,44,1,1,37,Extract Method,False
+streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManager.java,Change Parameter Type,1,1,1,93,Change Parameter Type,True
+clients/src/main/java/org/apache/kafka/clients/consumer/internals/events/ApplicationEventHandler.java,Add Parameter,18,1,1,6,Add Parameter,True
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java,Extract Method,42,1,1,31,Extract Method,True
+streams/src/main/java/org/apache/kafka/streams/state/internals/LogicalKeyValueSegments.java,Change Parameter Type,1,1,1,103,Change Parameter Type,True
+clients/src/test/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinatorTest.java,Remove Method Annotation,1,1,1,14,Remove Method Annotation,True
+streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java,Remove Parameter,1,1,1,85,Change Attribute Type,False
+streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java,Rename Parameter,1,1,1,108,Rename Parameter,True
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java,Add Parameter,103,1,1,24,Add Method Annotation,False
+share-coordinator/src/main/java/org/apache/kafka/coordinator/share/ShareCoordinatorService.java,Rename Variable,1,1,1,68,Rename Variable,True
+connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectStandalone.java,Replace Generic With Diamond,1,1,1,23,Replace Generic With Diamond,True
+streams/test-utils/src/test/java/org/apache/kafka/streams/MockProcessorContextTest.java,Rename Variable,6,1,1,148,Rename Variable,True
+streams/test-utils/src/test/java/org/apache/kafka/streams/test/wordcount/WindowedWordCountProcessorTest.java,Change Return Type,1,1,1,150,Change Variable Type,False
+raft/src/test/java/org/apache/kafka/raft/KafkaRaftClientSnapshotTest.java,Assert Throws,1,1,1,64,Assert Throws,True
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java,Inline Method,16,1,1,24,Inline Method,True
+clients/src/main/java/org/apache/kafka/clients/admin/MemberDescription.java,Add Method Annotation,16,1,1,2,Add Method Annotation,True
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java,Change Variable Type,1,1,1,31,Change Variable Type,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/MeteredVersionedKeyValueStoreTest.java,Rename Variable,1,1,1,137,Rename Variable,True
+tools/src/main/java/org/apache/kafka/tools/consumer/group/ConsumerGroupCommand.java,Remove Parameter,1,1,1,154,Extract Variable,False
+streams/src/test/java/org/apache/kafka/streams/state/internals/RocksDBStoreTest.java,Change Variable Type,1,1,1,139,Change Variable Type,True
+streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionReceiveProcessorSupplier.java,Change Attribute Type,1,1,1,83,Change Attribute Type,True
+streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java,Change Attribute Type,1,1,1,85,Change Attribute Type,True
+streams/test-utils/src/test/java/org/apache/kafka/streams/test/MockProcessorContextAPITest.java,Replace Generic With Diamond,15,1,1,149,Replace Generic With Diamond,True
+streams/src/test/java/org/apache/kafka/streams/processor/internals/ProcessorTopologyTest.java,Replace Generic With Diamond,11,1,1,121,Add Method Annotation,False
+clients/src/test/java/org/apache/kafka/common/requests/RequestResponseTest.java,Inline Variable,1,1,1,20,Change Variable Type,False
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java,Parameterize Variable,1,1,1,24,Parameterize Variable,True
+clients/src/main/java/org/apache/kafka/clients/admin/Admin.java,Remove Variable Annotation,1,1,1,0,Remove Variable Annotation,True
+streams/test-utils/src/test/java/org/apache/kafka/streams/test/wordcount/WindowedWordCountProcessorTest.java,Change Variable Type,1,1,1,150,Change Variable Type,True
+clients/src/test/java/org/apache/kafka/clients/consumer/internals/ConsumerHeartbeatRequestManagerTest.java,Add Parameter,16,1,1,15,Add Method Annotation,False
+streams/src/main/java/org/apache/kafka/streams/kstream/Suppressed.java,Change Return Type,1,1,1,78,Change Attribute Type,False
+streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/TimeDefinitions.java,Change Method Access Modifier,4,1,1,91,Rename Method,False
+core/src/test/java/kafka/test/api/ShareConsumerTest.java,Inline Variable,1,1,1,43,Remove Method Annotation,False
+share-coordinator/src/main/java/org/apache/kafka/coordinator/share/ShareCoordinatorService.java,Add Parameter,12,1,1,68,Add Parameter,True
+streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java,Change Parameter Type,1,1,1,94,Change Parameter Type,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/RocksDBVersionedStoreTest.java,Change Attribute Type,1,1,1,140,Change Attribute Type,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/CachingInMemorySessionStoreTest.java,Add Method Annotation,4,1,1,124,Add Method Annotation,True
+clients/src/test/java/org/apache/kafka/common/requests/RequestResponseTest.java,Add Parameter,12,1,1,20,Add Parameter,True
+streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java,Change Parameter Type,1,1,1,95,Change Parameter Type,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/TimeOrderedWindowStoreTest.java,Add Method Annotation,6,1,1,144,Add Method Annotation,True
+trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java,Change Variable Type,1,1,1,159,Extract Variable,False
+streams/src/test/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorTest.java,Change Variable Type,1,1,1,119,Change Variable Type,True
+raft/src/main/java/org/apache/kafka/raft/ResignedState.java,Rename Parameter,1,1,1,62,Rename Parameter,True
+clients/src/test/java/org/apache/kafka/clients/consumer/internals/ShareConsumeRequestManagerTest.java,Add Parameter,4,1,1,18,Add Parameter,True
+streams/src/test/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorTest.java,Change Variable Type,1,1,1,119,Change Variable Type,True
+raft/src/test/java/org/apache/kafka/raft/RaftClientTestContext.java,Rename Variable,2,1,1,66,Rename Variable,True
+core/src/test/java/kafka/test/api/ShareConsumerTest.java,Add Thrown Exception Type,116,1,1,43,Add Thrown Exception Type,True
+streams/test-utils/src/test/java/org/apache/kafka/streams/MockProcessorContextTest.java,Extract Variable,1,1,1,148,Change Variable Type,False
+raft/src/test/java/org/apache/kafka/raft/KafkaRaftClientSnapshotTest.java,Assert Throws,1,1,1,64,Assert Throws,True
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java,Extract Method,35,1,1,25,Extract Method,True
+streams/src/test/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorTest.java,Change Variable Type,1,1,1,119,Change Variable Type,True
+streams/src/test/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/ResponseJoinProcessorSupplierTest.java,Change Variable Type,1,1,1,116,Change Variable Type,True
+raft/src/test/java/org/apache/kafka/raft/KafkaRaftClientTest.java,Inline Variable,2,1,1,65,Inline Variable,True
+raft/src/test/java/org/apache/kafka/raft/KafkaRaftClientSnapshotTest.java,Assert Throws,1,1,1,64,Assert Throws,True
+test-common/test-common-api/src/test/java/org/apache/kafka/common/test/api/ClusterTestExtensionsTest.java,Change Variable Type,1,1,1,151,Change Variable Type,True
+streams/test-utils/src/test/java/org/apache/kafka/streams/MockProcessorContextTest.java,Rename Variable,15,1,1,148,Rename Variable,True
+clients/src/main/java/org/apache/kafka/clients/consumer/internals/events/BackgroundEventHandler.java,Change Attribute Type,1,1,1,7,Change Attribute Type,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStoreTest.java,Add Method Annotation,6,1,1,131,Add Method Annotation,True
+streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java,Change Attribute Type,1,1,1,77,Change Attribute Type,True
+metadata/src/main/java/org/apache/kafka/controller/ActivationRecordsGenerator.java,Remove Parameter,1,1,1,54,Remove Parameter,True
+streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java,Add Parameter,18,1,1,95,Add Parameter,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/MeteredVersionedKeyValueStoreTest.java,Add Method Annotation,21,1,1,137,Add Method Annotation,True
+streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java,Change Parameter Type,1,1,1,96,Change Parameter Type,True
+core/src/test/java/kafka/test/api/ShareConsumerTest.java,Inline Method,15,1,1,43,Inline Method,True
+streams/src/test/java/org/apache/kafka/streams/kstream/internals/KStreamImplTest.java,Change Parameter Type,1,1,1,113,Remove Method Annotation,False
+streams/test-utils/src/test/java/org/apache/kafka/streams/test/wordcount/WindowedWordCountProcessorTest.java,Change Variable Type,1,1,1,150,Change Variable Type,True
+clients/src/main/java/org/apache/kafka/clients/consumer/internals/AutoOffsetResetStrategy.java,Encapsulate Attribute,1,1,1,4,Encapsulate Attribute,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/MeteredWindowStoreTest.java,Add Method Annotation,29,1,1,138,Add Method Annotation,True
+core/src/test/java/kafka/test/api/ShareConsumerTest.java,Rename Variable,1,1,1,43,Remove Method Annotation,False
+clients/src/test/java/org/apache/kafka/common/utils/LogCaptureAppender.java,Inline Variable,1,1,1,22,Change Variable Type,False
+connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java,Replace Generic With Diamond,31,1,1,33,Replace Generic With Diamond,True
+group-coordinator/src/main/java/org/apache/kafka/coordinator/group/GroupCoordinator.java,Change Return Type,1,1,1,52,Change Return Type,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/ChangeLoggingTimestampedWindowBytesStoreTest.java,Remove Method Annotation,1,1,1,130,Remove Method Annotation,True
+clients/src/main/java/org/apache/kafka/clients/consumer/internals/FetchMetricsManager.java,Add Method Annotation,4,1,1,5,Add Parameter,False
+streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java,Rename Parameter,1,1,1,101,Rename Parameter,True
+clients/src/main/java/org/apache/kafka/clients/consumer/internals/FetchMetricsManager.java,Add Method Annotation,5,1,1,5,Add Method Annotation,True
+streams/src/test/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorTest.java,Change Variable Type,1,1,1,119,Change Variable Type,True
+streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSuppressNode.java,Rename Parameter,1,1,1,89,Rename Parameter,True
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java,Extract Method,11,1,1,28,Add Parameter,False
+trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentRestResource.java,Add Attribute Annotation,1,1,1,158,Extract Variable,False
+streams/src/test/java/org/apache/kafka/streams/processor/internals/ProcessorContextImplTest.java,Remove Method Annotation,1,1,1,120,Remove Method Annotation,True
+streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java,Rename Attribute,1,1,1,85,Change Attribute Type,False
+streams/src/test/java/org/apache/kafka/test/MockInternalNewProcessorContext.java,Change Attribute Type,1,1,1,146,Change Attribute Type,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/MeteredVersionedKeyValueStoreTest.java,Rename Variable,1,1,1,137,Rename Variable,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/MeteredWindowStoreTest.java,Rename Variable,1,1,1,138,Rename Variable,True
+core/src/test/java/kafka/test/api/ShareConsumerTest.java,Remove Parameter,1,1,1,43,Remove Method Annotation,False
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java,Extract Method,50,1,1,24,Extract Method,True
+test-common/test-common-api/src/test/java/org/apache/kafka/common/test/api/ClusterTestExtensionsTest.java,Change Variable Type,1,1,1,151,Change Variable Type,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/CachingPersistentSessionStoreTest.java,Change Attribute Type,1,1,1,125,Remove Class Annotation,False
+streams/src/test/java/org/apache/kafka/streams/state/internals/TimeOrderedKeyValueBufferTest.java,Change Parameter Type,1,1,1,143,Change Variable Type,False
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Loggers.java,Change Return Type,1,1,1,25,Change Variable Type,False
+share-coordinator/src/test/java/org/apache/kafka/coordinator/share/ShareCoordinatorShardTest.java,Change Variable Type,1,1,1,71,Change Variable Type,True
+clients/src/test/java/org/apache/kafka/common/utils/LogCaptureAppender.java,Change Variable Type,1,1,1,22,Change Variable Type,True
+streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java,Change Attribute Type,1,1,1,105,Change Attribute Type,True
+streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java,Change Variable Type,1,1,1,94,Change Parameter Type,False
+streams/src/test/java/org/apache/kafka/streams/state/internals/MeteredVersionedKeyValueStoreTest.java,Add Method Annotation,34,1,1,137,Add Method Annotation,True
+core/src/test/java/kafka/test/api/ShareConsumerTest.java,Add Thrown Exception Type,47,1,1,43,Add Thrown Exception Type,True
+streams/test-utils/src/test/java/org/apache/kafka/streams/test/MockProcessorContextAPITest.java,Replace Generic With Diamond,16,1,1,149,Replace Generic With Diamond,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/MeteredSessionStoreTest.java,Add Method Annotation,36,1,1,135,Add Method Annotation,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/TimeOrderedKeyValueBufferTest.java,Change Parameter Type,1,1,1,143,Change Variable Type,False
+streams/test-utils/src/test/java/org/apache/kafka/streams/MockProcessorContextTest.java,Change Variable Type,1,1,1,148,Change Variable Type,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/MeteredSessionStoreTest.java,Add Method Annotation,5,1,1,135,Add Method Annotation,True
+clients/src/test/java/org/apache/kafka/clients/admin/KafkaAdminClientTest.java,Remove Parameter,1,1,1,13,Remove Parameter,True
+streams/src/test/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorTest.java,Change Variable Type,1,1,1,119,Change Variable Type,True
+connect/runtime/src/test/java/org/apache/kafka/connect/runtime/LoggersTest.java,Remove Class Annotation,1,1,1,35,Rename Variable,False
+core/src/main/java/kafka/log/remote/RemoteLogManager.java,Rename Parameter,1,1,1,39,Change Variable Type,False
+streams/src/test/java/org/apache/kafka/streams/state/internals/TimeOrderedKeyValueBufferTest.java,Change Variable Type,1,1,1,143,Change Variable Type,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/MeteredSessionStoreTest.java,Change Attribute Type,1,1,1,135,Rename Variable,False
+streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java,Change Parameter Type,1,1,1,86,Replace Variable With Attribute,False
+connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java,Inline Method,16,1,1,24,Inline Method,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/CachingInMemorySessionStoreTest.java,Change Variable Type,1,1,1,124,Remove Class Annotation,False
+streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/TimeDefinitions.java,Change Attribute Type,1,1,1,91,Change Attribute Type,True
+streams/src/test/java/org/apache/kafka/streams/processor/internals/ProcessorTopologyTest.java,Move And Inline Method,5,1,1,121,Move And Inline Method,True
+streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorSupplier.java,Rename Parameter,1,1,1,90,Rename Parameter,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/MeteredSessionStoreTest.java,Add Method Annotation,5,1,1,135,Add Method Annotation,True
+streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableImpl.java,Add Method Annotation,57,1,1,81,Add Method Annotation,True
+tools/src/test/java/org/apache/kafka/tools/consumer/group/ConsumerGroupCommandTestUtils.java,Change Method Access Modifier,23,1,1,157,Change Method Access Modifier,True
+raft/src/test/java/org/apache/kafka/raft/KafkaRaftClientSnapshotTest.java,Extract Variable,1,1,1,64,Assert Throws,False
+streams/src/test/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStoreTest.java,Add Method Annotation,5,1,1,134,Add Method Annotation,True
+streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java,Change Parameter Type,1,1,1,99,Change Attribute Type,False
+core/src/test/java/kafka/test/api/ShareConsumerTest.java,Change Return Type,1,1,1,43,Remove Method Annotation,False
+streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableImpl.java,Extract Variable,2,1,1,81,Extract Variable,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/CachingPersistentWindowStoreTest.java,Add Method Annotation,3,1,1,126,Add Method Annotation,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStoreTest.java,Rename Variable,1,1,1,136,Rename Variable,True
+streams/integration-tests/src/test/java/org/apache/kafka/streams/integration/VersionedKeyValueStoreIntegrationTest.java,Rename Parameter,1,1,1,74,Rename Parameter,True
+streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/ForeignTableJoinProcessorSupplier.java,Change Parameter Type,1,1,1,82,Change Attribute Type,False
+connect/runtime/src/test/java/org/apache/kafka/connect/runtime/WorkerTest.java,Remove Thrown Exception Type,1,1,1,36,Remove Thrown Exception Type,True
+streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java,Change Parameter Type,1,1,1,95,Change Parameter Type,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/CachingPersistentWindowStoreTest.java,Add Method Annotation,5,1,1,126,Add Method Annotation,True
+streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedSegments.java,Change Parameter Type,1,1,1,111,Change Parameter Type,True
+streams/src/test/java/org/apache/kafka/streams/state/internals/RocksDBStoreTest.java,Change Attribute Type,1,1,1,139,Change Variable Type,False
+streams/src/test/java/org/apache/kafka/streams/state/internals/StoreSerdeInitializerTest.java,Change Variable Type,1,1,1,141,Change Variable Type,True
+streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java,Change Parameter Type,1,1,1,85,Change Attribute Type,False
+test-common/test-common-api/src/test/java/org/apache/kafka/common/test/api/ClusterTestExtensionsTest.java,Change Variable Type,1,1,1,151,Change Variable Type,True
+streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java,Add Method Annotation,11,1,1,77,Add Method Annotation,True
+tools/src/main/java/org/apache/kafka/tools/consumer/TransactionLogMessageFormatter.java,Localize Parameter,1,1,1,153,Localize Parameter,True
+metadata/src/test/java/org/apache/kafka/controller/QuorumControllerTest.java,Remove Parameter,1,1,1,56,Remove Parameter,True
+clients/src/test/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticatorTest.java,Assert Throws,1,1,1,21,Change Variable Type,False
+streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedSegments.java,Change Parameter Type,1,1,1,111,Change Parameter Type,True
+streams/src/test/java/org/apache/kafka/streams/StreamsBuilderTest.java,Remove Method Annotation,1,1,1,112,Remove Method Annotation,True
+streams/src/test/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionSendProcessorSupplierTest.java,Change Variable Type,1,1,1,117,Change Variable Type,True

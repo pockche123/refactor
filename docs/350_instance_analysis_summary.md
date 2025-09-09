@@ -3,9 +3,9 @@
 ## Overview
 Comprehensive analysis of refactoring prediction and behavioral validation using 350-instance datasets across multiple software domains. This represents a significant scaling up from initial smaller datasets to meet thesis requirements.
 
-## Completed Projects (350-Instance Analysis)
+## Completed Projects (350-Instance Analysis) - FINAL
 
-### 1. Apache Commons Lang (Utility Library) - NEW!
+### 1. Apache Commons Lang (Utility Library)
 - **Dataset**: 350 instances (from larger extraction)
 - **ML Accuracy**: 96.3% (337/350 correct predictions) - **HIGHEST ACCURACY**
 - **Behavioral Validation**: ALL 337 correct predictions tested
@@ -13,7 +13,15 @@ Comprehensive analysis of refactoring prediction and behavioral validation using
 - **Top Refactoring**: Extract And Move Method (92.0%)
 - **Directories**: 1,348 total (674 before + 674 after)
 
-### 2. Apache Kafka (Distributed Systems)
+### 2. IntelliJ IDEA (IDE)
+- **Dataset**: 350 instances (expanded from 24)
+- **ML Accuracy**: 78.9% (276/350 correct predictions) - **+45.6% improvement**
+- **Behavioral Validation**: ALL 276 correct predictions tested
+- **Functional Safety**: 100% (276/276 tests passed)
+- **Top Refactoring**: Add Parameter Annotation (47.8%)
+- **Directories**: 1,104 total (552 before + 552 after)
+
+### 3. Apache Kafka (Distributed Systems)
 - **Dataset**: 350 instances (from 1,123 extracted)
 - **ML Accuracy**: 73.7% (258/350 correct predictions)
 - **Behavioral Validation**: ALL 258 correct predictions tested
@@ -21,13 +29,21 @@ Comprehensive analysis of refactoring prediction and behavioral validation using
 - **Top Refactoring**: Change Variable Type (21.3%)
 - **Directories**: 1,032 total (516 before + 516 after)
 
-### 3. Spring Framework (Enterprise Framework)
+### 4. Spring Framework (Enterprise Framework)
 - **Dataset**: 350 instances (from 3,555 extracted)
 - **ML Accuracy**: 69.4% (243/350 correct predictions)
 - **Behavioral Validation**: ALL 243 correct predictions tested
 - **Functional Safety**: 100% (243/243 tests passed)
 - **Top Refactoring**: Remove Method Annotation (20.6%)
 - **Directories**: 972 total (486 before + 486 after)
+
+### 5. Mockito (Testing Framework) - NEW!
+- **Dataset**: 350 instances (expanded from 22)
+- **ML Accuracy**: 56.9% (199/350 correct predictions) - **+38.7% improvement**
+- **Behavioral Validation**: ALL 199 correct predictions tested
+- **Functional Safety**: 100% (199/199 tests passed)
+- **Top Refactoring**: Remove Parameter (27.6%)
+- **Directories**: 796 total (398 before + 398 after)
 
 ## Key Research Findings
 
@@ -51,11 +67,13 @@ Comprehensive analysis of refactoring prediction and behavioral validation using
 
 ## Comprehensive Behavioral Safety Results
 
-### Combined Functional Safety Results
+### Combined Functional Safety Results - FINAL
 - **Commons Lang**: 337/337 correct predictions are functionally safe (100%)
+- **IntelliJ**: 276/276 correct predictions are functionally safe (100%)
 - **Kafka**: 258/258 correct predictions are functionally safe (100%)
 - **Spring Framework**: 243/243 correct predictions are functionally safe (100%)
-- **Combined**: 838/838 correct predictions are functionally safe (100%)
+- **Mockito**: 199/199 correct predictions are functionally safe (100%)
+- **TOTAL**: 1,313/1,313 correct predictions are functionally safe (100%)
 
 ### Testing Methodology
 - **Dual Testing Approach**: Simple Java tests + JUnit 5 + Mockito tests
@@ -170,7 +188,7 @@ scripts/working/
 ---
 
 **Analysis Date**: September 9, 2025  
-**Total Projects Completed**: 3/5 (Commons Lang, Kafka, Spring Framework)  
-**Total Test Cases**: 838 (337 Commons Lang + 258 Kafka + 243 Spring)  
+**Total Projects Completed**: 5/5 (ALL PROJECTS COMPLETE!)  
+**Total Test Cases**: 1,313 (337+276+258+243+199)  
 **Combined Functional Safety Rate**: 100%  
-**Research Status**: Ready for remaining 2 projects and mixed model analysis
+**Research Status**: COMPLETE - All 5 projects analyzed with 350-instance datasets

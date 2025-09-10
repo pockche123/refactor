@@ -1,0 +1,12 @@
+Expected answers for Batch 27:
+
+Test 1: Change Parameter Type
+Test 2: Add Parameter
+Test 3: Add Method Annotation
+Test 4: Add Method Annotation
+Test 5: Change Method Access Modifier
+Test 6: Change Variable Type
+Test 7: Add Thrown Exception Type
+Test 8: Change Variable Type
+Test 9: Change Variable Type
+Test 10: Change Variable Type

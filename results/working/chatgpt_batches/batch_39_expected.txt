@@ -1,0 +1,12 @@
+Expected answers for Batch 39:
+
+Test 1: Remove Method Annotation
+Test 2: Add Class Annotation
+Test 3: Change Return Type
+Test 4: Remove Parameter Annotation
+Test 5: Change Return Type
+Test 6: Replace Attribute With Variable
+Test 7: Add Method Annotation
+Test 8: Remove Method Annotation
+Test 9: Add Method Annotation
+Test 10: Remove Method Annotation

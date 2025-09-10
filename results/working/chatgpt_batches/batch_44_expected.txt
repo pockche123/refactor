@@ -1,0 +1,12 @@
+Expected answers for Batch 44:
+
+Test 1: Remove Thrown Exception Type
+Test 2: Rename Method
+Test 3: Rename Method
+Test 4: Change Parameter Type
+Test 5: Add Parameter
+Test 6: Change Method Access Modifier
+Test 7: Rename Parameter
+Test 8: Change Parameter Type
+Test 9: Extract Variable
+Test 10: Remove Parameter

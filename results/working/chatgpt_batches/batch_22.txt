@@ -1,0 +1,458 @@
+You are analyzing refactoring patterns in software development. I will give you 10 test cases to analyze.
+
+For each test case:
+1. Carefully analyze the BEFORE and AFTER code
+2. Identify the specific refactoring type applied
+3. Respond with: "Test X: REFACTORING_TYPE: [exact name]"
+
+REFACTORING TYPES TO CONSIDER:
+- Extract Method, Extract Variable, Extract Class
+- Inline Method, Inline Variable  
+- Rename Method, Rename Variable, Rename Parameter, Rename Attribute
+- Move Method, Move Class, Move Attribute
+- Change Method Access Modifier, Change Parameter Type, Change Return Type, Change Variable Type
+- Add Parameter, Remove Parameter, Change Parameter Type
+- Add Method Annotation, Remove Method Annotation, Modify Method Annotation
+- Add Parameter Annotation, Remove Parameter Annotation
+- Add Class Annotation, Remove Class Annotation
+- Parameterize Variable, Replace Generic With Diamond
+- Split Conditional, Merge Method
+- And many others...
+
+Here are the 10 test cases:
+
+
+=== TEST CASE 1 ===
+Project: KAFKA
+File: kafka_1
+
+BEFORE:
+```java
+public class Segments {
+    
+    public void processData(String count) {
+        int numItems = Integer.parseInt(count);
+        System.out.println("Processing " + numItems + " items");
+        
+        for (int i = 0; i < numItems; i++) {
+            processItem(i);
+        }
+    }
+    
+    private void processItem(int index) {
+        System.out.println("Item: " + index);
+    }
+}
+```
+
+AFTER:
+```java
+public class Segments {
+    
+    public void processData(int count) {
+        System.out.println("Processing " + count + " items");
+        
+        for (int i = 0; i < count; i++) {
+            processItem(i);
+        }
+    }
+    
+    private void processItem(int index) {
+        System.out.println("Item: " + index);
+    }
+}
+```
+
+
+=== TEST CASE 2 ===
+Project: KAFKA
+File: kafka_2
+
+BEFORE:
+```java
+public class KTableKTableJoinNode {
+    
+    public void processData(String count) {
+        int numItems = Integer.parseInt(count);
+        System.out.println("Processing " + numItems + " items");
+        
+        for (int i = 0; i < numItems; i++) {
+            processItem(i);
+        }
+    }
+    
+    private void processItem(int index) {
+        System.out.println("Item: " + index);
+    }
+}
+```
+
+AFTER:
+```java
+public class KTableKTableJoinNode {
+    
+    public void processData(int count) {
+        System.out.println("Processing " + count + " items");
+        
+        for (int i = 0; i < count; i++) {
+            processItem(i);
+        }
+    }
+    
+    private void processItem(int index) {
+        System.out.println("Item: " + index);
+    }
+}
+```
+
+
+=== TEST CASE 3 ===
+Project: KAFKA
+File: kafka_3
+
+BEFORE:
+```java
+public class TimeOrderedKeyValueBufferTest {
+    
+    public void processItems() {
+        String itemCount = "5";
+        System.out.println("Processing " + itemCount + " items");
+        
+        for (int i = 0; i < Integer.parseInt(itemCount); i++) {
+            processItem(i);
+        }
+    }
+    
+    private void processItem(int index) {
+        System.out.println("Processing item: " + index);
+    }
+}
+```
+
+AFTER:
+```java
+public class TimeOrderedKeyValueBufferTest {
+    
+    public void processItems() {
+        int itemCount = 5;
+        System.out.println("Processing " + itemCount + " items");
+        
+        for (int i = 0; i < itemCount; i++) {
+            processItem(i);
+        }
+    }
+    
+    private void processItem(int index) {
+        System.out.println("Processing item: " + index);
+    }
+}
+```
+
+
+=== TEST CASE 4 ===
+Project: KAFKA
+File: kafka_4
+
+BEFORE:
+```java
+public class RequestResponseTest {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toUpperCase() : "";
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+AFTER:
+```java
+public class RequestResponseTest {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toLowerCase() : "";  // Changed to toLowerCase
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+
+=== TEST CASE 5 ===
+Project: KAFKA
+File: kafka_5
+
+BEFORE:
+```java
+public class LogCaptureAppender {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toUpperCase() : "";
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+AFTER:
+```java
+public class LogCaptureAppender {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toLowerCase() : "";  // Changed to toLowerCase
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+
+=== TEST CASE 6 ===
+Project: KAFKA
+File: kafka_6
+
+BEFORE:
+```java
+public class WindowedWordCountProcessorTest {
+    
+    public void processItems() {
+        String itemCount = "5";
+        System.out.println("Processing " + itemCount + " items");
+        
+        for (int i = 0; i < Integer.parseInt(itemCount); i++) {
+            processItem(i);
+        }
+    }
+    
+    private void processItem(int index) {
+        System.out.println("Processing item: " + index);
+    }
+}
+```
+
+AFTER:
+```java
+public class WindowedWordCountProcessorTest {
+    
+    public void processItems() {
+        int itemCount = 5;
+        System.out.println("Processing " + itemCount + " items");
+        
+        for (int i = 0; i < itemCount; i++) {
+            processItem(i);
+        }
+    }
+    
+    private void processItem(int index) {
+        System.out.println("Processing item: " + index);
+    }
+}
+```
+
+
+=== TEST CASE 7 ===
+Project: KAFKA
+File: kafka_7
+
+BEFORE:
+```java
+public class MeteredVersionedKeyValueStoreTest {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+    }
+    
+    public String toString() {
+        return "DataProcessor[" + getClass().getSimpleName() + "]";
+    }
+}
+```
+
+AFTER:
+```java
+public class MeteredVersionedKeyValueStoreTest {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+    }
+    
+    @Override
+    public String toString() {
+        return "DataProcessor[" + getClass().getSimpleName() + "]";
+    }
+}
+```
+
+
+=== TEST CASE 8 ===
+Project: KAFKA
+File: kafka_8
+
+BEFORE:
+```java
+public class MeteredVersionedKeyValueStoreTest {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toUpperCase() : "";
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+AFTER:
+```java
+public class MeteredVersionedKeyValueStoreTest {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toLowerCase() : "";  // Changed to toLowerCase
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+
+=== TEST CASE 9 ===
+Project: KAFKA
+File: kafka_9
+
+BEFORE:
+```java
+public class LogCaptureAppender {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toUpperCase() : "";
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+AFTER:
+```java
+public class LogCaptureAppender {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toLowerCase() : "";  // Changed to toLowerCase
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+
+=== TEST CASE 10 ===
+Project: KAFKA
+File: kafka_10
+
+BEFORE:
+```java
+public class ShareConsumerTest {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toUpperCase() : "";
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+AFTER:
+```java
+public class ShareConsumerTest {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toLowerCase() : "";  // Changed to toLowerCase
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+
+Please analyze all 10 test cases above and provide your answers in this format:
+Test 1: REFACTORING_TYPE: [name]
+Test 2: REFACTORING_TYPE: [name]
+...
+Test 10: REFACTORING_TYPE: [name]

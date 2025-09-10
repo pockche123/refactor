@@ -1,0 +1,12 @@
+Expected answers for Batch 48:
+
+Test 1: Change Class Access Modifier
+Test 2: Change Method Access Modifier
+Test 3: Rename Parameter
+Test 4: Rename Parameter
+Test 5: Rename Method
+Test 6: Add Method Annotation
+Test 7: Remove Parameter
+Test 8: Change Return Type
+Test 9: Extract Variable
+Test 10: Rename Method

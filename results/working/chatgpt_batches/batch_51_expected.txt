@@ -1,0 +1,12 @@
+Expected answers for Batch 51:
+
+Test 1: Change Parameter Type
+Test 2: Remove Parameter
+Test 3: Extract Method
+Test 4: Rename Parameter
+Test 5: Change Return Type
+Test 6: Change Attribute Type
+Test 7: Remove Parameter
+Test 8: Remove Parameter
+Test 9: Change Attribute Type
+Test 10: Change Parameter Type

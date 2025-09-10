@@ -1,0 +1,12 @@
+Expected answers for Batch 32:
+
+Test 1: Add Parameter
+Test 2: Extract Method
+Test 3: Change Parameter Type
+Test 4: Change Parameter Type
+Test 5: Rename Attribute
+Test 6: Rename Variable
+Test 7: Add Parameter Annotation
+Test 8: Remove Method Annotation
+Test 9: Remove Attribute Annotation
+Test 10: Change Parameter Type

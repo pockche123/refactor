@@ -1,0 +1,12 @@
+Expected answers for Batch 30:
+
+Test 1: Change Variable Type
+Test 2: Change Variable Type
+Test 3: Replace Generic With Diamond
+Test 4: Remove Method Annotation
+Test 5: Assert Throws
+Test 6: Change Variable Type
+Test 7: Assert Throws
+Test 8: Add Method Annotation
+Test 9: Change Variable Type
+Test 10: Add Method Annotation

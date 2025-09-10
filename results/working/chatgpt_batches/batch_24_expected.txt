@@ -1,0 +1,12 @@
+Expected answers for Batch 24:
+
+Test 1: Replace Generic With Diamond
+Test 2: Split Conditional
+Test 3: Add Method Annotation
+Test 4: Inline Method
+Test 5: Remove Parameter
+Test 6: Change Variable Type
+Test 7: Add Parameter
+Test 8: Add Parameter
+Test 9: Add Method Annotation
+Test 10: Remove Method Annotation

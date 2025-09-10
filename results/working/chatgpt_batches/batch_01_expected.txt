@@ -1,0 +1,12 @@
+Expected answers for Batch 1:
+
+Test 1: Extract And Move Method
+Test 2: Parameterize Variable
+Test 3: Extract And Move Method
+Test 4: Extract And Move Method
+Test 5: Extract And Move Method
+Test 6: Remove Method Annotation
+Test 7: Extract And Move Method
+Test 8: Extract And Move Method
+Test 9: Extract And Move Method
+Test 10: Remove Method Annotation

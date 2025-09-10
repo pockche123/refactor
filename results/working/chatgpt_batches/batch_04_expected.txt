@@ -1,0 +1,12 @@
+Expected answers for Batch 4:
+
+Test 1: Extract And Move Method
+Test 2: Extract And Move Method
+Test 3: Extract And Move Method
+Test 4: Extract And Move Method
+Test 5: Extract And Move Method
+Test 6: Extract And Move Method
+Test 7: Extract And Move Method
+Test 8: Extract And Move Method
+Test 9: Rename Attribute
+Test 10: Extract Method

@@ -1,0 +1,12 @@
+Expected answers for Batch 34:
+
+Test 1: Remove Method Annotation
+Test 2: Change Attribute Type
+Test 3: Add Attribute Annotation
+Test 4: Remove Attribute Annotation
+Test 5: Change Return Type
+Test 6: Add Attribute Annotation
+Test 7: Remove Method Annotation
+Test 8: Remove Method Annotation
+Test 9: Invert Condition
+Test 10: Rename Attribute

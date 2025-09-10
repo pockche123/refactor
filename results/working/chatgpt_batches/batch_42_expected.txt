@@ -1,0 +1,12 @@
+Expected answers for Batch 42:
+
+Test 1: Change Parameter Type
+Test 2: Change Attribute Type
+Test 3: Remove Parameter Annotation
+Test 4: Modify Method Annotation
+Test 5: Localize Parameter
+Test 6: Change Return Type
+Test 7: Add Parameter Annotation
+Test 8: Remove Method Annotation
+Test 9: Remove Parameter Annotation
+Test 10: Change Return Type

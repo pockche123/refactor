@@ -1,0 +1,12 @@
+Expected answers for Batch 52:
+
+Test 1: Rename Parameter
+Test 2: Change Class Access Modifier
+Test 3: Rename Parameter
+Test 4: Change Attribute Access Modifier
+Test 5: Change Parameter Type
+Test 6: Change Class Access Modifier
+Test 7: Rename Parameter
+Test 8: Change Method Access Modifier
+Test 9: Move Class
+Test 10: Extract Method

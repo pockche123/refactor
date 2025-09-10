@@ -1,0 +1,12 @@
+Expected answers for Batch 11:
+
+Test 1: Extract And Move Method
+Test 2: Extract And Move Method
+Test 3: Extract And Move Method
+Test 4: Extract Method
+Test 5: Extract And Move Method
+Test 6: Add Method Annotation
+Test 7: Add Method Annotation
+Test 8: Replace Attribute With Variable
+Test 9: Add Parameter Annotation
+Test 10: Add Parameter Annotation

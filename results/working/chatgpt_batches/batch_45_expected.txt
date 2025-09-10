@@ -1,0 +1,12 @@
+Expected answers for Batch 45:
+
+Test 1: Change Class Access Modifier
+Test 2: Change Method Access Modifier
+Test 3: Remove Parameter
+Test 4: Change Method Access Modifier
+Test 5: Rename Parameter
+Test 6: Remove Parameter
+Test 7: Change Method Access Modifier
+Test 8: Add Method Annotation
+Test 9: Rename Method
+Test 10: Remove Parameter

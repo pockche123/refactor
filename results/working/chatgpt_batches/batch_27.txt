@@ -1,0 +1,446 @@
+You are analyzing refactoring patterns in software development. I will give you 10 test cases to analyze.
+
+For each test case:
+1. Carefully analyze the BEFORE and AFTER code
+2. Identify the specific refactoring type applied
+3. Respond with: "Test X: REFACTORING_TYPE: [exact name]"
+
+REFACTORING TYPES TO CONSIDER:
+- Extract Method, Extract Variable, Extract Class
+- Inline Method, Inline Variable  
+- Rename Method, Rename Variable, Rename Parameter, Rename Attribute
+- Move Method, Move Class, Move Attribute
+- Change Method Access Modifier, Change Parameter Type, Change Return Type, Change Variable Type
+- Add Parameter, Remove Parameter, Change Parameter Type
+- Add Method Annotation, Remove Method Annotation, Modify Method Annotation
+- Add Parameter Annotation, Remove Parameter Annotation
+- Add Class Annotation, Remove Class Annotation
+- Parameterize Variable, Replace Generic With Diamond
+- Split Conditional, Merge Method
+- And many others...
+
+Here are the 10 test cases:
+
+
+=== TEST CASE 1 ===
+Project: KAFKA
+File: kafka_51
+
+BEFORE:
+```java
+public class TimestampedSegments {
+    
+    public void processData(String count) {
+        int numItems = Integer.parseInt(count);
+        System.out.println("Processing " + numItems + " items");
+        
+        for (int i = 0; i < numItems; i++) {
+            processItem(i);
+        }
+    }
+    
+    private void processItem(int index) {
+        System.out.println("Item: " + index);
+    }
+}
+```
+
+AFTER:
+```java
+public class TimestampedSegments {
+    
+    public void processData(int count) {
+        System.out.println("Processing " + count + " items");
+        
+        for (int i = 0; i < count; i++) {
+            processItem(i);
+        }
+    }
+    
+    private void processItem(int index) {
+        System.out.println("Item: " + index);
+    }
+}
+```
+
+
+=== TEST CASE 2 ===
+Project: KAFKA
+File: kafka_52
+
+BEFORE:
+```java
+public class RemoteLogManager {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toUpperCase() : "";
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+AFTER:
+```java
+public class RemoteLogManager {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toLowerCase() : "";  // Changed to toLowerCase
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+
+=== TEST CASE 3 ===
+Project: KAFKA
+File: kafka_53
+
+BEFORE:
+```java
+public class MeteredVersionedKeyValueStoreTest {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+    }
+    
+    public String toString() {
+        return "DataProcessor[" + getClass().getSimpleName() + "]";
+    }
+}
+```
+
+AFTER:
+```java
+public class MeteredVersionedKeyValueStoreTest {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+    }
+    
+    @Override
+    public String toString() {
+        return "DataProcessor[" + getClass().getSimpleName() + "]";
+    }
+}
+```
+
+
+=== TEST CASE 4 ===
+Project: KAFKA
+File: kafka_54
+
+BEFORE:
+```java
+public class CachingPersistentSessionStoreTest {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+    }
+    
+    public String toString() {
+        return "DataProcessor[" + getClass().getSimpleName() + "]";
+    }
+}
+```
+
+AFTER:
+```java
+public class CachingPersistentSessionStoreTest {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+    }
+    
+    @Override
+    public String toString() {
+        return "DataProcessor[" + getClass().getSimpleName() + "]";
+    }
+}
+```
+
+
+=== TEST CASE 5 ===
+Project: KAFKA
+File: kafka_55
+
+BEFORE:
+```java
+public class TimeDefinitions {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toUpperCase() : "";
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+AFTER:
+```java
+public class TimeDefinitions {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toLowerCase() : "";  // Changed to toLowerCase
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+
+=== TEST CASE 6 ===
+Project: KAFKA
+File: kafka_56
+
+BEFORE:
+```java
+public class KTableSuppressProcessorTest {
+    
+    public void processItems() {
+        String itemCount = "5";
+        System.out.println("Processing " + itemCount + " items");
+        
+        for (int i = 0; i < Integer.parseInt(itemCount); i++) {
+            processItem(i);
+        }
+    }
+    
+    private void processItem(int index) {
+        System.out.println("Processing item: " + index);
+    }
+}
+```
+
+AFTER:
+```java
+public class KTableSuppressProcessorTest {
+    
+    public void processItems() {
+        int itemCount = 5;
+        System.out.println("Processing " + itemCount + " items");
+        
+        for (int i = 0; i < itemCount; i++) {
+            processItem(i);
+        }
+    }
+    
+    private void processItem(int index) {
+        System.out.println("Processing item: " + index);
+    }
+}
+```
+
+
+=== TEST CASE 7 ===
+Project: KAFKA
+File: kafka_57
+
+BEFORE:
+```java
+public class ShareConsumerTest {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toUpperCase() : "";
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+AFTER:
+```java
+public class ShareConsumerTest {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toLowerCase() : "";  // Changed to toLowerCase
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+
+=== TEST CASE 8 ===
+Project: KAFKA
+File: kafka_58
+
+BEFORE:
+```java
+public class KTableSuppressProcessorMetricsTest {
+    
+    public void processItems() {
+        String itemCount = "5";
+        System.out.println("Processing " + itemCount + " items");
+        
+        for (int i = 0; i < Integer.parseInt(itemCount); i++) {
+            processItem(i);
+        }
+    }
+    
+    private void processItem(int index) {
+        System.out.println("Processing item: " + index);
+    }
+}
+```
+
+AFTER:
+```java
+public class KTableSuppressProcessorMetricsTest {
+    
+    public void processItems() {
+        int itemCount = 5;
+        System.out.println("Processing " + itemCount + " items");
+        
+        for (int i = 0; i < itemCount; i++) {
+            processItem(i);
+        }
+    }
+    
+    private void processItem(int index) {
+        System.out.println("Processing item: " + index);
+    }
+}
+```
+
+
+=== TEST CASE 9 ===
+Project: KAFKA
+File: kafka_59
+
+BEFORE:
+```java
+public class SubscriptionSendProcessorSupplierTest {
+    
+    public void processItems() {
+        String itemCount = "5";
+        System.out.println("Processing " + itemCount + " items");
+        
+        for (int i = 0; i < Integer.parseInt(itemCount); i++) {
+            processItem(i);
+        }
+    }
+    
+    private void processItem(int index) {
+        System.out.println("Processing item: " + index);
+    }
+}
+```
+
+AFTER:
+```java
+public class SubscriptionSendProcessorSupplierTest {
+    
+    public void processItems() {
+        int itemCount = 5;
+        System.out.println("Processing " + itemCount + " items");
+        
+        for (int i = 0; i < itemCount; i++) {
+            processItem(i);
+        }
+    }
+    
+    private void processItem(int index) {
+        System.out.println("Processing item: " + index);
+    }
+}
+```
+
+
+=== TEST CASE 10 ===
+Project: KAFKA
+File: kafka_60
+
+BEFORE:
+```java
+public class TimeOrderedKeyValueBufferTest {
+    
+    public void processItems() {
+        String itemCount = "5";
+        System.out.println("Processing " + itemCount + " items");
+        
+        for (int i = 0; i < Integer.parseInt(itemCount); i++) {
+            processItem(i);
+        }
+    }
+    
+    private void processItem(int index) {
+        System.out.println("Processing item: " + index);
+    }
+}
+```
+
+AFTER:
+```java
+public class TimeOrderedKeyValueBufferTest {
+    
+    public void processItems() {
+        int itemCount = 5;
+        System.out.println("Processing " + itemCount + " items");
+        
+        for (int i = 0; i < itemCount; i++) {
+            processItem(i);
+        }
+    }
+    
+    private void processItem(int index) {
+        System.out.println("Processing item: " + index);
+    }
+}
+```
+
+
+Please analyze all 10 test cases above and provide your answers in this format:
+Test 1: REFACTORING_TYPE: [name]
+Test 2: REFACTORING_TYPE: [name]
+...
+Test 10: REFACTORING_TYPE: [name]

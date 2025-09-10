@@ -1,0 +1,12 @@
+Expected answers for Batch 23:
+
+Test 1: Add Method Annotation
+Test 2: Add Method Annotation
+Test 3: Move Attribute
+Test 4: Add Thrown Exception Type
+Test 5: Remove Thrown Exception Type
+Test 6: Remove Variable Annotation
+Test 7: Change Attribute Type
+Test 8: Change Variable Type
+Test 9: Move And Inline Method
+Test 10: Add Parameter

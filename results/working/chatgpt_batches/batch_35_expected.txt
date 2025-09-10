@@ -1,0 +1,12 @@
+Expected answers for Batch 35:
+
+Test 1: Remove Attribute Annotation
+Test 2: Remove Method Annotation
+Test 3: Remove Method Annotation
+Test 4: Remove Parameter Annotation
+Test 5: Change Return Type
+Test 6: Change Return Type
+Test 7: Change Parameter Type
+Test 8: Remove Method Annotation
+Test 9: Change Return Type
+Test 10: Change Return Type

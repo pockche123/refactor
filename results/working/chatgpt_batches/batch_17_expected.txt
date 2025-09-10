@@ -1,0 +1,12 @@
+Expected answers for Batch 17:
+
+Test 1: Change Attribute Type
+Test 2: Rename Variable
+Test 3: Add Parameter Annotation
+Test 4: Add Parameter Annotation
+Test 5: Replace Anonymous With Class
+Test 6: Rename Variable
+Test 7: Add Parameter Annotation
+Test 8: Extract Method
+Test 9: Move Class
+Test 10: Rename Method

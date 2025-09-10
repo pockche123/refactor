@@ -1,0 +1,12 @@
+Expected answers for Batch 49:
+
+Test 1: Remove Parameter
+Test 2: Add Method Annotation
+Test 3: Change Parameter Type
+Test 4: Remove Parameter
+Test 5: Rename Method
+Test 6: Change Attribute Type
+Test 7: Rename Method
+Test 8: Move Class
+Test 9: Rename Method
+Test 10: Remove Method Modifier

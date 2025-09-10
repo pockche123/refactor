@@ -1,0 +1,41 @@
+test_id,project,domain,refactoring_type,file_path,ml_prediction,ml_correct,model_type
+commons_lang_1,commons_lang,Utility Library,Extract And Move Method,src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java,Extract And Move Method,True,individual
+commons_lang_2,commons_lang,Utility Library,Extract And Move Method,src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,True,individual
+commons_lang_3,commons_lang,Utility Library,Add Class Modifier,src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Add Class Modifier,True,individual
+commons_lang_4,commons_lang,Utility Library,Add Class Modifier,src/main/java/org/apache/commons/lang3/time/DurationFormatUtils.java,Add Class Modifier,True,individual
+commons_lang_5,commons_lang,Utility Library,Parameterize Variable,src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Parameterize Variable,True,individual
+commons_lang_6,commons_lang,Utility Library,Parameterize Variable,src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Parameterize Variable,True,individual
+commons_lang_7,commons_lang,Utility Library,Rename Method,src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java,Rename Method,True,individual
+commons_lang_8,commons_lang,Utility Library,Rename Method,src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java,Rename Method,True,individual
+intellij_1,intellij,IDE,Add Parameter Annotation,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionPhase.java,Add Parameter Annotation,True,individual
+intellij_2,intellij,IDE,Add Parameter Annotation,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionPhase.java,Add Parameter Annotation,True,individual
+intellij_3,intellij,IDE,Change Method Access Modifier,platform/util/testSrc/com/intellij/util/EnvironmentUtilTest.java,Change Method Access Modifier,True,individual
+intellij_4,intellij,IDE,Change Method Access Modifier,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionPhase.java,Change Method Access Modifier,True,individual
+intellij_5,intellij,IDE,Add Method Annotation,platform/lang-impl/src/com/intellij/codeInsight/completion/CodeCompletionHandlerBase.java,Add Method Annotation,True,individual
+intellij_6,intellij,IDE,Add Method Annotation,platform/lang-impl/src/com/intellij/codeInsight/completion/CompletionProgressIndicator.java,Add Method Annotation,True,individual
+intellij_7,intellij,IDE,Change Variable Type,platform/platform-impl/src/com/intellij/openapi/wm/impl/welcomeScreen/ActionGroupPanelWrapper.java,Change Variable Type,True,individual
+intellij_8,intellij,IDE,Change Variable Type,platform/util/testSrc/com/intellij/util/EnvironmentUtilTest.java,Change Variable Type,True,individual
+kafka_1,kafka,Distributed Systems,Change Variable Type,streams/src/test/java/org/apache/kafka/streams/kstream/internals/KStreamWindowAggregateTest.java,Change Variable Type,True,individual
+kafka_2,kafka,Distributed Systems,Change Variable Type,streams/src/test/java/org/apache/kafka/streams/state/internals/TimeOrderedKeyValueBufferTest.java,Change Variable Type,True,individual
+kafka_3,kafka,Distributed Systems,Add Method Annotation,streams/src/test/java/org/apache/kafka/streams/state/internals/MeteredSessionStoreTest.java,Add Method Annotation,True,individual
+kafka_4,kafka,Distributed Systems,Add Method Annotation,streams/src/test/java/org/apache/kafka/streams/state/internals/metrics/RocksDBBlockCacheMetricsTest.java,Add Method Annotation,True,individual
+kafka_5,kafka,Distributed Systems,Rename Variable,streams/src/test/java/org/apache/kafka/streams/state/internals/MeteredVersionedKeyValueStoreTest.java,Rename Variable,True,individual
+kafka_6,kafka,Distributed Systems,Rename Variable,streams/test-utils/src/test/java/org/apache/kafka/streams/MockProcessorContextTest.java,Rename Variable,True,individual
+kafka_7,kafka,Distributed Systems,Change Attribute Type,streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java,Change Attribute Type,True,individual
+kafka_8,kafka,Distributed Systems,Change Attribute Type,streams/src/test/java/org/apache/kafka/test/MockInternalNewProcessorContext.java,Change Attribute Type,True,individual
+spring_1,spring,Enterprise Framework,Change Return Type,spring-websocket/src/main/java/org/springframework/web/socket/sockjs/frame/Jackson2SockJsMessageCodec.java,Change Return Type,True,individual
+spring_2,spring,Enterprise Framework,Change Return Type,spring-core/src/main/java/org/springframework/core/type/classreading/MergedAnnotationReadingVisitor.java,Change Return Type,True,individual
+spring_3,spring,Enterprise Framework,Remove Method Annotation,spring-web/src/main/java/org/springframework/web/client/RestTemplate.java,Remove Method Annotation,True,individual
+spring_4,spring,Enterprise Framework,Remove Method Annotation,spring-webmvc/src/main/java/org/springframework/web/servlet/mvc/method/annotation/ReactiveTypeHandler.java,Remove Method Annotation,True,individual
+spring_5,spring,Enterprise Framework,Change Parameter Type,spring-web/src/testFixtures/java/org/springframework/web/testfixture/method/ResolvableMethod.java,Change Parameter Type,True,individual
+spring_6,spring,Enterprise Framework,Change Parameter Type,spring-context/src/main/java/org/springframework/context/annotation/AnnotatedBeanDefinitionReader.java,Change Parameter Type,True,individual
+spring_7,spring,Enterprise Framework,Add Method Annotation,spring-web/src/main/java/org/springframework/web/cors/UrlBasedCorsConfigurationSource.java,Add Method Annotation,True,individual
+spring_8,spring,Enterprise Framework,Add Method Annotation,spring-test/src/test/java/org/springframework/test/web/servlet/StubMvcResult.java,Add Method Annotation,True,individual
+mockito_1,mockito,Testing Framework,Remove Parameter,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,Remove Parameter,True,individual
+mockito_2,mockito,Testing Framework,Remove Parameter,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,Remove Parameter,True,individual
+mockito_3,mockito,Testing Framework,Rename Method,mockito-core/src/test/java/org/mockito/MockitoTest.java,Rename Method,True,individual
+mockito_4,mockito,Testing Framework,Rename Method,mockito-core/src/test/java/org/mockitoutil/SimplePerRealmReloadingClassLoader.java,Rename Method,True,individual
+mockito_5,mockito,Testing Framework,Change Method Access Modifier,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,Change Method Access Modifier,True,individual
+mockito_6,mockito,Testing Framework,Change Method Access Modifier,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java,Change Method Access Modifier,True,individual
+mockito_7,mockito,Testing Framework,Change Attribute Type,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineDelegateByteBuddyMockMaker.java,Change Attribute Type,True,individual
+mockito_8,mockito,Testing Framework,Change Attribute Type,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.java,Change Attribute Type,True,individual

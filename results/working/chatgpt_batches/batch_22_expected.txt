@@ -1,0 +1,12 @@
+Expected answers for Batch 22:
+
+Test 1: Change Parameter Type
+Test 2: Change Parameter Type
+Test 3: Change Variable Type
+Test 4: Inline Variable
+Test 5: Rename Variable
+Test 6: Change Variable Type
+Test 7: Add Method Annotation
+Test 8: Rename Variable
+Test 9: Inline Variable
+Test 10: Remove Thrown Exception Type

@@ -1,0 +1,12 @@
+Expected answers for Batch 31:
+
+Test 1: Rename Parameter
+Test 2: Add Method Annotation
+Test 3: Change Variable Type
+Test 4: Change Variable Type
+Test 5: Add Method Annotation
+Test 6: Add Method Annotation
+Test 7: Change Return Type
+Test 8: Change Return Type
+Test 9: Remove Parameter
+Test 10: Change Variable Type

@@ -1,0 +1,12 @@
+Expected answers for Batch 16:
+
+Test 1: Add Class Annotation
+Test 2: Change Attribute Type
+Test 3: Add Parameter Annotation
+Test 4: Change Method Access Modifier
+Test 5: Add Parameter Annotation
+Test 6: Modify Class Annotation
+Test 7: Change Method Access Modifier
+Test 8: Change Method Access Modifier
+Test 9: Add Parameter Annotation
+Test 10: Extract Method

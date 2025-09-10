@@ -1,0 +1,12 @@
+Expected answers for Batch 33:
+
+Test 1: Rename Method
+Test 2: Move Method
+Test 3: Change Return Type
+Test 4: Change Attribute Type
+Test 5: Remove Method Annotation
+Test 6: Change Variable Type
+Test 7: Change Parameter Type
+Test 8: Change Parameter Type
+Test 9: Change Attribute Type
+Test 10: Modify Method Annotation

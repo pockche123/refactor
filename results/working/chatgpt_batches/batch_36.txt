@@ -1,0 +1,473 @@
+You are analyzing refactoring patterns in software development. I will give you 10 test cases to analyze.
+
+For each test case:
+1. Carefully analyze the BEFORE and AFTER code
+2. Identify the specific refactoring type applied
+3. Respond with: "Test X: REFACTORING_TYPE: [exact name]"
+
+REFACTORING TYPES TO CONSIDER:
+- Extract Method, Extract Variable, Extract Class
+- Inline Method, Inline Variable  
+- Rename Method, Rename Variable, Rename Parameter, Rename Attribute
+- Move Method, Move Class, Move Attribute
+- Change Method Access Modifier, Change Parameter Type, Change Return Type, Change Variable Type
+- Add Parameter, Remove Parameter, Change Parameter Type
+- Add Method Annotation, Remove Method Annotation, Modify Method Annotation
+- Add Parameter Annotation, Remove Parameter Annotation
+- Add Class Annotation, Remove Class Annotation
+- Parameterize Variable, Replace Generic With Diamond
+- Split Conditional, Merge Method
+- And many others...
+
+Here are the 10 test cases:
+
+
+=== TEST CASE 1 ===
+Project: SPRING
+File: spring_36
+
+BEFORE:
+```java
+public class DefaultRestClient {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toUpperCase() : "";
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+AFTER:
+```java
+public class DefaultRestClient {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toLowerCase() : "";  // Changed to toLowerCase
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+
+=== TEST CASE 2 ===
+Project: SPRING
+File: spring_37
+
+BEFORE:
+```java
+public class RepeatableContainers {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toUpperCase() : "";
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+AFTER:
+```java
+public class RepeatableContainers {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toLowerCase() : "";  // Changed to toLowerCase
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+
+=== TEST CASE 3 ===
+Project: SPRING
+File: spring_38
+
+BEFORE:
+```java
+public class JdbcOperations {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toUpperCase() : "";
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+AFTER:
+```java
+public class JdbcOperations {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toLowerCase() : "";  // Changed to toLowerCase
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+
+=== TEST CASE 4 ===
+Project: SPRING
+File: spring_39
+
+BEFORE:
+```java
+public class XpathExpectationsHelper {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toUpperCase() : "";
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+AFTER:
+```java
+public class XpathExpectationsHelper {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toLowerCase() : "";  // Changed to toLowerCase
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+
+=== TEST CASE 5 ===
+Project: SPRING
+File: spring_40
+
+BEFORE:
+```java
+public class ReflectionHintsPredicatesTests {
+    
+    public void processData(String input) {
+        String result = transformInput(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String transformInput(String input) {
+        return input != null ? input.toUpperCase() : "";
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+AFTER:
+```java
+public class ReflectionHintsPredicatesTests {
+    
+    public void processData(String input) {
+        String result = convertInput(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String convertInput(String input) {
+        return input != null ? input.toUpperCase() : "";
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+
+=== TEST CASE 6 ===
+Project: SPRING
+File: spring_41
+
+BEFORE:
+```java
+public class WebContentGenerator {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toUpperCase() : "";
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+AFTER:
+```java
+public class WebContentGenerator {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toLowerCase() : "";  // Changed to toLowerCase
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+
+=== TEST CASE 7 ===
+Project: SPRING
+File: spring_42
+
+BEFORE:
+```java
+public class HibernateQueryException {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toUpperCase() : "";
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+AFTER:
+```java
+public class HibernateQueryException {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toLowerCase() : "";  // Changed to toLowerCase
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+
+=== TEST CASE 8 ===
+Project: SPRING
+File: spring_43
+
+BEFORE:
+```java
+public class Token {
+    
+    public void processData(String input, boolean verbose) {
+        if (verbose) {
+            System.out.println("Processing: " + input);
+        }
+        
+        String result = input != null ? input.toUpperCase() : "";
+        System.out.println("Result: " + result);
+    }
+    
+    public String getInfo() {
+        return "Data processor";
+    }
+}
+```
+
+AFTER:
+```java
+public class Token {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        
+        String result = input != null ? input.toUpperCase() : "";
+        System.out.println("Result: " + result);
+    }
+    
+    public String getInfo() {
+        return "Data processor";
+    }
+}
+```
+
+
+=== TEST CASE 9 ===
+Project: SPRING
+File: spring_44
+
+BEFORE:
+```java
+public class ApplicationListenerMethodAdapter {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toUpperCase() : "";
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+AFTER:
+```java
+public class ApplicationListenerMethodAdapter {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toLowerCase() : "";  // Changed to toLowerCase
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+
+=== TEST CASE 10 ===
+Project: SPRING
+File: spring_45
+
+BEFORE:
+```java
+public class SpringValidatorAdapter {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toUpperCase() : "";
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+AFTER:
+```java
+public class SpringValidatorAdapter {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toLowerCase() : "";  // Changed to toLowerCase
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+
+Please analyze all 10 test cases above and provide your answers in this format:
+Test 1: REFACTORING_TYPE: [name]
+Test 2: REFACTORING_TYPE: [name]
+...
+Test 10: REFACTORING_TYPE: [name]

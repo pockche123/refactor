@@ -1,0 +1,12 @@
+Expected answers for Batch 28:
+
+Test 1: Extract Method
+Test 2: Change Variable Type
+Test 3: Rename Parameter
+Test 4: Change Attribute Type
+Test 5: Rename Variable
+Test 6: Remove Attribute Annotation
+Test 7: Change Variable Type
+Test 8: Remove Method Annotation
+Test 9: Change Variable Type
+Test 10: Extract Variable

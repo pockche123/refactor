@@ -1,0 +1,479 @@
+You are analyzing refactoring patterns in software development. I will give you 10 test cases to analyze.
+
+For each test case:
+1. Carefully analyze the BEFORE and AFTER code
+2. Identify the specific refactoring type applied
+3. Respond with: "Test X: REFACTORING_TYPE: [exact name]"
+
+REFACTORING TYPES TO CONSIDER:
+- Extract Method, Extract Variable, Extract Class
+- Inline Method, Inline Variable  
+- Rename Method, Rename Variable, Rename Parameter, Rename Attribute
+- Move Method, Move Class, Move Attribute
+- Change Method Access Modifier, Change Parameter Type, Change Return Type, Change Variable Type
+- Add Parameter, Remove Parameter, Change Parameter Type
+- Add Method Annotation, Remove Method Annotation, Modify Method Annotation
+- Add Parameter Annotation, Remove Parameter Annotation
+- Add Class Annotation, Remove Class Annotation
+- Parameterize Variable, Replace Generic With Diamond
+- Split Conditional, Merge Method
+- And many others...
+
+Here are the 10 test cases:
+
+
+=== TEST CASE 1 ===
+Project: COMMONS_LANG
+File: commons_lang_51
+
+BEFORE:
+```java
+public class DateUtilsTest {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toUpperCase() : "";
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+AFTER:
+```java
+public class DateUtilsTest {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toLowerCase() : "";  // Changed to toLowerCase
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+
+=== TEST CASE 2 ===
+Project: COMMONS_LANG
+File: commons_lang_52
+
+BEFORE:
+```java
+public class ValidateTest {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toUpperCase() : "";
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+AFTER:
+```java
+public class ValidateTest {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toLowerCase() : "";  // Changed to toLowerCase
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+
+=== TEST CASE 3 ===
+Project: COMMONS_LANG
+File: commons_lang_53
+
+BEFORE:
+```java
+public class FieldUtilsTest {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toUpperCase() : "";
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+AFTER:
+```java
+public class FieldUtilsTest {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toLowerCase() : "";  // Changed to toLowerCase
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+
+=== TEST CASE 4 ===
+Project: COMMONS_LANG
+File: commons_lang_54
+
+BEFORE:
+```java
+public class ConcurrentUtilsTest {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toUpperCase() : "";
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+AFTER:
+```java
+public class ConcurrentUtilsTest {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toLowerCase() : "";  // Changed to toLowerCase
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+
+=== TEST CASE 5 ===
+Project: COMMONS_LANG
+File: commons_lang_55
+
+BEFORE:
+```java
+public class CharRangeTest {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toUpperCase() : "";
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+AFTER:
+```java
+public class CharRangeTest {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toLowerCase() : "";  // Changed to toLowerCase
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+
+=== TEST CASE 6 ===
+Project: COMMONS_LANG
+File: commons_lang_56
+
+BEFORE:
+```java
+public class StrBuilderTest {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toUpperCase() : "";
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+AFTER:
+```java
+public class StrBuilderTest {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toLowerCase() : "";  // Changed to toLowerCase
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+
+=== TEST CASE 7 ===
+Project: COMMONS_LANG
+File: commons_lang_57
+
+BEFORE:
+```java
+public class FieldUtilsTest {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toUpperCase() : "";
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+AFTER:
+```java
+public class FieldUtilsTest {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toLowerCase() : "";  // Changed to toLowerCase
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+
+=== TEST CASE 8 ===
+Project: COMMONS_LANG
+File: commons_lang_58
+
+BEFORE:
+```java
+public class MutableBoolean {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toUpperCase() : "";
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+AFTER:
+```java
+public class MutableBoolean {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toLowerCase() : "";  // Changed to toLowerCase
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+
+=== TEST CASE 9 ===
+Project: COMMONS_LANG
+File: commons_lang_59
+
+BEFORE:
+```java
+public class DoubleRangeTest {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toUpperCase() : "";
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+AFTER:
+```java
+public class DoubleRangeTest {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toLowerCase() : "";  // Changed to toLowerCase
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+
+=== TEST CASE 10 ===
+Project: COMMONS_LANG
+File: commons_lang_60
+
+BEFORE:
+```java
+public class LocaleUtilsTest {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toUpperCase() : "";
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+AFTER:
+```java
+public class LocaleUtilsTest {
+    
+    public void processData(String input) {
+        System.out.println("Processing: " + input);
+        String result = performOperation(input);
+        System.out.println("Result: " + result);
+    }
+    
+    private String performOperation(String input) {
+        return input != null ? input.toLowerCase() : "";  // Changed to toLowerCase
+    }
+    
+    public String getStatus() {
+        return "active";
+    }
+}
+```
+
+
+Please analyze all 10 test cases above and provide your answers in this format:
+Test 1: REFACTORING_TYPE: [name]
+Test 2: REFACTORING_TYPE: [name]
+...
+Test 10: REFACTORING_TYPE: [name]

@@ -1,0 +1,1717 @@
+test_id,project,domain,actual_refactoring,before_code,after_code,llm_prompt
+commons_lang_1,commons_lang,Utility Library,Extract And Move Method,"public class StringUtils {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","public class StringUtils {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class StringUtils {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+AFTER:
+```java
+public class StringUtils {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+commons_lang_2,commons_lang,Utility Library,Extract And Move Method,"public class StringUtils {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","public class StringUtils {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class StringUtils {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+AFTER:
+```java
+public class StringUtils {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+commons_lang_3,commons_lang,Utility Library,Add Class Modifier,"public class StringUtils {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","public class StringUtils {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class StringUtils {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+AFTER:
+```java
+public class StringUtils {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+commons_lang_4,commons_lang,Utility Library,Add Class Modifier,"public class StringUtils {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","public class StringUtils {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class StringUtils {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+AFTER:
+```java
+public class StringUtils {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+commons_lang_5,commons_lang,Utility Library,Parameterize Variable,"public class StringUtils {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","public class StringUtils {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class StringUtils {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+AFTER:
+```java
+public class StringUtils {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+commons_lang_6,commons_lang,Utility Library,Parameterize Variable,"public class StringUtils {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","public class StringUtils {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class StringUtils {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+AFTER:
+```java
+public class StringUtils {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+commons_lang_7,commons_lang,Utility Library,Rename Method,"public class StringUtils {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","public class StringUtils {
+    public void handleData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class StringUtils {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+AFTER:
+```java
+public class StringUtils {
+    public void handleData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+commons_lang_8,commons_lang,Utility Library,Rename Method,"public class StringUtils {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","public class StringUtils {
+    public void handleData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class StringUtils {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+AFTER:
+```java
+public class StringUtils {
+    public void handleData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+intellij_1,intellij,IDE,Add Parameter Annotation,"public class IDEComponent {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","public class IDEComponent {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class IDEComponent {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+AFTER:
+```java
+public class IDEComponent {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+intellij_2,intellij,IDE,Add Parameter Annotation,"public class IDEComponent {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","public class IDEComponent {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class IDEComponent {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+AFTER:
+```java
+public class IDEComponent {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+intellij_3,intellij,IDE,Change Method Access Modifier,"public class IDEComponent {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","public class IDEComponent {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class IDEComponent {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+AFTER:
+```java
+public class IDEComponent {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+intellij_4,intellij,IDE,Change Method Access Modifier,"public class IDEComponent {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","public class IDEComponent {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class IDEComponent {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+AFTER:
+```java
+public class IDEComponent {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+intellij_5,intellij,IDE,Add Method Annotation,"public class IDEComponent {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+}","public class IDEComponent {
+    @Override
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class IDEComponent {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+}
+```
+
+AFTER:
+```java
+public class IDEComponent {
+    @Override
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+intellij_6,intellij,IDE,Add Method Annotation,"public class IDEComponent {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+}","public class IDEComponent {
+    @Override
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class IDEComponent {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+}
+```
+
+AFTER:
+```java
+public class IDEComponent {
+    @Override
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+intellij_7,intellij,IDE,Change Variable Type,"public class IDEComponent {
+    public void processData() {
+        String count = ""5"";
+        System.out.println(""Processing "" + count + "" items"");
+    }
+}","public class IDEComponent {
+    public void processData() {
+        int count = 5;
+        System.out.println(""Processing "" + count + "" items"");
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class IDEComponent {
+    public void processData() {
+        String count = ""5"";
+        System.out.println(""Processing "" + count + "" items"");
+    }
+}
+```
+
+AFTER:
+```java
+public class IDEComponent {
+    public void processData() {
+        int count = 5;
+        System.out.println(""Processing "" + count + "" items"");
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+intellij_8,intellij,IDE,Change Variable Type,"public class IDEComponent {
+    public void processData() {
+        String count = ""5"";
+        System.out.println(""Processing "" + count + "" items"");
+    }
+}","public class IDEComponent {
+    public void processData() {
+        int count = 5;
+        System.out.println(""Processing "" + count + "" items"");
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class IDEComponent {
+    public void processData() {
+        String count = ""5"";
+        System.out.println(""Processing "" + count + "" items"");
+    }
+}
+```
+
+AFTER:
+```java
+public class IDEComponent {
+    public void processData() {
+        int count = 5;
+        System.out.println(""Processing "" + count + "" items"");
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+kafka_1,kafka,Distributed Systems,Change Variable Type,"public class StreamProcessor {
+    public void processData() {
+        String count = ""5"";
+        System.out.println(""Processing "" + count + "" items"");
+    }
+}","public class StreamProcessor {
+    public void processData() {
+        int count = 5;
+        System.out.println(""Processing "" + count + "" items"");
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class StreamProcessor {
+    public void processData() {
+        String count = ""5"";
+        System.out.println(""Processing "" + count + "" items"");
+    }
+}
+```
+
+AFTER:
+```java
+public class StreamProcessor {
+    public void processData() {
+        int count = 5;
+        System.out.println(""Processing "" + count + "" items"");
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+kafka_2,kafka,Distributed Systems,Change Variable Type,"public class StreamProcessor {
+    public void processData() {
+        String count = ""5"";
+        System.out.println(""Processing "" + count + "" items"");
+    }
+}","public class StreamProcessor {
+    public void processData() {
+        int count = 5;
+        System.out.println(""Processing "" + count + "" items"");
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class StreamProcessor {
+    public void processData() {
+        String count = ""5"";
+        System.out.println(""Processing "" + count + "" items"");
+    }
+}
+```
+
+AFTER:
+```java
+public class StreamProcessor {
+    public void processData() {
+        int count = 5;
+        System.out.println(""Processing "" + count + "" items"");
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+kafka_3,kafka,Distributed Systems,Add Method Annotation,"public class StreamProcessor {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+}","public class StreamProcessor {
+    @Override
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class StreamProcessor {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+}
+```
+
+AFTER:
+```java
+public class StreamProcessor {
+    @Override
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+kafka_4,kafka,Distributed Systems,Add Method Annotation,"public class StreamProcessor {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+}","public class StreamProcessor {
+    @Override
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class StreamProcessor {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+}
+```
+
+AFTER:
+```java
+public class StreamProcessor {
+    @Override
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+kafka_5,kafka,Distributed Systems,Rename Variable,"public class StreamProcessor {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","public class StreamProcessor {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class StreamProcessor {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+AFTER:
+```java
+public class StreamProcessor {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+kafka_6,kafka,Distributed Systems,Rename Variable,"public class StreamProcessor {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","public class StreamProcessor {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class StreamProcessor {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+AFTER:
+```java
+public class StreamProcessor {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+kafka_7,kafka,Distributed Systems,Change Attribute Type,"public class StreamProcessor {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","public class StreamProcessor {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class StreamProcessor {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+AFTER:
+```java
+public class StreamProcessor {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+kafka_8,kafka,Distributed Systems,Change Attribute Type,"public class StreamProcessor {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","public class StreamProcessor {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class StreamProcessor {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+AFTER:
+```java
+public class StreamProcessor {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+spring_1,spring,Enterprise Framework,Change Return Type,"public class SpringService {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","public class SpringService {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class SpringService {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+AFTER:
+```java
+public class SpringService {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+spring_2,spring,Enterprise Framework,Change Return Type,"public class SpringService {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","public class SpringService {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class SpringService {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+AFTER:
+```java
+public class SpringService {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+spring_3,spring,Enterprise Framework,Remove Method Annotation,"public class SpringService {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","public class SpringService {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class SpringService {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+AFTER:
+```java
+public class SpringService {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+spring_4,spring,Enterprise Framework,Remove Method Annotation,"public class SpringService {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","public class SpringService {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class SpringService {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+AFTER:
+```java
+public class SpringService {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+spring_5,spring,Enterprise Framework,Change Parameter Type,"public class SpringService {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","public class SpringService {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class SpringService {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+AFTER:
+```java
+public class SpringService {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+spring_6,spring,Enterprise Framework,Change Parameter Type,"public class SpringService {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","public class SpringService {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class SpringService {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+AFTER:
+```java
+public class SpringService {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+spring_7,spring,Enterprise Framework,Add Method Annotation,"public class SpringService {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+}","public class SpringService {
+    @Override
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class SpringService {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+}
+```
+
+AFTER:
+```java
+public class SpringService {
+    @Override
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+spring_8,spring,Enterprise Framework,Add Method Annotation,"public class SpringService {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+}","public class SpringService {
+    @Override
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class SpringService {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+}
+```
+
+AFTER:
+```java
+public class SpringService {
+    @Override
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+mockito_1,mockito,Testing Framework,Remove Parameter,"public class TestHelper {
+    public void processData(String context) {
+        System.out.println(""Processing data with context: "" + context);
+    }
+}","public class TestHelper {
+    public void processData() {
+        System.out.println(""Processing data with context: default"");
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class TestHelper {
+    public void processData(String context) {
+        System.out.println(""Processing data with context: "" + context);
+    }
+}
+```
+
+AFTER:
+```java
+public class TestHelper {
+    public void processData() {
+        System.out.println(""Processing data with context: default"");
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+mockito_2,mockito,Testing Framework,Remove Parameter,"public class TestHelper {
+    public void processData(String context) {
+        System.out.println(""Processing data with context: "" + context);
+    }
+}","public class TestHelper {
+    public void processData() {
+        System.out.println(""Processing data with context: default"");
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class TestHelper {
+    public void processData(String context) {
+        System.out.println(""Processing data with context: "" + context);
+    }
+}
+```
+
+AFTER:
+```java
+public class TestHelper {
+    public void processData() {
+        System.out.println(""Processing data with context: default"");
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+mockito_3,mockito,Testing Framework,Rename Method,"public class TestHelper {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","public class TestHelper {
+    public void handleData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class TestHelper {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+AFTER:
+```java
+public class TestHelper {
+    public void handleData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+mockito_4,mockito,Testing Framework,Rename Method,"public class TestHelper {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","public class TestHelper {
+    public void handleData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class TestHelper {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+AFTER:
+```java
+public class TestHelper {
+    public void handleData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+mockito_5,mockito,Testing Framework,Change Method Access Modifier,"public class TestHelper {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","public class TestHelper {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class TestHelper {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+AFTER:
+```java
+public class TestHelper {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+mockito_6,mockito,Testing Framework,Change Method Access Modifier,"public class TestHelper {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","public class TestHelper {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class TestHelper {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+AFTER:
+```java
+public class TestHelper {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+mockito_7,mockito,Testing Framework,Change Attribute Type,"public class TestHelper {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","public class TestHelper {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class TestHelper {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+AFTER:
+```java
+public class TestHelper {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"
+mockito_8,mockito,Testing Framework,Change Attribute Type,"public class TestHelper {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","public class TestHelper {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}","
+I will show you two versions of Java code - before and after a refactoring. Please identify the specific type of refactoring that was applied.
+
+BEFORE:
+```java
+public class TestHelper {
+    public void processData() {
+        System.out.println(""Processing data"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+AFTER:
+```java
+public class TestHelper {
+    public void processData() {
+        System.out.println(""Processing data - modified"");
+    }
+    
+    public String getInfo() {
+        return ""Component info"";
+    }
+}
+```
+
+What type of refactoring was applied? Please provide just the refactoring type name (e.g., ""Extract Method"", ""Rename Variable"", ""Change Parameter Type"", etc.).
+"

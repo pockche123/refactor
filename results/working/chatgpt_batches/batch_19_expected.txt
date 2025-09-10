@@ -1,0 +1,12 @@
+Expected answers for Batch 19:
+
+Test 1: Change Method Access Modifier
+Test 2: Add Parameter Annotation
+Test 3: Add Method Annotation
+Test 4: Add Class Annotation
+Test 5: Change Variable Type
+Test 6: Add Attribute Annotation
+Test 7: Add Attribute Annotation
+Test 8: Change Attribute Type
+Test 9: Rename Variable
+Test 10: Rename Method

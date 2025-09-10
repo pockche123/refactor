@@ -1,0 +1,12 @@
+Expected answers for Batch 36:
+
+Test 1: Change Return Type
+Test 2: Remove Method Annotation
+Test 3: Add Parameter Annotation
+Test 4: Remove Method Annotation
+Test 5: Rename Method
+Test 6: Change Attribute Type
+Test 7: Extract Variable
+Test 8: Remove Parameter Annotation
+Test 9: Remove Method Annotation
+Test 10: Change Attribute Type

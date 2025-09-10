@@ -1,0 +1,11 @@
+test_id,project,actual_type,predicted_type,llm_response,correct
+commons_lang_1,commons_lang,Extract And Move Method,Change Return Type,REFACTORING_TYPE: Change Return Type,False
+commons_lang_2,commons_lang,Parameterize Variable,Change Return Type,REFACTORING_TYPE: Change Return Type,False
+commons_lang_3,commons_lang,Extract And Move Method,Change Return Type,REFACTORING_TYPE: Change Return Type,False
+commons_lang_4,commons_lang,Extract And Move Method,Change Return Type,REFACTORING_TYPE: Change Return Type,False
+commons_lang_5,commons_lang,Extract And Move Method,Change Return Type,REFACTORING_TYPE: Change Return Type,False
+commons_lang_6,commons_lang,Remove Method Annotation,Change Method Body,REFACTORING_TYPE: Change Method Body,False
+commons_lang_7,commons_lang,Extract And Move Method,Change Method Body,REFACTORING_TYPE: Change Method Body,False
+commons_lang_8,commons_lang,Extract And Move Method,Change Method Body,REFACTORING_TYPE: Change Method Body,False
+commons_lang_9,commons_lang,Extract And Move Method,Change Return Type,REFACTORING_TYPE: Change Return Type,False
+commons_lang_10,commons_lang,Remove Method Annotation,Change Return Type,REFACTORING_TYPE: Change Return Type,False

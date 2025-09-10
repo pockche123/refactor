@@ -1,0 +1,7 @@
+Expected answers for Batch 53:
+
+Test 1: Rename Method
+Test 2: Remove Parameter
+Test 3: Remove Parameter
+Test 4: Change Method Access Modifier
+Test 5: Rename Method

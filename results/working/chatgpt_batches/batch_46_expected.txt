@@ -1,0 +1,12 @@
+Expected answers for Batch 46:
+
+Test 1: Remove Parameter
+Test 2: Rename Method
+Test 3: Change Method Access Modifier
+Test 4: Remove Parameter
+Test 5: Add Parameter
+Test 6: Rename Method
+Test 7: Change Return Type
+Test 8: Change Parameter Type
+Test 9: Change Return Type
+Test 10: Extract Variable

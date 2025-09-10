@@ -1,0 +1,12 @@
+Expected answers for Batch 47:
+
+Test 1: Move Class
+Test 2: Change Class Access Modifier
+Test 3: Extract Variable
+Test 4: Change Parameter Type
+Test 5: Rename Method
+Test 6: Add Parameter
+Test 7: Change Parameter Type
+Test 8: Rename Method
+Test 9: Remove Variable Modifier
+Test 10: Change Return Type

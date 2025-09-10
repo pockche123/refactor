@@ -1,0 +1,12 @@
+Expected answers for Batch 18:
+
+Test 1: Add Parameter Annotation
+Test 2: Add Parameter Annotation
+Test 3: Extract Variable
+Test 4: Add Attribute Annotation
+Test 5: Change Variable Type
+Test 6: Change Variable Type
+Test 7: Add Parameter Annotation
+Test 8: Add Parameter Annotation
+Test 9: Extract Method
+Test 10: Add Method Annotation

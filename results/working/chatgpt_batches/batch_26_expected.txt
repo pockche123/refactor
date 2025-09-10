@@ -1,0 +1,12 @@
+Expected answers for Batch 26:
+
+Test 1: Replace Generic With Diamond
+Test 2: Rename Method
+Test 3: Add Method Annotation
+Test 4: Add Parameter
+Test 5: Change Variable Type
+Test 6: Rename Parameter
+Test 7: Change Variable Type
+Test 8: Add Attribute Annotation
+Test 9: Add Method Annotation
+Test 10: Add Method Annotation

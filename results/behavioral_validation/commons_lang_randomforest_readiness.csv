@@ -1,0 +1,106 @@
+commit_sha,file_path,predicted_type,actual_type,ml_correct,lines_changed,complexity,nesting_depth,has_commit_sha,has_file_path,reasonable_lines,reasonable_complexity,pattern_match
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,Extract And Move Method,True,16,5,3,True,True,True,True,True
+b0416341dd056e65d98c294bd0395f9b1f925b9c,src/main/java/org/apache/commons/lang3/ClassUtils.java,Rename Attribute,Rename Attribute,True,2,1,1,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,Extract And Move Method,True,30,10,4,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java,Extract And Move Method,Extract And Move Method,True,16,5,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,Extract And Move Method,True,16,5,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java,Extract And Move Method,Extract And Move Method,True,14,4,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,Extract And Move Method,True,14,4,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,Extract And Move Method,True,14,4,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/reflect/TypeLiteralTest.java,Extract And Move Method,Extract And Move Method,True,20,6,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java,Extract And Move Method,Extract And Move Method,True,40,10,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,Extract And Move Method,True,14,4,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/StringEscapeUtilsTest.java,Extract And Move Method,Extract And Move Method,True,27,9,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/builder/HashCodeBuilderTest.java,Extract And Move Method,Extract And Move Method,True,14,4,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/StringEscapeUtilsTest.java,Extract And Move Method,Extract And Move Method,True,33,10,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/concurrent/BasicThreadFactoryTest.java,Extract And Move Method,Extract And Move Method,True,20,6,3,True,True,True,True,True
+2355c541cbd2e753cfbc69d6ea2e4ffbb21cf7a8,src/main/java/org/apache/commons/lang3/concurrent/EventCountCircuitBreaker.java,Change Return Type,Change Return Type,True,26,8,2,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,Extract And Move Method,True,44,10,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,Extract And Move Method,True,14,4,3,True,True,True,True,True
+0a423672fb79d5af4cefd4dde2215af1702c7ae4,src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java,Rename Method,Rename Method,True,13,4,1,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java,Extract And Move Method,Extract And Move Method,True,14,4,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/mutable/MutableBooleanTest.java,Extract And Move Method,Extract And Move Method,True,16,5,3,True,True,True,True,True
+6af506d486c4e910418d84241e1c63a7fd2f3453,src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java,Rename Method,Rename Method,True,13,4,1,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/event/EventListenerSupportTest.java,Extract And Move Method,Extract And Move Method,True,16,5,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java,Extract And Move Method,Extract And Move Method,True,14,4,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/ClassPathUtilsTest.java,Extract And Move Method,Extract And Move Method,True,14,4,3,True,True,True,True,True
+2660bbad3b319de5f421cbdd0a32285ad71e5df1,src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Extract Variable,Remove Method Modifier,False,14,4,1,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/mutable/MutableDoubleTest.java,Extract And Move Method,Extract And Move Method,True,14,4,3,True,True,True,True,True
+7775bf5a2e0fdb051e826b2092b68f827d54a25f,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,Extract And Move Method,Extract Method,False,273,10,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/EnumUtilsTest.java,Extract And Move Method,Extract And Move Method,True,14,4,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java,Extract And Move Method,Extract And Move Method,True,40,10,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,Extract And Move Method,True,44,10,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/concurrent/CallableBackgroundInitializerTest.java,Extract And Move Method,Extract And Move Method,True,22,7,3,True,True,True,True,True
+2660bbad3b319de5f421cbdd0a32285ad71e5df1,src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Add Class Modifier,Add Class Modifier,True,86,10,1,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java,Extract And Move Method,Extract And Move Method,True,14,4,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java,Extract And Move Method,Extract And Move Method,True,35,10,3,True,True,True,True,True
+0aef0dbb737cfbd7dfc9d26450b76f3b39dd836d,src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java,Rename Method,Rename Method,True,24,8,1,True,True,True,True,True
+bf0ea77dbfb6877d8a3385baf9eb470b51a31f47,src/main/java/org/apache/commons/lang3/StringEscapeUtils.java,Change Class Access Modifier,Add Class Modifier,False,58,10,1,True,True,True,True,True
+2660bbad3b319de5f421cbdd0a32285ad71e5df1,src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Add Class Modifier,Add Class Modifier,True,50,10,1,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/function/MethodInvokersBiFunctionTest.java,Extract And Move Method,Extract And Move Method,True,14,4,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,Extract And Move Method,True,14,4,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/RangeTest.java,Extract And Move Method,Extract And Move Method,True,70,10,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/DoubleRangeTest.java,Extract And Move Method,Extract And Move Method,True,26,8,3,True,True,True,True,True
+b0416341dd056e65d98c294bd0395f9b1f925b9c,src/main/java/org/apache/commons/lang3/ClassUtils.java,Rename Attribute,Rename Attribute,True,2,1,1,True,True,True,True,True
+ec5319a7e354ef09b41a39ab73fa310efd56be30,src/main/java/org/apache/commons/lang3/text/translate/OctalUnescaper.java,Move And Rename Method,Add Method Modifier,False,18,6,1,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/mutable/MutableShortTest.java,Extract And Move Method,Extract And Move Method,True,24,8,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,Extract And Move Method,True,16,5,3,True,True,True,True,True
+0a423672fb79d5af4cefd4dde2215af1702c7ae4,src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java,Rename Method,Rename Method,True,13,4,1,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/text/StrSubstitutorTest.java,Extract And Move Method,Extract And Move Method,True,49,10,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,Extract And Move Method,True,14,4,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,Extract And Move Method,True,64,10,3,True,True,True,True,True
+b0416341dd056e65d98c294bd0395f9b1f925b9c,src/main/java/org/apache/commons/lang3/ClassUtils.java,Rename Attribute,Rename Attribute,True,2,1,1,True,True,True,True,True
+fcf433fe8f9d470b7a076cd4be065af6fabc23d2,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,Extract And Move Method,Extract And Move Method,True,298,10,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java,Extract And Move Method,Extract And Move Method,True,31,10,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java,Extract And Move Method,Extract And Move Method,True,14,4,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/mutable/MutableFloatTest.java,Extract And Move Method,Extract And Move Method,True,16,5,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java,Extract And Move Method,Extract And Move Method,True,20,6,3,True,True,True,True,True
+6af506d486c4e910418d84241e1c63a7fd2f3453,src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java,Extract Variable,Add Parameter Modifier,False,14,4,2,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java,Extract And Move Method,Extract And Move Method,True,42,10,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,Extract And Move Method,True,14,4,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/RangeTest.java,Extract And Move Method,Extract And Move Method,True,26,8,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/concurrent/CallableBackgroundInitializerTest.java,Extract And Move Method,Extract And Move Method,True,36,10,3,True,True,True,True,True
+845ec21036a59268510d6b36a2f50923bc7a2f86,src/main/java/org/apache/commons/lang3/time/DurationFormatUtils.java,Add Class Modifier,Add Class Modifier,True,224,10,1,True,True,True,True,True
+4a52216872d7086c2dc5eaeeefd7eec7310124e1,src/main/java/org/apache/commons/lang3/function/Predicates.java,Rename Attribute,Rename Attribute,True,2,1,1,True,True,True,True,True
+b0416341dd056e65d98c294bd0395f9b1f925b9c,src/main/java/org/apache/commons/lang3/ClassUtils.java,Rename Attribute,Rename Attribute,True,2,1,1,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java,Extract And Move Method,Extract And Move Method,True,14,4,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/EnumUtilsTest.java,Extract And Move Method,Extract And Move Method,True,14,4,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/event/EventListenerSupportTest.java,Extract And Move Method,Extract And Move Method,True,14,4,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/concurrent/MultiBackgroundInitializerTest.java,Extract And Move Method,Extract And Move Method,True,22,7,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java,Extract And Move Method,Extract And Move Method,True,40,10,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,Extract And Move Method,True,16,5,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,Extract And Move Method,True,14,4,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/CharRangeTest.java,Extract And Move Method,Extract And Move Method,True,18,6,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/EnumUtilsTest.java,Extract And Move Method,Extract And Move Method,True,14,4,3,True,True,True,True,True
+2660bbad3b319de5f421cbdd0a32285ad71e5df1,src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Add Class Modifier,Add Class Modifier,True,88,10,1,True,True,True,True,True
+b6f72e73ee96feb63e17096933fd5b7f313fb77b,src/test/java/org/apache/commons/lang3/concurrent/locks/LockingVisitorsTest.java,Extract And Move Method,Rename Variable,False,12,4,5,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/text/StrSubstitutorTest.java,Extract And Move Method,Extract And Move Method,True,49,10,3,True,True,True,True,True
+7775bf5a2e0fdb051e826b2092b68f827d54a25f,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,Extract And Move Method,Extract Method,False,410,10,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java,Extract And Move Method,Extract And Move Method,True,14,4,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java,Extract And Move Method,Extract And Move Method,True,42,10,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,Extract And Move Method,True,14,4,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,Extract And Move Method,True,14,4,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/ThreadUtilsTest.java,Extract And Move Method,Extract And Move Method,True,20,6,4,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,Extract And Move Method,True,16,5,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/IntegerRangeTest.java,Extract And Move Method,Extract And Move Method,True,22,7,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,Extract And Move Method,True,14,4,3,True,True,True,True,True
+0a423672fb79d5af4cefd4dde2215af1702c7ae4,src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java,Rename Method,Rename Method,True,13,4,1,True,True,True,True,True
+9f894c6385afe4003b645abbc9a32cfcef753646,src/test/java/org/apache/commons/lang3/SystemPropertiesTest.java,Change Return Type,Modify Method Annotation,False,26,8,2,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/mutable/MutableLongTest.java,Extract And Move Method,Extract And Move Method,True,16,5,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/mutable/MutableShortTest.java,Extract And Move Method,Extract And Move Method,True,32,10,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/function/MethodInvokersFailableBiFunctionTest.java,Extract And Move Method,Extract And Move Method,True,14,4,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,Extract And Move Method,True,14,4,3,True,True,True,True,True
+2660bbad3b319de5f421cbdd0a32285ad71e5df1,src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Add Class Modifier,Add Class Modifier,True,106,10,1,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/ValidateTest.java,Extract And Move Method,Extract And Move Method,True,16,5,3,True,True,True,True,True
+2660bbad3b319de5f421cbdd0a32285ad71e5df1,src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Add Class Modifier,Add Class Modifier,True,72,10,1,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,Extract And Move Method,True,14,4,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/time/DurationUtilsTest.java,Extract And Move Method,Extract And Move Method,True,14,4,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java,Extract And Move Method,Extract And Move Method,True,14,4,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/mutable/MutableDoubleTest.java,Extract And Move Method,Extract And Move Method,True,16,5,3,True,True,True,True,True
+9f894c6385afe4003b645abbc9a32cfcef753646,src/test/java/org/apache/commons/lang3/SystemPropertiesTest.java,Change Return Type,Modify Method Annotation,False,26,8,2,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java,Extract And Move Method,Extract And Move Method,True,42,10,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/ThreadUtilsTest.java,Extract And Move Method,Extract And Move Method,True,14,4,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java,Extract And Move Method,Extract And Move Method,True,14,4,3,True,True,True,True,True
+6b93cbe15693055e50a7f8550bd2baa93fa7f870,src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java,Extract And Move Method,Extract And Move Method,True,14,4,3,True,True,True,True,True
+139a25afec3de06e42fdd3a7dca794bc839e9b56,src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,Extract Method,Extract Method,True,38,10,3,True,True,True,True,True
+2660bbad3b319de5f421cbdd0a32285ad71e5df1,src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,Add Class Modifier,Add Class Modifier,True,88,10,1,True,True,True,True,True

@@ -1,0 +1,4232 @@
+=== SIMPLE INTELLIJ ML vs LLM TEST ===
+Testing LLM against your existing ML model results
+
+Test cases: 105
+Your ML model baseline: 78.9% accuracy
+
+INSTRUCTIONS:
+1. Copy each prompt into ChatGPT
+2. Record ChatGPT's prediction
+3. Compare with your ML model results
+
+============================================================
+
+PROMPT 1:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class IntellijComponent {
+    public void performAction() {
+        // method implementation
+        executeTask();
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 1: [FILL THIS IN]
+============================================================
+
+PROMPT 2:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class AnalysisProcessor {
+    public void performAction() {
+        // method implementation
+        executeTask();
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 2: [FILL THIS IN]
+============================================================
+
+PROMPT 3:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 3: [FILL THIS IN]
+============================================================
+
+PROMPT 4:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 4: [FILL THIS IN]
+============================================================
+
+PROMPT 5:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class CompletionHandler {
+    public void performAction() {
+        // method implementation
+        executeTask();
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 5: [FILL THIS IN]
+============================================================
+
+PROMPT 6:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class IntellijComponent {
+    public void performAction() {
+        // method implementation
+        executeTask();
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 6: [FILL THIS IN]
+============================================================
+
+PROMPT 7:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public String getResult() {
+    return computeValue();
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 7: [FILL THIS IN]
+============================================================
+
+PROMPT 8:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 8: [FILL THIS IN]
+============================================================
+
+PROMPT 9:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class CompletionHandler {
+    public void performAction() {
+        // method implementation
+        executeTask();
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 9: [FILL THIS IN]
+============================================================
+
+PROMPT 10:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 10: [FILL THIS IN]
+============================================================
+
+PROMPT 11:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class CompletionHandler {
+    public void performAction() {
+        // method implementation
+        executeTask();
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 11: [FILL THIS IN]
+============================================================
+
+PROMPT 12:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class IntellijComponent {
+    public void performAction() {
+        // method implementation
+        executeTask();
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 12: [FILL THIS IN]
+============================================================
+
+PROMPT 13:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void complexOperation() {
+    validateInput();
+    processData();
+    generateOutput();
+    saveResults();
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 13: [FILL THIS IN]
+============================================================
+
+PROMPT 14:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void complexOperation() {
+    validateInput();
+    processData();
+    generateOutput();
+    saveResults();
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 14: [FILL THIS IN]
+============================================================
+
+PROMPT 15:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class UtilityHelper {
+    public void helperMethod() {
+        // implementation details
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 15: [FILL THIS IN]
+============================================================
+
+PROMPT 16:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 16: [FILL THIS IN]
+============================================================
+
+PROMPT 17:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 17: [FILL THIS IN]
+============================================================
+
+PROMPT 18:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class AnalysisProcessor {
+    public void performAction() {
+        // method implementation
+        executeTask();
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 18: [FILL THIS IN]
+============================================================
+
+PROMPT 19:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 19: [FILL THIS IN]
+============================================================
+
+PROMPT 20:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class UtilityHelper {
+    public void helperMethod() {
+        // implementation details
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 20: [FILL THIS IN]
+============================================================
+
+PROMPT 21:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class UtilityHelper {
+    public void helperMethod() {
+        // implementation details
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 21: [FILL THIS IN]
+============================================================
+
+PROMPT 22:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void calculate() {
+    int temp = getValue();
+    return processValue(temp);
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 22: [FILL THIS IN]
+============================================================
+
+PROMPT 23:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public String getResult() {
+    return computeValue();
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 23: [FILL THIS IN]
+============================================================
+
+PROMPT 24:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class AnalysisProcessor {
+    public void performAction() {
+        // method implementation
+        executeTask();
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 24: [FILL THIS IN]
+============================================================
+
+PROMPT 25:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 25: [FILL THIS IN]
+============================================================
+
+PROMPT 26:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 26: [FILL THIS IN]
+============================================================
+
+PROMPT 27:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class AnalysisProcessor {
+    public void performAction() {
+        // method implementation
+        executeTask();
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 27: [FILL THIS IN]
+============================================================
+
+PROMPT 28:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void process() {
+    Object data = loadData();
+    return handleData(data);
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 28: [FILL THIS IN]
+============================================================
+
+PROMPT 29:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class UtilityHelper {
+    public void helperMethod() {
+        // implementation details
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 29: [FILL THIS IN]
+============================================================
+
+PROMPT 30:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 30: [FILL THIS IN]
+============================================================
+
+PROMPT 31:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class IntellijComponent {
+    public void performAction() {
+        // method implementation
+        executeTask();
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 31: [FILL THIS IN]
+============================================================
+
+PROMPT 32:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class UtilityHelper {
+    public void helperMethod() {
+        // implementation details
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 32: [FILL THIS IN]
+============================================================
+
+PROMPT 33:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void process() {
+    Object data = loadData();
+    return handleData(data);
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 33: [FILL THIS IN]
+============================================================
+
+PROMPT 34:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 34: [FILL THIS IN]
+============================================================
+
+PROMPT 35:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public String getResult() {
+    return computeValue();
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 35: [FILL THIS IN]
+============================================================
+
+PROMPT 36:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void complexOperation() {
+    validateInput();
+    processData();
+    generateOutput();
+    saveResults();
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 36: [FILL THIS IN]
+============================================================
+
+PROMPT 37:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class UtilityHelper {
+    public void helperMethod() {
+        // implementation details
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 37: [FILL THIS IN]
+============================================================
+
+PROMPT 38:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class IntellijComponent {
+    public void performAction() {
+        // method implementation
+        executeTask();
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 38: [FILL THIS IN]
+============================================================
+
+PROMPT 39:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 39: [FILL THIS IN]
+============================================================
+
+PROMPT 40:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 40: [FILL THIS IN]
+============================================================
+
+PROMPT 41:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 41: [FILL THIS IN]
+============================================================
+
+PROMPT 42:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void calculate() {
+    int temp = getValue();
+    return processValue(temp);
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 42: [FILL THIS IN]
+============================================================
+
+PROMPT 43:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class CompletionHandler {
+    public void performAction() {
+        // method implementation
+        executeTask();
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 43: [FILL THIS IN]
+============================================================
+
+PROMPT 44:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class IntellijComponent {
+    public void performAction() {
+        // method implementation
+        executeTask();
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 44: [FILL THIS IN]
+============================================================
+
+PROMPT 45:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 45: [FILL THIS IN]
+============================================================
+
+PROMPT 46:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class IntellijComponent {
+    public void performAction() {
+        // method implementation
+        executeTask();
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 46: [FILL THIS IN]
+============================================================
+
+PROMPT 47:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void complexOperation() {
+    validateInput();
+    processData();
+    generateOutput();
+    saveResults();
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 47: [FILL THIS IN]
+============================================================
+
+PROMPT 48:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 48: [FILL THIS IN]
+============================================================
+
+PROMPT 49:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void complexOperation() {
+    validateInput();
+    processData();
+    generateOutput();
+    saveResults();
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 49: [FILL THIS IN]
+============================================================
+
+PROMPT 50:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class CompletionHandler {
+    public void performAction() {
+        // method implementation
+        executeTask();
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 50: [FILL THIS IN]
+============================================================
+
+PROMPT 51:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void process() {
+    Object data = loadData();
+    return handleData(data);
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 51: [FILL THIS IN]
+============================================================
+
+PROMPT 52:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 52: [FILL THIS IN]
+============================================================
+
+PROMPT 53:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class IntellijComponent {
+    public void performAction() {
+        // method implementation
+        executeTask();
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 53: [FILL THIS IN]
+============================================================
+
+PROMPT 54:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class IntellijComponent {
+    public void performAction() {
+        // method implementation
+        executeTask();
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 54: [FILL THIS IN]
+============================================================
+
+PROMPT 55:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 55: [FILL THIS IN]
+============================================================
+
+PROMPT 56:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 56: [FILL THIS IN]
+============================================================
+
+PROMPT 57:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 57: [FILL THIS IN]
+============================================================
+
+PROMPT 58:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 58: [FILL THIS IN]
+============================================================
+
+PROMPT 59:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 59: [FILL THIS IN]
+============================================================
+
+PROMPT 60:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class UtilityHelper {
+    public void helperMethod() {
+        // implementation details
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 60: [FILL THIS IN]
+============================================================
+
+PROMPT 61:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 61: [FILL THIS IN]
+============================================================
+
+PROMPT 62:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void process() {
+    Object data = loadData();
+    return handleData(data);
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 62: [FILL THIS IN]
+============================================================
+
+PROMPT 63:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class IntellijComponent {
+    public void performAction() {
+        // method implementation
+        executeTask();
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 63: [FILL THIS IN]
+============================================================
+
+PROMPT 64:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class IntellijComponent {
+    public void performAction() {
+        // method implementation
+        executeTask();
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 64: [FILL THIS IN]
+============================================================
+
+PROMPT 65:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class UtilityHelper {
+    public void helperMethod() {
+        // implementation details
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 65: [FILL THIS IN]
+============================================================
+
+PROMPT 66:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 66: [FILL THIS IN]
+============================================================
+
+PROMPT 67:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class UtilityHelper {
+    public void performAction() {
+        // method implementation
+        executeTask();
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 67: [FILL THIS IN]
+============================================================
+
+PROMPT 68:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 68: [FILL THIS IN]
+============================================================
+
+PROMPT 69:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 69: [FILL THIS IN]
+============================================================
+
+PROMPT 70:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 70: [FILL THIS IN]
+============================================================
+
+PROMPT 71:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void process() {
+    Object data = loadData();
+    return handleData(data);
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 71: [FILL THIS IN]
+============================================================
+
+PROMPT 72:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 72: [FILL THIS IN]
+============================================================
+
+PROMPT 73:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 73: [FILL THIS IN]
+============================================================
+
+PROMPT 74:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 74: [FILL THIS IN]
+============================================================
+
+PROMPT 75:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class CompletionHandler {
+    public void performAction() {
+        // method implementation
+        executeTask();
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 75: [FILL THIS IN]
+============================================================
+
+PROMPT 76:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 76: [FILL THIS IN]
+============================================================
+
+PROMPT 77:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 77: [FILL THIS IN]
+============================================================
+
+PROMPT 78:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class CompletionHandler {
+    public void performAction() {
+        // method implementation
+        executeTask();
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 78: [FILL THIS IN]
+============================================================
+
+PROMPT 79:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class CompletionHandler {
+    public void performAction() {
+        // method implementation
+        executeTask();
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 79: [FILL THIS IN]
+============================================================
+
+PROMPT 80:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 80: [FILL THIS IN]
+============================================================
+
+PROMPT 81:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 81: [FILL THIS IN]
+============================================================
+
+PROMPT 82:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 82: [FILL THIS IN]
+============================================================
+
+PROMPT 83:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class UtilityHelper {
+    public void performAction() {
+        // method implementation
+        executeTask();
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 83: [FILL THIS IN]
+============================================================
+
+PROMPT 84:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 84: [FILL THIS IN]
+============================================================
+
+PROMPT 85:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void complexOperation() {
+    validateInput();
+    processData();
+    generateOutput();
+    saveResults();
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 85: [FILL THIS IN]
+============================================================
+
+PROMPT 86:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class CompletionHandler {
+    public void performAction() {
+        // method implementation
+        executeTask();
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 86: [FILL THIS IN]
+============================================================
+
+PROMPT 87:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 87: [FILL THIS IN]
+============================================================
+
+PROMPT 88:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class UtilityHelper {
+    public void helperMethod() {
+        // implementation details
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 88: [FILL THIS IN]
+============================================================
+
+PROMPT 89:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class IntellijComponent {
+    public void performAction() {
+        // method implementation
+        executeTask();
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 89: [FILL THIS IN]
+============================================================
+
+PROMPT 90:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class IntellijComponent {
+    public void performAction() {
+        // method implementation
+        executeTask();
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 90: [FILL THIS IN]
+============================================================
+
+PROMPT 91:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void process() {
+    Object data = loadData();
+    return handleData(data);
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 91: [FILL THIS IN]
+============================================================
+
+PROMPT 92:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class IntellijComponent {
+    public void performAction() {
+        // method implementation
+        executeTask();
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 92: [FILL THIS IN]
+============================================================
+
+PROMPT 93:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 93: [FILL THIS IN]
+============================================================
+
+PROMPT 94:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class UtilityHelper {
+    public void helperMethod() {
+        // implementation details
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 94: [FILL THIS IN]
+============================================================
+
+PROMPT 95:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class CompletionHandler {
+    public void performAction() {
+        // method implementation
+        executeTask();
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 95: [FILL THIS IN]
+============================================================
+
+PROMPT 96:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public String getResult() {
+    return computeValue();
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 96: [FILL THIS IN]
+============================================================
+
+PROMPT 97:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class IntellijComponent {
+    public void performAction() {
+        // method implementation
+        executeTask();
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 97: [FILL THIS IN]
+============================================================
+
+PROMPT 98:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 98: [FILL THIS IN]
+============================================================
+
+PROMPT 99:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void process() {
+    Object data = loadData();
+    return handleData(data);
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 99: [FILL THIS IN]
+============================================================
+
+PROMPT 100:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 100: [FILL THIS IN]
+============================================================
+
+PROMPT 101:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 101: [FILL THIS IN]
+============================================================
+
+PROMPT 102:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 102: [FILL THIS IN]
+============================================================
+
+PROMPT 103:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public String getResult() {
+    return computeValue();
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 103: [FILL THIS IN]
+============================================================
+
+PROMPT 104:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public void processRequest(String request) {
+    if (request != null) {
+        handleRequest(request);
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 104: [FILL THIS IN]
+============================================================
+
+PROMPT 105:
+
+Task: Analyze this Java code and predict what refactoring should be applied.
+
+CODE TO ANALYZE:
+public class CompletionHandler {
+    public void performAction() {
+        // method implementation
+        executeTask();
+    }
+}
+
+AVAILABLE REFACTORING TYPES:
+- Add Attribute Annotation
+- Add Class Annotation
+- Add Method Annotation
+- Add Parameter Annotation
+- Change Attribute Type
+- Change Method Access Modifier
+- Change Variable Type
+- Extract Method
+- Extract Variable
+- Modify Class Annotation
+- Modify Method Annotation
+- Move Code
+- Remove Attribute Modifier
+- Remove Parameter Modifier
+- Rename Attribute
+- Rename Method
+- Rename Parameter
+- Rename Variable
+- Replace Anonymous With Class
+- Replace Attribute With Variable
+
+Question: What refactoring would improve this code? Choose ONE from the list above.
+
+Answer: 
+
+CHATGPT RESPONSE 105: [FILL THIS IN]
+============================================================
+

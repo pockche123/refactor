@@ -1,0 +1,106 @@
+case_id,file_path,actual_refactoring,ml_prediction,llm_prediction,ml_correct,llm_correct,lines_changed,complexity
+1,platform/platform-tests/testSrc/com/intellij/psi/i...,Extract Variable,Extract Variable,Rename Method,True,False,14,1
+2,platform/analysis-api/src/com/intellij/openapi/vfs...,Change Attribute Type,Rename Attribute,Rename Method,False,False,1,1
+3,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,Rename Method,True,False,1,1
+4,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,Rename Method,True,False,1,1
+5,platform/lang-impl/src/com/intellij/codeInsight/co...,Remove Parameter Modifier,Add Parameter Annotation,Rename Method,False,False,1,1
+6,platform/platform-impl/src/com/intellij/openapi/wm...,Replace Anonymous With Class,Add Class Annotation,Rename Method,False,False,44,1
+7,platform/xdebugger-impl/src/com/intellij/xdebugger...,Add Method Annotation,Add Method Annotation,Rename Method,True,False,3,1
+8,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,Rename Method,True,False,1,1
+9,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Attribute Annotation,Add Parameter Annotation,Rename Method,False,False,1,1
+10,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,Rename Method,True,False,1,1
+11,platform/lang-impl/src/com/intellij/codeInsight/co...,Remove Parameter Modifier,Add Parameter Annotation,Rename Method,False,False,1,1
+12,plugins/kotlin/idea/tests/test/org/jetbrains/kotli...,Modify Class Annotation,Modify Class Annotation,Rename Method,True,False,1,1
+13,platform/analysis-api/src/com/intellij/openapi/vfs...,Extract Method,Extract Method,Extract Method,True,True,14,1
+14,platform/lang-impl/src/com/intellij/codeInsight/co...,Extract Method,Extract Method,Extract Method,True,True,38,1
+15,platform/util/testSrc/com/intellij/util/Environmen...,Change Method Access Modifier,Change Method Access Modifier,Rename Method,True,False,7,1
+16,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,Rename Method,True,False,1,1
+17,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,Rename Method,True,False,1,1
+18,platform/analysis-api/src/com/intellij/openapi/vfs...,Remove Attribute Modifier,Rename Attribute,Rename Method,False,False,1,1
+19,platform/testFramework/src/com/intellij/testFramew...,Add Parameter Annotation,Add Parameter Annotation,Rename Method,True,False,1,1
+20,platform/util/testSrc/com/intellij/util/Environmen...,Change Method Access Modifier,Change Method Access Modifier,Rename Method,True,False,4,1
+21,platform/util/testSrc/com/intellij/util/Environmen...,Change Method Access Modifier,Change Method Access Modifier,Rename Method,True,False,6,1
+22,platform/platform-impl/src/com/intellij/openapi/wm...,Rename Variable,Change Variable Type,Extract Variable,False,False,2,1
+23,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Method Annotation,Add Method Annotation,Rename Method,True,False,4,1
+24,platform/analysis-api/src/com/intellij/openapi/vfs...,Rename Attribute,Rename Attribute,Rename Method,True,False,1,1
+25,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,Rename Method,True,False,1,1
+26,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,Rename Method,True,False,1,1
+27,platform/analysis-api/src/com/intellij/openapi/vfs...,Replace Attribute With Variable,Rename Attribute,Rename Method,False,False,1,1
+28,platform/util/testSrc/com/intellij/util/Environmen...,Change Variable Type,Change Variable Type,Extract Variable,True,False,1,1
+29,platform/util/testSrc/com/intellij/util/Environmen...,Change Method Access Modifier,Change Method Access Modifier,Rename Method,True,False,7,1
+30,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,Rename Method,True,False,1,1
+31,plugins/kotlin/idea/tests/test/org/jetbrains/kotli...,Modify Class Annotation,Modify Class Annotation,Rename Method,True,False,1,1
+32,platform/util/testSrc/com/intellij/util/Environmen...,Change Method Access Modifier,Change Method Access Modifier,Rename Method,True,False,15,1
+33,platform/util/testSrc/com/intellij/util/Environmen...,Change Variable Type,Change Variable Type,Extract Variable,True,False,1,1
+34,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,Rename Method,True,False,1,1
+35,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Method Annotation,Add Method Annotation,Rename Method,True,False,3,1
+36,platform/platform-tests/testSrc/com/intellij/psi/i...,Extract Method,Extract Method,Extract Method,True,True,55,1
+37,platform/util/testSrc/com/intellij/util/Environmen...,Change Method Access Modifier,Change Method Access Modifier,Rename Method,True,False,5,1
+38,platform/platform-impl/src/com/intellij/openapi/pr...,Add Class Annotation,Add Class Annotation,Rename Method,True,False,46,1
+39,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,Rename Method,True,False,1,1
+40,platform/lang-impl/src/com/intellij/codeInsight/lo...,Add Parameter Annotation,Add Parameter Annotation,Rename Method,True,False,1,1
+41,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,Rename Method,True,False,1,1
+42,platform/lang-impl/src/com/intellij/codeInsight/co...,Rename Variable,Add Parameter Annotation,Extract Variable,False,False,1,1
+43,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Attribute Annotation,Add Parameter Annotation,Rename Method,False,False,1,1
+44,platform/xdebugger-impl/src/com/intellij/xdebugger...,Add Class Annotation,Add Class Annotation,Rename Method,True,False,3,1
+45,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,Rename Method,True,False,1,1
+46,platform/platform-impl/src/com/intellij/openapi/wm...,Rename Method,Rename Method,Rename Method,True,True,22,1
+47,platform/lang-impl/src/com/intellij/codeInsight/co...,Extract Method,Extract Method,Extract Method,True,True,38,1
+48,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,Rename Method,True,False,1,1
+49,platform/analysis-api/src/com/intellij/openapi/vfs...,Extract Method,Extract Method,Extract Method,True,True,14,1
+50,platform/analysis-impl/src/com/intellij/codeInsigh...,Rename Parameter,Rename Parameter,Rename Method,True,False,1,1
+51,plugins/hg4idea/testSrc/org/zmlx/hg4idea/test/HgMo...,Change Variable Type,Inline Variable,Rename Method,False,False,1,1
+52,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,Extract Method,True,False,1,1
+53,platform/xdebugger-impl/src/com/intellij/xdebugger...,Add Class Annotation,Add Class Annotation,Rename Method,True,False,3,1
+54,platform/platform-impl/src/com/intellij/openapi/pr...,Add Class Annotation,Add Class Annotation,Extract Method,True,False,46,1
+55,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,Rename Method,True,False,1,1
+56,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,Extract Method,True,False,1,1
+57,platform/testFramework/src/com/intellij/testFramew...,Add Parameter Annotation,Add Parameter Annotation,Rename Method,True,False,1,1
+58,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,Extract Method,True,False,1,1
+59,platform/analysis-impl/src/com/intellij/codeInsigh...,Add Parameter Annotation,Add Parameter Annotation,Rename Method,True,False,1,1
+60,platform/util/testSrc/com/intellij/util/Environmen...,Change Method Access Modifier,Change Method Access Modifier,Rename Class,True,False,7,1
+61,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,Extract Method,True,False,1,1
+62,platform/util/testSrc/com/intellij/util/Environmen...,Change Variable Type,Change Variable Type,Rename Method,True,False,1,1
+63,platform/platform-impl/src/com/intellij/openapi/wm...,Rename Parameter,Rename Variable,Rename Method,False,False,1,1
+64,json/backend/src/com/jetbrains/jsonSchema/impl/fix...,Extract Variable,Extract Variable,Extract Method,True,False,1,1
+65,platform/util/testSrc/com/intellij/util/Environmen...,Change Method Access Modifier,Change Method Access Modifier,Rename Class,True,False,6,1
+66,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,Rename Method,True,False,1,1
+67,platform/util/testSrc/com/intellij/util/Environmen...,Modify Method Annotation,Change Variable Type,Rename Method,False,False,1,1
+68,platform/analysis-impl/src/com/intellij/codeInsigh...,Add Parameter Annotation,Rename Parameter,Extract Method,False,False,1,1
+69,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,Rename Method,True,False,1,1
+70,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,Extract Method,True,False,1,1
+71,platform/util/testSrc/com/intellij/util/Environmen...,Change Variable Type,Change Variable Type,Rename Method,True,False,1,1
+72,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,Extract Method,True,False,1,1
+73,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,Rename Method,True,False,1,1
+74,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,Extract Method,True,False,1,1
+75,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Attribute Annotation,Add Parameter Annotation,Rename Method,False,False,1,1
+76,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,Rename Method,True,False,1,1
+77,platform/analysis-impl/src/com/intellij/codeInsigh...,Add Parameter Annotation,Add Parameter Annotation,Extract Method,True,False,1,1
+78,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Attribute Annotation,Add Parameter Annotation,Rename Method,False,False,1,1
+79,platform/analysis-impl/src/com/intellij/codeInsigh...,Rename Parameter,Rename Parameter,Extract Method,True,False,1,1
+80,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,Rename Method,True,False,1,1
+81,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,Extract Method,True,False,1,1
+82,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,Rename Method,True,False,1,1
+83,platform/util/testSrc/com/intellij/util/Environmen...,Modify Method Annotation,Change Variable Type,Rename Class,False,False,1,1
+84,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,Extract Method,True,False,1,1
+85,platform/lang-impl/src/com/intellij/codeInsight/co...,Extract Method,Extract Method,Extract Method,True,True,16,1
+86,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Attribute Annotation,Add Parameter Annotation,Rename Method,False,False,1,1
+87,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,Rename Method,True,False,1,1
+88,platform/util/testSrc/com/intellij/util/Environmen...,Change Method Access Modifier,Change Method Access Modifier,Rename Class,True,False,4,1
+89,platform/platform-tests/testSrc/com/intellij/psi/i...,Extract Variable,Extract Variable,Rename Class,True,False,14,1
+90,platform/platform-tests/testSrc/com/intellij/psi/i...,Rename Method,Extract Method,Extract Method,False,False,55,1
+91,platform/platform-tests/testSrc/com/intellij/psi/i...,Change Variable Type,Rename Variable,Rename Method,False,False,1,1
+92,platform/xdebugger-impl/src/com/intellij/xdebugger...,Add Class Annotation,Add Class Annotation,Rename Method,True,False,3,1
+93,platform/analysis-impl/src/com/intellij/codeInsigh...,Add Parameter Annotation,Rename Parameter,Rename Method,False,False,1,1
+94,platform/util/testSrc/com/intellij/util/Environmen...,Change Method Access Modifier,Change Method Access Modifier,Rename Class,True,False,5,1
+95,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Attribute Annotation,Add Parameter Annotation,Extract Method,False,False,1,1
+96,platform/core-impl/src/com/intellij/psi/impl/PsiDo...,Add Method Annotation,Add Method Annotation,Rename Method,True,False,6,1
+97,platform/platform-tests/testSrc/com/intellij/psi/i...,Move Code,Extract Method,Extract Method,False,False,55,1
+98,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,Extract Method,True,False,1,1
+99,platform/util/testSrc/com/intellij/util/Environmen...,Change Variable Type,Change Variable Type,Extract Variable,True,False,1,1
+100,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,Rename Method,True,False,1,1
+101,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,Rename Method,True,False,1,1
+102,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,Extract Method,True,False,1,1
+103,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Method Annotation,Add Method Annotation,Rename Method,True,False,3,1
+104,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,Rename Parameter,True,False,1,1
+105,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Attribute Annotation,Add Parameter Annotation,Rename Method,False,False,1,1

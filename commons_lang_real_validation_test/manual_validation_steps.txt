@@ -1,0 +1,21 @@
+MANUAL VALIDATION INSTRUCTIONS
+
+This case is ready for manual behavioral validation.
+
+Steps to validate:
+1. Open terminal and run:
+   git clone https://github.com/apache/commons-lang.git
+   cd commons-lang
+
+2. Get the code before refactoring:
+   git show 6b93cbe15693055e50a7f8550bd2baa93fa7f870^:src/test/java/org/apache/commons/lang3/ValidateTest.java
+
+3. Get the code after refactoring:
+   git show 6b93cbe15693055e50a7f8550bd2baa93fa7f870:src/test/java/org/apache/commons/lang3/ValidateTest.java
+
+4. Compare the two versions to verify:
+   - Method 'assertNullPointerException' was extracted from ValidateTest
+   - Method was moved to LangAssertions class
+   - ML prediction "Extract And Move Method" is correct
+
+Expected Result: ✓ ML prediction should match actual refactoring

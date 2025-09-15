@@ -1,0 +1,106 @@
+case_id,file_path,actual_refactoring,ml_prediction,llm_prediction,ml_correct,llm_correct,lines_changed,complexity,improved_llm_prediction,improved_llm_correct
+1,platform/platform-tests/testSrc/com/intellij/psi/i...,Extract Variable,Extract Variable,TBD,True,False,14,1,Add Method Annotation,False
+2,platform/analysis-api/src/com/intellij/openapi/vfs...,Change Attribute Type,Rename Attribute,TBD,False,False,1,1,Add Method Annotation,False
+3,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+4,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+5,platform/lang-impl/src/com/intellij/codeInsight/co...,Remove Parameter Modifier,Add Parameter Annotation,TBD,False,False,1,1,Add Method Annotation,False
+6,platform/platform-impl/src/com/intellij/openapi/wm...,Replace Anonymous With Class,Add Class Annotation,TBD,False,False,44,1,Add Method Annotation,False
+7,platform/xdebugger-impl/src/com/intellij/xdebugger...,Add Method Annotation,Add Method Annotation,TBD,True,False,3,1,Extract Variable,False
+8,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+9,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Attribute Annotation,Add Parameter Annotation,TBD,False,False,1,1,Add Method Annotation,False
+10,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+11,platform/lang-impl/src/com/intellij/codeInsight/co...,Remove Parameter Modifier,Add Parameter Annotation,TBD,False,False,1,1,Add Method Annotation,False
+12,plugins/kotlin/idea/tests/test/org/jetbrains/kotli...,Modify Class Annotation,Modify Class Annotation,TBD,True,False,1,1,Add Method Annotation,False
+13,platform/analysis-api/src/com/intellij/openapi/vfs...,Extract Method,Extract Method,TBD,True,False,14,1,Extract Method,True
+14,platform/lang-impl/src/com/intellij/codeInsight/co...,Extract Method,Extract Method,TBD,True,False,38,1,Extract Method,True
+15,platform/util/testSrc/com/intellij/util/Environmen...,Change Method Access Modifier,Change Method Access Modifier,TBD,True,False,7,1,Rename Method,False
+16,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+17,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+18,platform/analysis-api/src/com/intellij/openapi/vfs...,Remove Attribute Modifier,Rename Attribute,TBD,False,False,1,1,Add Method Annotation,False
+19,platform/testFramework/src/com/intellij/testFramew...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+20,platform/util/testSrc/com/intellij/util/Environmen...,Change Method Access Modifier,Change Method Access Modifier,TBD,True,False,4,1,Rename Method,False
+21,platform/util/testSrc/com/intellij/util/Environmen...,Change Method Access Modifier,Change Method Access Modifier,TBD,True,False,6,1,Rename Method,False
+22,platform/platform-impl/src/com/intellij/openapi/wm...,Rename Variable,Change Variable Type,TBD,False,False,2,1,Extract Variable,False
+23,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Method Annotation,Add Method Annotation,TBD,True,False,4,1,Extract Variable,False
+24,platform/analysis-api/src/com/intellij/openapi/vfs...,Rename Attribute,Rename Attribute,TBD,True,False,1,1,Add Method Annotation,False
+25,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+26,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+27,platform/analysis-api/src/com/intellij/openapi/vfs...,Replace Attribute With Variable,Rename Attribute,TBD,False,False,1,1,Add Method Annotation,False
+28,platform/util/testSrc/com/intellij/util/Environmen...,Change Variable Type,Change Variable Type,TBD,True,False,1,1,Extract Variable,False
+29,platform/util/testSrc/com/intellij/util/Environmen...,Change Method Access Modifier,Change Method Access Modifier,TBD,True,False,7,1,Rename Method,False
+30,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+31,plugins/kotlin/idea/tests/test/org/jetbrains/kotli...,Modify Class Annotation,Modify Class Annotation,TBD,True,False,1,1,Add Method Annotation,False
+32,platform/util/testSrc/com/intellij/util/Environmen...,Change Method Access Modifier,Change Method Access Modifier,TBD,True,False,15,1,Rename Method,False
+33,platform/util/testSrc/com/intellij/util/Environmen...,Change Variable Type,Change Variable Type,TBD,True,False,1,1,Extract Variable,False
+34,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+35,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Method Annotation,Add Method Annotation,TBD,True,False,3,1,Extract Variable,False
+36,platform/platform-tests/testSrc/com/intellij/psi/i...,Extract Method,Extract Method,TBD,True,False,55,1,Extract Method,True
+37,platform/util/testSrc/com/intellij/util/Environmen...,Change Method Access Modifier,Change Method Access Modifier,TBD,True,False,5,1,Rename Method,False
+38,platform/platform-impl/src/com/intellij/openapi/pr...,Add Class Annotation,Add Class Annotation,TBD,True,False,46,1,Add Method Annotation,False
+39,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+40,platform/lang-impl/src/com/intellij/codeInsight/lo...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+41,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+42,platform/lang-impl/src/com/intellij/codeInsight/co...,Rename Variable,Add Parameter Annotation,TBD,False,False,1,1,Extract Variable,False
+43,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Attribute Annotation,Add Parameter Annotation,TBD,False,False,1,1,Add Method Annotation,False
+44,platform/xdebugger-impl/src/com/intellij/xdebugger...,Add Class Annotation,Add Class Annotation,TBD,True,False,3,1,Add Method Annotation,False
+45,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+46,platform/platform-impl/src/com/intellij/openapi/wm...,Rename Method,Rename Method,TBD,True,False,22,1,Add Method Annotation,False
+47,platform/lang-impl/src/com/intellij/codeInsight/co...,Extract Method,Extract Method,TBD,True,False,38,1,Extract Method,True
+48,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+49,platform/analysis-api/src/com/intellij/openapi/vfs...,Extract Method,Extract Method,TBD,True,False,14,1,Extract Method,True
+50,platform/analysis-impl/src/com/intellij/codeInsigh...,Rename Parameter,Rename Parameter,TBD,True,False,1,1,Add Method Annotation,False
+51,plugins/hg4idea/testSrc/org/zmlx/hg4idea/test/HgMo...,Change Variable Type,Inline Variable,TBD,False,False,1,1,Extract Variable,False
+52,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+53,platform/xdebugger-impl/src/com/intellij/xdebugger...,Add Class Annotation,Add Class Annotation,TBD,True,False,3,1,Add Method Annotation,False
+54,platform/platform-impl/src/com/intellij/openapi/pr...,Add Class Annotation,Add Class Annotation,TBD,True,False,46,1,Add Method Annotation,False
+55,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+56,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+57,platform/testFramework/src/com/intellij/testFramew...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+58,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+59,platform/analysis-impl/src/com/intellij/codeInsigh...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+60,platform/util/testSrc/com/intellij/util/Environmen...,Change Method Access Modifier,Change Method Access Modifier,TBD,True,False,7,1,Rename Method,False
+61,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+62,platform/util/testSrc/com/intellij/util/Environmen...,Change Variable Type,Change Variable Type,TBD,True,False,1,1,Extract Variable,False
+63,platform/platform-impl/src/com/intellij/openapi/wm...,Rename Parameter,Rename Variable,TBD,False,False,1,1,Add Method Annotation,False
+64,json/backend/src/com/jetbrains/jsonSchema/impl/fix...,Extract Variable,Extract Variable,TBD,True,False,1,1,Add Method Annotation,False
+65,platform/util/testSrc/com/intellij/util/Environmen...,Change Method Access Modifier,Change Method Access Modifier,TBD,True,False,6,1,Rename Method,False
+66,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+67,platform/util/testSrc/com/intellij/util/Environmen...,Modify Method Annotation,Change Variable Type,TBD,False,False,1,1,Add Method Annotation,False
+68,platform/analysis-impl/src/com/intellij/codeInsigh...,Add Parameter Annotation,Rename Parameter,TBD,False,False,1,1,Add Parameter Annotation,True
+69,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+70,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+71,platform/util/testSrc/com/intellij/util/Environmen...,Change Variable Type,Change Variable Type,TBD,True,False,1,1,Extract Variable,False
+72,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+73,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+74,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+75,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Attribute Annotation,Add Parameter Annotation,TBD,False,False,1,1,Add Method Annotation,False
+76,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+77,platform/analysis-impl/src/com/intellij/codeInsigh...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+78,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Attribute Annotation,Add Parameter Annotation,TBD,False,False,1,1,Add Method Annotation,False
+79,platform/analysis-impl/src/com/intellij/codeInsigh...,Rename Parameter,Rename Parameter,TBD,True,False,1,1,Add Method Annotation,False
+80,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+81,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+82,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+83,platform/util/testSrc/com/intellij/util/Environmen...,Modify Method Annotation,Change Variable Type,TBD,False,False,1,1,Add Method Annotation,False
+84,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+85,platform/lang-impl/src/com/intellij/codeInsight/co...,Extract Method,Extract Method,TBD,True,False,16,1,Extract Method,True
+86,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Attribute Annotation,Add Parameter Annotation,TBD,False,False,1,1,Add Method Annotation,False
+87,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+88,platform/util/testSrc/com/intellij/util/Environmen...,Change Method Access Modifier,Change Method Access Modifier,TBD,True,False,4,1,Rename Method,False
+89,platform/platform-tests/testSrc/com/intellij/psi/i...,Extract Variable,Extract Variable,TBD,True,False,14,1,Add Method Annotation,False
+90,platform/platform-tests/testSrc/com/intellij/psi/i...,Rename Method,Extract Method,TBD,False,False,55,1,Add Method Annotation,False
+91,platform/platform-tests/testSrc/com/intellij/psi/i...,Change Variable Type,Rename Variable,TBD,False,False,1,1,Extract Variable,False
+92,platform/xdebugger-impl/src/com/intellij/xdebugger...,Add Class Annotation,Add Class Annotation,TBD,True,False,3,1,Add Method Annotation,False
+93,platform/analysis-impl/src/com/intellij/codeInsigh...,Add Parameter Annotation,Rename Parameter,TBD,False,False,1,1,Add Parameter Annotation,True
+94,platform/util/testSrc/com/intellij/util/Environmen...,Change Method Access Modifier,Change Method Access Modifier,TBD,True,False,5,1,Rename Method,False
+95,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Attribute Annotation,Add Parameter Annotation,TBD,False,False,1,1,Add Method Annotation,False
+96,platform/core-impl/src/com/intellij/psi/impl/PsiDo...,Add Method Annotation,Add Method Annotation,TBD,True,False,6,1,Extract Variable,False
+97,platform/platform-tests/testSrc/com/intellij/psi/i...,Move Code,Extract Method,TBD,False,False,55,1,Add Method Annotation,False
+98,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+99,platform/util/testSrc/com/intellij/util/Environmen...,Change Variable Type,Change Variable Type,TBD,True,False,1,1,Extract Variable,False
+100,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+101,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+102,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+103,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Method Annotation,Add Method Annotation,TBD,True,False,3,1,Extract Variable,False
+104,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Parameter Annotation,Add Parameter Annotation,TBD,True,False,1,1,Add Parameter Annotation,True
+105,platform/lang-impl/src/com/intellij/codeInsight/co...,Add Attribute Annotation,Add Parameter Annotation,TBD,False,False,1,1,Add Method Annotation,False

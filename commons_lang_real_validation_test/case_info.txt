@@ -1,0 +1,34 @@
+COMMONS LANG BEHAVIORAL VALIDATION CASE
+
+Case Details:
+- File: src/test/java/org/apache/commons/lang3/ValidateTest.java
+- Refactoring Type: Extract And Move Method
+- ML Prediction: Extract And Move Method
+- Prediction Correct: True
+- Commit SHA: 6b93cbe15693055e50a7f8550bd2baa93fa7f870
+- Lines Changed: 16
+- Complexity: 5
+- Nesting Depth: 3
+
+Description:
+Extract And Move Method public assertNullPointerException(executable Executable) : NullPointerException extracted from package shouldThrowNullPointerExceptionWithDefaultForNullString() : void in class org.apache.commons.lang3.ValidateTest.ValidIndex.WithCharSequence.WithoutMessage & moved to class org.apache.commons.lang3.LangAssertions
+
+Git Commands to Get Actual Code:
+1. Clone repository:
+   git clone https://github.com/apache/commons-lang.git
+   cd commons-lang
+
+2. Get BEFORE refactoring (parent commit):
+   git show 6b93cbe15693055e50a7f8550bd2baa93fa7f870^:src/test/java/org/apache/commons/lang3/ValidateTest.java > before_refactoring.java
+
+3. Get AFTER refactoring (current commit):
+   git show 6b93cbe15693055e50a7f8550bd2baa93fa7f870:src/test/java/org/apache/commons/lang3/ValidateTest.java > after_refactoring.java
+
+4. Get diff:
+   git show 6b93cbe15693055e50a7f8550bd2baa93fa7f870 -- src/test/java/org/apache/commons/lang3/ValidateTest.java > refactoring_diff.txt
+
+Validation Steps:
+1. Compare before/after code
+2. Verify that "Extract And Move Method" actually occurred
+3. Check if method was moved to LangAssertions class
+4. Confirm ML prediction matches actual refactoring

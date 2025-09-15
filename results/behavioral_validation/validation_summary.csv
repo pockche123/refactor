@@ -1,0 +1,4 @@
+domain,model,total_predictions,correct_predictions,ml_accuracy,ready_for_validation,top_correct_type
+COMMONS_LANG,RANDOMFOREST,105,96,91.42857142857143,96,Extract And Move Method (77)
+INTELLIJ,LOGISTICREGRESSION,38,24,63.1578947368421,10,Add Parameter Annotation (14)
+SPRING,RANDOMFOREST,105,51,48.57142857142857,51,Modify Method Annotation (17)
